@@ -1,0 +1,50 @@
+{
+  "sha256": "E81541FB320BC58427611D50F6840C98F0D67D1AFD0B259342D996FB5BA03D66",
+  "apk_path": "data/eu/lu.bgl.spm.retail__vc458__E81541FB320BC58427611D50F6840C98F0D67D1AFD0B259342D996FB5BA03D66.apk",
+  "package": "lu.bgl.spm.retail",
+  "version_code": "458",
+  "version_name": "3.41.0",
+  "sdk": {
+    "min_sdk": 28,
+    "target_sdk": 35,
+    "max_sdk": null
+  },
+  "permissions": [
+    "android.permission.ACCESS_ADSERVICES_AD_ID",
+    "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CALL_PHONE",
+    "android.permission.CAMERA",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.gms.permission.AD_ID",
+    "com.personetics.module.permission.C2D_MESSAGE",
+    "lu.bgl.spm.retail.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "lu.bgl.spm.retail.LISTEN_BEADVISED_BROADCAST"
+  ],
+  "permissions_count": 22,
+  "components": {
+    "activities": 47,
+    "services": 11,
+    "receivers": 13,
+    "providers": 3
+  },
+  "exported_components_explicit_true": {
+    "activities": 6,
+    "services": 1,
+    "receivers": 3,
+    "providers": 0
+  },
+  "is_debuggable": null
+}

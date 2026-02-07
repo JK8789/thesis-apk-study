@@ -1,0 +1,16 @@
+com.vkontakte.android
+ru.ok.android
+ru.rostel
+ru.rtlabs.mobile.ebs.gosuslugi.android
+ru.sigma.gisgkh
+ru.fns.lkfl
+com.programmisty.emiasapp
+ru.ozon.app.android
+com.wildberries.ru
+ru.beru.android
+se.scmv.morocco
+ru.yandex.yandexmaps
+ru.yandex.rasp
+ru.rzd.pass
+ru.yandex.taxi
+ru.yandex.telemost

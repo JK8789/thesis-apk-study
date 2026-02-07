@@ -1,0 +1,1697 @@
+[
+  {
+    "_id": "aeb8dd6e08f45707c0250f88b340d52a5dab11d818c9bdd87db4d64acdb69da5",
+    "_type": "file",
+    "androguard": {
+      "Activities": [
+        "ru.tinkoff.mb.feature.splash.bank.ui.presentation.BankSplashActivity",
+        "androidx.activity.ComponentActivity",
+        "androidx.glance.appwidget.action.ActionTrampolineActivity",
+        "androidx.glance.appwidget.action.InvisibleActionTrampolineActivity",
+        "com.esiasdk.android.EsiaAuthActivity",
+        "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+        "com.google.android.gms.common.api.GoogleApiActivity",
+        "com.huawei.hms.activity.BridgeActivity",
+        "com.huawei.hms.activity.EnableServiceActivity",
+        "com.huawei.hms.support.api.push.TransActivity",
+        "ru.CryptoPro.JCSP.tools.common.window.CSPDialogActivity",
+        "ru.dsmobile.sdk.qes.QesActivity",
+        "ru.education.academy.sdk.AcademyFlowActivity",
+        "ru.rtln.tds.sdk.ui.activity.HtmlChallengeActivity",
+        "ru.rtln.tds.sdk.ui.activity.MultiSelectChallengeActivity",
+        "ru.rtln.tds.sdk.ui.activity.OutOfBandChallengeActivity",
+        "ru.rtln.tds.sdk.ui.activity.SingleSelectChallengeActivity",
+        "ru.rtln.tds.sdk.ui.activity.TextChallengeActivity",
+        "ru.rustore.sdk.activitylauncher.RuStoreActivityLauncher",
+        "ru.stcrypt.ckey.sdk.v1.__ui_activities_AwaitingDeviceActivity",
+        "ru.stcrypt.ckey.sdk.v1.__ui_activities_CommonActivity",
+        "ru.stcrypt.ckey.sdk.v1.__ui_activities_ExternalCertificatesActivity",
+        "ru.stcrypt.ckey.sdk.v1.__ui_activities_OperationActivity",
+        "ru.stcrypt.ckey.sdk.v1.__ui_activities_RegistrationActivity",
+        "ru.stcrypt.ckey.sdk.v1.__ui_activities_RenewActivity",
+        "ru.stcrypt.ckey.sdk.v1.__ui_activities_SecurityWarningsActivity",
+        "ru.stcrypt.ckey.sdk.v1.__ui_activities_TestActivity",
+        "ru.tbank.core.feed.ui.sdk.FeedSdkScreenActivity",
+        "ru.tbank.core.feed.ui.webview.ui.FeedWebViewActivity",
+        "ru.tbank.mb.feature.lifestyle.video.ui.VideoActivity",
+        "ru.tbank.transmate_sdk.impl.blink.BlinkActivity",
+        "ru.tinkoff.chat.browser.ChatWebViewActivity",
+        "ru.tinkoff.comments.integration.CommentsBottomSheetActivity",
+        "ru.tinkoff.commonchat.appeals.ui.host.AppealsHostActivity",
+        "ru.tinkoff.commonchat.appeals.ui.host.AppealsRepresentativesHostActivity",
+        "ru.tinkoff.commonchat.contacts.ui.contact_choice.ContactChoiceActivity",
+        "ru.tinkoff.commonchat.discussion_details.ui.details.DiscussionDetailsHostActivity",
+        "ru.tinkoff.commonchat.discussion_details.ui.label.DiscussionLabelHostActivity",
+        "ru.tinkoff.commonchat.discussion_details.ui.members_list.DiscussionMembersHostActivity",
+        "ru.tinkoff.commonchat.discussion_details.ui.settings.DiscussionSettingsHostActivity",
+        "ru.tinkoff.commonchat.fullscreen_video.ui.FullscreenVideoActivity",
+        "ru.tinkoff.commonchat.map.ui.MapHostActivity",
+        "ru.tinkoff.commonchat.sharing.ui.ShareContentActivity",
+        "ru.tinkoff.commonchat.ui.chat_screen.ChatScreenActivity",
+        "ru.tinkoff.commonchat.ui.conversations.ArchivedConversationsActivity",
+        "ru.tinkoff.commonchat.ui.conversations.CustomerSupportConversationsActivity",
+        "ru.tinkoff.commonchat.ui.pdf.ChatPdfViewerActivity",
+        "ru.tinkoff.commonchat.ui.photopicker.ChatPhotoPickerActivity",
+        "ru.tinkoff.commonchat.ui.validation.InputValidationActivity",
+        "ru.tinkoff.commonchat.widgets.ui.CsatWebViewActivity",
+        "ru.tinkoff.commonchat.widgets.ui.LongWidgetActivity",
+        "ru.tinkoff.core.components.csat.presentation.tinder.TinderCsatTestActivity",
+        "ru.tinkoff.core.components.distributionsdk.stubscreen.ErrorActivity",
+        "ru.tinkoff.core.components.docscan.ui.activity.BaseDocChooseGalleryActivity",
+        "ru.tinkoff.core.components.docscan.ui.activity.DefaultScanActivity",
+        "ru.tinkoff.core.components.offers.ui.offer.optout.OptOutActivity",
+        "ru.tinkoff.core.components.offers.ui.offer.template.bottomsheet.BottomSheetActivity",
+        "ru.tinkoff.core.components.presentation.map.AtmActivity",
+        "ru.tinkoff.core.components.security.sslverifier.notify.SslIssueBlockingActivity",
+        "ru.tinkoff.core.components.utils.links.WebViewLinkClickActivity",
+        "ru.tinkoff.core.components.whocalls.presentation.WhoCallsActivity",
+        "ru.tinkoff.core.feature.applications.common.featuretoggles.selector.FeatureTogglesActivity",
+        "ru.tinkoff.core.feature.applications.mystic.ApplicationsMysticActivity",
+        "ru.tinkoff.core.feature.applications.v2.page.goalamount.GoalAmountCalendarActivity",
+        "ru.tinkoff.core.feature.baf.ambassador.main.presentation.screens.envelopePhotoPicker1236.EnvelopePhotoPickerActivity",
+        "ru.tinkoff.core.feature.baf.ambassador.main.presentation.screens.passportPhotoPicker753.PassportPhotoPickerActivity",
+        "ru.tinkoff.core.features.selfie.guard.SelfieGuardActivity",
+        "ru.tinkoff.core.tcrmplayer.fileUpload.ui.DocumentGroupActivity",
+        "ru.tinkoff.core.tcrmplayer.fileUpload.ui.SecurePhotoPickerActivity",
+        "ru.tinkoff.core.tcrmplayer.link.WebViewActivity",
+        "ru.tinkoff.docsviewer.fileviewer.FilePreviewActivity",
+        "ru.tinkoff.docsviewer.imageviewer.ui.ImageViewerActivity",
+        "ru.tinkoff.docsviewer.pdfviewer.PdfDocumentActivity",
+        "ru.tinkoff.feature.family.share.offer.recipient.onboarding.ui.presentation.container.SharingRecipientOnboardingContainerActivity",
+        "ru.tinkoff.feature.feed.ui.collection.FeedCollectionActivity",
+        "ru.tinkoff.feature.feed.ui.favorite.activity.FavoriteActivity",
+        "ru.tinkoff.feature.feed.ui.publicationDetails.FeedPublicationDetailsActivity",
+        "ru.tinkoff.feature.feed.ui.publicationDetailsSdk.FeedSdkPublicationDetailsActivity",
+        "ru.tinkoff.feature.feed.ui.pulsePage.activity.PulseActivity",
+        "ru.tinkoff.feature.feed.ui.sheet.MbFeedSheetActivity",
+        "ru.tinkoff.feature.import_wizard.auth.LoginToBankActivity",
+        "ru.tinkoff.feature.import_wizard.banks.add.AddBankActivity",
+        "ru.tinkoff.feature.import_wizard.banks.integrated.BankListActivity",
+        "ru.tinkoff.feature.import_wizard.service.ui.ImportWizardPdfActivity",
+        "ru.tinkoff.feature.import_wizard.service.ui.TermsOfServiceActivity",
+        "ru.tinkoff.feature.interests.ui.InterestsActivity",
+        "ru.tinkoff.feature.operations.categories.ui.presentation.edit.CategoryEditActivity",
+        "ru.tinkoff.feature.payments.crossborder.iban.ui.presentation.iban.IbanTransferActivity",
+        "ru.tinkoff.feature.stories.ui.CustomStoryActivity",
+        "ru.tinkoff.feature.stories.ui.FullscreenStoryActivity",
+        "ru.tinkoff.feature.stories.ui.FullscreenStoryListActivity",
+        "ru.tinkoff.feature.subscriptions.ui.BillListActivity",
+        "ru.tinkoff.feature.subscriptions.ui.BillListToPayActivity",
+        "ru.tinkoff.feature.subscriptions.ui.BillsPaymentActivity",
+        "ru.tinkoff.feature.subscriptions.ui.autopay.edit.EditAutopayActivity",
+        "ru.tinkoff.feature.subscriptions.ui.autopay.first.EnableAutopayFirstStepActivity",
+        "ru.tinkoff.feature.subscriptions.ui.autopay.second.EnableAutopaySecondStepActivity",
+        "ru.tinkoff.feature.subscriptions.ui.bills.legacy.LegacyBillsPaymentActivity",
+        "ru.tinkoff.feature.subscriptions.ui.bills.pay.NewBillsPaymentActivity",
+        "ru.tinkoff.feature.subscriptions.ui.flow.grouppayment.BillsGroupPaymentFlowActivity"
+      ],
+      "AndroguardVersion": "4.1.2",
+      "AndroidApplication": 1,
+      "AndroidApplicationError": false,
+      "AndroidApplicationInfo": "APK",
+      "AndroidVersionCode": "11883",
+      "AndroidVersionName": "7.27.0",
+      "Libraries": [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+        "com.idamob.tinkoff.android.hwkeystore",
+        "org.apache.http.legacy"
+      ],
+      "MinSdkVersion": "28",
+      "Package": "com.idamob.tinkoff.android",
+      "Providers": [
+        "androidx.core.content.FileProvider",
+        "androidx.startup.InitializationProvider",
+        "com.huawei.agconnect.core.provider.AGConnectInitializeProvider",
+        "com.huawei.hms.aaid.InitProvider",
+        "com.huawei.hms.support.api.push.PushProvider",
+        "com.vk.push.core.deviceid.contentprovider.VkpnsDeviceIdContentProvider",
+        "ru.dsmobile.sdk.core.storage.QesFileProvider",
+        "ru.nspk.mir.hce.sdk.LibContentProvider",
+        "ru.planet.post.editor.data.file.PostEditorFileProvider",
+        "ru.planet.profile.sdk.common.ui.util.AvatarFileProvider",
+        "ru.rustore.sdk.pushclient.provider.RuStorePushClientInitProvider",
+        "ru.stcrypt.ckey.sdk.v1.__DownloadOriginalFileProvider",
+        "ru.tinkoff.commonchat.files.ChatFileProvider",
+        "ru.tinkoff.core.components.app_auto_update.common.fileprovider.AutoUpdateFileProvider",
+        "ru.tinkoff.core.components.ecosystem.tinkoffid.TinkoffIdProvider",
+        "ru.tinkoff.core.tcrmplayer.fileProvider.TCRMFileProvider",
+        "ru.tinkoff.core.tinkoffauth.sso.crossAuth.UserInfoProvider",
+        "ru.tinkoff.docsupload.filemanager.DocsUploadFileProvider",
+        "ru.tinkoff.hotels.shared.feature.bind.util.FileSharingProvider",
+        "ru.tinkoff.investing.common.fileprovider.CommonFileProvider",
+        "ru.tinkoff.investing.common.fileprovider.FallbackFileProvider",
+        "ru.tinkoff.mb.common.firebase.initializer.impl.FirebaseContentProvider",
+        "ru.tinkoff.mb.common.performance.app.papa.internal.start.AppStartProviderListener",
+        "ru.tinkoff.sme.common_files_android.sharing.SmeCommonFileProvider",
+        "ru.tinkoff.sme.feature.operation.feed.impl.provider.files.OperationFeedFileProvider",
+        "ru.tinkoff.social.stories.data.StoriesFileProvider"
+      ],
+      "Receivers": [
+        "androidx.glance.appwidget.MyPackageReplacedReceiver",
+        "androidx.glance.appwidget.UnmanagedSessionReceiver",
+        "androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver",
+        "androidx.profileinstaller.ProfileInstallReceiver",
+        "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+        "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+        "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+        "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+        "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+        "com.huawei.hms.support.api.push.PushMsgReceiver",
+        "com.huawei.hms.support.api.push.PushReceiver",
+        "ru.rustore.sdk.pushclient.internal.arbiter.ArbiterBroadcastReceiver",
+        "ru.tbank.geofence.sdk.background.GeofenceBootReceiver",
+        "ru.tbank.geofence.sdk.background.GeofenceBroadcastReceiver",
+        "ru.tbank.transmate_sdk.impl.workmanager.AppUpdateReceiver",
+        "ru.tinkoff.core.auth.session.SessionExpiredReceiver",
+        "ru.tinkoff.core.components.app_auto_update.install.receiver.ResultApkInstallReceiver",
+        "ru.tinkoff.core.components.whocalls.callResolver.callScreening.WhoCallsBroadcastReceiver",
+        "ru.tinkoff.core.components.whocalls.callResolver.notifications.CallBlockingCancelNotificationBroadcastReceiver",
+        "ru.tinkoff.hotels.shared.feature.bind.share.TextSharedReceiver",
+        "ru.tinkoff.mb.common.uimode.impl.system.PowerSaverModeChangedReceiver",
+        "ru.tinkoff.mb.feature.app.glance.widget.cashback.day.ui.alarm.AlarmCashbackDayChoiceStateReceiver",
+        "ru.tinkoff.mb.feature.app.glance.widget.cashback.day.ui.alarm.AlarmCashbackDayReceiver",
+        "ru.tinkoff.mb.feature.app.glance.widget.cashback.day.ui.alarm.RebootCashbackAlarmManagerReceiver",
+        "ru.tinkoff.mb.feature.app.glance.widget.cashback.day.ui.widget.widgetReceiver.CashbackDayWidgetReceiver",
+        "ru.tinkoff.mb.feature.app.glance.widget.cashback.partner.ui.alarms.CleanCacheReceiver",
+        "ru.tinkoff.mb.feature.app.glance.widget.cashback.partner.ui.alarms.RebootCashbackAlarmManagerReceiver",
+        "ru.tinkoff.mb.feature.app.glance.widget.cashback.partner.ui.alarms.ScheduleUpdateReceiver",
+        "ru.tinkoff.mb.feature.app.glance.widget.cashback.partner.ui.widget.CashbackPartnerReceiver",
+        "ru.tinkoff.mb.feature.app.widget.payments.ui.fuel.FuelReceiver",
+        "ru.tinkoff.mb.feature.app.widget.payments.ui.qr.ScanQrReceiver",
+        "ru.tinkoff.mb.feature.app.widget.payments.ui.scooter.ScooterReceiver",
+        "ru.tinkoff.mb.feature.app.widget.payments.ui.transfer.TransferReceiver",
+        "ru.tinkoff.mb.feature.app.widget.payments.ui.update.AppUpdateBroadcastReceiver",
+        "ru.tinkoff.mb.feature.contactless.payments.ui.receiver.PaymentOnLockedDeviceEventBroadcastReceiver",
+        "ru.tinkoff.mb.feature.deeplinks.ui.DeferredDeeplinkingBroadcastReceiver",
+        "ru.tinkoff.mb.feature.help.webview.ui.domain.receiver.HelpWebViewSharingReceiver",
+        "ru.tinkoff.mb.feature.liveactivities.fuel.notification.FuelNotificationBroadcastReceiver",
+        "ru.tinkoff.mb.feature.mir.hce.data.receiver.ShowPaymentScreenBroadcastReceiver",
+        "ru.tinkoff.mb.feature.myauto.app.widget.ui.VehicleReceiver",
+        "ru.tinkoff.mb.feature.myauto.app.widget.ui.update.WidgetUpdateBroadcastReceiver",
+        "ru.tinkoff.voip.online.call.common.CallNotificationActionReceiver"
+      ],
+      "RiskIndicator": {
+        "PERM": {
+          "APPOP": 4,
+          "DANGEROUS": 14,
+          "DEVELOPMENT": 1,
+          "GPS": 2,
+          "INSTALLER": 1,
+          "INSTANT": 13,
+          "INTERNET": 1,
+          "NORMAL": 27,
+          "PRE23": 1,
+          "PRIVACY": 10,
+          "PRIVILEGED": 1,
+          "SETUP": 1,
+          "SIGNATURE": 3
+        }
+      },
+      "Services": [
+        "androidx.camera.core.impl.MetadataHolderService",
+        "androidx.core.widget.RemoteViewsCompatService",
+        "androidx.glance.appwidget.GlanceRemoteViewsService",
+        "androidx.room.MultiInstanceInvalidationService",
+        "androidx.work.impl.background.systemjob.SystemJobService",
+        "androidx.work.impl.foreground.SystemForegroundService",
+        "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+        "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+        "com.google.android.gms.auth.api.signin.RevocationBoundService",
+        "com.google.android.gms.metadata.ModuleDependencies",
+        "com.google.firebase.components.ComponentDiscoveryService",
+        "com.google.firebase.messaging.FirebaseMessagingService",
+        "com.google.firebase.sessions.SessionLifecycleService",
+        "com.huawei.agconnect.core.ServiceDiscovery",
+        "com.huawei.hms.support.api.push.service.HmsMsgService",
+        "com.yandex.runtime.connectivity.internal.ConnectivityService",
+        "ru.education.academy.audio.player.impl.service.AcademyAudioPlaybackServiceImpl",
+        "ru.nspk.mir.hce.sdk.internal.service.MirHcePaymentService",
+        "ru.rustore.sdk.metrics.internal.presentation.SendMetricsEventJobService",
+        "ru.tinkoff.commonchat.notifications.ChatNotificationService",
+        "ru.tinkoff.core.components.whocalls.callResolver.callScreening.WhoCallsCallScreeningService",
+        "ru.tinkoff.core.tinkoffauth.sso.userWebIdentifier.UserWebIdentifierService",
+        "ru.tinkoff.mb.common.push.impl.service.MbFcmMessagingService",
+        "ru.tinkoff.mb.common.push.impl.service.MbHcmMessagingService",
+        "ru.tinkoff.mb.common.push.impl.service.MbRuStoreListenerService",
+        "ru.tinkoff.mb.feature.kids.geolocation.sender.service.GeolocationSenderService",
+        "ru.tinkoff.voip.online.call.call_service.AudioCallService",
+        "ru.tinkoff.voip.online.videocall.service.VideoCallService"
+      ],
+      "StringsInformation": [
+        "http://localhost/",
+        "http://ns.adobe.com/xap/1.0/\u0000",
+        "http://www.w3.org/1999/xlink",
+        "http://www.w3.org/2000/svg",
+        "http://www.w3.org/TR/SVG11/feature#",
+        "http://xml.org/sax/features/external-general-entities",
+        "http://xml.org/sax/features/external-parameter-entities",
+        "http://xml.org/sax/properties/lexical-handler",
+        "http://xmlpull.org/v1/doc/features.html#process-docdecl",
+        "http://xmlpull.org/v1/doc/features.html#process-namespaces",
+        "https://%sattr.%s/api/v",
+        "https://%scdn-%ssettings.%s/android/v1/%s/settings",
+        "https://%scdn-%stestsettings.%s/android/v1/%s/settings",
+        "https://%sconversions.%s/api/v",
+        "https://%sgcdsdk.%s/install_data/v5.0/",
+        "https://%sinapps.%s/api/v",
+        "https://%slaunches.%s/api/v",
+        "https://%smonitorsdk.%s/api/remote-debug/v2.0?app_id=",
+        "https://%sonelink.%s/shortlink-sdk/v2",
+        "https://%spia.%s/api/v1.0/pia-android-event?app_id=",
+        "https://%sregister.%s/api/v",
+        "https://%ssdk-services.%s/validate-android-signature",
+        "https://%svalidate.%s/api/v",
+        "https://%sviap.%s/api/v1/android/validate_purchase?app_id=",
+        "https://%sviap.%s/api/v1/android/validate_purchase_v2?app_id=",
+        "https://api-stories.tbank.ru/ib/api/stories/",
+        "https://api.t-bank-app.ru/",
+        "https://as.t-bank-app.ru/",
+        "https://cdn.t-bank-app.ru/",
+        "https://cdn.t-bank-app.ru/icons/cards-external-v4/",
+        "https://cfg.t-bank-app.ru",
+        "https://cfg.t-bank-app.ru/",
+        "https://docs.sentry.io/platforms/android/troubleshooting/mixed-versions",
+        "https://docs.sentry.io/platforms/java/troubleshooting/mixed-versions",
+        "https://dolyame.ru/api/bnpl/",
+        "https://firebaseinstallations.googleapis.com/v1/",
+        "https://github.com/google/gson/blob/main/Troubleshooting.md#",
+        "https://internal.social-api-gateway-test.internal.ya-ruc1-dev1.dev.k8s.tcsbank.ru/api-gateway/social/",
+        "https://invest-brands.cdn-tinkoff.ru/%{name}x160.png",
+        "https://invest-tracking-strategy.cdn-tinkoff.ru/{strategyId}-small.jpg",
+        "https://social-api-stage.dev.t-tech.team/api-gateway/social/",
+        "https://social-api.t-bank-app.ru/api-gateway/social/",
+        "https://social-api.tbank.ru/api-gateway/social/",
+        "https://stats.rustore.ru",
+        "https://tapi.t-bank-app.ru/",
+        "https://tm.t-bank-app.ru",
+        "https://tp.t-bank-app.ru"
+      ],
+      "TargetSdkVersion": "35",
+      "VTAndroidInfo": 2.0,
+      "certificate": {
+        "Issuer": {
+          "C": "RU",
+          "CN": "TCSBank.Ru",
+          "DN": "C:RU, CN:TCSBank.Ru, L:Moscow, O:TCS Bank",
+          "L": "Moscow",
+          "O": "TCS Bank"
+        },
+        "Subject": {
+          "C": "RU",
+          "CN": "TCSBank.Ru",
+          "DN": "C:RU, CN:TCSBank.Ru, L:Moscow, O:TCS Bank",
+          "L": "Moscow",
+          "O": "TCS Bank"
+        },
+        "serialnumber": "4e29263c",
+        "thumbprint": "c0e0a4e5480b1e5518b78d41d2fad1d14e42ccac",
+        "validfrom": "2011-07-22 07:26:52",
+        "validto": "2036-07-15 07:26:52"
+      },
+      "intent_filters": {
+        "Activities": {
+          "com.esiasdk.android.EsiaAuthActivity": {
+            "action": [
+              "android.intent.action.VIEW"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ]
+          },
+          "ru.tinkoff.mb.feature.auth.ui.openBanking.OpenBankingAuthActivity": {
+            "action": [
+              "android.intent.action.VIEW"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ]
+          },
+          "ru.tinkoff.mb.feature.auth.ui.partner.PartnerAuthActivity": {
+            "action": [
+              "android.intent.action.VIEW"
+            ],
+            "category": [
+              "ru.tinkoff.partner.TINKOFF_APP",
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ]
+          },
+          "ru.tinkoff.mb.feature.auth.ui.web2app.Web2AppAuthActivity": {
+            "action": [
+              "android.intent.action.VIEW"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ]
+          },
+          "ru.tinkoff.mb.feature.deeplinks.ui.activity.DeepLinkingActivity": {
+            "action": [
+              "android.intent.action.VIEW",
+              "android.intent.action.DIAL"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE",
+              "android.intent.category.VIEW"
+            ]
+          },
+          "ru.tinkoff.mb.feature.splash.bank.ui.presentation.BankSplashActivity": {
+            "action": [
+              "android.intent.action.MAIN"
+            ],
+            "category": [
+              "android.intent.category.LAUNCHER"
+            ]
+          }
+        },
+        "Receivers": {
+          "androidx.glance.appwidget.MyPackageReplacedReceiver": {
+            "action": [
+              "android.intent.action.MY_PACKAGE_REPLACED"
+            ]
+          },
+          "androidx.profileinstaller.ProfileInstallReceiver": {
+            "action": [
+              "androidx.profileinstaller.action.INSTALL_PROFILE",
+              "androidx.profileinstaller.action.SKIP_FILE",
+              "androidx.profileinstaller.action.SAVE_PROFILE",
+              "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+            ]
+          },
+          "androidx.work.impl.background.systemalarm.RescheduleReceiver": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED"
+            ]
+          },
+          "androidx.work.impl.diagnostics.DiagnosticsReceiver": {
+            "action": [
+              "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+            ]
+          },
+          "com.google.firebase.iid.FirebaseInstanceIdReceiver": {
+            "action": [
+              "com.google.android.c2dm.intent.RECEIVE"
+            ]
+          },
+          "com.huawei.hms.support.api.push.PushMsgReceiver": {
+            "action": [
+              "com.huawei.intent.action.PUSH_DELAY_NOTIFY",
+              "com.huawei.intent.action.PUSH"
+            ]
+          },
+          "com.huawei.hms.support.api.push.PushReceiver": {
+            "action": [
+              "com.huawei.android.push.intent.REGISTRATION",
+              "com.huawei.android.push.intent.RECEIVE"
+            ]
+          },
+          "ru.rustore.sdk.pushclient.internal.arbiter.ArbiterBroadcastReceiver": {
+            "action": [
+              "com.vk.push.ACTION_MASTER_HOST_UPDATE"
+            ]
+          },
+          "ru.tbank.geofence.sdk.background.GeofenceBootReceiver": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED"
+            ]
+          },
+          "ru.tbank.transmate_sdk.impl.workmanager.AppUpdateReceiver": {
+            "action": [
+              "android.intent.action.MY_PACKAGE_REPLACED"
+            ]
+          },
+          "ru.tinkoff.core.components.whocalls.callResolver.callScreening.WhoCallsBroadcastReceiver": {
+            "action": [
+              "android.intent.action.PHONE_STATE"
+            ]
+          },
+          "ru.tinkoff.mb.common.uimode.impl.system.PowerSaverModeChangedReceiver": {
+            "action": [
+              "android.os.action.POWER_SAVE_MODE_CHANGED"
+            ]
+          },
+          "ru.tinkoff.mb.feature.app.glance.widget.cashback.day.ui.alarm.RebootCashbackAlarmManagerReceiver": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED"
+            ]
+          },
+          "ru.tinkoff.mb.feature.app.glance.widget.cashback.day.ui.widget.widgetReceiver.CashbackDayWidgetReceiver": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ]
+          },
+          "ru.tinkoff.mb.feature.app.glance.widget.cashback.partner.ui.alarms.RebootCashbackAlarmManagerReceiver": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED"
+            ]
+          },
+          "ru.tinkoff.mb.feature.app.glance.widget.cashback.partner.ui.widget.CashbackPartnerReceiver": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ]
+          },
+          "ru.tinkoff.mb.feature.app.widget.payments.ui.fuel.FuelReceiver": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ]
+          },
+          "ru.tinkoff.mb.feature.app.widget.payments.ui.qr.ScanQrReceiver": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ]
+          },
+          "ru.tinkoff.mb.feature.app.widget.payments.ui.scooter.ScooterReceiver": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ]
+          },
+          "ru.tinkoff.mb.feature.app.widget.payments.ui.transfer.TransferReceiver": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ]
+          },
+          "ru.tinkoff.mb.feature.app.widget.payments.ui.update.AppUpdateBroadcastReceiver": {
+            "action": [
+              "android.intent.action.MY_PACKAGE_REPLACED"
+            ]
+          },
+          "ru.tinkoff.mb.feature.contactless.payments.ui.receiver.PaymentOnLockedDeviceEventBroadcastReceiver": {
+            "action": [
+              "ru.tinkoff.mb.PAYMENT_ON_LOCKED_DEVICE"
+            ]
+          },
+          "ru.tinkoff.mb.feature.deeplinks.ui.DeferredDeeplinkingBroadcastReceiver": {
+            "action": [
+              "com.android.vending.INSTALL_REFERRER"
+            ]
+          },
+          "ru.tinkoff.mb.feature.liveactivities.fuel.notification.FuelNotificationBroadcastReceiver": {
+            "action": [
+              "FUEL_NOTIFICATION_CANCELED"
+            ]
+          },
+          "ru.tinkoff.mb.feature.mir.hce.data.receiver.ShowPaymentScreenBroadcastReceiver": {
+            "action": [
+              "ru.nspk.mir.hce.sdk.action.PAYMENT_SERVICE"
+            ]
+          },
+          "ru.tinkoff.mb.feature.myauto.app.widget.ui.VehicleReceiver": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ]
+          },
+          "ru.tinkoff.mb.feature.myauto.app.widget.ui.update.WidgetUpdateBroadcastReceiver": {
+            "action": [
+              "android.intent.action.MY_PACKAGE_REPLACED",
+              "android.intent.action.BOOT_COMPLETED",
+              "ru.tinkoff.myauto.widget.APPWIDGET_UPDATE"
+            ]
+          },
+          "ru.tinkoff.voip.online.call.common.CallNotificationActionReceiver": {
+            "action": [
+              "ru.tinkoff.voip.online.call.common.HANG_UP",
+              "ru.tinkoff.voip.online.call.common.ANSWER_CALL",
+              "ru.tinkoff.voip.online.call.common.REJECT_CALL"
+            ]
+          }
+        },
+        "Services": {
+          "com.google.android.gms.metadata.ModuleDependencies": {
+            "action": [
+              "com.google.android.gms.metadata.MODULE_DEPENDENCIES"
+            ]
+          },
+          "com.google.firebase.messaging.FirebaseMessagingService": {
+            "action": [
+              "com.google.firebase.MESSAGING_EVENT"
+            ]
+          },
+          "com.huawei.hms.support.api.push.service.HmsMsgService": {
+            "action": [
+              "com.huawei.push.msg.NOTIFY_MSG",
+              "com.huawei.push.msg.PASSBY_MSG"
+            ]
+          },
+          "ru.education.academy.audio.player.impl.service.AcademyAudioPlaybackServiceImpl": {
+            "action": [
+              "androidx.media3.session.MediaSessionService"
+            ]
+          },
+          "ru.nspk.mir.hce.sdk.internal.service.MirHcePaymentService": {
+            "action": [
+              "android.nfc.cardemulation.action.HOST_APDU_SERVICE"
+            ]
+          },
+          "ru.tinkoff.core.components.whocalls.callResolver.callScreening.WhoCallsCallScreeningService": {
+            "action": [
+              "android.telecom.CallScreeningService"
+            ]
+          },
+          "ru.tinkoff.mb.common.push.impl.service.MbFcmMessagingService": {
+            "action": [
+              "com.google.firebase.MESSAGING_EVENT"
+            ]
+          },
+          "ru.tinkoff.mb.common.push.impl.service.MbHcmMessagingService": {
+            "action": [
+              "com.huawei.push.action.MESSAGING_EVENT"
+            ]
+          },
+          "ru.tinkoff.mb.common.push.impl.service.MbRuStoreListenerService": {
+            "action": [
+              "ru.rustore.sdk.pushclient.MESSAGING_EVENT"
+            ]
+          },
+          "ru.tinkoff.voip.online.call.call_service.AudioCallService": {
+            "action": [
+              "android.telecom.ConnectionService"
+            ]
+          },
+          "ru.tinkoff.voip.online.videocall.service.VideoCallService": {
+            "action": [
+              "android.telecom.ConnectionService"
+            ]
+          }
+        }
+      },
+      "main_activity": "ru.tinkoff.mb.feature.splash.bank.ui.presentation.BankSplashActivity",
+      "permission_details": {
+        "android.permission.ACCESS_ADSERVICES_ATTRIBUTION": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "android.permission.ACCESS_BACKGROUND_LOCATION": {
+          "full_description": "This app can access location at any time, even while the app is not in use.",
+          "permission_type": "dangerous|instant",
+          "short_description": "access location in the background"
+        },
+        "android.permission.ACCESS_COARSE_LOCATION": {
+          "full_description": "This app can get your approximate location from location services while the app is in use. Location services for your device must be turned on for the app to get location.",
+          "permission_type": "dangerous|instant",
+          "short_description": "access approximate location only in the foreground"
+        },
+        "android.permission.ACCESS_FINE_LOCATION": {
+          "full_description": "This app can get your precise location from location services while the app is in use. Location services for your device must be turned on for the app to get location. This may increase battery usage.",
+          "permission_type": "dangerous|instant",
+          "short_description": "access precise location only in the foreground"
+        },
+        "android.permission.ACCESS_MEDIA_LOCATION": {
+          "full_description": "Allows the app to read locations from your media collection.",
+          "permission_type": "dangerous",
+          "short_description": "read locations from your media collection"
+        },
+        "android.permission.ACCESS_NETWORK_STATE": {
+          "full_description": "Allows the app to view\n      information about network connections such as which networks exist and are\n      connected.",
+          "permission_type": "normal|instant",
+          "short_description": "view network connections"
+        },
+        "android.permission.ACCESS_WIFI_STATE": {
+          "full_description": "Allows the app to view information\n      about Wi-Fi networking, such as whether Wi-Fi is enabled and name of\n      connected Wi-Fi devices.",
+          "permission_type": "normal",
+          "short_description": "view Wi-Fi connections"
+        },
+        "android.permission.BLUETOOTH": {
+          "full_description": "Allows the app to view the\n      configuration of the Bluetooth on the phone, and to make and accept\n      connections with paired devices.",
+          "permission_type": "normal",
+          "short_description": "pair with Bluetooth devices"
+        },
+        "android.permission.BLUETOOTH_ADMIN": {
+          "full_description": "Allows the app to configure\n      the local Bluetooth phone, and to discover and pair with remote devices.",
+          "permission_type": "normal",
+          "short_description": "access Bluetooth settings"
+        },
+        "android.permission.BLUETOOTH_CONNECT": {
+          "full_description": "Allows the app to connect to paired Bluetooth devices",
+          "permission_type": "dangerous",
+          "short_description": "connect to paired Bluetooth devices"
+        },
+        "android.permission.BLUETOOTH_SCAN": {
+          "full_description": "Allows the app to discover and pair nearby Bluetooth devices",
+          "permission_type": "dangerous",
+          "short_description": "discover and pair nearby Bluetooth devices"
+        },
+        "android.permission.CALL_PHONE": {
+          "full_description": "Allows the app to call phone numbers\n      without your intervention. This may result in unexpected charges or calls.\n      Note that this doesn't allow the app to call emergency numbers.\n      Malicious apps may cost you money by making calls without your\n      confirmation, or dial carrier codes which cause incoming calls to be\n      automatically forwarded to another number.",
+          "permission_type": "dangerous",
+          "short_description": "directly call phone numbers"
+        },
+        "android.permission.CAMERA": {
+          "full_description": "This app can take pictures and record videos using the camera while the app is in use.",
+          "permission_type": "dangerous|instant",
+          "short_description": "take pictures and videos"
+        },
+        "android.permission.CHANGE_NETWORK_STATE": {
+          "full_description": "Allows the app to change the state of network connectivity.",
+          "permission_type": "normal",
+          "short_description": "change network connectivity"
+        },
+        "android.permission.CHANGE_WIFI_STATE": {
+          "full_description": "Allows the app to connect to and\n      disconnect from Wi-Fi access points and to make changes to device\n      configuration for Wi-Fi networks.",
+          "permission_type": "normal",
+          "short_description": "connect and disconnect from Wi-Fi"
+        },
+        "android.permission.DETECT_SCREEN_CAPTURE": {
+          "full_description": "This app will get notified when a screenshot is taken while the app is in use.",
+          "permission_type": "normal",
+          "short_description": "detect screen captures of app windows"
+        },
+        "android.permission.DETECT_SCREEN_RECORDING": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "android.permission.FOREGROUND_SERVICE": {
+          "full_description": "Allows the app to make use of foreground services.",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service"
+        },
+        "android.permission.FOREGROUND_SERVICE_CAMERA": {
+          "full_description": "Allows the app to make use of foreground services with the type camera",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service with the type camera"
+        },
+        "android.permission.FOREGROUND_SERVICE_DATA_SYNC": {
+          "full_description": "Allows the app to make use of foreground services with the type dataSync",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service with the type dataSync"
+        },
+        "android.permission.FOREGROUND_SERVICE_LOCATION": {
+          "full_description": "Allows the app to make use of foreground services with the type location",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service with the type location"
+        },
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK": {
+          "full_description": "Allows the app to make use of foreground services with the type mediaPlayback",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service with the type mediaPlayback"
+        },
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "android.permission.FOREGROUND_SERVICE_MICROPHONE": {
+          "full_description": "Allows the app to make use of foreground services with the type microphone",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service with the type microphone"
+        },
+        "android.permission.FOREGROUND_SERVICE_PHONE_CALL": {
+          "full_description": "Allows the app to make use of foreground services with the type phoneCall",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service with the type phoneCall"
+        },
+        "android.permission.HIGH_SAMPLING_RATE_SENSORS": {
+          "full_description": "Allows the app to sample sensor data at a rate greater than 200 Hz",
+          "permission_type": "normal",
+          "short_description": "access sensor data at a high sampling rate"
+        },
+        "android.permission.INTERNET": {
+          "full_description": "Allows the app to create\n     network sockets and use custom network protocols. The browser and other\n     applications provide means to send data to the internet, so this\n     permission is not required to send data to the internet.",
+          "permission_type": "normal|instant",
+          "short_description": "have full network access"
+        },
+        "android.permission.MANAGE_OWN_CALLS": {
+          "full_description": "Allows the app to route its calls through the system in\n        order to improve the calling experience.",
+          "permission_type": "normal",
+          "short_description": "route calls through the system"
+        },
+        "android.permission.MODIFY_AUDIO_SETTINGS": {
+          "full_description": "Allows the app to modify global audio settings such as volume and which speaker is used for output.",
+          "permission_type": "normal",
+          "short_description": "change your audio settings"
+        },
+        "android.permission.NEARBY_WIFI_DEVICES": {
+          "full_description": "Allows the app to advertise, connect, and determine the relative position of nearby Wiu2011Fi devices",
+          "permission_type": "dangerous",
+          "short_description": "interact with nearby Wiu2011Fi devices"
+        },
+        "android.permission.NFC": {
+          "full_description": "Allows the app to communicate\n      with Near Field Communication (NFC) tags, cards, and readers.",
+          "permission_type": "normal",
+          "short_description": "control Near Field Communication"
+        },
+        "android.permission.POST_NOTIFICATIONS": {
+          "full_description": "Allows the app to show notifications",
+          "permission_type": "dangerous|instant",
+          "short_description": "show notifications"
+        },
+        "android.permission.QUERY_ALL_PACKAGES": {
+          "full_description": "Allows an app to see all installed packages.",
+          "permission_type": "normal",
+          "short_description": "query all packages"
+        },
+        "android.permission.READ_CALENDAR": {
+          "full_description": "This app can read all calendar events stored on your phone and share or save your calendar data.",
+          "permission_type": "dangerous",
+          "short_description": "Read calendar events and details"
+        },
+        "android.permission.READ_CALL_LOG": {
+          "full_description": "This app can read your call history.",
+          "permission_type": "dangerous",
+          "short_description": "read call log"
+        },
+        "android.permission.READ_CONTACTS": {
+          "full_description": "Allows the app to read data about your contacts stored on your phone.\n      Apps will also have access to the accounts on your phone that have created contacts.\n      This may include accounts created by apps you have installed.\n      This permission allows apps to save your contact data, and malicious apps may share contact data without your knowledge.",
+          "permission_type": "dangerous",
+          "short_description": "read your contacts"
+        },
+        "android.permission.READ_EXTERNAL_STORAGE": {
+          "full_description": "Allows the app to read the contents of your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "read the contents of your shared storage"
+        },
+        "android.permission.READ_MEDIA_AUDIO": {
+          "full_description": "Allows the app to read audio files from your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "read audio files from shared storage"
+        },
+        "android.permission.READ_MEDIA_IMAGES": {
+          "full_description": "Allows the app to read image files from your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "read image files from shared storage"
+        },
+        "android.permission.READ_MEDIA_VIDEO": {
+          "full_description": "Allows the app to read video files from your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "read video files from shared storage"
+        },
+        "android.permission.READ_PHONE_NUMBERS": {
+          "full_description": "Allows the app to access the phone numbers of the device.",
+          "permission_type": "dangerous|instant",
+          "short_description": "read phone numbers"
+        },
+        "android.permission.READ_PHONE_STATE": {
+          "full_description": "Allows the app to access the phone\n      features of the device.  This permission allows the app to determine the\n      phone number and device IDs, whether a call is active, and the remote number\n      connected by a call.",
+          "permission_type": "dangerous",
+          "short_description": "read phone status and identity"
+        },
+        "android.permission.READ_SECURE_SETTINGS": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "android.permission.RECEIVE_BOOT_COMPLETED": {
+          "full_description": "Allows the app to\n        have itself started as soon as the system has finished booting.\n        This can make it take longer to start the phone and allow the\n        app to slow down the overall phone by always running.",
+          "permission_type": "normal",
+          "short_description": "run at startup"
+        },
+        "android.permission.RECORD_AUDIO": {
+          "full_description": "This app can record audio using the microphone while the app is in use.",
+          "permission_type": "dangerous|instant",
+          "short_description": "record audio"
+        },
+        "android.permission.REQUEST_INSTALL_PACKAGES": {
+          "full_description": "Allows an application to request installation of packages.",
+          "permission_type": "signature|appop",
+          "short_description": "request install packages"
+        },
+        "android.permission.SCHEDULE_EXACT_ALARM": {
+          "full_description": "This app can schedule work to happen at a desired time in the future. This also means that the app can run when youu2019re not actively using the device.",
+          "permission_type": "signature|privileged|appop",
+          "short_description": "Schedule precisely timed actions"
+        },
+        "android.permission.SYSTEM_ALERT_WINDOW": {
+          "full_description": "This app can appear on top of other apps or other parts of the screen. This may interfere with normal app usage and change the way that other apps appear.",
+          "permission_type": "signature|setup|appop|installer|pre23|development",
+          "short_description": "This app can appear on top of other apps"
+        },
+        "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION": {
+          "full_description": "Allows the holder to update the app it previously installed without user action",
+          "permission_type": "normal",
+          "short_description": "update app without user action"
+        },
+        "android.permission.USE_BIOMETRIC": {
+          "full_description": "Allows the app to use biometric hardware for authentication",
+          "permission_type": "normal",
+          "short_description": "use biometric hardware"
+        },
+        "android.permission.USE_EXACT_ALARM": {
+          "full_description": "This app can schedule actions like alarms and reminders to notify you at a desired time in the future.",
+          "permission_type": "normal",
+          "short_description": "Schedule alarms or event reminders"
+        },
+        "android.permission.USE_FINGERPRINT": {
+          "full_description": "Allows the app to use fingerprint hardware for authentication",
+          "permission_type": "normal",
+          "short_description": "use fingerprint hardware"
+        },
+        "android.permission.USE_FULL_SCREEN_INTENT": {
+          "full_description": "Allows the app to display notifications as full screen activities on a locked device",
+          "permission_type": "normal|appop",
+          "short_description": "display notifications as full screen activities on a locked device"
+        },
+        "android.permission.USE_SPI": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "android.permission.VIBRATE": {
+          "full_description": "Allows the app to control the vibrator.",
+          "permission_type": "normal|instant",
+          "short_description": "control vibration"
+        },
+        "android.permission.WAKE_LOCK": {
+          "full_description": "Allows the app to prevent the phone from going to sleep.",
+          "permission_type": "normal|instant",
+          "short_description": "prevent phone from sleeping"
+        },
+        "android.permission.WRITE_CALENDAR": {
+          "full_description": "This app can add, remove, or change calendar events on your phone. This app can send messages that may appear to come from calendar owners, or change events without notifying their owners.",
+          "permission_type": "dangerous",
+          "short_description": "add or modify calendar events and send email to guests without owners' knowledge"
+        },
+        "android.permission.WRITE_CONTACTS": {
+          "full_description": "Allows the app to modify the data about your contacts stored on your phone.\n      This permission allows apps to delete contact data.",
+          "permission_type": "dangerous",
+          "short_description": "modify your contacts"
+        },
+        "android.permission.WRITE_EXTERNAL_STORAGE": {
+          "full_description": "Allows the app to write the contents of your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "modify or delete the contents of your shared storage"
+        },
+        "android.permission.WRITE_MEDIA_IMAGES": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.android.alarm.permission.SET_ALARM": {
+          "full_description": "Allows the app to set an alarm in\n        an installed alarm clock app. Some alarm clock apps may\n        not implement this feature.",
+          "permission_type": "normal",
+          "short_description": "set an alarm"
+        },
+        "com.google.android.c2dm.permission.RECEIVE": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.gms.permission.AD_ID": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.providers.gsf.permission.READ_GSERVICES": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.huawei.permission.ACCESS_HW_KEYSTORE": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.idamob.tinkoff.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "signature",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.idamob.tinkoff.android.permission.PROCESS_PUSH_MSG": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "signature",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.idamob.tinkoff.android.permission.PUSH_PROVIDER": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "signature",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.idamob.tinkoff.android.permission.pushserver.RECEIVE": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "signature",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.samsung.android.mapsagent.permission.READ_APP_INFO": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "ru.rtlabs.mobile.ebs.gosuslugi.permission.VERIFICATION": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "ru.tbank.twork.permission.TWORK_ENTRY_POINT_PERMISSION": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        }
+      }
+    },
+    "bundle_info": {
+      "extensions": {
+        "CoroutineExceptionHandler": 1,
+        "Provider": 1,
+        "TracerLiteManifest": 1,
+        "a": 4,
+        "b": 2,
+        "b3": 1,
+        "c": 1,
+        "cer": 14,
+        "d": 3,
+        "dat": 1,
+        "e": 1,
+        "j1": 1,
+        "json": 910,
+        "k": 1,
+        "kotlin_module": 32,
+        "l": 1,
+        "md": 1,
+        "mp3": 1,
+        "pdf": 1,
+        "properties": 4,
+        "s0": 1,
+        "se": 1,
+        "t": 1,
+        "textproto": 1,
+        "txt": 4,
+        "v0": 1,
+        "xml": 1,
+        "yaml": 1
+      },
+      "file_types": {
+        "JSON": 833,
+        "PDF": 1,
+        "XML": 1,
+        "unknown": 165
+      },
+      "highest_datetime": "1981-01-01 01:01:02",
+      "lowest_datetime": "1981-01-01 01:01:02",
+      "num_children": 21815,
+      "type": "APK",
+      "uncompressed_size": 16809228
+    },
+    "filecondis": {
+      "dhash": "0000001e1c170600",
+      "raw_md5": "bab9e52020419084c2e3c39e0e327f0d"
+    },
+    "first_submission_date": 1769092596,
+    "last_analysis_date": 1770224125,
+    "last_analysis_results": {
+      "ALYac": {
+        "category": "timeout",
+        "engine_name": "ALYac",
+        "engine_update": "20260204",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      },
+      "APEX": {
+        "category": "type-unsupported",
+        "engine_name": "APEX",
+        "engine_update": "20260204",
+        "engine_version": "6.744",
+        "method": "blacklist",
+        "result": null
+      },
+      "AVG": {
+        "category": "timeout",
+        "engine_name": "AVG",
+        "engine_update": "20260204",
+        "engine_version": "23.9.8494.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Acronis": {
+        "category": "timeout",
+        "engine_name": "Acronis",
+        "engine_update": "20240328",
+        "engine_version": "1.2.0.121",
+        "method": "blacklist",
+        "result": null
+      },
+      "AhnLab-V3": {
+        "category": "undetected",
+        "engine_name": "AhnLab-V3",
+        "engine_update": "20260204",
+        "engine_version": "3.29.1.10604",
+        "method": "blacklist",
+        "result": null
+      },
+      "Alibaba": {
+        "category": "undetected",
+        "engine_name": "Alibaba",
+        "engine_update": "20190527",
+        "engine_version": "0.3.0.5",
+        "method": "blacklist",
+        "result": null
+      },
+      "Antiy-AVL": {
+        "category": "undetected",
+        "engine_name": "Antiy-AVL",
+        "engine_update": "20260204",
+        "engine_version": "3.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Arcabit": {
+        "category": "failure",
+        "engine_name": "Arcabit",
+        "engine_update": "20260204",
+        "engine_version": "2025.0.0.23",
+        "method": "blacklist",
+        "result": null
+      },
+      "Avast": {
+        "category": "timeout",
+        "engine_name": "Avast",
+        "engine_update": "20260204",
+        "engine_version": "23.9.8494.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Avast-Mobile": {
+        "category": "undetected",
+        "engine_name": "Avast-Mobile",
+        "engine_update": "20260204",
+        "engine_version": "260204-04",
+        "method": "blacklist",
+        "result": null
+      },
+      "Avira": {
+        "category": "undetected",
+        "engine_name": "Avira",
+        "engine_update": "20260204",
+        "engine_version": "8.3.3.24",
+        "method": "blacklist",
+        "result": null
+      },
+      "Baidu": {
+        "category": "undetected",
+        "engine_name": "Baidu",
+        "engine_update": "20190318",
+        "engine_version": "1.0.0.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "BitDefender": {
+        "category": "timeout",
+        "engine_name": "BitDefender",
+        "engine_update": "20260204",
+        "engine_version": "7.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "BitDefenderFalx": {
+        "category": "undetected",
+        "engine_name": "BitDefenderFalx",
+        "engine_update": "20251216",
+        "engine_version": "2.0.936",
+        "method": "blacklist",
+        "result": null
+      },
+      "Bkav": {
+        "category": "failure",
+        "engine_name": "Bkav",
+        "engine_update": "20260204",
+        "engine_version": "2.0.0.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "CAT-QuickHeal": {
+        "category": "timeout",
+        "engine_name": "CAT-QuickHeal",
+        "engine_update": "20260203",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      },
+      "CMC": {
+        "category": "undetected",
+        "engine_name": "CMC",
+        "engine_update": "20260204",
+        "engine_version": "2.4.2022.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "CTX": {
+        "category": "timeout",
+        "engine_name": "CTX",
+        "engine_update": "20260204",
+        "engine_version": "2024.8.29.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "ClamAV": {
+        "category": "undetected",
+        "engine_name": "ClamAV",
+        "engine_update": "20260204",
+        "engine_version": "1.5.1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "CrowdStrike": {
+        "category": "undetected",
+        "engine_name": "CrowdStrike",
+        "engine_update": "20230417",
+        "engine_version": "1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Cylance": {
+        "category": "type-unsupported",
+        "engine_name": "Cylance",
+        "engine_update": "20260130",
+        "engine_version": "3.0.0.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Cynet": {
+        "category": "type-unsupported",
+        "engine_name": "Cynet",
+        "engine_update": "20260204",
+        "engine_version": "4.0.3.4",
+        "method": "blacklist",
+        "result": null
+      },
+      "DeepInstinct": {
+        "category": "failure",
+        "engine_name": "DeepInstinct",
+        "engine_update": "20260204",
+        "engine_version": "5.0.0.8",
+        "method": "blacklist",
+        "result": null
+      },
+      "DrWeb": {
+        "category": "timeout",
+        "engine_name": "DrWeb",
+        "engine_update": "20260204",
+        "engine_version": "7.0.74.11120",
+        "method": "blacklist",
+        "result": null
+      },
+      "ESET-NOD32": {
+        "category": "undetected",
+        "engine_name": "ESET-NOD32",
+        "engine_update": "20260204",
+        "engine_version": "18.2.18.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Elastic": {
+        "category": "timeout",
+        "engine_name": "Elastic",
+        "engine_update": "20260203",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      },
+      "Emsisoft": {
+        "category": "timeout",
+        "engine_name": "Emsisoft",
+        "engine_update": "20260204",
+        "engine_version": "2024.8.0.61147",
+        "method": "blacklist",
+        "result": null
+      },
+      "F-Secure": {
+        "category": "undetected",
+        "engine_name": "F-Secure",
+        "engine_update": "20260204",
+        "engine_version": "18.10.1547.307",
+        "method": "blacklist",
+        "result": null
+      },
+      "Fortinet": {
+        "category": "timeout",
+        "engine_name": "Fortinet",
+        "engine_update": "20260204",
+        "engine_version": "7.0.30.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "GData": {
+        "category": "confirmed-timeout",
+        "engine_name": "GData",
+        "engine_update": "20260204",
+        "engine_version": "GD:27.43422AVA:64.30607",
+        "method": "blacklist",
+        "result": null
+      },
+      "Google": {
+        "category": "failure",
+        "engine_name": "Google",
+        "engine_update": "20260204",
+        "engine_version": "1770217253",
+        "method": "blacklist",
+        "result": null
+      },
+      "Gridinsoft": {
+        "category": "undetected",
+        "engine_name": "Gridinsoft",
+        "engine_update": "20260204",
+        "engine_version": "1.0.237.174",
+        "method": "blacklist",
+        "result": null
+      },
+      "Ikarus": {
+        "category": "undetected",
+        "engine_name": "Ikarus",
+        "engine_update": "20260204",
+        "engine_version": "6.4.16.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Jiangmin": {
+        "category": "timeout",
+        "engine_name": "Jiangmin",
+        "engine_update": "20260203",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      },
+      "K7AntiVirus": {
+        "category": "undetected",
+        "engine_name": "K7AntiVirus",
+        "engine_update": "20260204",
+        "engine_version": "14.33.58488",
+        "method": "blacklist",
+        "result": null
+      },
+      "K7GW": {
+        "category": "undetected",
+        "engine_name": "K7GW",
+        "engine_update": "20260204",
+        "engine_version": "14.33.58493",
+        "method": "blacklist",
+        "result": null
+      },
+      "Kaspersky": {
+        "category": "timeout",
+        "engine_name": "Kaspersky",
+        "engine_update": "20260204",
+        "engine_version": "22.0.1.28",
+        "method": "blacklist",
+        "result": null
+      },
+      "Kingsoft": {
+        "category": "undetected",
+        "engine_name": "Kingsoft",
+        "engine_update": "20260204",
+        "engine_version": "None",
+        "method": "blacklist",
+        "result": null
+      },
+      "Lionic": {
+        "category": "undetected",
+        "engine_name": "Lionic",
+        "engine_update": "20260204",
+        "engine_version": "8.16",
+        "method": "blacklist",
+        "result": null
+      },
+      "Malwarebytes": {
+        "category": "undetected",
+        "engine_name": "Malwarebytes",
+        "engine_update": "20260204",
+        "engine_version": "3.1.0.207",
+        "method": "blacklist",
+        "result": null
+      },
+      "MaxSecure": {
+        "category": "undetected",
+        "engine_name": "MaxSecure",
+        "engine_update": "20260204",
+        "engine_version": "1.0.0.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "McAfeeD": {
+        "category": "undetected",
+        "engine_name": "McAfeeD",
+        "engine_update": "20260204",
+        "engine_version": "1.2.0.13644",
+        "method": "blacklist",
+        "result": null
+      },
+      "MicroWorld-eScan": {
+        "category": "undetected",
+        "engine_name": "MicroWorld-eScan",
+        "engine_update": "20260204",
+        "engine_version": "14.0.409.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Microsoft": {
+        "category": "undetected",
+        "engine_name": "Microsoft",
+        "engine_update": "20260204",
+        "engine_version": "1.1.25110.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "NANO-Antivirus": {
+        "category": "undetected",
+        "engine_name": "NANO-Antivirus",
+        "engine_update": "20260204",
+        "engine_version": "1.0.170.26895",
+        "method": "blacklist",
+        "result": null
+      },
+      "Paloalto": {
+        "category": "type-unsupported",
+        "engine_name": "Paloalto",
+        "engine_update": "20260204",
+        "engine_version": "0.9.0.1003",
+        "method": "blacklist",
+        "result": null
+      },
+      "Panda": {
+        "category": "timeout",
+        "engine_name": "Panda",
+        "engine_update": "20260204",
+        "engine_version": "4.6.4.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "Rising": {
+        "category": "timeout",
+        "engine_name": "Rising",
+        "engine_update": "20260202",
+        "engine_version": "25.0.0.28",
+        "method": "blacklist",
+        "result": null
+      },
+      "SUPERAntiSpyware": {
+        "category": "undetected",
+        "engine_name": "SUPERAntiSpyware",
+        "engine_update": "20260204",
+        "engine_version": "5.6.0.1032",
+        "method": "blacklist",
+        "result": null
+      },
+      "Sangfor": {
+        "category": "timeout",
+        "engine_name": "Sangfor",
+        "engine_update": "20260202",
+        "engine_version": "2.22.3.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "SentinelOne": {
+        "category": "type-unsupported",
+        "engine_name": "SentinelOne",
+        "engine_update": "20251224",
+        "engine_version": "7.5.3.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "Skyhigh": {
+        "category": "timeout",
+        "engine_name": "Skyhigh",
+        "engine_update": "20260203",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      },
+      "Sophos": {
+        "category": "undetected",
+        "engine_name": "Sophos",
+        "engine_update": "20260204",
+        "engine_version": "3.3.1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Symantec": {
+        "category": "undetected",
+        "engine_name": "Symantec",
+        "engine_update": "20260204",
+        "engine_version": "1.22.0.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "SymantecMobileInsight": {
+        "category": "undetected",
+        "engine_name": "SymantecMobileInsight",
+        "engine_update": "20260123",
+        "engine_version": "2.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "TACHYON": {
+        "category": "undetected",
+        "engine_name": "TACHYON",
+        "engine_update": "20260204",
+        "engine_version": "2026-02-04.02",
+        "method": "blacklist",
+        "result": null
+      },
+      "Tencent": {
+        "category": "undetected",
+        "engine_name": "Tencent",
+        "engine_update": "20260204",
+        "engine_version": "1.0.0.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "Trapmine": {
+        "category": "type-unsupported",
+        "engine_name": "Trapmine",
+        "engine_update": "20260203",
+        "engine_version": "4.0.9.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "TrellixENS": {
+        "category": "timeout",
+        "engine_name": "TrellixENS",
+        "engine_update": "20260203",
+        "engine_version": "6.0.6.653",
+        "method": "blacklist",
+        "result": null
+      },
+      "TrendMicro": {
+        "category": "undetected",
+        "engine_name": "TrendMicro",
+        "engine_update": "20260204",
+        "engine_version": "24.550.0.1002",
+        "method": "blacklist",
+        "result": null
+      },
+      "TrendMicro-HouseCall": {
+        "category": "undetected",
+        "engine_name": "TrendMicro-HouseCall",
+        "engine_update": "20260204",
+        "engine_version": "24.550.0.1002",
+        "method": "blacklist",
+        "result": null
+      },
+      "Trustlook": {
+        "category": "undetected",
+        "engine_name": "Trustlook",
+        "engine_update": "20260204",
+        "engine_version": "1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "VBA32": {
+        "category": "timeout",
+        "engine_name": "VBA32",
+        "engine_update": "20260204",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      },
+      "VIPRE": {
+        "category": "undetected",
+        "engine_name": "VIPRE",
+        "engine_update": "20260204",
+        "engine_version": "6.0.0.35",
+        "method": "blacklist",
+        "result": null
+      },
+      "Varist": {
+        "category": "timeout",
+        "engine_name": "Varist",
+        "engine_update": "20260204",
+        "engine_version": "6.6.1.3",
+        "method": "blacklist",
+        "result": null
+      },
+      "ViRobot": {
+        "category": "undetected",
+        "engine_name": "ViRobot",
+        "engine_update": "20260204",
+        "engine_version": "2014.3.20.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "VirIT": {
+        "category": "undetected",
+        "engine_name": "VirIT",
+        "engine_update": "20260204",
+        "engine_version": "9.5.1138",
+        "method": "blacklist",
+        "result": null
+      },
+      "Webroot": {
+        "category": "undetected",
+        "engine_name": "Webroot",
+        "engine_update": "20250227",
+        "engine_version": "1.9.0.8",
+        "method": "blacklist",
+        "result": null
+      },
+      "Xcitium": {
+        "category": "undetected",
+        "engine_name": "Xcitium",
+        "engine_update": "20260204",
+        "engine_version": "38386",
+        "method": "blacklist",
+        "result": null
+      },
+      "Yandex": {
+        "category": "timeout",
+        "engine_name": "Yandex",
+        "engine_update": "20260204",
+        "engine_version": "5.5.2.24",
+        "method": "blacklist",
+        "result": null
+      },
+      "Zillya": {
+        "category": "undetected",
+        "engine_name": "Zillya",
+        "engine_update": "20260204",
+        "engine_version": "2.0.0.5537",
+        "method": "blacklist",
+        "result": null
+      },
+      "ZoneAlarm": {
+        "category": "undetected",
+        "engine_name": "ZoneAlarm",
+        "engine_update": "20260204",
+        "engine_version": "6.22-112233618",
+        "method": "blacklist",
+        "result": null
+      },
+      "Zoner": {
+        "category": "undetected",
+        "engine_name": "Zoner",
+        "engine_update": "20260204",
+        "engine_version": "2.2.2.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "alibabacloud": {
+        "category": "type-unsupported",
+        "engine_name": "alibabacloud",
+        "engine_update": "20250321",
+        "engine_version": "2.2.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "huorong": {
+        "category": "undetected",
+        "engine_name": "huorong",
+        "engine_update": "20260204",
+        "engine_version": "bc6612c:bc6612c:5410c28:5410c28",
+        "method": "blacklist",
+        "result": null
+      },
+      "tehtris": {
+        "category": "type-unsupported",
+        "engine_name": "tehtris",
+        "engine_update": "20260204",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      }
+    },
+    "last_analysis_stats": {
+      "confirmed-timeout": 1,
+      "failure": 4,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 21,
+      "type-unsupported": 8,
+      "undetected": 42
+    },
+    "last_modification_date": 1770369786,
+    "last_submission_date": 1770369786,
+    "magic": "Zip archive data, at least v0.0 to extract, compression method=deflate",
+    "md5": "b88b0c07fe1a32f6bfe3bfd56902f69c",
+    "meaningful_name": "106-t-bank-ru-7.27.0-Wildroid.ru.apk",
+    "names": [
+      "106-t-bank-ru-7.27.0-Wildroid.ru.apk",
+      "App_20260122141300884.apk",
+      "tbank_app.apk",
+      "tbank-7.27.0-11883-1.apk",
+      "tbank_app (1).apk",
+      "tbank-7.27.0-11883 (2).apk",
+      "tbank-7.27.0-11883.apk",
+      "tbank-7.27.0-11883 (1).apk",
+      "tbank.apk",
+      "tbank_app (3).apk",
+      "tbank_app (2).apk"
+    ],
+    "permhash": "83b6bdff46e356dd6df61e56ffa455f241053b68c02ceee0e6814d2bf54e51ff",
+    "reputation": 0,
+    "sha1": "19706c0405b3524e5578913da3c3925261256df8",
+    "sha256": "aeb8dd6e08f45707c0250f88b340d52a5dab11d818c9bdd87db4d64acdb69da5",
+    "size": 236027489,
+    "ssdeep": "6291456:Bh+cj3IOZOM+JHs7iioWS55nqSOgNv0RHgim0Ii6s7NBj5a:Bh+ckQ/+JM7iS4tggBe7jc",
+    "tags": [
+      "android",
+      "apk"
+    ],
+    "times_submitted": 63,
+    "tlsh": "T12CB82252E32CA84FDC73BD33EC5E5A4517692DB85A426B172801762D2EF36C48F2A7C1",
+    "total_votes": {
+      "harmless": 0,
+      "malicious": 0
+    },
+    "trid": [
+      {
+        "file_type": "Android Package",
+        "probability": 30.8
+      },
+      {
+        "file_type": "OpenOffice Extension",
+        "probability": 24.5
+      },
+      {
+        "file_type": "Java Archive",
+        "probability": 15.4
+      },
+      {
+        "file_type": "Pocket Code/Catroid Catrobat Project",
+        "probability": 12.5
+      },
+      {
+        "file_type": "Sweet Home 3D Design (generic)",
+        "probability": 12.0
+      }
+    ],
+    "type_description": "Android",
+    "type_extension": "apk",
+    "type_tag": "android",
+    "type_tags": [
+      "executable",
+      "mobile",
+      "android",
+      "apk"
+    ],
+    "unique_sources": 52,
+    "vhash": "e6a53bf6154e737d2ceef2aa8d087f94"
+  }
+]

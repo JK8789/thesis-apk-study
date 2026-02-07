@@ -1,0 +1,281 @@
+category,pair_id,ru_app,eu_app,metric,value
+bank_1,bank1,Sberbank,BGL,delta_exported_total_ru_minus_eu,29
+bank_1,bank1,Sberbank,BGL,delta_perm_local_ru_minus_eu,46
+bank_1,bank1,Sberbank,BGL,eu_exported_comp_total,10
+bank_1,bank1,Sberbank,BGL,eu_perm_count_local,22
+bank_1,bank1,Sberbank,BGL,eu_vt_dangerous_perm_count,0
+bank_1,bank1,Sberbank,BGL,eu_vt_malicious,0
+bank_1,bank1,Sberbank,BGL,eu_vt_perm_count,0
+bank_1,bank1,Sberbank,BGL,eu_vt_suspicious,0
+bank_1,bank1,Sberbank,BGL,ru_exported_comp_total,39
+bank_1,bank1,Sberbank,BGL,ru_perm_count_local,68
+bank_1,bank1,Sberbank,BGL,ru_vt_dangerous_perm_count,19
+bank_1,bank1,Sberbank,BGL,ru_vt_malicious,0
+bank_1,bank1,Sberbank,BGL,ru_vt_perm_count,68
+bank_1,bank1,Sberbank,BGL,ru_vt_suspicious,0
+bank_2,bank2,Tinkoff,ING Luxembourg,delta_exported_total_ru_minus_eu,59
+bank_2,bank2,Tinkoff,ING Luxembourg,delta_perm_local_ru_minus_eu,64
+bank_2,bank2,Tinkoff,ING Luxembourg,eu_exported_comp_total,4
+bank_2,bank2,Tinkoff,ING Luxembourg,eu_perm_count_local,11
+bank_2,bank2,Tinkoff,ING Luxembourg,eu_vt_dangerous_perm_count,3
+bank_2,bank2,Tinkoff,ING Luxembourg,eu_vt_malicious,0
+bank_2,bank2,Tinkoff,ING Luxembourg,eu_vt_perm_count,11
+bank_2,bank2,Tinkoff,ING Luxembourg,eu_vt_suspicious,0
+bank_2,bank2,Tinkoff,ING Luxembourg,ru_exported_comp_total,63
+bank_2,bank2,Tinkoff,ING Luxembourg,ru_perm_count_local,75
+bank_2,bank2,Tinkoff,ING Luxembourg,ru_vt_dangerous_perm_count,23
+bank_2,bank2,Tinkoff,ING Luxembourg,ru_vt_malicious,0
+bank_2,bank2,Tinkoff,ING Luxembourg,ru_vt_perm_count,75
+bank_2,bank2,Tinkoff,ING Luxembourg,ru_vt_suspicious,0
+bank_3,bank3,Alfa Bank,Revolut,delta_exported_total_ru_minus_eu,0
+bank_3,bank3,Alfa Bank,Revolut,delta_perm_local_ru_minus_eu,-4
+bank_3,bank3,Alfa Bank,Revolut,eu_exported_comp_total,19
+bank_3,bank3,Alfa Bank,Revolut,eu_perm_count_local,50
+bank_3,bank3,Alfa Bank,Revolut,eu_vt_dangerous_perm_count,14
+bank_3,bank3,Alfa Bank,Revolut,eu_vt_malicious,0
+bank_3,bank3,Alfa Bank,Revolut,eu_vt_perm_count,50
+bank_3,bank3,Alfa Bank,Revolut,eu_vt_suspicious,0
+bank_3,bank3,Alfa Bank,Revolut,ru_exported_comp_total,19
+bank_3,bank3,Alfa Bank,Revolut,ru_perm_count_local,46
+bank_3,bank3,Alfa Bank,Revolut,ru_vt_dangerous_perm_count,13
+bank_3,bank3,Alfa Bank,Revolut,ru_vt_malicious,0
+bank_3,bank3,Alfa Bank,Revolut,ru_vt_perm_count,46
+bank_3,bank3,Alfa Bank,Revolut,ru_vt_suspicious,0
+bank_4,bank4,VTB,BILnet,delta_exported_total_ru_minus_eu,20
+bank_4,bank4,VTB,BILnet,delta_perm_local_ru_minus_eu,37
+bank_4,bank4,VTB,BILnet,eu_exported_comp_total,9
+bank_4,bank4,VTB,BILnet,eu_perm_count_local,26
+bank_4,bank4,VTB,BILnet,eu_vt_dangerous_perm_count,7
+bank_4,bank4,VTB,BILnet,eu_vt_malicious,0
+bank_4,bank4,VTB,BILnet,eu_vt_perm_count,26
+bank_4,bank4,VTB,BILnet,eu_vt_suspicious,0
+bank_4,bank4,VTB,BILnet,ru_exported_comp_total,29
+bank_4,bank4,VTB,BILnet,ru_perm_count_local,63
+bank_4,bank4,VTB,BILnet,ru_vt_dangerous_perm_count,21
+bank_4,bank4,VTB,BILnet,ru_vt_malicious,0
+bank_4,bank4,VTB,BILnet,ru_vt_perm_count,63
+bank_4,bank4,VTB,BILnet,ru_vt_suspicious,0
+ecom_1,ecom1,Ozon,Amazon Shopping,delta_exported_total_ru_minus_eu,-19
+ecom_1,ecom1,Ozon,Amazon Shopping,delta_perm_local_ru_minus_eu,-35
+ecom_1,ecom1,Ozon,Amazon Shopping,eu_exported_comp_total,41
+ecom_1,ecom1,Ozon,Amazon Shopping,eu_perm_count_local,69
+ecom_1,ecom1,Ozon,Amazon Shopping,eu_vt_dangerous_perm_count,15
+ecom_1,ecom1,Ozon,Amazon Shopping,eu_vt_malicious,0
+ecom_1,ecom1,Ozon,Amazon Shopping,eu_vt_perm_count,69
+ecom_1,ecom1,Ozon,Amazon Shopping,eu_vt_suspicious,0
+ecom_1,ecom1,Ozon,Amazon Shopping,ru_exported_comp_total,22
+ecom_1,ecom1,Ozon,Amazon Shopping,ru_perm_count_local,34
+ecom_1,ecom1,Ozon,Amazon Shopping,ru_vt_dangerous_perm_count,11
+ecom_1,ecom1,Ozon,Amazon Shopping,ru_vt_malicious,0
+ecom_1,ecom1,Ozon,Amazon Shopping,ru_vt_perm_count,34
+ecom_1,ecom1,Ozon,Amazon Shopping,ru_vt_suspicious,0
+ecom_2,ecom2,Wildberries,Zalando,delta_exported_total_ru_minus_eu,4
+ecom_2,ecom2,Wildberries,Zalando,delta_perm_local_ru_minus_eu,28
+ecom_2,ecom2,Wildberries,Zalando,eu_exported_comp_total,12
+ecom_2,ecom2,Wildberries,Zalando,eu_perm_count_local,25
+ecom_2,ecom2,Wildberries,Zalando,eu_vt_dangerous_perm_count,0
+ecom_2,ecom2,Wildberries,Zalando,eu_vt_malicious,0
+ecom_2,ecom2,Wildberries,Zalando,eu_vt_perm_count,0
+ecom_2,ecom2,Wildberries,Zalando,eu_vt_suspicious,0
+ecom_2,ecom2,Wildberries,Zalando,ru_exported_comp_total,16
+ecom_2,ecom2,Wildberries,Zalando,ru_perm_count_local,53
+ecom_2,ecom2,Wildberries,Zalando,ru_vt_dangerous_perm_count,10
+ecom_2,ecom2,Wildberries,Zalando,ru_vt_malicious,0
+ecom_2,ecom2,Wildberries,Zalando,ru_vt_perm_count,53
+ecom_2,ecom2,Wildberries,Zalando,ru_vt_suspicious,0
+ecom_3,ecom3,Yandex Market,bol,delta_exported_total_ru_minus_eu,18
+ecom_3,ecom3,Yandex Market,bol,delta_perm_local_ru_minus_eu,14
+ecom_3,ecom3,Yandex Market,bol,eu_exported_comp_total,15
+ecom_3,ecom3,Yandex Market,bol,eu_perm_count_local,24
+ecom_3,ecom3,Yandex Market,bol,eu_vt_dangerous_perm_count,3
+ecom_3,ecom3,Yandex Market,bol,eu_vt_malicious,0
+ecom_3,ecom3,Yandex Market,bol,eu_vt_perm_count,24
+ecom_3,ecom3,Yandex Market,bol,eu_vt_suspicious,0
+ecom_3,ecom3,Yandex Market,bol,ru_exported_comp_total,33
+ecom_3,ecom3,Yandex Market,bol,ru_perm_count_local,38
+ecom_3,ecom3,Yandex Market,bol,ru_vt_dangerous_perm_count,12
+ecom_3,ecom3,Yandex Market,bol,ru_vt_malicious,0
+ecom_3,ecom3,Yandex Market,bol,ru_vt_perm_count,38
+ecom_3,ecom3,Yandex Market,bol,ru_vt_suspicious,0
+ecom_4,ecom4,Avito,Vinted,delta_exported_total_ru_minus_eu,11
+ecom_4,ecom4,Avito,Vinted,delta_perm_local_ru_minus_eu,26
+ecom_4,ecom4,Avito,Vinted,eu_exported_comp_total,21
+ecom_4,ecom4,Avito,Vinted,eu_perm_count_local,29
+ecom_4,ecom4,Avito,Vinted,eu_vt_dangerous_perm_count,8
+ecom_4,ecom4,Avito,Vinted,eu_vt_malicious,0
+ecom_4,ecom4,Avito,Vinted,eu_vt_perm_count,29
+ecom_4,ecom4,Avito,Vinted,eu_vt_suspicious,0
+ecom_4,ecom4,Avito,Vinted,ru_exported_comp_total,32
+ecom_4,ecom4,Avito,Vinted,ru_perm_count_local,55
+ecom_4,ecom4,Avito,Vinted,ru_vt_dangerous_perm_count,17
+ecom_4,ecom4,Avito,Vinted,ru_vt_malicious,0
+ecom_4,ecom4,Avito,Vinted,ru_vt_perm_count,55
+ecom_4,ecom4,Avito,Vinted,ru_vt_suspicious,0
+gov_eid,gov3,Gosuslugi Biometria,itsme,delta_exported_total_ru_minus_eu,-2
+gov_eid,gov3,Gosuslugi Biometria,itsme,delta_perm_local_ru_minus_eu,0
+gov_eid,gov3,Gosuslugi Biometria,itsme,eu_exported_comp_total,13
+gov_eid,gov3,Gosuslugi Biometria,itsme,eu_perm_count_local,18
+gov_eid,gov3,Gosuslugi Biometria,itsme,eu_vt_dangerous_perm_count,5
+gov_eid,gov3,Gosuslugi Biometria,itsme,eu_vt_malicious,0
+gov_eid,gov3,Gosuslugi Biometria,itsme,eu_vt_perm_count,18
+gov_eid,gov3,Gosuslugi Biometria,itsme,eu_vt_suspicious,0
+gov_eid,gov3,Gosuslugi Biometria,itsme,ru_exported_comp_total,11
+gov_eid,gov3,Gosuslugi Biometria,itsme,ru_perm_count_local,18
+gov_eid,gov3,Gosuslugi Biometria,itsme,ru_vt_dangerous_perm_count,6
+gov_eid,gov3,Gosuslugi Biometria,itsme,ru_vt_malicious,0
+gov_eid,gov3,Gosuslugi Biometria,itsme,ru_vt_perm_count,18
+gov_eid,gov3,Gosuslugi Biometria,itsme,ru_vt_suspicious,0
+gov_portal,gov1,Gosuslugi,MyGuichet.lu,delta_exported_total_ru_minus_eu,11
+gov_portal,gov1,Gosuslugi,MyGuichet.lu,delta_perm_local_ru_minus_eu,18
+gov_portal,gov1,Gosuslugi,MyGuichet.lu,eu_exported_comp_total,4
+gov_portal,gov1,Gosuslugi,MyGuichet.lu,eu_perm_count_local,17
+gov_portal,gov1,Gosuslugi,MyGuichet.lu,eu_vt_dangerous_perm_count,5
+gov_portal,gov1,Gosuslugi,MyGuichet.lu,eu_vt_malicious,0
+gov_portal,gov1,Gosuslugi,MyGuichet.lu,eu_vt_perm_count,17
+gov_portal,gov1,Gosuslugi,MyGuichet.lu,eu_vt_suspicious,0
+gov_portal,gov1,Gosuslugi,MyGuichet.lu,ru_exported_comp_total,15
+gov_portal,gov1,Gosuslugi,MyGuichet.lu,ru_perm_count_local,35
+gov_portal,gov1,Gosuslugi,MyGuichet.lu,ru_vt_dangerous_perm_count,10
+gov_portal,gov1,Gosuslugi,MyGuichet.lu,ru_vt_malicious,0
+gov_portal,gov1,Gosuslugi,MyGuichet.lu,ru_vt_perm_count,35
+gov_portal,gov1,Gosuslugi,MyGuichet.lu,ru_vt_suspicious,0
+gov_tax,gov2,Nalogi FL,impots.gouv,delta_exported_total_ru_minus_eu,4
+gov_tax,gov2,Nalogi FL,impots.gouv,delta_perm_local_ru_minus_eu,-8
+gov_tax,gov2,Nalogi FL,impots.gouv,eu_exported_comp_total,7
+gov_tax,gov2,Nalogi FL,impots.gouv,eu_perm_count_local,37
+gov_tax,gov2,Nalogi FL,impots.gouv,eu_vt_dangerous_perm_count,7
+gov_tax,gov2,Nalogi FL,impots.gouv,eu_vt_malicious,0
+gov_tax,gov2,Nalogi FL,impots.gouv,eu_vt_perm_count,37
+gov_tax,gov2,Nalogi FL,impots.gouv,eu_vt_suspicious,0
+gov_tax,gov2,Nalogi FL,impots.gouv,ru_exported_comp_total,11
+gov_tax,gov2,Nalogi FL,impots.gouv,ru_perm_count_local,29
+gov_tax,gov2,Nalogi FL,impots.gouv,ru_vt_dangerous_perm_count,8
+gov_tax,gov2,Nalogi FL,impots.gouv,ru_vt_malicious,0
+gov_tax,gov2,Nalogi FL,impots.gouv,ru_vt_perm_count,29
+gov_tax,gov2,Nalogi FL,impots.gouv,ru_vt_suspicious,0
+health,health,EMIAS.INFO,Doctena,delta_exported_total_ru_minus_eu,7
+health,health,EMIAS.INFO,Doctena,delta_perm_local_ru_minus_eu,13
+health,health,EMIAS.INFO,Doctena,eu_exported_comp_total,14
+health,health,EMIAS.INFO,Doctena,eu_perm_count_local,27
+health,health,EMIAS.INFO,Doctena,eu_vt_dangerous_perm_count,2
+health,health,EMIAS.INFO,Doctena,eu_vt_malicious,0
+health,health,EMIAS.INFO,Doctena,eu_vt_perm_count,27
+health,health,EMIAS.INFO,Doctena,eu_vt_suspicious,0
+health,health,EMIAS.INFO,Doctena,ru_exported_comp_total,21
+health,health,EMIAS.INFO,Doctena,ru_perm_count_local,40
+health,health,EMIAS.INFO,Doctena,ru_vt_dangerous_perm_count,11
+health,health,EMIAS.INFO,Doctena,ru_vt_malicious,0
+health,health,EMIAS.INFO,Doctena,ru_vt_perm_count,40
+health,health,EMIAS.INFO,Doctena,ru_vt_suspicious,0
+msg_1,msg1,MAX,WhatsApp,delta_exported_total_ru_minus_eu,-62
+msg_1,msg1,MAX,WhatsApp,delta_perm_local_ru_minus_eu,-32
+msg_1,msg1,MAX,WhatsApp,eu_exported_comp_total,68
+msg_1,msg1,MAX,WhatsApp,eu_perm_count_local,83
+msg_1,msg1,MAX,WhatsApp,eu_vt_dangerous_perm_count,27
+msg_1,msg1,MAX,WhatsApp,eu_vt_malicious,0
+msg_1,msg1,MAX,WhatsApp,eu_vt_perm_count,83
+msg_1,msg1,MAX,WhatsApp,eu_vt_suspicious,0
+msg_1,msg1,MAX,WhatsApp,ru_exported_comp_total,6
+msg_1,msg1,MAX,WhatsApp,ru_perm_count_local,51
+msg_1,msg1,MAX,WhatsApp,ru_vt_dangerous_perm_count,13
+msg_1,msg1,MAX,WhatsApp,ru_vt_malicious,0
+msg_1,msg1,MAX,WhatsApp,ru_vt_perm_count,51
+msg_1,msg1,MAX,WhatsApp,ru_vt_suspicious,0
+msg_2,msg2,Yandex Telemost,Telegram,delta_exported_total_ru_minus_eu,-13
+msg_2,msg2,Yandex Telemost,Telegram,delta_perm_local_ru_minus_eu,-42
+msg_2,msg2,Yandex Telemost,Telegram,eu_exported_comp_total,35
+msg_2,msg2,Yandex Telemost,Telegram,eu_perm_count_local,71
+msg_2,msg2,Yandex Telemost,Telegram,eu_vt_dangerous_perm_count,20
+msg_2,msg2,Yandex Telemost,Telegram,eu_vt_malicious,0
+msg_2,msg2,Yandex Telemost,Telegram,eu_vt_perm_count,71
+msg_2,msg2,Yandex Telemost,Telegram,eu_vt_suspicious,0
+msg_2,msg2,Yandex Telemost,Telegram,ru_exported_comp_total,22
+msg_2,msg2,Yandex Telemost,Telegram,ru_perm_count_local,29
+msg_2,msg2,Yandex Telemost,Telegram,ru_vt_dangerous_perm_count,11
+msg_2,msg2,Yandex Telemost,Telegram,ru_vt_malicious,0
+msg_2,msg2,Yandex Telemost,Telegram,ru_vt_perm_count,29
+msg_2,msg2,Yandex Telemost,Telegram,ru_vt_suspicious,0
+social_1,social1,VK,Facebook,delta_exported_total_ru_minus_eu,-40
+social_1,social1,VK,Facebook,delta_perm_local_ru_minus_eu,6
+social_1,social1,VK,Facebook,eu_exported_comp_total,133
+social_1,social1,VK,Facebook,eu_perm_count_local,91
+social_1,social1,VK,Facebook,eu_vt_dangerous_perm_count,18
+social_1,social1,VK,Facebook,eu_vt_malicious,0
+social_1,social1,VK,Facebook,eu_vt_perm_count,91
+social_1,social1,VK,Facebook,eu_vt_suspicious,0
+social_1,social1,VK,Facebook,ru_exported_comp_total,93
+social_1,social1,VK,Facebook,ru_perm_count_local,97
+social_1,social1,VK,Facebook,ru_vt_dangerous_perm_count,21
+social_1,social1,VK,Facebook,ru_vt_malicious,0
+social_1,social1,VK,Facebook,ru_vt_perm_count,97
+social_1,social1,VK,Facebook,ru_vt_suspicious,0
+social_2,social2,OK,X,delta_exported_total_ru_minus_eu,5
+social_2,social2,OK,X,delta_perm_local_ru_minus_eu,23
+social_2,social2,OK,X,eu_exported_comp_total,56
+social_2,social2,OK,X,eu_perm_count_local,68
+social_2,social2,OK,X,eu_vt_dangerous_perm_count,0
+social_2,social2,OK,X,eu_vt_malicious,0
+social_2,social2,OK,X,eu_vt_perm_count,0
+social_2,social2,OK,X,eu_vt_suspicious,0
+social_2,social2,OK,X,ru_exported_comp_total,61
+social_2,social2,OK,X,ru_perm_count_local,91
+social_2,social2,OK,X,ru_vt_dangerous_perm_count,22
+social_2,social2,OK,X,ru_vt_malicious,0
+social_2,social2,OK,X,ru_vt_perm_count,91
+social_2,social2,OK,X,ru_vt_suspicious,0
+transport_maps,maps,Yandex Maps,Google Maps,delta_exported_total_ru_minus_eu,-35
+transport_maps,maps,Yandex Maps,Google Maps,delta_perm_local_ru_minus_eu,11
+transport_maps,maps,Yandex Maps,Google Maps,eu_exported_comp_total,71
+transport_maps,maps,Yandex Maps,Google Maps,eu_perm_count_local,49
+transport_maps,maps,Yandex Maps,Google Maps,eu_vt_dangerous_perm_count,14
+transport_maps,maps,Yandex Maps,Google Maps,eu_vt_malicious,0
+transport_maps,maps,Yandex Maps,Google Maps,eu_vt_perm_count,49
+transport_maps,maps,Yandex Maps,Google Maps,eu_vt_suspicious,0
+transport_maps,maps,Yandex Maps,Google Maps,ru_exported_comp_total,36
+transport_maps,maps,Yandex Maps,Google Maps,ru_perm_count_local,60
+transport_maps,maps,Yandex Maps,Google Maps,ru_vt_dangerous_perm_count,18
+transport_maps,maps,Yandex Maps,Google Maps,ru_vt_malicious,0
+transport_maps,maps,Yandex Maps,Google Maps,ru_vt_perm_count,60
+transport_maps,maps,Yandex Maps,Google Maps,ru_vt_suspicious,0
+transport_rail,rail1,RZD,DB Navigator,delta_exported_total_ru_minus_eu,9
+transport_rail,rail1,RZD,DB Navigator,delta_perm_local_ru_minus_eu,43
+transport_rail,rail1,RZD,DB Navigator,eu_exported_comp_total,20
+transport_rail,rail1,RZD,DB Navigator,eu_perm_count_local,19
+transport_rail,rail1,RZD,DB Navigator,eu_vt_dangerous_perm_count,6
+transport_rail,rail1,RZD,DB Navigator,eu_vt_malicious,0
+transport_rail,rail1,RZD,DB Navigator,eu_vt_perm_count,19
+transport_rail,rail1,RZD,DB Navigator,eu_vt_suspicious,0
+transport_rail,rail1,RZD,DB Navigator,ru_exported_comp_total,29
+transport_rail,rail1,RZD,DB Navigator,ru_perm_count_local,62
+transport_rail,rail1,RZD,DB Navigator,ru_vt_dangerous_perm_count,15
+transport_rail,rail1,RZD,DB Navigator,ru_vt_malicious,0
+transport_rail,rail1,RZD,DB Navigator,ru_vt_perm_count,62
+transport_rail,rail1,RZD,DB Navigator,ru_vt_suspicious,0
+transport_rail,rail2,Yandex Trains,Mobiliteit.lu,delta_exported_total_ru_minus_eu,25
+transport_rail,rail2,Yandex Trains,Mobiliteit.lu,delta_perm_local_ru_minus_eu,12
+transport_rail,rail2,Yandex Trains,Mobiliteit.lu,eu_exported_comp_total,8
+transport_rail,rail2,Yandex Trains,Mobiliteit.lu,eu_perm_count_local,17
+transport_rail,rail2,Yandex Trains,Mobiliteit.lu,eu_vt_dangerous_perm_count,4
+transport_rail,rail2,Yandex Trains,Mobiliteit.lu,eu_vt_malicious,0
+transport_rail,rail2,Yandex Trains,Mobiliteit.lu,eu_vt_perm_count,17
+transport_rail,rail2,Yandex Trains,Mobiliteit.lu,eu_vt_suspicious,0
+transport_rail,rail2,Yandex Trains,Mobiliteit.lu,ru_exported_comp_total,33
+transport_rail,rail2,Yandex Trains,Mobiliteit.lu,ru_perm_count_local,29
+transport_rail,rail2,Yandex Trains,Mobiliteit.lu,ru_vt_dangerous_perm_count,6
+transport_rail,rail2,Yandex Trains,Mobiliteit.lu,ru_vt_malicious,0
+transport_rail,rail2,Yandex Trains,Mobiliteit.lu,ru_vt_perm_count,29
+transport_rail,rail2,Yandex Trains,Mobiliteit.lu,ru_vt_suspicious,0
+transport_taxi,taxi,Yandex Go Taxi,Bolt,delta_exported_total_ru_minus_eu,16
+transport_taxi,taxi,Yandex Go Taxi,Bolt,delta_perm_local_ru_minus_eu,24
+transport_taxi,taxi,Yandex Go Taxi,Bolt,eu_exported_comp_total,18
+transport_taxi,taxi,Yandex Go Taxi,Bolt,eu_perm_count_local,40
+transport_taxi,taxi,Yandex Go Taxi,Bolt,eu_vt_dangerous_perm_count,11
+transport_taxi,taxi,Yandex Go Taxi,Bolt,eu_vt_malicious,0
+transport_taxi,taxi,Yandex Go Taxi,Bolt,eu_vt_perm_count,40
+transport_taxi,taxi,Yandex Go Taxi,Bolt,eu_vt_suspicious,0
+transport_taxi,taxi,Yandex Go Taxi,Bolt,ru_exported_comp_total,34
+transport_taxi,taxi,Yandex Go Taxi,Bolt,ru_perm_count_local,64
+transport_taxi,taxi,Yandex Go Taxi,Bolt,ru_vt_dangerous_perm_count,13
+transport_taxi,taxi,Yandex Go Taxi,Bolt,ru_vt_malicious,0
+transport_taxi,taxi,Yandex Go Taxi,Bolt,ru_vt_perm_count,64
+transport_taxi,taxi,Yandex Go Taxi,Bolt,ru_vt_suspicious,0

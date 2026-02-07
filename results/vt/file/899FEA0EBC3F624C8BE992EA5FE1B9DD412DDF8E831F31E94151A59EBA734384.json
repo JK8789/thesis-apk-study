@@ -1,0 +1,1794 @@
+[
+  {
+    "_id": "899fea0ebc3f624c8be992ea5fe1b9dd412ddf8e831f31e94151a59eba734384",
+    "_type": "file",
+    "androguard": {
+      "Activities": [
+        "androidx.car.app.CarAppPermissionActivity",
+        "androidx.compose.ui.tooling.PreviewActivity",
+        "androidx.credentials.playservices.HiddenActivity",
+        "com.android.billingclient.api.ProxyBillingActivity",
+        "com.android.billingclient.api.ProxyBillingActivityV2",
+        "com.facebook.CustomTabActivity",
+        "com.facebook.CustomTabMainActivity",
+        "com.facebook.FacebookActivity",
+        "com.google.android.gms.ads.AdActivity",
+        "com.google.android.gms.ads.NotificationHandlerActivity",
+        "com.google.android.gms.ads.OutOfContextTestingActivity",
+        "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+        "com.google.android.gms.common.api.GoogleApiActivity",
+        "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+        "com.journeyapps.barcodescanner.CaptureActivity",
+        "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity",
+        "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance",
+        "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity",
+        "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance",
+        "com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity",
+        "com.yandex.alice.assistant.OverlayActivity",
+        "com.yandex.alice.shortcut.activities.AliceShortcutActivity",
+        "com.yandex.alice.shortcut.activities.ChatListShortcutActivity",
+        "com.yandex.alice.shortcut.activities.MessengerShortcutActivity",
+        "com.yandex.attachments.activity.ChooserActivity",
+        "com.yandex.bank.feature.webview.internal.browser.LaunchBrowserActivity",
+        "com.yandex.bank.feature.webview.internal.browser.LaunchDataBrowserActivity",
+        "com.yandex.bank.feature.webview.internal.utils.FileChooserActivity",
+        "com.yandex.imagesearch.ImageSearchActivity",
+        "com.yandex.messaging.activity.MessengerActivity",
+        "com.yandex.messaging.activity.MessengerNotificationActivity",
+        "com.yandex.messaging.activity.calls.MessengerCallActivity",
+        "com.yandex.messaging.activity.calls.MessengerCallConfirmActivity",
+        "com.yandex.messaging.activity.calls.MessengerCallFeedbackActivity",
+        "com.yandex.messaging.ui.auth.AuthorizeActivity",
+        "com.yandex.messaging.ui.auth.ProxyPassportActivity",
+        "com.yandex.messaging.ui.createpoll.CreatePollActivity",
+        "com.yandex.messaging.ui.imageviewer.ImageViewerActivity",
+        "com.yandex.messaging.ui.pollinfo.PollInfoActivity",
+        "com.yandex.messaging.ui.polloptioninfo.PollOptionInfoActivity",
+        "com.yandex.mobile.ads.common.AdActivity",
+        "com.yandex.mobile.ads.features.debugpanel.ui.IntegrationInspectorActivity",
+        "com.yandex.music.sdk.helper.ui.searchapp.PlayerActivity",
+        "com.yandex.passport.internal.flags.experiments.ExperimentsInternalTestActivity",
+        "com.yandex.passport.internal.links.LinksHandlingActivity",
+        "com.yandex.passport.internal.sloth.credentialmanager.RequestCredentialManagerActivity",
+        "com.yandex.passport.internal.sloth.credentialmanager.SaveCredentialManagerActivity",
+        "com.yandex.passport.internal.social.FbNativeSocialAuthActivity",
+        "com.yandex.passport.internal.social.GoogleNativeSocialAuthActivity",
+        "com.yandex.passport.internal.social.VkNativeSocialAuthActivity",
+        "com.yandex.passport.internal.ui.AccountNotAuthorizedActivity",
+        "com.yandex.passport.internal.ui.AutoLoginActivity",
+        "com.yandex.passport.internal.ui.SocialApplicationBindActivity",
+        "com.yandex.passport.internal.ui.SocialBindActivity",
+        "com.yandex.passport.internal.ui.YxAuthActivity",
+        "com.yandex.passport.internal.ui.account_upgrade.AccountUpgraderActivity",
+        "com.yandex.passport.internal.ui.authbytrack.AuthByTrackActivity",
+        "com.yandex.passport.internal.ui.authsdk.AuthSdkActivity",
+        "com.yandex.passport.internal.ui.authwithtrack.SendAuthToTrackActivity",
+        "com.yandex.passport.internal.ui.autologin.AutoLoginRetryActivity",
+        "com.yandex.passport.internal.ui.bouncer.BouncerActivity",
+        "com.yandex.passport.internal.ui.browser.SocialBrowserActivity",
+        "com.yandex.passport.internal.ui.browser.SocialBrowserDataActivity",
+        "com.yandex.passport.internal.ui.challenge.changecurrent.SetCurrentAccountActivity",
+        "com.yandex.passport.internal.ui.challenge.delete.DeleteForeverActivity",
+        "com.yandex.passport.internal.ui.challenge.logout.LogoutActivity",
+        "com.yandex.passport.internal.ui.challenge.logout.bottomsheet.LogoutBottomSheetActivity",
+        "com.yandex.passport.internal.ui.domik.DomikActivity",
+        "com.yandex.passport.internal.ui.router.GlobalRouterActivity",
+        "com.yandex.passport.internal.ui.router.LoginRouterActivity",
+        "com.yandex.passport.internal.ui.sloth.StandaloneSlothActivity",
+        "com.yandex.passport.internal.ui.sloth.authsdk.AuthSdkSlothActivity",
+        "com.yandex.passport.internal.ui.sloth.menu.UserMenuActivity",
+        "com.yandex.passport.internal.ui.sloth.plusdevices.ManagingPlusDevicesHelperActivity",
+        "com.yandex.passport.internal.ui.sloth.plusdevices.ManagingPlusDevicesSlothActivity",
+        "com.yandex.passport.internal.ui.sloth.webcard.WebCardSlothActivity",
+        "com.yandex.passport.internal.ui.social.gimap.MailGIMAPActivity",
+        "com.yandex.passport.internal.ui.social.mail.MailPasswordLoginActivity",
+        "com.yandex.passport.internal.ui.tv.AuthInWebViewActivity",
+        "com.yandex.passport.internal.ui.webview.WebViewActivity",
+        "com.yandex.passport.internal.util.StarterActivity",
+        "com.yandex.passport.internal.warm.WarmUpWebViewActivity",
+        "com.yandex.payment.sdk.transportcards.ui.TransportCardsActivity",
+        "com.yandex.payment.sdk.ui.SplashActivity",
+        "com.yandex.payment.sdk.ui.bind.BindCardActivity",
+        "com.yandex.payment.sdk.ui.bind.BindGooglePayActivity",
+        "com.yandex.payment.sdk.ui.challenger.SbpChallengerActivity",
+        "com.yandex.payment.sdk.ui.payment.PaymentActivity",
+        "com.yandex.payment.sdk.ui.payment.sbp.BindSbpActivity",
+        "com.yandex.payment.sdk.ui.preselect.PreselectActivity",
+        "com.yandex.plus.pay.ui.bank.web.internal.ui.PlusPayYandexBankWebActivity",
+        "com.yandex.plus.pay.ui.core.internal.bdui.BduiScenarioActivity",
+        "com.yandex.plus.pay.ui.core.internal.tarifficator.TarifficatorScenarioActivity",
+        "com.yandex.plus.paymentsdk.common.PlusSbpRedirectActivity",
+        "com.yandex.videoeditor.VideoEditorActivity",
+        "io.appmetrica.analytics.push.internal.activity.AppMetricaPushDummyActivity",
+        "io.flutter.plugins.urllauncher.WebViewActivity",
+        "ru.tankerapp.android.corp.ui.CorpAccountActivity",
+        "ru.tankerapp.android.masterpass.screens.MasterPassActivity",
+        "ru.tankerapp.android.sdk.navigator.view.activities.ActionWebActivity"
+      ],
+      "AndroguardVersion": "4.1.2",
+      "AndroidApplication": 1,
+      "AndroidApplicationError": false,
+      "AndroidApplicationInfo": "APK",
+      "AndroidVersionCode": "738798720",
+      "AndroidVersionName": "27.0.2",
+      "Libraries": [
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+        "org.apache.http.legacy"
+      ],
+      "MinSdkVersion": "26",
+      "Package": "ru.yandex.yandexmaps",
+      "Providers": [
+        "androidx.car.app.connection.provider",
+        "androidx.core.content.FileProvider",
+        "androidx.startup.InitializationProvider",
+        "com.squareup.picasso.PicassoProvider",
+        "com.yandex.attachments.chooser.ChooserFileProvider",
+        "com.yandex.bank.feature.pdf.api.FileProviderYandexBank",
+        "com.yandex.messaging.MessagingFileProvider",
+        "com.yandex.messaging.files.SharingFileProvider",
+        "com.yandex.mobile.ads.core.initializer.MobileAdsInitializeProvider",
+        "com.yandex.mobile.ads.features.debugpanel.data.local.DebugPanelFileProvider",
+        "com.yandex.music.sdk.helper.foreground.core.ForegroundProvider",
+        "com.yandex.music.sdk.helper.images.ImageProvider",
+        "com.yandex.music.sdk.provider.InternalProvider",
+        "com.yandex.music.shared.utils.file.SharedFileProvider",
+        "com.yandex.navikit_platform.guidance.service.GuidanceBoundContentProvider",
+        "com.yandex.passport.internal.authsdk.AuthSdkProvider",
+        "com.yandex.passport.internal.core.sync.SyncProvider",
+        "com.yandex.passport.internal.provider.InternalProvider",
+        "com.yandex.passport.internal.sso.SsoContentProvider",
+        "com.yandex.plus.core.data.provider.PlusSdkFileProvider",
+        "com.yandex.plus.home.common.PlusContentProvider",
+        "com.yandex.preinstallsatellite.appmetrica.AppMetricaContentProvider",
+        "dev.fluttercommunity.plus.share.ShareFileProvider",
+        "io.appmetrica.analytics.internal.PreloadInfoContentProvider",
+        "ru.yandex.searchplugin.dialog.AliceFileProvider",
+        "ru.yandex.yandexmaps.care.CareFileProvider",
+        "ru.yandex.yandexmaps.gallery.internal.GalleryFileProvider"
+      ],
+      "Receivers": [
+        "androidx.car.app.notification.CarAppNotificationBroadcastReceiver",
+        "androidx.profileinstaller.ProfileInstallReceiver",
+        "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+        "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+        "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+        "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+        "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+        "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+        "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+        "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+        "com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver",
+        "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver",
+        "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+        "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+        "com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver",
+        "com.yandex.alice.reminders.notifications.RemindersBroadcastReceiver",
+        "com.yandex.alice.reminders.sync.timer.RemindersSynchronizationBroadcastReceiver",
+        "com.yandex.alice.shortcut.AlicengerShortcutsResultReceiver",
+        "com.yandex.messaging.internal.authorized.chat.notifications.autocancel.CancelNotificationBroadcastReceiver",
+        "com.yandex.passport.internal.core.announcing.AccountsChangedReceiver",
+        "com.yandex.passport.internal.core.announcing.PackageRemovedReceiver",
+        "com.yandex.passport.internal.push.NotificationDismissedReceiver",
+        "com.yandex.passport.internal.smsretriever.SmsRetrieverReceiver",
+        "com.yandex.passport.internal.sso.announcing.SsoAnnouncingReceiver",
+        "dev.fluttercommunity.plus.share.SharePlusPendingIntent",
+        "io.appmetrica.analytics.push.internal.receiver.AppMetricaPushBroadcastReceiver",
+        "io.appmetrica.analytics.push.internal.receiver.AppMetricaPushNotificationStatusChangeHandler",
+        "io.appmetrica.analytics.push.internal.receiver.TtlBroadcastReceiver",
+        "ru.yandex.yandexmaps.common.utils.ShareBroadcastReceiver",
+        "ru.yandex.yandexmaps.integrations.geofencing.GeofencesBroadcastReceiver",
+        "ru.yandex.yandexmaps.offlinecache.downloads.DownloadNotificationsClickReceiver",
+        "ru.yandex.yandexmaps.push.DeletePushNotificationReceiver",
+        "ru.yandex.yandexmaps.push.silent.SilentMetricaPushReceiver",
+        "ru.yandex.yandexmaps.services.discoveryflow.LocalNotificationReceiver",
+        "ru.yandex.yandexmaps.widget.traffic.internal.TrafficWidget2x1Provider",
+        "ru.yandex.yandexmaps.widget.traffic.internal.TrafficWidget2x2Provider",
+        "ru.yandex.yandexmaps.widget.traffic.internal.TrafficWidget3x1Provider",
+        "ru.yandex.yandexmaps.widget.traffic.internal.TrafficWidget3x2Provider",
+        "ru.yandex.yandexmaps.widget.traffic.internal.TrafficWidget5x1Provider",
+        "ru.yandex.yandexmaps.widget.traffic.internal.TrafficWidget5x2Provider"
+      ],
+      "RiskIndicator": {
+        "PERM": {
+          "APPOP": 2,
+          "DANGEROUS": 12,
+          "GPS": 2,
+          "INSTANT": 11,
+          "INTERNET": 1,
+          "NORMAL": 20,
+          "PRE23": 1,
+          "PREINSTALLED": 1,
+          "PRIVACY": 7,
+          "PRIVILEGED": 1,
+          "ROLE": 1,
+          "SIGNATURE": 2
+        }
+      },
+      "Services": [
+        "androidx.camera.core.impl.MetadataHolderService",
+        "androidx.car.app.CarAppMetadataHolderService",
+        "androidx.credentials.playservices.CredentialProviderMetadataHolder",
+        "androidx.room.MultiInstanceInvalidationService",
+        "androidx.work.impl.background.systemalarm.SystemAlarmService",
+        "androidx.work.impl.background.systemjob.SystemJobService",
+        "androidx.work.impl.foreground.SystemForegroundService",
+        "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+        "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+        "com.google.android.gms.ads.AdService",
+        "com.google.android.gms.auth.api.signin.RevocationBoundService",
+        "com.google.android.gms.metadata.ModuleDependencies",
+        "com.google.firebase.components.ComponentDiscoveryService",
+        "com.google.firebase.messaging.FirebaseMessagingService",
+        "com.yandex.alice.reminders.notifications.RemindersService",
+        "com.yandex.alice.reminders.sync.RemindersEventJob",
+        "com.yandex.alice.reminders.sync.RemindersSynchronizationService",
+        "com.yandex.messaging.NotificationActionService",
+        "com.yandex.messaging.calls.MessengerCallService",
+        "com.yandex.music.sdk.engine.backend.MusicSdkService",
+        "com.yandex.music.sdk.helper.foreground.core.MusicForegroundService",
+        "com.yandex.music.sdk.helper.foreground.mediasession.MediaSessionService",
+        "com.yandex.music.shared.downloading.api.service.DownloadService",
+        "com.yandex.navikit_platform.guidance.service.GuidanceService",
+        "com.yandex.passport.internal.core.auth.AuthenticationService",
+        "com.yandex.passport.internal.core.sync.SyncService",
+        "com.yandex.passport.internal.flags.experiments.FetchExperimentsService",
+        "com.yandex.passport.internal.provider.communication.HostCommunicationService",
+        "com.yandex.passport.internal.push.PassportPushRegistrationService",
+        "com.yandex.passport.internal.ui.sloth.menu.host.UserIdCommunicationService",
+        "com.yandex.runtime.connectivity.internal.ConnectivityService",
+        "io.appmetrica.analytics.internal.AppMetricaService",
+        "io.appmetrica.analytics.push.internal.service.PushJobService",
+        "io.appmetrica.analytics.push.internal.service.PushService",
+        "io.appmetrica.analytics.push.provider.firebase.AppMetricaMessagingService",
+        "ru.yandex.yandexmaps.mirrors.internal.MirrorsDrivingService",
+        "ru.yandex.yandexmaps.multiplatform.location.sharing.foreground.service.android.internal.androidservice.ForegroundAndroidService",
+        "ru.yandex.yandexmaps.multiplatform.parking.payment.android.internal.app.ParkingSessionForegroundService",
+        "ru.yandex.yandexmaps.photo_upload.PhotoUploadService",
+        "ru.yandex.yandexmaps.push.FcmListenerRouterService",
+        "ru.yandex.yandexmaps.video.uploader.internal.VideoUploadService",
+        "ru.yandex.yandexnavi.projected.platformkit.presentation.service.NavigationCarAppService"
+      ],
+      "StringsInformation": [
+        "http://ns.adobe.com/xap/1.0/\u0000",
+        "http://schemas.android.com/apk/res/android",
+        "http://www.w3.org/1999/xlink",
+        "http://www.w3.org/2000/svg",
+        "http://www.w3.org/TR/SVG11/feature#",
+        "http://xml.org/sax/features/external-general-entities",
+        "http://xml.org/sax/features/external-parameter-entities",
+        "http://xml.org/sax/properties/lexical-handler",
+        "http://xmlpull.org/v1/doc/features.html#process-docdecl",
+        "http://xmlpull.org/v1/doc/features.html#process-namespaces",
+        "https://%s/#/join/%s",
+        "https://%s/#/join/%s/%d",
+        "https://%s/chat/#/c/%s",
+        "https://%s/chat/#/c/%s/%d",
+        "https://%s/chat/#/join/%s",
+        "https://%s/chat/#/join/%s/%d",
+        "https://%sadrevenue.%s/api/v2/generic/v6.16.2/android?app_id=",
+        "https://%sapp.%s",
+        "https://%sars.%s/api/v2/android/validate_subscription?app_id=",
+        "https://%sars.%s/api/v2/android/validate_subscription_v2?app_id=",
+        "https://%sattr.%s/api/v",
+        "https://%scdn-%ssettings.%s/android/v1/%s/settings",
+        "https://%scdn-%stestsettings.%s/android/v1/%s/settings",
+        "https://%sconversions.%s/api/v",
+        "https://%sdlsdk.%s/v1.0/android/",
+        "https://%sgcdsdk.%s/install_data/v5.0/",
+        "https://%simpression.%s",
+        "https://%sinapps.%s/api/v",
+        "https://%slaunches.%s/api/v",
+        "https://%smonitorsdk.%s/api/remote-debug/v2.0?app_id=",
+        "https://%smonitorsdk.%s/remote-debug/exception-manager",
+        "https://%sonelink.%s/shortlink-sdk/v2",
+        "https://%spia.%s/api/v1.0/pia-android-event?app_id=",
+        "https://%sregister.%s/api/v",
+        "https://%ssdk-services.%s/validate-android-signature",
+        "https://%svalidate-and-log.%s/api/v1.0/android/validateAndLog?app_id=",
+        "https://%svalidate.%s/api/v",
+        "https://%sviap.%s/api/v1/android/validate_purchase?app_id=",
+        "https://%sviap.%s/api/v1/android/validate_purchase_v2?app_id=",
+        "https://.facebook.com",
+        "https://facebook.com",
+        "https://facebook.com/device?user_code=%1$s\u0026qr=1",
+        "https://graph-video.%s",
+        "https://graph.%s",
+        "https://issuetracker.google.com/issues/new?component=413107\u0026template=1096568",
+        "https://passport-test.yandex-team.ru",
+        "https://passport-test.yandex.ru",
+        "https://passport.yandex-team.ru",
+        "https://passport.yandex.ru",
+        "https://pay-test.mail.yandex.ru/transaction/%s",
+        "https://pay.yandex.ru/transaction/%s",
+        "https://privacy-sandbox.appsflyersdk.com/api/trigger"
+      ],
+      "TargetSdkVersion": "35",
+      "VTAndroidInfo": 2.0,
+      "certificate": {
+        "Issuer": {
+          "C": "RU",
+          "CN": "OOO Yandex",
+          "DN": "C:RU, CN:OOO Yandex, L:Moscow, O:OOO Yandex, ST:Moscow, OU:Mobile Development",
+          "L": "Moscow",
+          "O": "OOO Yandex",
+          "OU": "Mobile Development",
+          "ST": "Moscow"
+        },
+        "Subject": {
+          "C": "RU",
+          "CN": "OOO Yandex",
+          "DN": "C:RU, CN:OOO Yandex, L:Moscow, O:OOO Yandex, ST:Moscow, OU:Mobile Development",
+          "L": "Moscow",
+          "O": "OOO Yandex",
+          "OU": "Mobile Development",
+          "ST": "Moscow"
+        },
+        "serialnumber": "4af98700",
+        "thumbprint": "5d224274d9377c35da777ad934c65c8cca6e7a20",
+        "validfrom": "2009-11-10 15:30:08",
+        "validto": "2050-12-05 15:30:08"
+      },
+      "intent_filters": {
+        "Activities": {
+          "com.facebook.CustomTabActivity": {
+            "action": [
+              "android.intent.action.VIEW"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ]
+          },
+          "com.yandex.alice.shortcut.activities.AliceShortcutActivity": {
+            "action": [
+              "android.intent.action.CREATE_SHORTCUT"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.yandex.alice.shortcut.activities.ChatListShortcutActivity": {
+            "action": [
+              "android.intent.action.CREATE_SHORTCUT"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.yandex.alice.shortcut.activities.MessengerShortcutActivity": {
+            "action": [
+              "android.intent.action.CREATE_SHORTCUT"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.yandex.bank.feature.webview.internal.browser.LaunchDataBrowserActivity": {
+            "action": [
+              "android.intent.action.VIEW"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ]
+          },
+          "com.yandex.messaging.activity.MessengerNotificationActivity": {
+            "action": [
+              "com.yandex.messenger.Chat.NOTIFICATION_CLICK"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.yandex.passport.internal.social.FbNativeSocialAuthActivity": {
+            "action": [
+              "com.yandex.passport.action.NATIVE_SOCIAL_FACEBOOK_AUTH"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.yandex.passport.internal.social.GoogleNativeSocialAuthActivity": {
+            "action": [
+              "com.yandex.passport.action.NATIVE_SOCIAL_GOOGLE_AUTH",
+              "com.yandex.passport.action.NATIVE_MAILISH_GOOGLE_AUTH"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.yandex.passport.internal.social.VkNativeSocialAuthActivity": {
+            "action": [
+              "com.yandex.passport.action.NATIVE_SOCIAL_VKONTAKTE_AUTH"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.yandex.passport.internal.ui.YxAuthActivity": {
+            "action": [
+              "android.intent.action.VIEW"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ]
+          },
+          "com.yandex.passport.internal.ui.authwithtrack.SendAuthToTrackActivity": {
+            "action": [
+              "com.yandex.passport.action.SEND_AUTH_TO_TRACK"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.yandex.passport.internal.ui.browser.SocialBrowserDataActivity": {
+            "action": [
+              "android.intent.action.VIEW"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ]
+          },
+          "com.yandex.passport.internal.ui.router.LoginRouterActivity": {
+            "action": [
+              "com.yandex.intent.ADD_ACCOUNT",
+              "com.yandex.passport.ACTION_SYSTEM_ADD_ACCOUNT"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.yandex.passport.internal.ui.sloth.webcard.WebCardSlothActivity": {
+            "action": [
+              "com.yandex.passport.action.DISPLAY_CODE"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.yandex.plus.paymentsdk.common.PlusSbpRedirectActivity": {
+            "action": [
+              "android.intent.action.VIEW"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ]
+          },
+          "io.appmetrica.analytics.push.internal.activity.AppMetricaPushDummyActivity": {
+            "action": [
+              "io.appmetrica.analytics.push.action.NOTIFICATION_ACTION"
+            ]
+          },
+          "ru.yandex.speechkit.gui.RecognizerActivity": {
+            "action": [
+              "ru.yandex.speechkit.action.voice_recognition"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "ru.yandex.yandexmaps.app.MapActivity": {
+            "action": [
+              "ru.yandex.yandexmaps.action.BUILD_ROUTE_ON_MAP",
+              "ru.yandex.yandexmaps.action.SHOW_POINT_ON_MAP",
+              "ru.yandex.yandexmaps.action.SEARCH_ON_MAP",
+              "android.intent.action.SEARCH",
+              "ru.yandex.yandexmaps.action.ASK_POINT_TO_SEND",
+              "ru.yandex.yandexmaps.action.ROUTE_TO_HOME_SHORTCUT",
+              "ru.yandex.yandexmaps.action.ROUTE_TO_WORK_SHORTCUT",
+              "ru.yandex.yandexmaps.action.ROUTE_TO_GAS_STATIONS_ORDER_CARD",
+              "android.intent.action.VIEW"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ]
+          },
+          "ru.yandex.yandexmaps.launch.LaunchActivity": {
+            "action": [
+              "android.intent.action.VIEW",
+              "com.yandex.passport.ACTION_LOGIN_RESULT"
+            ],
+            "category": [
+              "android.intent.category.BROWSABLE",
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "ru.yandex.yandexmaps.panorama.activity.api.PanoramaActivity": {
+            "action": [
+              "ru.yandex.yandexmaps.action.SHOW_STREET_VIEW"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "ru.yandex.yandexmaps.widget.traffic.internal.configuration.TrafficWidgetConfigurationActivity": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_CONFIGURE"
+            ]
+          }
+        },
+        "Receivers": {
+          "androidx.profileinstaller.ProfileInstallReceiver": {
+            "action": [
+              "androidx.profileinstaller.action.INSTALL_PROFILE",
+              "androidx.profileinstaller.action.SKIP_FILE",
+              "androidx.profileinstaller.action.SAVE_PROFILE",
+              "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+            ]
+          },
+          "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy": {
+            "action": [
+              "android.intent.action.ACTION_POWER_CONNECTED",
+              "android.intent.action.ACTION_POWER_DISCONNECTED"
+            ]
+          },
+          "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy": {
+            "action": [
+              "android.intent.action.BATTERY_OKAY",
+              "android.intent.action.BATTERY_LOW"
+            ]
+          },
+          "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy": {
+            "action": [
+              "android.net.conn.CONNECTIVITY_CHANGE"
+            ]
+          },
+          "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy": {
+            "action": [
+              "android.intent.action.DEVICE_STORAGE_LOW",
+              "android.intent.action.DEVICE_STORAGE_OK"
+            ]
+          },
+          "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver": {
+            "action": [
+              "androidx.work.impl.background.systemalarm.UpdateProxies"
+            ]
+          },
+          "androidx.work.impl.background.systemalarm.RescheduleReceiver": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED",
+              "android.intent.action.TIME_SET",
+              "android.intent.action.TIMEZONE_CHANGED"
+            ]
+          },
+          "androidx.work.impl.diagnostics.DiagnosticsReceiver": {
+            "action": [
+              "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+            ]
+          },
+          "com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver": {
+            "action": [
+              "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+            ]
+          },
+          "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver": {
+            "action": [
+              "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+            ]
+          },
+          "com.google.firebase.iid.FirebaseInstanceIdReceiver": {
+            "action": [
+              "com.google.android.c2dm.intent.RECEIVE"
+            ]
+          },
+          "com.yandex.alice.reminders.notifications.RemindersBroadcastReceiver": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED",
+              "android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED"
+            ]
+          },
+          "com.yandex.alice.shortcut.AlicengerShortcutsResultReceiver": {
+            "action": [
+              "com.android.launcher.action.INSTALL_SHORTCUT"
+            ]
+          },
+          "com.yandex.passport.internal.core.announcing.AccountsChangedReceiver": {
+            "action": [
+              "android.accounts.LOGIN_ACCOUNTS_CHANGED",
+              "com.yandex.accounts.LOGIN_ACCOUNTS_CHANGED"
+            ]
+          },
+          "com.yandex.passport.internal.core.announcing.PackageRemovedReceiver": {
+            "action": [
+              "android.intent.action.PACKAGE_FULLY_REMOVED"
+            ]
+          },
+          "com.yandex.passport.internal.push.NotificationDismissedReceiver": {
+            "action": [
+              "com.yandex.passport.NOTIFICATION_DISMISS"
+            ]
+          },
+          "com.yandex.passport.internal.smsretriever.SmsRetrieverReceiver": {
+            "action": [
+              "com.google.android.gms.auth.api.phone.SMS_RETRIEVED"
+            ]
+          },
+          "com.yandex.passport.internal.sso.announcing.SsoAnnouncingReceiver": {
+            "action": [
+              "com.yandex.passport.ACTION_SSO_ANNOUNCEMENT"
+            ]
+          },
+          "dev.fluttercommunity.plus.share.SharePlusPendingIntent": {
+            "action": [
+              "EXTRA_CHOSEN_COMPONENT"
+            ]
+          },
+          "io.appmetrica.analytics.push.internal.receiver.AppMetricaPushBroadcastReceiver": {
+            "action": [
+              "io.appmetrica.analytics.push.action.NOTIFICATION_ACTION"
+            ]
+          },
+          "io.appmetrica.analytics.push.internal.receiver.AppMetricaPushNotificationStatusChangeHandler": {
+            "action": [
+              "android.app.action.APP_BLOCK_STATE_CHANGED",
+              "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED",
+              "android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED"
+            ]
+          },
+          "io.appmetrica.analytics.push.internal.receiver.TtlBroadcastReceiver": {
+            "action": [
+              "io.appmetrica.analytics.push.action.EXPIRED_BY_TTL_ACTION"
+            ]
+          },
+          "ru.yandex.yandexmaps.push.silent.SilentMetricaPushReceiver": {
+            "action": [
+              "ru.yandex.yandexmaps.action.ymp.SILENT_PUSH_RECEIVE"
+            ]
+          },
+          "ru.yandex.yandexmaps.widget.traffic.internal.TrafficWidget2x1Provider": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ]
+          },
+          "ru.yandex.yandexmaps.widget.traffic.internal.TrafficWidget2x2Provider": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ]
+          },
+          "ru.yandex.yandexmaps.widget.traffic.internal.TrafficWidget3x1Provider": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ]
+          },
+          "ru.yandex.yandexmaps.widget.traffic.internal.TrafficWidget3x2Provider": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ]
+          },
+          "ru.yandex.yandexmaps.widget.traffic.internal.TrafficWidget5x1Provider": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ]
+          },
+          "ru.yandex.yandexmaps.widget.traffic.internal.TrafficWidget5x2Provider": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ]
+          }
+        },
+        "Services": {
+          "com.google.android.gms.metadata.ModuleDependencies": {
+            "action": [
+              "com.google.android.gms.metadata.MODULE_DEPENDENCIES"
+            ]
+          },
+          "com.google.firebase.messaging.FirebaseMessagingService": {
+            "action": [
+              "com.google.firebase.MESSAGING_EVENT"
+            ]
+          },
+          "com.yandex.messaging.NotificationActionService": {
+            "action": [
+              "com.yandex.messenger.Chat.MARK_AS_READ",
+              "com.yandex.messenger.Chat.DISMISS",
+              "com.yandex.messenger.ChatSummary.DISMISS"
+            ]
+          },
+          "com.yandex.music.sdk.helper.foreground.mediasession.MediaSessionService": {
+            "action": [
+              "com.yandex.music.sdk.foreground.action.PLAY",
+              "com.yandex.music.sdk.foreground.action.PAUSE",
+              "com.yandex.music.sdk.foreground.action.SKIP",
+              "com.yandex.music.sdk.foreground.action.REWIND",
+              "com.yandex.music.sdk.foreground.action.STOP"
+            ]
+          },
+          "com.yandex.passport.internal.core.auth.AuthenticationService": {
+            "action": [
+              "android.accounts.AccountAuthenticator",
+              "com.yandex.accounts.AccountAuthenticator"
+            ]
+          },
+          "com.yandex.passport.internal.core.sync.SyncService": {
+            "action": [
+              "android.content.SyncAdapter"
+            ]
+          },
+          "io.appmetrica.analytics.internal.AppMetricaService": {
+            "action": [
+              "io.appmetrica.analytics.IAppMetricaService"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "io.appmetrica.analytics.push.provider.firebase.AppMetricaMessagingService": {
+            "action": [
+              "com.google.firebase.MESSAGING_EVENT"
+            ]
+          },
+          "ru.yandex.yandexmaps.push.FcmListenerRouterService": {
+            "action": [
+              "com.google.firebase.MESSAGING_EVENT"
+            ]
+          },
+          "ru.yandex.yandexnavi.projected.platformkit.presentation.service.NavigationCarAppService": {
+            "action": [
+              "androidx.car.app.CarAppService",
+              "ACTION_ROUTE_VARIANTS_SCREEN"
+            ],
+            "category": [
+              "androidx.car.app.category.NAVIGATION",
+              "androidx.car.app.category.FEATURE_CLUSTER"
+            ]
+          }
+        }
+      },
+      "main_activity": "ru.yandex.yandexmaps.SplashScreen",
+      "permission_details": {
+        "android.permission.ACCESS_ADSERVICES_AD_ID": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "android.permission.ACCESS_ADSERVICES_ATTRIBUTION": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "android.permission.ACCESS_ADSERVICES_TOPICS": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "android.permission.ACCESS_BACKGROUND_LOCATION": {
+          "full_description": "This app can access location at any time, even while the app is not in use.",
+          "permission_type": "dangerous|instant",
+          "short_description": "access location in the background"
+        },
+        "android.permission.ACCESS_COARSE_LOCATION": {
+          "full_description": "This app can get your approximate location from location services while the app is in use. Location services for your device must be turned on for the app to get location.",
+          "permission_type": "dangerous|instant",
+          "short_description": "access approximate location only in the foreground"
+        },
+        "android.permission.ACCESS_FINE_LOCATION": {
+          "full_description": "This app can get your precise location from location services while the app is in use. Location services for your device must be turned on for the app to get location. This may increase battery usage.",
+          "permission_type": "dangerous|instant",
+          "short_description": "access precise location only in the foreground"
+        },
+        "android.permission.ACCESS_MEDIA_LOCATION": {
+          "full_description": "Allows the app to read locations from your media collection.",
+          "permission_type": "dangerous",
+          "short_description": "read locations from your media collection"
+        },
+        "android.permission.ACCESS_NETWORK_STATE": {
+          "full_description": "Allows the app to view\n      information about network connections such as which networks exist and are\n      connected.",
+          "permission_type": "normal|instant",
+          "short_description": "view network connections"
+        },
+        "android.permission.ACCESS_WIFI_STATE": {
+          "full_description": "Allows the app to view information\n      about Wi-Fi networking, such as whether Wi-Fi is enabled and name of\n      connected Wi-Fi devices.",
+          "permission_type": "normal",
+          "short_description": "view Wi-Fi connections"
+        },
+        "android.permission.ACTIVITY_RECOGNITION": {
+          "full_description": "This app can recognize your physical activity.",
+          "permission_type": "dangerous|instant",
+          "short_description": "recognize physical activity"
+        },
+        "android.permission.AUTHENTICATE_ACCOUNTS": {
+          "full_description": "",
+          "permission_type": "normal",
+          "short_description": ""
+        },
+        "android.permission.BLUETOOTH": {
+          "full_description": "Allows the app to view the\n      configuration of the Bluetooth on the phone, and to make and accept\n      connections with paired devices.",
+          "permission_type": "normal",
+          "short_description": "pair with Bluetooth devices"
+        },
+        "android.permission.BLUETOOTH_ADMIN": {
+          "full_description": "Allows the app to configure\n      the local Bluetooth phone, and to discover and pair with remote devices.",
+          "permission_type": "normal",
+          "short_description": "access Bluetooth settings"
+        },
+        "android.permission.BLUETOOTH_ADVERTISE": {
+          "full_description": "Allows the app to advertise to nearby Bluetooth devices",
+          "permission_type": "dangerous",
+          "short_description": "advertise to nearby Bluetooth devices"
+        },
+        "android.permission.BLUETOOTH_CONNECT": {
+          "full_description": "Allows the app to connect to paired Bluetooth devices",
+          "permission_type": "dangerous",
+          "short_description": "connect to paired Bluetooth devices"
+        },
+        "android.permission.BLUETOOTH_SCAN": {
+          "full_description": "Allows the app to discover and pair nearby Bluetooth devices",
+          "permission_type": "dangerous",
+          "short_description": "discover and pair nearby Bluetooth devices"
+        },
+        "android.permission.CAMERA": {
+          "full_description": "This app can take pictures and record videos using the camera while the app is in use.",
+          "permission_type": "dangerous|instant",
+          "short_description": "take pictures and videos"
+        },
+        "android.permission.CHANGE_WIFI_STATE": {
+          "full_description": "Allows the app to connect to and\n      disconnect from Wi-Fi access points and to make changes to device\n      configuration for Wi-Fi networks.",
+          "permission_type": "normal",
+          "short_description": "connect and disconnect from Wi-Fi"
+        },
+        "android.permission.DETECT_SCREEN_CAPTURE": {
+          "full_description": "This app will get notified when a screenshot is taken while the app is in use.",
+          "permission_type": "normal",
+          "short_description": "detect screen captures of app windows"
+        },
+        "android.permission.FOREGROUND_SERVICE": {
+          "full_description": "Allows the app to make use of foreground services.",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service"
+        },
+        "android.permission.FOREGROUND_SERVICE_CAMERA": {
+          "full_description": "Allows the app to make use of foreground services with the type camera",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service with the type camera"
+        },
+        "android.permission.FOREGROUND_SERVICE_DATA_SYNC": {
+          "full_description": "Allows the app to make use of foreground services with the type dataSync",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service with the type dataSync"
+        },
+        "android.permission.FOREGROUND_SERVICE_LOCATION": {
+          "full_description": "Allows the app to make use of foreground services with the type location",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service with the type location"
+        },
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK": {
+          "full_description": "Allows the app to make use of foreground services with the type mediaPlayback",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service with the type mediaPlayback"
+        },
+        "android.permission.GET_ACCOUNTS": {
+          "full_description": "Allows the app to get\n      the list of accounts known by the phone.  This may include any accounts\n      created by applications you have installed.",
+          "permission_type": "dangerous",
+          "short_description": "find accounts on the device"
+        },
+        "android.permission.INTERNET": {
+          "full_description": "Allows the app to create\n     network sockets and use custom network protocols. The browser and other\n     applications provide means to send data to the internet, so this\n     permission is not required to send data to the internet.",
+          "permission_type": "normal|instant",
+          "short_description": "have full network access"
+        },
+        "android.permission.MANAGE_ACCOUNTS": {
+          "full_description": "",
+          "permission_type": "normal",
+          "short_description": ""
+        },
+        "android.permission.NFC": {
+          "full_description": "Allows the app to communicate\n      with Near Field Communication (NFC) tags, cards, and readers.",
+          "permission_type": "normal",
+          "short_description": "control Near Field Communication"
+        },
+        "android.permission.POST_NOTIFICATIONS": {
+          "full_description": "Allows the app to show notifications",
+          "permission_type": "dangerous|instant",
+          "short_description": "show notifications"
+        },
+        "android.permission.READ_CONTACTS": {
+          "full_description": "Allows the app to read data about your contacts stored on your phone.\n      Apps will also have access to the accounts on your phone that have created contacts.\n      This may include accounts created by apps you have installed.\n      This permission allows apps to save your contact data, and malicious apps may share contact data without your knowledge.",
+          "permission_type": "dangerous",
+          "short_description": "read your contacts"
+        },
+        "android.permission.READ_EXTERNAL_STORAGE": {
+          "full_description": "Allows the app to read the contents of your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "read the contents of your shared storage"
+        },
+        "android.permission.READ_MEDIA_IMAGES": {
+          "full_description": "Allows the app to read image files from your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "read image files from shared storage"
+        },
+        "android.permission.READ_MEDIA_VIDEO": {
+          "full_description": "Allows the app to read video files from your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "read video files from shared storage"
+        },
+        "android.permission.READ_MEDIA_VISUAL_USER_SELECTED": {
+          "full_description": "Allows the app to read image and video files that you select from your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "read user selected image and video files from shared storage"
+        },
+        "android.permission.RECEIVE_BOOT_COMPLETED": {
+          "full_description": "Allows the app to\n        have itself started as soon as the system has finished booting.\n        This can make it take longer to start the phone and allow the\n        app to slow down the overall phone by always running.",
+          "permission_type": "normal",
+          "short_description": "run at startup"
+        },
+        "android.permission.RECORD_AUDIO": {
+          "full_description": "This app can record audio using the microphone while the app is in use.",
+          "permission_type": "dangerous|instant",
+          "short_description": "record audio"
+        },
+        "android.permission.SCHEDULE_EXACT_ALARM": {
+          "full_description": "This app can schedule work to happen at a desired time in the future. This also means that the app can run when youu2019re not actively using the device.",
+          "permission_type": "signature|privileged|appop",
+          "short_description": "Schedule precisely timed actions"
+        },
+        "android.permission.USE_BIOMETRIC": {
+          "full_description": "Allows the app to use biometric hardware for authentication",
+          "permission_type": "normal",
+          "short_description": "use biometric hardware"
+        },
+        "android.permission.USE_CREDENTIALS": {
+          "full_description": "",
+          "permission_type": "normal",
+          "short_description": ""
+        },
+        "android.permission.USE_FINGERPRINT": {
+          "full_description": "Allows the app to use fingerprint hardware for authentication",
+          "permission_type": "normal",
+          "short_description": "use fingerprint hardware"
+        },
+        "android.permission.VIBRATE": {
+          "full_description": "Allows the app to control the vibrator.",
+          "permission_type": "normal|instant",
+          "short_description": "control vibration"
+        },
+        "android.permission.WAKE_LOCK": {
+          "full_description": "Allows the app to prevent the phone from going to sleep.",
+          "permission_type": "normal|instant",
+          "short_description": "prevent phone from sleeping"
+        },
+        "android.permission.WRITE_EXTERNAL_STORAGE": {
+          "full_description": "Allows the app to write the contents of your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "modify or delete the contents of your shared storage"
+        },
+        "android.permission.WRITE_SETTINGS": {
+          "full_description": "Allows the app to modify the\n        system's settings data. Malicious apps may corrupt your system's\n        configuration.",
+          "permission_type": "signature|preinstalled|appop|pre23|role",
+          "short_description": "modify system settings"
+        },
+        "androidx.car.app.ACCESS_SURFACE": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "androidx.car.app.NAVIGATION_TEMPLATES": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.android.launcher.permission.INSTALL_SHORTCUT": {
+          "full_description": "Allows an application to add\n        Homescreen shortcuts without user intervention.",
+          "permission_type": "normal",
+          "short_description": "install shortcuts"
+        },
+        "com.android.vending.BILLING": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.c2dm.permission.RECEIVE": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.gms.permission.ACTIVITY_RECOGNITION": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.gms.permission.AD_ID": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.gms.permission.CAR_SPEED": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.gms.permission.CAR_VENDOR_EXTENSION": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.samsung.android.mapsagent.permission.READ_APP_INFO": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.yandex.alice.icon.permission.READ_STATE": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.yandex.permission.AM_COMMUNICATION": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.yandex.permission.READ_CREDENTIALS": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "signature",
+          "short_description": "Unknown permission from android reference"
+        },
+        "ru.yandex.yandexmaps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "signature",
+          "short_description": "Unknown permission from android reference"
+        }
+      }
+    },
+    "bundle_info": {
+      "extensions": {
+        "JsonFactory": 1,
+        "MF": 1,
+        "Z": 1,
+        "b3": 1,
+        "bin": 3,
+        "c": 2,
+        "c2": 1,
+        "css": 1,
+        "d0": 1,
+        "f": 1,
+        "f0": 1,
+        "frag": 1,
+        "g2": 1,
+        "gif": 2,
+        "glb": 1,
+        "html": 1,
+        "json": 16,
+        "kotlin_module": 32,
+        "md": 1,
+        "o": 1,
+        "otf": 1,
+        "pem": 624,
+        "png": 26,
+        "prof": 1,
+        "profm": 1,
+        "properties": 1,
+        "svg": 128,
+        "textproto": 1,
+        "ttf": 6,
+        "txt": 5,
+        "version": 131,
+        "xml": 1
+      },
+      "file_types": {
+        "GIF": 2,
+        "JSON": 3,
+        "Java Bytecode": 1,
+        "PNG": 26,
+        "XML": 3,
+        "unknown": 965
+      },
+      "highest_datetime": "1981-01-01 01:01:02",
+      "lowest_datetime": "1981-01-01 01:01:02",
+      "num_children": 15023,
+      "type": "APK",
+      "uncompressed_size": 4069327
+    },
+    "crowdsourced_yara_results": [
+      {
+        "author": "InQuest Labs",
+        "description": "This signature identifies Adobe Extensible Metadata Platform (XMP) identifiers embedded within files. Defined as a standard for mapping graphical asset relationships, XMP allows for tracking of both parent-child relationships and individual revisions. There are three categories of identifiers: original document, document, and instance. Generally, XMP data is stored in XML format, updated on save/copy, and embedded within the graphical asset. These identifiers can be used to track both malicious and benign graphics within common Microsoft and Adobe document lures.",
+        "match_date": 1768614396,
+        "rule_name": "Adobe_XMP_Identifier",
+        "ruleset_id": "0121ae37cc",
+        "ruleset_name": "Adobe_XMP_Identifier",
+        "ruleset_version": "0121ae37cc|589bbefc22847193cac455858fa15e627d671918",
+        "source": "https://github.com/InQuest/yara-rules-vt"
+      }
+    ],
+    "filecondis": {
+      "dhash": "0000001e1e170600",
+      "raw_md5": "ae3bbb7651031bfa91a3f79806e5702f"
+    },
+    "first_submission_date": 1766662834,
+    "last_analysis_date": 1768614142,
+    "last_analysis_results": {
+      "ALYac": {
+        "category": "undetected",
+        "engine_name": "ALYac",
+        "engine_update": "20260116",
+        "engine_version": "2.0.0.10",
+        "method": "blacklist",
+        "result": null
+      },
+      "APEX": {
+        "category": "type-unsupported",
+        "engine_name": "APEX",
+        "engine_update": "20260116",
+        "engine_version": "6.737",
+        "method": "blacklist",
+        "result": null
+      },
+      "AVG": {
+        "category": "timeout",
+        "engine_name": "AVG",
+        "engine_update": "20260116",
+        "engine_version": "23.9.8494.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Acronis": {
+        "category": "undetected",
+        "engine_name": "Acronis",
+        "engine_update": "20240328",
+        "engine_version": "1.2.0.121",
+        "method": "blacklist",
+        "result": null
+      },
+      "AhnLab-V3": {
+        "category": "undetected",
+        "engine_name": "AhnLab-V3",
+        "engine_update": "20260116",
+        "engine_version": "3.29.1.10604",
+        "method": "blacklist",
+        "result": null
+      },
+      "Alibaba": {
+        "category": "undetected",
+        "engine_name": "Alibaba",
+        "engine_update": "20190527",
+        "engine_version": "0.3.0.5",
+        "method": "blacklist",
+        "result": null
+      },
+      "Antiy-AVL": {
+        "category": "undetected",
+        "engine_name": "Antiy-AVL",
+        "engine_update": "20260117",
+        "engine_version": "3.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Arcabit": {
+        "category": "timeout",
+        "engine_name": "Arcabit",
+        "engine_update": "20260116",
+        "engine_version": "2025.0.0.23",
+        "method": "blacklist",
+        "result": null
+      },
+      "Avast": {
+        "category": "timeout",
+        "engine_name": "Avast",
+        "engine_update": "20260116",
+        "engine_version": "23.9.8494.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Avast-Mobile": {
+        "category": "undetected",
+        "engine_name": "Avast-Mobile",
+        "engine_update": "20260115",
+        "engine_version": "260115-00",
+        "method": "blacklist",
+        "result": null
+      },
+      "Avira": {
+        "category": "undetected",
+        "engine_name": "Avira",
+        "engine_update": "20260117",
+        "engine_version": "8.3.3.24",
+        "method": "blacklist",
+        "result": null
+      },
+      "Baidu": {
+        "category": "undetected",
+        "engine_name": "Baidu",
+        "engine_update": "20190318",
+        "engine_version": "1.0.0.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "BitDefender": {
+        "category": "timeout",
+        "engine_name": "BitDefender",
+        "engine_update": "20260116",
+        "engine_version": "7.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "BitDefenderFalx": {
+        "category": "undetected",
+        "engine_name": "BitDefenderFalx",
+        "engine_update": "20251216",
+        "engine_version": "2.0.936",
+        "method": "blacklist",
+        "result": null
+      },
+      "Bkav": {
+        "category": "undetected",
+        "engine_name": "Bkav",
+        "engine_update": "20260116",
+        "engine_version": "2.0.0.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "CAT-QuickHeal": {
+        "category": "timeout",
+        "engine_name": "CAT-QuickHeal",
+        "engine_update": "20260116",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      },
+      "CMC": {
+        "category": "timeout",
+        "engine_name": "CMC",
+        "engine_update": "20260116",
+        "engine_version": "2.4.2022.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "CTX": {
+        "category": "timeout",
+        "engine_name": "CTX",
+        "engine_update": "20260117",
+        "engine_version": "2024.8.29.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "ClamAV": {
+        "category": "undetected",
+        "engine_name": "ClamAV",
+        "engine_update": "20260116",
+        "engine_version": "1.5.1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "CrowdStrike": {
+        "category": "undetected",
+        "engine_name": "CrowdStrike",
+        "engine_update": "20231026",
+        "engine_version": "1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Cylance": {
+        "category": "type-unsupported",
+        "engine_name": "Cylance",
+        "engine_update": "20260115",
+        "engine_version": "3.0.0.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Cynet": {
+        "category": "type-unsupported",
+        "engine_name": "Cynet",
+        "engine_update": "20260116",
+        "engine_version": "4.0.3.4",
+        "method": "blacklist",
+        "result": null
+      },
+      "DeepInstinct": {
+        "category": "type-unsupported",
+        "engine_name": "DeepInstinct",
+        "engine_update": "20260115",
+        "engine_version": "5.0.0.8",
+        "method": "blacklist",
+        "result": null
+      },
+      "DrWeb": {
+        "category": "timeout",
+        "engine_name": "DrWeb",
+        "engine_update": "20260117",
+        "engine_version": "7.0.72.9030",
+        "method": "blacklist",
+        "result": null
+      },
+      "ESET-NOD32": {
+        "category": "timeout",
+        "engine_name": "ESET-NOD32",
+        "engine_update": "20260117",
+        "engine_version": "18.2.18.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Elastic": {
+        "category": "timeout",
+        "engine_name": "Elastic",
+        "engine_update": "20260114",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      },
+      "Emsisoft": {
+        "category": "timeout",
+        "engine_name": "Emsisoft",
+        "engine_update": "20260117",
+        "engine_version": "2024.8.0.61147",
+        "method": "blacklist",
+        "result": null
+      },
+      "F-Secure": {
+        "category": "undetected",
+        "engine_name": "F-Secure",
+        "engine_update": "20260116",
+        "engine_version": "18.10.1547.307",
+        "method": "blacklist",
+        "result": null
+      },
+      "Fortinet": {
+        "category": "timeout",
+        "engine_name": "Fortinet",
+        "engine_update": "20260117",
+        "engine_version": "7.0.30.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "GData": {
+        "category": "confirmed-timeout",
+        "engine_name": "GData",
+        "engine_update": "20260117",
+        "engine_version": "GD:27.43201AVA:64.30512",
+        "method": "blacklist",
+        "result": null
+      },
+      "Google": {
+        "category": "failure",
+        "engine_name": "Google",
+        "engine_update": "20260117",
+        "engine_version": "1768608038",
+        "method": "blacklist",
+        "result": null
+      },
+      "Gridinsoft": {
+        "category": "undetected",
+        "engine_name": "Gridinsoft",
+        "engine_update": "20260117",
+        "engine_version": "1.0.234.174",
+        "method": "blacklist",
+        "result": null
+      },
+      "Ikarus": {
+        "category": "undetected",
+        "engine_name": "Ikarus",
+        "engine_update": "20260116",
+        "engine_version": "6.4.16.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Jiangmin": {
+        "category": "timeout",
+        "engine_name": "Jiangmin",
+        "engine_update": "20260116",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      },
+      "K7AntiVirus": {
+        "category": "undetected",
+        "engine_name": "K7AntiVirus",
+        "engine_update": "20260116",
+        "engine_version": "14.29.58313",
+        "method": "blacklist",
+        "result": null
+      },
+      "K7GW": {
+        "category": "undetected",
+        "engine_name": "K7GW",
+        "engine_update": "20260116",
+        "engine_version": "14.29.58313",
+        "method": "blacklist",
+        "result": null
+      },
+      "Kaspersky": {
+        "category": "timeout",
+        "engine_name": "Kaspersky",
+        "engine_update": "20260117",
+        "engine_version": "22.0.1.28",
+        "method": "blacklist",
+        "result": null
+      },
+      "Kingsoft": {
+        "category": "undetected",
+        "engine_name": "Kingsoft",
+        "engine_update": "20260116",
+        "engine_version": "None",
+        "method": "blacklist",
+        "result": null
+      },
+      "Lionic": {
+        "category": "undetected",
+        "engine_name": "Lionic",
+        "engine_update": "20260116",
+        "engine_version": "8.16",
+        "method": "blacklist",
+        "result": null
+      },
+      "Malwarebytes": {
+        "category": "undetected",
+        "engine_name": "Malwarebytes",
+        "engine_update": "20260116",
+        "engine_version": "3.1.0.197",
+        "method": "blacklist",
+        "result": null
+      },
+      "MaxSecure": {
+        "category": "undetected",
+        "engine_name": "MaxSecure",
+        "engine_update": "20260116",
+        "engine_version": "1.0.0.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "McAfeeD": {
+        "category": "undetected",
+        "engine_name": "McAfeeD",
+        "engine_update": "20260117",
+        "engine_version": "1.2.0.10275",
+        "method": "blacklist",
+        "result": null
+      },
+      "MicroWorld-eScan": {
+        "category": "undetected",
+        "engine_name": "MicroWorld-eScan",
+        "engine_update": "20260116",
+        "engine_version": "14.0.409.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Microsoft": {
+        "category": "undetected",
+        "engine_name": "Microsoft",
+        "engine_update": "20260116",
+        "engine_version": "1.1.25110.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "Paloalto": {
+        "category": "type-unsupported",
+        "engine_name": "Paloalto",
+        "engine_update": "20260117",
+        "engine_version": "0.9.0.1003",
+        "method": "blacklist",
+        "result": null
+      },
+      "Panda": {
+        "category": "timeout",
+        "engine_name": "Panda",
+        "engine_update": "20260116",
+        "engine_version": "4.6.4.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "Rising": {
+        "category": "timeout",
+        "engine_name": "Rising",
+        "engine_update": "20260116",
+        "engine_version": "25.0.0.28",
+        "method": "blacklist",
+        "result": null
+      },
+      "SUPERAntiSpyware": {
+        "category": "undetected",
+        "engine_name": "SUPERAntiSpyware",
+        "engine_update": "20260117",
+        "engine_version": "5.6.0.1032",
+        "method": "blacklist",
+        "result": null
+      },
+      "Sangfor": {
+        "category": "timeout",
+        "engine_name": "Sangfor",
+        "engine_update": "20260116",
+        "engine_version": "2.22.3.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "SentinelOne": {
+        "category": "type-unsupported",
+        "engine_name": "SentinelOne",
+        "engine_update": "20251224",
+        "engine_version": "7.5.3.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "Skyhigh": {
+        "category": "timeout",
+        "engine_name": "Skyhigh",
+        "engine_update": "20260116",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      },
+      "Sophos": {
+        "category": "undetected",
+        "engine_name": "Sophos",
+        "engine_update": "20260116",
+        "engine_version": "3.3.1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Symantec": {
+        "category": "undetected",
+        "engine_name": "Symantec",
+        "engine_update": "20260116",
+        "engine_version": "1.22.0.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "SymantecMobileInsight": {
+        "category": "undetected",
+        "engine_name": "SymantecMobileInsight",
+        "engine_update": "20250124",
+        "engine_version": "2.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "TACHYON": {
+        "category": "undetected",
+        "engine_name": "TACHYON",
+        "engine_update": "20260116",
+        "engine_version": "2026-01-15.02",
+        "method": "blacklist",
+        "result": null
+      },
+      "Tencent": {
+        "category": "undetected",
+        "engine_name": "Tencent",
+        "engine_update": "20260117",
+        "engine_version": "1.0.0.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "Trapmine": {
+        "category": "type-unsupported",
+        "engine_name": "Trapmine",
+        "engine_update": "20260103",
+        "engine_version": "4.0.8.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "TrellixENS": {
+        "category": "timeout",
+        "engine_name": "TrellixENS",
+        "engine_update": "20260116",
+        "engine_version": "6.0.6.653",
+        "method": "blacklist",
+        "result": null
+      },
+      "TrendMicro": {
+        "category": "undetected",
+        "engine_name": "TrendMicro",
+        "engine_update": "20260117",
+        "engine_version": "24.550.0.1002",
+        "method": "blacklist",
+        "result": null
+      },
+      "TrendMicro-HouseCall": {
+        "category": "undetected",
+        "engine_name": "TrendMicro-HouseCall",
+        "engine_update": "20260116",
+        "engine_version": "24.550.0.1002",
+        "method": "blacklist",
+        "result": null
+      },
+      "Trustlook": {
+        "category": "undetected",
+        "engine_name": "Trustlook",
+        "engine_update": "20260117",
+        "engine_version": "1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "VBA32": {
+        "category": "undetected",
+        "engine_name": "VBA32",
+        "engine_update": "20260116",
+        "engine_version": "5.5.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "VIPRE": {
+        "category": "undetected",
+        "engine_name": "VIPRE",
+        "engine_update": "20260116",
+        "engine_version": "6.0.0.35",
+        "method": "blacklist",
+        "result": null
+      },
+      "Varist": {
+        "category": "timeout",
+        "engine_name": "Varist",
+        "engine_update": "20260117",
+        "engine_version": "6.6.1.3",
+        "method": "blacklist",
+        "result": null
+      },
+      "ViRobot": {
+        "category": "undetected",
+        "engine_name": "ViRobot",
+        "engine_update": "20260116",
+        "engine_version": "2014.3.20.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "VirIT": {
+        "category": "undetected",
+        "engine_name": "VirIT",
+        "engine_update": "20260116",
+        "engine_version": "9.5.1125",
+        "method": "blacklist",
+        "result": null
+      },
+      "Webroot": {
+        "category": "undetected",
+        "engine_name": "Webroot",
+        "engine_update": "20250227",
+        "engine_version": "1.9.0.8",
+        "method": "blacklist",
+        "result": null
+      },
+      "Xcitium": {
+        "category": "undetected",
+        "engine_name": "Xcitium",
+        "engine_update": "20260116",
+        "engine_version": "38342",
+        "method": "blacklist",
+        "result": null
+      },
+      "Yandex": {
+        "category": "undetected",
+        "engine_name": "Yandex",
+        "engine_update": "20260117",
+        "engine_version": "5.5.2.24",
+        "method": "blacklist",
+        "result": null
+      },
+      "Zillya": {
+        "category": "undetected",
+        "engine_name": "Zillya",
+        "engine_update": "20260116",
+        "engine_version": "2.0.0.5525",
+        "method": "blacklist",
+        "result": null
+      },
+      "ZoneAlarm": {
+        "category": "undetected",
+        "engine_name": "ZoneAlarm",
+        "engine_update": "20260116",
+        "engine_version": "6.22-112233242",
+        "method": "blacklist",
+        "result": null
+      },
+      "Zoner": {
+        "category": "undetected",
+        "engine_name": "Zoner",
+        "engine_update": "20260116",
+        "engine_version": "2.2.2.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "alibabacloud": {
+        "category": "type-unsupported",
+        "engine_name": "alibabacloud",
+        "engine_update": "20250321",
+        "engine_version": "2.2.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "huorong": {
+        "category": "undetected",
+        "engine_name": "huorong",
+        "engine_update": "20260116",
+        "engine_version": "78d5251:78d5251:9192b5a:9192b5a",
+        "method": "blacklist",
+        "result": null
+      },
+      "tehtris": {
+        "category": "type-unsupported",
+        "engine_name": "tehtris",
+        "engine_update": "20260117",
+        "engine_version": "v0.1.4",
+        "method": "blacklist",
+        "result": null
+      }
+    },
+    "last_analysis_stats": {
+      "confirmed-timeout": 1,
+      "failure": 1,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 20,
+      "type-unsupported": 9,
+      "undetected": 44
+    },
+    "last_modification_date": 1768623813,
+    "last_submission_date": 1768614142,
+    "magic": "Zip archive data, at least v0.0 to extract, compression method=deflate",
+    "md5": "1c7ece7271c419c0ab33410cca40f5e3",
+    "meaningful_name": "ru.yandex.yandexmaps_base.apk",
+    "names": [
+      "ru.yandex.yandexmaps_base.apk",
+      "899fea0ebc3f624c8be992ea5fe1b9dd412ddf8e831f31e94151a59eba734384.apk"
+    ],
+    "permhash": "67d47e916d423fe78fea689df3a97670e413e7a048e1f9ec29478a13c488b8b7",
+    "picklescan": {
+      "contains_invalid_pickle": false,
+      "globals": [],
+      "issues_count": 0
+    },
+    "reputation": 0,
+    "sha1": "fd5c0bcf16c26805cf54d04266003a232045670d",
+    "sha256": "899fea0ebc3f624c8be992ea5fe1b9dd412ddf8e831f31e94151a59eba734384",
+    "size": 82854764,
+    "ssdeep": "1572864:ka30hHoXed8QudQ5HDsPvFH4mBurauOJVqLbwMeUKkp:P1XY8QIQBsPF4xauqMLmPkp",
+    "tags": [
+      "reflection",
+      "obfuscated",
+      "apk",
+      "android",
+      "runtime-modules",
+      "telephony"
+    ],
+    "times_submitted": 7,
+    "tlsh": "T1F9081252F75C955FFC32A9368E6E2625C6646C64A942EBE33900B21D3DF35C08B1AFC0",
+    "total_votes": {
+      "harmless": 0,
+      "malicious": 0
+    },
+    "trid": [
+      {
+        "file_type": "MIUI Theme",
+        "probability": 16.9
+      },
+      {
+        "file_type": "SPSS Extension",
+        "probability": 16.6
+      },
+      {
+        "file_type": "Android Package",
+        "probability": 15.0
+      },
+      {
+        "file_type": "OpenOffice Extension",
+        "probability": 11.9
+      },
+      {
+        "file_type": "gretl Binary Data",
+        "probability": 7.7
+      }
+    ],
+    "type_description": "Android",
+    "type_extension": "apk",
+    "type_tag": "android",
+    "type_tags": [
+      "executable",
+      "mobile",
+      "android",
+      "apk"
+    ],
+    "unique_sources": 2,
+    "vhash": "bace9a463203edfb6a3155b915e36743"
+  }
+]

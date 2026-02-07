@@ -1,0 +1,46 @@
+{
+  "sha256": "003E0EFCAF3729FC940D44FE0CAD158D2D377D46755532D460E74766A4449B99",
+  "apk_path": "data/eu/be.bmid.itsme__vc1766405119__003E0EFCAF3729FC940D44FE0CAD158D2D377D46755532D460E74766A4449B99.apk",
+  "package": "be.bmid.itsme",
+  "version_code": "1766405119",
+  "version_name": "4.25.2",
+  "sdk": {
+    "min_sdk": 26,
+    "target_sdk": 35,
+    "max_sdk": null
+  },
+  "permissions": [
+    "android.permission.ACCESS_ADSERVICES_AD_ID",
+    "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.CAMERA",
+    "android.permission.HIDE_OVERLAY_WINDOWS",
+    "android.permission.INTERNET",
+    "android.permission.NFC",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.REORDER_TASKS",
+    "android.permission.USE_BIOMETRIC",
+    "android.permission.USE_FINGERPRINT",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "be.bmid.itsme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "com.google.android.c2dm.permission.RECEIVE"
+  ],
+  "permissions_count": 18,
+  "components": {
+    "activities": 140,
+    "services": 11,
+    "receivers": 6,
+    "providers": 4
+  },
+  "exported_components_explicit_true": {
+    "activities": 9,
+    "services": 1,
+    "receivers": 3,
+    "providers": 0
+  },
+  "is_debuggable": null
+}

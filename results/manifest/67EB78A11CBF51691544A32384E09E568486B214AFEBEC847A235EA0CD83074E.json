@@ -1,0 +1,57 @@
+{
+  "sha256": "67EB78A11CBF51691544A32384E09E568486B214AFEBEC847A235EA0CD83074E",
+  "apk_path": "data/ru/ru.yandex.telemost__vc201000__67EB78A11CBF51691544A32384E09E568486B214AFEBEC847A235EA0CD83074E.apk",
+  "package": "ru.yandex.telemost",
+  "version_code": "201000",
+  "version_name": "2.10.0",
+  "sdk": {
+    "min_sdk": 24,
+    "target_sdk": 35,
+    "max_sdk": null
+  },
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_CONNECT",
+    "android.permission.CAMERA",
+    "android.permission.FLASHLIGHT",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_MEDIA_IMAGES",
+    "android.permission.READ_MEDIA_VIDEO",
+    "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.SCHEDULE_EXACT_ALARM",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.gms.permission.AD_ID",
+    "com.yandex.permission.AM_COMMUNICATION",
+    "com.yandex.permission.READ_CREDENTIALS",
+    "ru.yandex.telemost.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permissions_count": 29,
+  "components": {
+    "activities": 67,
+    "services": 20,
+    "receivers": 18,
+    "providers": 14
+  },
+  "exported_components_explicit_true": {
+    "activities": 12,
+    "services": 2,
+    "receivers": 5,
+    "providers": 3
+  },
+  "is_debuggable": null
+}

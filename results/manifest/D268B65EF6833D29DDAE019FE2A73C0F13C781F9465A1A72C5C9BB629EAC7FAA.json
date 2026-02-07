@@ -1,0 +1,46 @@
+{
+  "sha256": "D268B65EF6833D29DDAE019FE2A73C0F13C781F9465A1A72C5C9BB629EAC7FAA",
+  "apk_path": "data/ru/ru.rtlabs.mobile.ebs.gosuslugi.android__vc20250919__D268B65EF6833D29DDAE019FE2A73C0F13C781F9465A1A72C5C9BB629EAC7FAA.apk",
+  "package": "ru.rtlabs.mobile.ebs.gosuslugi.android",
+  "version_code": "20250919",
+  "version_name": "9.2.1",
+  "sdk": {
+    "min_sdk": 29,
+    "target_sdk": 35,
+    "max_sdk": null
+  },
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
+    "android.permission.INTERNET",
+    "android.permission.NFC",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.REQUEST_DELETE_PACKAGES",
+    "android.permission.USE_BIOMETRIC",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "ru.rtlabs.mobile.ebs.gosuslugi.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permissions_count": 18,
+  "components": {
+    "activities": 17,
+    "services": 10,
+    "receivers": 8,
+    "providers": 6
+  },
+  "exported_components_explicit_true": {
+    "activities": 4,
+    "services": 1,
+    "receivers": 6,
+    "providers": 0
+  },
+  "is_debuggable": null
+}

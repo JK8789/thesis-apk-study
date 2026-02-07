@@ -1,0 +1,11 @@
+apps_total=40
+local_perm_zero=0
+vt_perm_missing=3
+perm_mismatch_local_vs_vt=0
+vt_malicious_positive=0
+vt_suspicious_positive=0
+sdk_missing_any(min_sdk or target_sdk)=0
+
+Notes:
+- VT perm counts may be missing even when scan stats exist (normal).
+- If local_perm_zero but vt_perm_count>0, local manifest extraction needs investigation for that APK.

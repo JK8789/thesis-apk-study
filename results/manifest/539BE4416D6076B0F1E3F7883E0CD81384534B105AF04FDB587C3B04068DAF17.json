@@ -1,0 +1,53 @@
+{
+  "sha256": "539BE4416D6076B0F1E3F7883E0CD81384534B105AF04FDB587C3B04068DAF17",
+  "apk_path": "data/eu/de.zalando.mobile__vc1185__539BE4416D6076B0F1E3F7883E0CD81384534B105AF04FDB587C3B04068DAF17.apk",
+  "package": "de.zalando.mobile",
+  "version_code": "1185",
+  "version_name": "26.1.0",
+  "sdk": {
+    "min_sdk": 28,
+    "target_sdk": 35,
+    "max_sdk": null
+  },
+  "permissions": [
+    "android.permission.ACCESS_ADSERVICES_AD_ID",
+    "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+    "android.permission.INTERNET",
+    "android.permission.MICROPHONE",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_MEDIA_IMAGES",
+    "android.permission.READ_MEDIA_VIDEO",
+    "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.SCHEDULE_EXACT_ALARM",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.adjust.preinstall.READ_PERMISSION",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.gms.permission.AD_ID",
+    "de.zalando.mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permissions_count": 25,
+  "components": {
+    "activities": 89,
+    "services": 15,
+    "receivers": 17,
+    "providers": 8
+  },
+  "exported_components_explicit_true": {
+    "activities": 5,
+    "services": 2,
+    "receivers": 5,
+    "providers": 0
+  },
+  "is_debuggable": null
+}

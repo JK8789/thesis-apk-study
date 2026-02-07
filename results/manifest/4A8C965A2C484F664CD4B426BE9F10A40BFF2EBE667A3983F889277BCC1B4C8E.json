@@ -1,0 +1,55 @@
+{
+  "sha256": "4A8C965A2C484F664CD4B426BE9F10A40BFF2EBE667A3983F889277BCC1B4C8E",
+  "apk_path": "data/eu/goodsoft.pl.doctenalu__vc56__4A8C965A2C484F664CD4B426BE9F10A40BFF2EBE667A3983F889277BCC1B4C8E.apk",
+  "package": "goodsoft.pl.doctenalu",
+  "version_code": "56",
+  "version_name": "3.0.0",
+  "sdk": {
+    "min_sdk": 23,
+    "target_sdk": 36,
+    "max_sdk": null
+  },
+  "permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.INTERNET",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.READ_APP_BADGE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "com.anddoes.launcher.permission.UPDATE_COUNT",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.htc.launcher.permission.READ_SETTINGS",
+    "com.htc.launcher.permission.UPDATE_SHORTCUT",
+    "com.huawei.android.launcher.permission.CHANGE_BADGE",
+    "com.huawei.android.launcher.permission.READ_SETTINGS",
+    "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+    "com.majeur.launcher.permission.UPDATE_BADGE",
+    "com.oppo.launcher.permission.READ_SETTINGS",
+    "com.oppo.launcher.permission.WRITE_SETTINGS",
+    "com.sec.android.provider.badge.permission.READ",
+    "com.sec.android.provider.badge.permission.WRITE",
+    "com.sonyericsson.home.permission.BROADCAST_BADGE",
+    "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+    "goodsoft.pl.doctenalu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "goodsoft.pl.doctenalu.permission.C2D_MESSAGE",
+    "me.everything.badger.permission.BADGE_COUNT_READ",
+    "me.everything.badger.permission.BADGE_COUNT_WRITE"
+  ],
+  "permissions_count": 27,
+  "components": {
+    "activities": 9,
+    "services": 14,
+    "receivers": 16,
+    "providers": 3
+  },
+  "exported_components_explicit_true": {
+    "activities": 6,
+    "services": 1,
+    "receivers": 7,
+    "providers": 0
+  },
+  "is_debuggable": null
+}

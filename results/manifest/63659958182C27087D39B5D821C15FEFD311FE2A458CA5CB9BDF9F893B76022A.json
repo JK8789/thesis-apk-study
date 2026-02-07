@@ -1,0 +1,57 @@
+{
+  "sha256": "63659958182C27087D39B5D821C15FEFD311FE2A458CA5CB9BDF9F893B76022A",
+  "apk_path": "data/ru/ru.yandex.rasp__vc35000044__63659958182C27087D39B5D821C15FEFD311FE2A458CA5CB9BDF9F893B76022A.apk",
+  "package": "ru.yandex.rasp",
+  "version_code": "35000044",
+  "version_name": "3.63.0",
+  "sdk": {
+    "min_sdk": 24,
+    "target_sdk": 35,
+    "max_sdk": null
+  },
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.AUTHENTICATE_ACCOUNTS",
+    "android.permission.CAMERA",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.DISABLE_KEYGUARD",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.NFC",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.QUICKBOOT_POWERON",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.SCHEDULE_EXACT_ALARM",
+    "android.permission.USE_CREDENTIALS",
+    "android.permission.USE_FULL_SCREEN_INTENT",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.google.android.gms.permission.AD_ID",
+    "com.yandex.permission.AM_COMMUNICATION",
+    "com.yandex.permission.READ_CREDENTIALS",
+    "ru.yandex.rasp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permissions_count": 29,
+  "components": {
+    "activities": 82,
+    "services": 21,
+    "receivers": 26,
+    "providers": 11
+  },
+  "exported_components_explicit_true": {
+    "activities": 17,
+    "services": 3,
+    "receivers": 10,
+    "providers": 3
+  },
+  "is_debuggable": null
+}

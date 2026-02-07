@@ -1,0 +1,1739 @@
+[
+  {
+    "_id": "35154da070e162ce661e5a7874030a052f71a40f8f0d72fd00d9dedf8400ac0c",
+    "_type": "file",
+    "androguard": {
+      "Activities": [
+        "com.google.android.maps.MapsActivity",
+        "androidx.car.app.CarAppPermissionActivity",
+        "androidx.xr.projected.permissions.GoToHostProjectedActivity",
+        "androidx.xr.projected.permissions.RequestPermissionsOnHostActivity",
+        "com.google.android.apps.auto.client.activity.ghost.GhostActivity",
+        "com.google.android.apps.gmm.ar.glasses.GlassesMapsActivity",
+        "com.google.android.apps.gmm.base.activities.GmmSimpleRestartActivity",
+        "com.google.android.apps.gmm.car.projected.firstrun.GmmProjectedFirstRunActivity",
+        "com.google.android.apps.gmm.directions.appwidget.CreateDirectionsShortcutActivity",
+        "com.google.android.apps.gmm.features.minmode.MinModeActivity",
+        "com.google.android.apps.gmm.locationsharing.ui.sendkit.JourneySharingSendKitActivity",
+        "com.google.android.apps.gmm.locationsharing.widget.LocationSharingCreateShortcutActivity",
+        "com.google.android.apps.gmm.locationsharing.widget.SelectedPersonCreateShortcutActivity",
+        "com.google.android.apps.gmm.navigation.media.spotify.SpotifyAuthenticationActivity",
+        "com.google.android.apps.gmm.navigation.ui.freenav.shortcut.FreeNavCreateShortcutActivity",
+        "com.google.android.apps.gmm.notification.feedback.NotificationFeedbackActivity",
+        "com.google.android.apps.gmm.notification.log.NotificationLoggingActivity",
+        "com.google.android.apps.gmm.notification.log.NotificationLoggingActivity$NoTaskAffinityNotificationLoggingActivity",
+        "com.google.android.apps.gmm.shared.util.exceptionhandlers.ClassNotFoundExceptionHandlingActivity",
+        "com.google.android.apps.gmm.sharing.SendTextToClipboardActivity",
+        "com.google.android.apps.gmm.traffic.shortcut.TrafficHubCreateShortcutActivity",
+        "com.google.android.apps.gmm.widget.traffic.TrafficWidgetPermissionsActivity",
+        "com.google.android.glasses.sdk.internal.application.CompatibilityDialogActivity",
+        "com.google.android.glasses.sdk.permissions.PermissionsTrampolineActivity",
+        "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+        "com.google.android.gms.common.api.GoogleApiActivity",
+        "com.google.android.gms.gmscompliance.ui.UncertifiedDeviceActivity",
+        "com.google.android.libraries.abuse.reporting.ReportAbuseActivity",
+        "com.google.android.libraries.abuse.reportingwidget.ReportingWidgetActivity",
+        "com.google.android.libraries.onegoogle.accountmanagement.AddAccountActivity",
+        "com.google.android.libraries.sharing.sharekit.activity.ShareKitActivity",
+        "com.google.android.libraries.social.licenses.LicenseActivity",
+        "com.google.android.libraries.social.licenses.LicenseMenuActivity",
+        "com.google.android.libraries.strictmode.penalties.notification.FullStackTraceActivity",
+        "com.google.android.libraries.surveys.internal.view.SurveyActivity",
+        "com.google.android.libraries.user.profile.alternate.ui.AlternateProfileBottomSheetActivity",
+        "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+        "com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity",
+        "com.google.ar.core.InstallActivity",
+        "com.spotify.sdk.android.authentication.AuthCallbackActivity",
+        "com.spotify.sdk.android.authentication.LoginActivity"
+      ],
+      "AndroguardVersion": "4.1.2",
+      "AndroidApplication": 1,
+      "AndroidApplicationError": false,
+      "AndroidApplicationInfo": "APK",
+      "AndroidVersionCode": "1068414381",
+      "AndroidVersionName": "26.04.01.857847151",
+      "Libraries": [
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+        "com.android.extensions.xr"
+      ],
+      "MinSdkVersion": "28",
+      "Package": "com.google.android.apps.maps",
+      "Providers": [
+        "androidx.car.app.connection.provider",
+        "androidx.lifecycle.ProcessLifecycleOwnerInitializer",
+        "androidx.startup.InitializationProvider",
+        "com.google.android.apps.gmm.directions.livetrips.on_device_signal.filesharer.SafeFileProvider",
+        "com.google.android.apps.gmm.navigation.feedback.impl.SafeFileProvider",
+        "com.google.android.apps.gmm.util.fileprovider.SafeFileProvider",
+        "com.google.android.gms.learning.internal.BackgroundProcessDetectorContentProvider",
+        "com.google.android.libraries.notifications.platform.media.GnpFileProvider",
+        "com.google.android.libraries.sharing.sharekit.provider.ShareKitContentProvider",
+        "com.google.mlkit.common.internal.MlKitInitProvider"
+      ],
+      "Receivers": [
+        "androidx.car.app.notification.CarAppNotificationBroadcastReceiver",
+        "androidx.profileinstaller.ProfileInstallReceiver",
+        "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+        "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+        "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+        "com.google.android.apps.gmm.ataplace.notifications.AtAPlaceNotificationReceiver",
+        "com.google.android.apps.gmm.backup.GmmBackupBroadcastReceiver",
+        "com.google.android.apps.gmm.cloudmessage.chime.ChimeCloudMessageReceiver",
+        "com.google.android.apps.gmm.features.directions.commute.notification.CommuteNotificationReceiver",
+        "com.google.android.apps.gmm.features.inferreddirections.location.LocationBroadcastReceiver",
+        "com.google.android.apps.gmm.geofence.GeofenceBroadcastReceiver",
+        "com.google.android.apps.gmm.geofence.GeofenceLocationAvailabilityManager$LocationProviderChangeBroadcastReceiver",
+        "com.google.android.apps.gmm.geofence.RestartDetectionBroadcastReceiver",
+        "com.google.android.apps.gmm.kits.location.csl.CurrentSemanticLocationReceiver",
+        "com.google.android.apps.gmm.locationsharing.reporting.ActivityRecognitionBroadcastReceiver",
+        "com.google.android.apps.gmm.locationsharing.reporting.ActivityTransitionBroadcastReceiver",
+        "com.google.android.apps.gmm.locationsharing.reporting.LocationCollectedBroadcastReceiver",
+        "com.google.android.apps.gmm.locationsharing.reporting.LsrBroadcastReceiver",
+        "com.google.android.apps.gmm.locationsharing.reporting.RestartDetectionBroadcastReceiver",
+        "com.google.android.apps.gmm.locationsharing.usr.FixMisconfigurationsThatDoNotRequireUiBroadcastReceiver",
+        "com.google.android.apps.gmm.locationsharing.usr.LocationAvailabilityChecker$LocationProvidersChangedBroadcastReceiver",
+        "com.google.android.apps.gmm.locationsharing.usr.NetworkAvailabilityChecker$ConnectivityChangedBroadcastReceiver",
+        "com.google.android.apps.gmm.locationsharing.usr.UsrNotificationDismissedBroadcastReceiver",
+        "com.google.android.apps.gmm.majorevents.notification.dismissreceiver.DismissEventNotificationBroadcastReceiver",
+        "com.google.android.apps.gmm.messaging.intent.DismissMessagingNotificationBroadcastReceiver",
+        "com.google.android.apps.gmm.navigation.service.detection.ActivityRecognitionReceiver",
+        "com.google.android.apps.gmm.navigation.service.detection.StartDetectionReceiver",
+        "com.google.android.apps.gmm.notification.channels.NotificationChannelBroadcastReceiver",
+        "com.google.android.apps.gmm.notification.feedback.NotificationInlineFeedbackBroadcastReceiver",
+        "com.google.android.apps.gmm.notification.log.NotificationBlockStateReceiver",
+        "com.google.android.apps.gmm.notification.log.NotificationLoggingReceiver",
+        "com.google.android.apps.gmm.notification.receiver.CancelNotificationBroadcastReceiver",
+        "com.google.android.apps.gmm.offline.appindex.OfflineAppIndexingReceiver",
+        "com.google.android.apps.gmm.offline.update.StartAutoUpdatesCheckingReceiver",
+        "com.google.android.apps.gmm.parkinglocation.ParkingLocationDismissReceiver",
+        "com.google.android.apps.gmm.parkinglocation.ParkingLocationExpireAlertReceiver",
+        "com.google.android.apps.gmm.parkinglocation.ParkingLocationExpireWarningReceiver",
+        "com.google.android.apps.gmm.parkinglocation.ParkingLocationNotificationReceiver",
+        "com.google.android.apps.gmm.parkinglocation.ParkingLocationUpdateNotificationReceiver",
+        "com.google.android.apps.gmm.plugins.serverrecovery.PhenotypeServerRecoveryHandlerImpl",
+        "com.google.android.apps.gmm.plugins.serverrecovery.ScheduledRecoverySignalHandlerImpl",
+        "com.google.android.apps.gmm.settings.language.impl.ScheduleSyncApplicationLocalesPeriodicWorkReceiver",
+        "com.google.android.apps.gmm.sharing.CopyToClipboardReceiver",
+        "com.google.android.apps.gmm.sharing.NativeShareSheetBroadcastReceiver",
+        "com.google.android.apps.gmm.systems.clientparam.fetcher.ClientParametersOnIntentUpdater",
+        "com.google.android.apps.gmm.systems.reportaproblem.service.DismissNotificationBroadcastReceiver",
+        "com.google.android.apps.gmm.ugc.clientnotification.phototaken.NotificationIntentProxyReceiver",
+        "com.google.android.apps.gmm.ugc.clientnotification.review.ReviewAtAPlaceNotificationDidntGoHereActionBroadcastReceiver",
+        "com.google.android.apps.gmm.ugc.clientnotification.review.ReviewAtAPlaceNotificationUpdater",
+        "com.google.android.apps.gmm.ugc.phototaken.StartPhotoTakenNotifierServiceReceiver",
+        "com.google.android.apps.gmm.util.systemhealth.shaders.ShaderContinuumMigrationBroadcastReceiver",
+        "com.google.android.apps.gmm.widget.SearchWidgetProvider",
+        "com.google.android.apps.gmm.widget.traffic.TrafficWidgetProvider",
+        "com.google.android.libraries.appdoctor.AppDoctorReceiver",
+        "com.google.android.libraries.geo.navcore.navinfo.NavigationInfoBroadcastReceiver",
+        "com.google.android.libraries.geo.navcore.service.logging.ActivityRecognitionForLoggingBroadcastReceiver",
+        "com.google.android.libraries.performance.primes.transmitter.LifeboatReceiver",
+        "com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver",
+        "com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver",
+        "com.google.android.libraries.sharing.sharekit.engine.sharesheet.NativeShareCompleteBroadcastReceiver",
+        "com.google.android.libraries.social.peoplekit.thirdparty.viewcontrollers.ThirdPartyReceiver",
+        "com.google.firebase.iid.FirebaseInstanceIdReceiver"
+      ],
+      "RiskIndicator": {
+        "APK": {
+          "DEX": 10
+        },
+        "PERM": {
+          "APPOP": 1,
+          "DANGEROUS": 8,
+          "GPS": 2,
+          "INSTANT": 9,
+          "INTERNET": 1,
+          "NORMAL": 20,
+          "PRIVACY": 7,
+          "PRIVILEGED": 1,
+          "SIGNATURE": 1
+        }
+      },
+      "Services": [
+        "android.net.http.MetaDataHolder",
+        "androidx.camera.core.impl.MetadataHolderService",
+        "androidx.room.MultiInstanceInvalidationService",
+        "androidx.work.impl.background.systemjob.SystemJobService",
+        "androidx.work.impl.foreground.SystemForegroundService",
+        "com.google.android.apps.gmm.ar.glasses.GlassesMapsService",
+        "com.google.android.apps.gmm.car.GmmCarProjectionService",
+        "com.google.android.apps.gmm.car.LimitedGmmCarProjectionService",
+        "com.google.android.apps.gmm.car.WidescreenWidgetLimitedGmmCarProjectionService",
+        "com.google.android.apps.gmm.car.androidauto.CarNavigationProviderService",
+        "com.google.android.apps.gmm.car.assistant.service.AssistantEndpointService",
+        "com.google.android.apps.gmm.car.evprofile.FetchEvConnectorsDataService",
+        "com.google.android.apps.gmm.car.projected.auxiliarymap.GmmCarAuxiliaryProjectionService",
+        "com.google.android.apps.gmm.cloudmessage.chime.common.GmmChimeTaskService",
+        "com.google.android.apps.gmm.cloudmessage.receiver.FcmService",
+        "com.google.android.apps.gmm.directions.livetrips.service.LiveTripsService",
+        "com.google.android.apps.gmm.features.media.upload.service.MediaPreprocessingService",
+        "com.google.android.apps.gmm.location.federatedlocation.FederatedLocationResultHandlingService",
+        "com.google.android.apps.gmm.location.federatedlocation.MoonlanderExampleStoreService",
+        "com.google.android.apps.gmm.locationsharing.interprocess.impl.LocationSharingReportingService",
+        "com.google.android.apps.gmm.locationsharing.reporting.BoundReporterService",
+        "com.google.android.apps.gmm.locationsharing.reporting.FlpLocationUploadService",
+        "com.google.android.apps.gmm.locationsharing.reporting.ReporterService",
+        "com.google.android.apps.gmm.messaging.intent.MessagingNotificationService",
+        "com.google.android.apps.gmm.navigation.assistant.NavAssistantEndpointService",
+        "com.google.android.apps.gmm.offline.update.OfflineAutoUpdateJobService",
+        "com.google.android.apps.gmm.offline.update.OfflineAutoUpdateJobServiceV2",
+        "com.google.android.apps.gmm.offline.update.OfflineManualDownloadJobService",
+        "com.google.android.apps.gmm.offline.update.OfflineManualDownloadService",
+        "com.google.android.apps.gmm.place.timeline.service.SaveVisitBadgeLocationSurveyService",
+        "com.google.android.apps.gmm.place.timeline.service.detection.LocalLocationSignalDetectorService",
+        "com.google.android.apps.gmm.place.timeline.service.postvisitbadge.PostVisitBadgeService",
+        "com.google.android.apps.gmm.ugc.phototaken.PhotoTakenBackfillService",
+        "com.google.android.apps.gmm.ugc.phototaken.PhotoTakenNotifierService",
+        "com.google.android.apps.gmm.ugc.phototaken.PhotoTakenObserverService",
+        "com.google.android.apps.gmm.util.systemhealth.impl.SystemHealthService",
+        "com.google.android.apps.gmm.wearable.GmmWearableListenerService",
+        "com.google.android.build.data.PropertiesServiceHolder",
+        "com.google.android.gms.auth.api.signin.RevocationBoundService",
+        "com.google.android.gms.learning.examplestoreimpl.defaultimpl.DefaultExampleStoreDataTtlService",
+        "com.google.android.gms.learning.examplestoreimpl.defaultimpl.DefaultExampleStoreService",
+        "com.google.android.gms.learning.internal.training.InAppJobService",
+        "com.google.android.gms.learning.internal.training.InAppTrainingService",
+        "com.google.android.gms.metadata.ModuleDependencies",
+        "com.google.android.gms.tapandpay.issuer.GeneratePaymentCredentialsService",
+        "com.google.android.libraries.geo.navcore.service.base.NavigationService",
+        "com.google.android.libraries.geophotouploader.NotificationReceiverService",
+        "com.google.android.libraries.geophotouploader.UploadService",
+        "com.google.android.libraries.performance.primes.federatedlearning.PrimesExampleStoreDataTtlService",
+        "com.google.android.libraries.performance.primes.federatedlearning.PrimesExampleStoreService",
+        "com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService",
+        "com.google.ar.imp.featurelevelchecker.FeatureLevelCheckerService",
+        "com.google.firebase.components.ComponentDiscoveryService",
+        "com.google.firebase.messaging.FirebaseMessagingService",
+        "com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+      ],
+      "StringsInformation": [
+        "http://ns.adobe.com/xap/1.0/\u0000",
+        "http://play.google.com/store/apps/details",
+        "http://schemas.android.com/apk/res/android",
+        "http://support.google.com/product-documentation?p=maps_sharetripdata",
+        "http://www.google.com",
+        "https://maps.google.com/?cid=",
+        "https://maps.google.com/?q=",
+        "https://maps.gstatic.com/mapfiles/reactions/lottie/amazing_1.zip",
+        "https://maps.gstatic.com/mapfiles/reactions/lottie/dislike.zip",
+        "https://maps.gstatic.com/mapfiles/reactions/lottie/expensive.zip",
+        "https://maps.gstatic.com/mapfiles/reactions/lottie/helpful.zip",
+        "https://maps.gstatic.com/mapfiles/reactions/lottie/love.zip",
+        "https://maps.gstatic.com/mapfiles/reactions/lottie/omg.zip",
+        "https://maps.gstatic.com/mapfiles/reactions/lottie/yum.zip",
+        "https://mobilemaps-pa-gz.googleapis.com:443",
+        "https://mobilemaps-pa.googleapis.com:443",
+        "https://myaccount.google.com/privacypolicy\u0026hl=",
+        "https://support.google.com/business?p=messaging_on_maps",
+        "https://support.google.com/local-guides?p=",
+        "https://support.google.com/local-listings?p=review_summary\u0026hl=%s",
+        "https://support.google.com/maps/answer/10565726",
+        "https://support.google.com/maps/answer/6291838",
+        "https://support.google.com/offers/?p=OffersApp_GetOffers_Android",
+        "https://www.google.com/intl/ko/policies/terms/location/",
+        "https://www.youtube.com/embed/%s?autoplay=1\u0026loop=1\u0026modestbranding=1"
+      ],
+      "TargetSdkVersion": "36",
+      "VTAndroidInfo": 2.0,
+      "certificate": {
+        "Issuer": {
+          "C": "US",
+          "CN": "Android",
+          "DN": "C:US, CN:Android, L:Mountain View, O:Google Inc., ST:California, OU:Android",
+          "L": "Mountain View",
+          "O": "Google Inc.",
+          "OU": "Android",
+          "ST": "California"
+        },
+        "Subject": {
+          "C": "US",
+          "CN": "Android",
+          "DN": "C:US, CN:Android, L:Mountain View, O:Google Inc., ST:California, OU:Android",
+          "L": "Mountain View",
+          "O": "Google Inc.",
+          "OU": "Android",
+          "ST": "California"
+        },
+        "serialnumber": "c2e08746644a308d",
+        "thumbprint": "38918a453d07199354f8b19af05ec6562ced5788",
+        "validfrom": "2008-08-21 23:13:34",
+        "validto": "2036-01-07 23:13:34"
+      },
+      "intent_filters": {
+        "Activities": {
+          "com.google.android.apps.gmm.ar.glasses.GlassesMapsActivity": {
+            "action": [
+              "android.intent.action.MAIN"
+            ],
+            "category": [
+              "com.google.android.glasses.CATEGORY_GLASSES_LAUNCHER"
+            ]
+          },
+          "com.google.android.apps.gmm.car.projected.firstrun.GmmProjectedFirstRunActivity": {
+            "action": [
+              "com.google.android.apps.maps.car.PROJECTED_FIRST_RUN"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.google.android.apps.gmm.directions.appwidget.CreateDirectionsShortcutActivity": {
+            "action": [
+              "android.intent.action.CREATE_SHORTCUT"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.CAR_MODE"
+            ]
+          },
+          "com.google.android.apps.gmm.locationsharing.widget.LocationSharingCreateShortcutActivity": {
+            "action": [
+              "android.intent.action.CREATE_SHORTCUT"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.google.android.apps.gmm.locationsharing.widget.SelectedPersonCreateShortcutActivity": {
+            "action": [
+              "android.intent.action.CREATE_SHORTCUT"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.google.android.apps.gmm.navigation.ui.freenav.shortcut.FreeNavCreateShortcutActivity": {
+            "action": [
+              "android.intent.action.CREATE_SHORTCUT"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.google.android.apps.gmm.traffic.shortcut.TrafficHubCreateShortcutActivity": {
+            "action": [
+              "android.intent.action.CREATE_SHORTCUT"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.google.android.libraries.strictmode.penalties.notification.FullStackTraceActivity": {
+            "action": [
+              "com.google.android.libraries.strictmode.STRICTMODE_TARGET"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT"
+            ]
+          },
+          "com.google.android.maps.MapsActivity": {
+            "action": [
+              "android.intent.action.MAIN",
+              "android.intent.action.VIEW",
+              "android.intent.action.SEND",
+              "android.intent.action.SEND_MULTIPLE",
+              "com.google.business.ACTION_MESSAGE",
+              "com.google.business.MERCHANT_SERVICE_LIST",
+              "com.google.business.ACTION_MAPS_MESSAGE",
+              "com.google.android.apps.gmm.GENERIC_WEBVIEW_NOTIFICATION",
+              "com.google.business.MERCHANT_CALL_TRACKING",
+              "android.nfc.action.NDEF_DISCOVERED",
+              "android.intent.action.MANAGE_NETWORK_USAGE",
+              "com.google.android.gms.actions.SEARCH_ACTION",
+              "com.google.android.gms.actions.VIEW",
+              "android.intent.action.NAVIGATE"
+            ],
+            "category": [
+              "android.intent.category.LAUNCHER",
+              "android.intent.category.APP_MAPS",
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE",
+              "android.intent.category.NOTIFICATION_PREFERENCES"
+            ]
+          },
+          "com.spotify.sdk.android.authentication.AuthCallbackActivity": {
+            "action": [
+              "android.intent.action.VIEW"
+            ],
+            "category": [
+              "android.intent.category.DEFAULT",
+              "android.intent.category.BROWSABLE"
+            ]
+          }
+        },
+        "Receivers": {
+          "androidx.profileinstaller.ProfileInstallReceiver": {
+            "action": [
+              "androidx.profileinstaller.action.INSTALL_PROFILE",
+              "androidx.profileinstaller.action.SKIP_FILE",
+              "androidx.profileinstaller.action.SAVE_PROFILE",
+              "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+            ]
+          },
+          "androidx.work.impl.background.systemalarm.RescheduleReceiver": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED"
+            ]
+          },
+          "androidx.work.impl.diagnostics.DiagnosticsReceiver": {
+            "action": [
+              "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+            ]
+          },
+          "com.google.android.apps.gmm.ataplace.notifications.AtAPlaceNotificationReceiver": {
+            "action": [
+              "com.google.android.apps.gmm.ataplace.notifications.AtAPlaceNotificationScheduler.AT_A_PLACE_NOTIFICATION_SCHEDULE_NOTIFICATION"
+            ]
+          },
+          "com.google.android.apps.gmm.backup.GmmBackupBroadcastReceiver": {
+            "action": [
+              "android.intent.action.MY_PACKAGE_REPLACED"
+            ]
+          },
+          "com.google.android.apps.gmm.cloudmessage.chime.ChimeCloudMessageReceiver": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED",
+              "android.intent.action.MY_PACKAGE_REPLACED",
+              "android.intent.action.LOCALE_CHANGED",
+              "android.intent.action.TIMEZONE_CHANGED",
+              "android.accounts.LOGIN_ACCOUNTS_CHANGED"
+            ]
+          },
+          "com.google.android.apps.gmm.features.directions.commute.notification.CommuteNotificationReceiver": {
+            "action": [
+              "com.google.android.apps.gmm.features.directions.commute.notification.COMMUTE_NOTIFICATION_ACTION"
+            ]
+          },
+          "com.google.android.apps.gmm.geofence.GeofenceBroadcastReceiver": {
+            "action": [
+              "com.google.android.apps.gmm.geofence.GeofenceBroadcastReceiver.GEOFENCE_RECEIVER_ACTION"
+            ]
+          },
+          "com.google.android.apps.gmm.geofence.GeofenceLocationAvailabilityManager$LocationProviderChangeBroadcastReceiver": {
+            "action": [
+              "android.location.PROVIDERS_CHANGED",
+              "android.location.MODE_CHANGED"
+            ]
+          },
+          "com.google.android.apps.gmm.geofence.RestartDetectionBroadcastReceiver": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED",
+              "android.intent.action.MY_PACKAGE_REPLACED"
+            ]
+          },
+          "com.google.android.apps.gmm.kits.location.csl.CurrentSemanticLocationReceiver": {
+            "action": [
+              "com.google.android.apps.gmm.kits.location.csl.INFERENCE",
+              "com.google.android.gms.semanticlocation.AVAILABILITY"
+            ]
+          },
+          "com.google.android.apps.gmm.locationsharing.reporting.LsrBroadcastReceiver": {
+            "action": [
+              "com.google.android.gms.locationsharingreporter.PERIODIC_LOCATION_REPORTING_STATUS_DID_CHANGE",
+              "com.google.android.gms.locationsharingreporter.SHARE_STARTED_WITH_YOU_ACTION"
+            ]
+          },
+          "com.google.android.apps.gmm.locationsharing.reporting.RestartDetectionBroadcastReceiver": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED",
+              "android.intent.action.MY_PACKAGE_REPLACED"
+            ]
+          },
+          "com.google.android.apps.gmm.locationsharing.usr.LocationAvailabilityChecker$LocationProvidersChangedBroadcastReceiver": {
+            "action": [
+              "android.location.PROVIDERS_CHANGED",
+              "android.location.MODE_CHANGED"
+            ]
+          },
+          "com.google.android.apps.gmm.locationsharing.usr.NetworkAvailabilityChecker$ConnectivityChangedBroadcastReceiver": {
+            "action": [
+              "android.net.ConnectivityManager.CONNECTIVITY_ACTION"
+            ]
+          },
+          "com.google.android.apps.gmm.locationsharing.usr.UsrNotificationDismissedBroadcastReceiver": {
+            "action": [
+              "com.google.android.apps.gmm.locationsharing.usr.UsrNotificationDismissedBroadcastReceiver.USR_NOTIFICATION_DISMISSED_RECEIVER_ACTION"
+            ]
+          },
+          "com.google.android.apps.gmm.majorevents.notification.dismissreceiver.DismissEventNotificationBroadcastReceiver": {
+            "action": [
+              "com.google.android.apps.gmm.majorevents.notification.dismissreceiver.DISMISS_EVENT_NOTIFICATION"
+            ]
+          },
+          "com.google.android.apps.gmm.messaging.intent.DismissMessagingNotificationBroadcastReceiver": {
+            "action": [
+              "com.google.android.apps.gmm.messaging.intent.DISMISS_MESSAGING_NOTIFICATION"
+            ]
+          },
+          "com.google.android.apps.gmm.navigation.service.detection.StartDetectionReceiver": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED",
+              "android.intent.action.MY_PACKAGE_REPLACED"
+            ]
+          },
+          "com.google.android.apps.gmm.notification.channels.NotificationChannelBroadcastReceiver": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED",
+              "android.intent.action.LOCALE_CHANGED"
+            ]
+          },
+          "com.google.android.apps.gmm.notification.log.NotificationBlockStateReceiver": {
+            "action": [
+              "android.app.action.APP_BLOCK_STATE_CHANGED",
+              "android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED",
+              "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+            ]
+          },
+          "com.google.android.apps.gmm.offline.appindex.OfflineAppIndexingReceiver": {
+            "action": [
+              "com.google.firebase.appindexing.UPDATE_INDEX"
+            ]
+          },
+          "com.google.android.apps.gmm.offline.update.StartAutoUpdatesCheckingReceiver": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED",
+              "android.intent.action.MY_PACKAGE_REPLACED"
+            ]
+          },
+          "com.google.android.apps.gmm.parkinglocation.ParkingLocationDismissReceiver": {
+            "action": [
+              "com.google.android.apps.gmm.parkinglocation.DISMISS_PARKING_LOCATION_NOTIFICATION"
+            ]
+          },
+          "com.google.android.apps.gmm.parkinglocation.ParkingLocationExpireAlertReceiver": {
+            "action": [
+              "com.google.android.apps.gmm.parkinglocation.ACTION_PARKING_LOCATION_EXPIRED_NOTIFICATION"
+            ]
+          },
+          "com.google.android.apps.gmm.parkinglocation.ParkingLocationExpireWarningReceiver": {
+            "action": [
+              "com.google.android.apps.gmm.parkinglocation.ACTION_PARKING_LOCATION_EXPIRES_SOON_NOTIFICATION"
+            ]
+          },
+          "com.google.android.apps.gmm.parkinglocation.ParkingLocationNotificationReceiver": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED",
+              "android.intent.action.MY_PACKAGE_REPLACED"
+            ]
+          },
+          "com.google.android.apps.gmm.parkinglocation.ParkingLocationUpdateNotificationReceiver": {
+            "action": [
+              "com.google.android.apps.gmm.parkinglocation.ACTION_UPDATE_PARKING_LOCATION_NOTIFICATION"
+            ]
+          },
+          "com.google.android.apps.gmm.plugins.serverrecovery.PhenotypeServerRecoveryHandlerImpl": {
+            "action": [
+              "android.intent.action.BOOT_COMPLETED",
+              "com.google.android.gms.phenotype.UPDATE"
+            ]
+          },
+          "com.google.android.apps.gmm.plugins.serverrecovery.ScheduledRecoverySignalHandlerImpl": {
+            "action": [
+              "com.google.android.apps.gmm.plugins.serverrecovery.SCHEDULED_CHECK"
+            ]
+          },
+          "com.google.android.apps.gmm.settings.language.impl.ScheduleSyncApplicationLocalesPeriodicWorkReceiver": {
+            "action": [
+              "android.intent.action.MY_PACKAGE_REPLACED"
+            ]
+          },
+          "com.google.android.apps.gmm.sharing.CopyToClipboardReceiver": {
+            "action": [
+              "com.google.android.apps.gmm.sharing.ACTION_COPY_TO_CLIPBOARD"
+            ]
+          },
+          "com.google.android.apps.gmm.systems.clientparam.fetcher.ClientParametersOnIntentUpdater": {
+            "action": [
+              "android.intent.action.MY_PACKAGE_REPLACED"
+            ]
+          },
+          "com.google.android.apps.gmm.systems.reportaproblem.service.DismissNotificationBroadcastReceiver": {
+            "action": [
+              "com.google.android.apps.gmm.systems.reportaproblem.service.DISMISS_NOTIFICATION"
+            ]
+          },
+          "com.google.android.apps.gmm.ugc.clientnotification.review.ReviewAtAPlaceNotificationUpdater": {
+            "action": [
+              "com.google.android.apps.gmm.ugc.clientnotification.review.ReviewAtAPlaceNotificationUpdater.UPDATE_ACTION"
+            ]
+          },
+          "com.google.android.apps.gmm.ugc.phototaken.StartPhotoTakenNotifierServiceReceiver": {
+            "action": [
+              "com.android.camera.NEW_PICTURE",
+              "android.hardware.action.NEW_PICTURE",
+              "com.android.camera.NEW_VIDEO",
+              "android.hardware.action.NEW_VIDEO"
+            ]
+          },
+          "com.google.android.apps.gmm.util.systemhealth.shaders.ShaderContinuumMigrationBroadcastReceiver": {
+            "action": [
+              "android.intent.action.MY_PACKAGE_REPLACED"
+            ]
+          },
+          "com.google.android.apps.gmm.widget.SearchWidgetProvider": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE",
+              "com.google.android.apps.gmm.widget.DEBUG_ON_UPDATE"
+            ]
+          },
+          "com.google.android.apps.gmm.widget.traffic.TrafficWidgetProvider": {
+            "action": [
+              "android.appwidget.action.APPWIDGET_UPDATE"
+            ]
+          },
+          "com.google.android.libraries.appdoctor.AppDoctorReceiver": {
+            "action": [
+              "com.google.android.libraries.appdoctor.ACTION_TELE_DOCTOR_FIX"
+            ]
+          },
+          "com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver": {
+            "action": [
+              "android.accounts.action.ACCOUNT_REMOVED"
+            ]
+          },
+          "com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver": {
+            "action": [
+              "com.google.android.gms.phenotype.UPDATE"
+            ]
+          },
+          "com.google.android.libraries.social.peoplekit.thirdparty.viewcontrollers.ThirdPartyReceiver": {
+            "action": [
+              "android.intent.action.PACKAGE_FULLY_REMOVED",
+              "android.intent.action.PACKAGE_REMOVED"
+            ]
+          },
+          "com.google.firebase.iid.FirebaseInstanceIdReceiver": {
+            "action": [
+              "com.google.android.c2dm.intent.RECEIVE"
+            ]
+          }
+        },
+        "Services": {
+          "com.google.android.apps.gmm.ar.glasses.GlassesMapsService": {
+            "action": [
+              "android.intent.action.MAIN"
+            ],
+            "category": [
+              "com.google.android.glasses.CATEGORY_GLASSES"
+            ]
+          },
+          "com.google.android.apps.gmm.car.GmmCarProjectionService": {
+            "action": [
+              "android.intent.action.MAIN",
+              "android.intent.action.VIEW",
+              "android.nfc.action.NDEF_DISCOVERED"
+            ],
+            "category": [
+              "android.intent.category.LAUNCHER",
+              "android.intent.category.APP_MAPS",
+              "android.intent.category.DEFAULT",
+              "com.google.android.gms.car.category.CATEGORY_PROJECTION",
+              "com.google.android.gms.car.category.CATEGORY_PROJECTION_NAVIGATION",
+              "android.intent.category.BROWSABLE"
+            ]
+          },
+          "com.google.android.apps.gmm.car.LimitedGmmCarProjectionService": {
+            "action": [
+              "android.intent.action.MAIN"
+            ],
+            "category": [
+              "com.google.android.gms.car.category.CATEGORY_PROJECTION",
+              "com.google.android.gms.car.category.CATEGORY_AUXILIARY_DISPLAY",
+              "com.google.android.gms.car.category.CATEGORY_PROJECTION_NAVIGATION"
+            ]
+          },
+          "com.google.android.apps.gmm.car.WidescreenWidgetLimitedGmmCarProjectionService": {
+            "action": [
+              "android.intent.action.MAIN"
+            ],
+            "category": [
+              "com.google.android.gms.car.category.CATEGORY_PROJECTION",
+              "com.google.android.gms.car.category.CATEGORY_SECONDARY_REGION",
+              "com.google.android.gms.car.category.CATEGORY_PROJECTION_NAVIGATION"
+            ]
+          },
+          "com.google.android.apps.gmm.car.androidauto.CarNavigationProviderService": {
+            "action": [
+              "android.intent.action.MAIN",
+              "com.google.android.apps.gmm.INTERNAL"
+            ],
+            "category": [
+              "com.google.android.car.category.NAVIGATION_PROVIDER"
+            ]
+          },
+          "com.google.android.apps.gmm.car.assistant.service.AssistantEndpointService": {
+            "action": [
+              "GmmStateGrpcService",
+              "GmmConversationGrpcService",
+              "grpc.io.action.BIND"
+            ]
+          },
+          "com.google.android.apps.gmm.car.projected.auxiliarymap.GmmCarAuxiliaryProjectionService": {
+            "action": [
+              "android.intent.action.MAIN",
+              "com.google.android.gms.car.ACTION_UPDATE_TURN_CARD_STATE"
+            ],
+            "category": [
+              "com.google.android.gms.car.category.CATEGORY_PROJECTION",
+              "com.google.android.gms.car.category.CATEGORY_CLUSTER_DISPLAY",
+              "com.google.android.gms.car.category.CATEGORY_PROJECTION_NAVIGATION"
+            ]
+          },
+          "com.google.android.apps.gmm.cloudmessage.receiver.FcmService": {
+            "action": [
+              "com.google.firebase.MESSAGING_EVENT"
+            ]
+          },
+          "com.google.android.apps.gmm.location.federatedlocation.FederatedLocationResultHandlingService": {
+            "action": [
+              "com.google.android.gms.learning.COMPUTATION_RESULT"
+            ]
+          },
+          "com.google.android.apps.gmm.location.federatedlocation.MoonlanderExampleStoreService": {
+            "action": [
+              "com.google.android.gms.learning.EXAMPLE_STORE_V2"
+            ]
+          },
+          "com.google.android.apps.gmm.navigation.assistant.NavAssistantEndpointService": {
+            "action": [
+              "grpc.io.action.BIND"
+            ]
+          },
+          "com.google.android.apps.gmm.place.timeline.service.postvisitbadge.PostVisitBadgeService": {
+            "action": [
+              "com.google.android.apps.gmm.TIMELINE_POST_VISIT_BADGE"
+            ]
+          },
+          "com.google.android.apps.gmm.ugc.phototaken.PhotoTakenNotifierService": {
+            "action": [
+              "com.google.android.apps.gmm.ugc.phototaken.PhotoTakenNotifierService.ACTION_PHOTO_PROCESSING_TIMED_OUT",
+              "com.google.android.apps.gmm.ugc.phototaken.PhotoTakenNotifierService.ACTION_PHOTO_TAKEN"
+            ]
+          },
+          "com.google.android.apps.gmm.wearable.GmmWearableListenerService": {
+            "action": [
+              "com.google.android.gms.wearable.MESSAGE_RECEIVED",
+              "com.google.android.gms.wearable.DATA_CHANGED"
+            ]
+          },
+          "com.google.android.build.data.PropertiesServiceHolder": {
+            "action": [
+              "com.google.android.build.data.Properties"
+            ]
+          },
+          "com.google.android.gms.learning.examplestoreimpl.defaultimpl.DefaultExampleStoreService": {
+            "action": [
+              "com.google.android.gms.learning.EXAMPLE_STORE",
+              "com.google.android.gms.learning.EXAMPLE_STORE_V2"
+            ]
+          },
+          "com.google.android.gms.learning.internal.training.InAppTrainingService": {
+            "action": [
+              "com.google.android.gms.learning.training.START"
+            ]
+          },
+          "com.google.android.gms.metadata.ModuleDependencies": {
+            "action": [
+              "com.google.android.gms.metadata.MODULE_DEPENDENCIES"
+            ]
+          },
+          "com.google.android.gms.tapandpay.issuer.GeneratePaymentCredentialsService": {
+            "action": [
+              "com.google.android.gms.tapandpay.issuer.GENERATE_PAYMENT_CREDENTIALS"
+            ]
+          },
+          "com.google.android.libraries.performance.primes.federatedlearning.PrimesExampleStoreService": {
+            "action": [
+              "com.google.android.gms.learning.EXAMPLE_STORE_V2"
+            ]
+          },
+          "com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService": {
+            "action": [
+              "com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"
+            ]
+          },
+          "com.google.firebase.messaging.FirebaseMessagingService": {
+            "action": [
+              "com.google.firebase.MESSAGING_EVENT"
+            ]
+          }
+        }
+      },
+      "main_activity": "com.google.android.maps.MapsActivity",
+      "permission_details": {
+        "android.permission.ACCESS_ADSERVICES_ATTRIBUTION": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "android.permission.ACCESS_BACKGROUND_LOCATION": {
+          "full_description": "This app can access location at any time, even while the app is not in use.",
+          "permission_type": "dangerous|instant",
+          "short_description": "access location in the background"
+        },
+        "android.permission.ACCESS_COARSE_LOCATION": {
+          "full_description": "This app can get your approximate location from location services while the app is in use. Location services for your device must be turned on for the app to get location.",
+          "permission_type": "dangerous|instant",
+          "short_description": "access approximate location only in the foreground"
+        },
+        "android.permission.ACCESS_FINE_LOCATION": {
+          "full_description": "This app can get your precise location from location services while the app is in use. Location services for your device must be turned on for the app to get location. This may increase battery usage.",
+          "permission_type": "dangerous|instant",
+          "short_description": "access precise location only in the foreground"
+        },
+        "android.permission.ACCESS_NETWORK_STATE": {
+          "full_description": "Allows the app to view\n      information about network connections such as which networks exist and are\n      connected.",
+          "permission_type": "normal|instant",
+          "short_description": "view network connections"
+        },
+        "android.permission.ACCESS_WIFI_STATE": {
+          "full_description": "Allows the app to view information\n      about Wi-Fi networking, such as whether Wi-Fi is enabled and name of\n      connected Wi-Fi devices.",
+          "permission_type": "normal",
+          "short_description": "view Wi-Fi connections"
+        },
+        "android.permission.ACTIVITY_RECOGNITION": {
+          "full_description": "This app can recognize your physical activity.",
+          "permission_type": "dangerous|instant",
+          "short_description": "recognize physical activity"
+        },
+        "android.permission.BROADCAST_STICKY": {
+          "full_description": "Allows the app to\n    send sticky broadcasts, which remain after the broadcast ends. Excessive\n    use may make the phone slow or unstable by causing it to use too\n    much memory.",
+          "permission_type": "normal",
+          "short_description": "send sticky broadcast"
+        },
+        "android.permission.CAMERA": {
+          "full_description": "This app can take pictures and record videos using the camera while the app is in use.",
+          "permission_type": "dangerous|instant",
+          "short_description": "take pictures and videos"
+        },
+        "android.permission.CHANGE_NETWORK_STATE": {
+          "full_description": "Allows the app to change the state of network connectivity.",
+          "permission_type": "normal",
+          "short_description": "change network connectivity"
+        },
+        "android.permission.CHANGE_WIFI_STATE": {
+          "full_description": "Allows the app to connect to and\n      disconnect from Wi-Fi access points and to make changes to device\n      configuration for Wi-Fi networks.",
+          "permission_type": "normal",
+          "short_description": "connect and disconnect from Wi-Fi"
+        },
+        "android.permission.DETECT_SCREEN_CAPTURE": {
+          "full_description": "This app will get notified when a screenshot is taken while the app is in use.",
+          "permission_type": "normal",
+          "short_description": "detect screen captures of app windows"
+        },
+        "android.permission.DISABLE_KEYGUARD": {
+          "full_description": "Allows the app to disable the\n      keylock and any associated password security.  For example, the phone\n      disables the keylock when receiving an incoming phone call, then\n      re-enables the keylock when the call is finished.",
+          "permission_type": "normal",
+          "short_description": "disable your screen lock"
+        },
+        "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "android.permission.FOREGROUND_SERVICE": {
+          "full_description": "Allows the app to make use of foreground services.",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service"
+        },
+        "android.permission.FOREGROUND_SERVICE_DATA_SYNC": {
+          "full_description": "Allows the app to make use of foreground services with the type dataSync",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service with the type dataSync"
+        },
+        "android.permission.FOREGROUND_SERVICE_LOCATION": {
+          "full_description": "Allows the app to make use of foreground services with the type location",
+          "permission_type": "normal|instant",
+          "short_description": "run foreground service with the type location"
+        },
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "android.permission.GET_ACCOUNTS": {
+          "full_description": "Allows the app to get\n      the list of accounts known by the phone.  This may include any accounts\n      created by applications you have installed.",
+          "permission_type": "dangerous",
+          "short_description": "find accounts on the device"
+        },
+        "android.permission.GET_PACKAGE_SIZE": {
+          "full_description": "Allows the app to retrieve its code, data, and cache sizes",
+          "permission_type": "normal",
+          "short_description": "measure app storage space"
+        },
+        "android.permission.INTERNET": {
+          "full_description": "Allows the app to create\n     network sockets and use custom network protocols. The browser and other\n     applications provide means to send data to the internet, so this\n     permission is not required to send data to the internet.",
+          "permission_type": "normal|instant",
+          "short_description": "have full network access"
+        },
+        "android.permission.MANAGE_ACCOUNTS": {
+          "full_description": "",
+          "permission_type": "normal",
+          "short_description": ""
+        },
+        "android.permission.NFC": {
+          "full_description": "Allows the app to communicate\n      with Near Field Communication (NFC) tags, cards, and readers.",
+          "permission_type": "normal",
+          "short_description": "control Near Field Communication"
+        },
+        "android.permission.POST_NOTIFICATIONS": {
+          "full_description": "Allows the app to show notifications",
+          "permission_type": "dangerous|instant",
+          "short_description": "show notifications"
+        },
+        "android.permission.POST_PROMOTED_NOTIFICATIONS": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "android.permission.READ_CONTACTS": {
+          "full_description": "Allows the app to read data about your contacts stored on your phone.\n      Apps will also have access to the accounts on your phone that have created contacts.\n      This may include accounts created by apps you have installed.\n      This permission allows apps to save your contact data, and malicious apps may share contact data without your knowledge.",
+          "permission_type": "dangerous",
+          "short_description": "read your contacts"
+        },
+        "android.permission.READ_EXTERNAL_STORAGE": {
+          "full_description": "Allows the app to read the contents of your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "read the contents of your shared storage"
+        },
+        "android.permission.READ_MEDIA_IMAGES": {
+          "full_description": "Allows the app to read image files from your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "read image files from shared storage"
+        },
+        "android.permission.READ_MEDIA_VIDEO": {
+          "full_description": "Allows the app to read video files from your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "read video files from shared storage"
+        },
+        "android.permission.READ_MEDIA_VISUAL_USER_SELECTED": {
+          "full_description": "Allows the app to read image and video files that you select from your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "read user selected image and video files from shared storage"
+        },
+        "android.permission.READ_SYNC_SETTINGS": {
+          "full_description": "Allows the app to read the sync settings for an account. For example, this can determine whether the People app is synced with an account.",
+          "permission_type": "normal",
+          "short_description": "read sync settings"
+        },
+        "android.permission.RECEIVE_BOOT_COMPLETED": {
+          "full_description": "Allows the app to\n        have itself started as soon as the system has finished booting.\n        This can make it take longer to start the phone and allow the\n        app to slow down the overall phone by always running.",
+          "permission_type": "normal",
+          "short_description": "run at startup"
+        },
+        "android.permission.RECORD_AUDIO": {
+          "full_description": "This app can record audio using the microphone while the app is in use.",
+          "permission_type": "dangerous|instant",
+          "short_description": "record audio"
+        },
+        "android.permission.RUN_USER_INITIATED_JOBS": {
+          "full_description": "",
+          "permission_type": "normal",
+          "short_description": ""
+        },
+        "android.permission.SCHEDULE_EXACT_ALARM": {
+          "full_description": "This app can schedule work to happen at a desired time in the future. This also means that the app can run when youu2019re not actively using the device.",
+          "permission_type": "signature|privileged|appop",
+          "short_description": "Schedule precisely timed actions"
+        },
+        "android.permission.USE_CREDENTIALS": {
+          "full_description": "",
+          "permission_type": "normal",
+          "short_description": ""
+        },
+        "android.permission.VIBRATE": {
+          "full_description": "Allows the app to control the vibrator.",
+          "permission_type": "normal|instant",
+          "short_description": "control vibration"
+        },
+        "android.permission.WAKE_LOCK": {
+          "full_description": "Allows the app to prevent the phone from going to sleep.",
+          "permission_type": "normal|instant",
+          "short_description": "prevent phone from sleeping"
+        },
+        "android.permission.WRITE_EXTERNAL_STORAGE": {
+          "full_description": "Allows the app to write the contents of your shared storage.",
+          "permission_type": "dangerous",
+          "short_description": "modify or delete the contents of your shared storage"
+        },
+        "android.permission.WRITE_SYNC_SETTINGS": {
+          "full_description": "Allows an app to modify the sync settings for an account.  For example, this can be used to enable sync of the People app with an account.",
+          "permission_type": "normal",
+          "short_description": "toggle sync on and off"
+        },
+        "com.android.launcher.permission.INSTALL_SHORTCUT": {
+          "full_description": "Allows an application to add\n        Homescreen shortcuts without user intervention.",
+          "permission_type": "normal",
+          "short_description": "install shortcuts"
+        },
+        "com.google.android.apps.maps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "signature",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.c2dm.permission.RECEIVE": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.gms.permission.ACTIVITY_RECOGNITION": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.gms.permission.AD_ID": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.gms.permission.CAR_SPEED": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.googlequicksearchbox.permission.LAUNCH_FROM_GMM": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.googlequicksearchbox.permission.LENSVIEW_BROADCAST": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        },
+        "com.google.android.providers.gsf.permission.READ_GSERVICES": {
+          "full_description": "Unknown permission from android reference",
+          "permission_type": "normal",
+          "short_description": "Unknown permission from android reference"
+        }
+      }
+    },
+    "bundle_info": {
+      "extensions": {
+        "AppSearchDocumentClassMap": 1,
+        "Chronology": 1,
+        "CoroutineExceptionHandler": 1,
+        "GeneratedExtensionRegistryLoader": 1,
+        "MainDispatcherFactory": 1,
+        "binarypb": 35,
+        "dex": 10,
+        "glb": 1,
+        "gz": 1,
+        "json": 5,
+        "level": 1,
+        "ogg": 3,
+        "p12": 1,
+        "png": 28,
+        "prof": 1,
+        "profm": 1,
+        "properties": 57,
+        "svg": 108,
+        "ttf": 1,
+        "txt": 3,
+        "xml": 385
+      },
+      "file_types": {
+        "DEX": 10,
+        "JSON": 5,
+        "OGG": 3,
+        "PNG": 28,
+        "XML": 435,
+        "unknown": 519
+      },
+      "highest_datetime": "1981-01-01 01:01:02",
+      "lowest_datetime": "1981-01-01 01:01:02",
+      "num_children": 4190,
+      "type": "APK",
+      "uncompressed_size": 72281063
+    },
+    "filecondis": {
+      "dhash": "0000101e1e1d1410",
+      "raw_md5": "1036ff16fe1d915a8c8fa8c455aacd50"
+    },
+    "first_submission_date": 1769447052,
+    "last_analysis_date": 1769447052,
+    "last_analysis_results": {
+      "ALYac": {
+        "category": "undetected",
+        "engine_name": "ALYac",
+        "engine_update": "20260126",
+        "engine_version": "2.0.0.10",
+        "method": "blacklist",
+        "result": null
+      },
+      "APEX": {
+        "category": "type-unsupported",
+        "engine_name": "APEX",
+        "engine_update": "20260125",
+        "engine_version": "6.740",
+        "method": "blacklist",
+        "result": null
+      },
+      "AVG": {
+        "category": "undetected",
+        "engine_name": "AVG",
+        "engine_update": "20260125",
+        "engine_version": "23.9.8494.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Acronis": {
+        "category": "undetected",
+        "engine_name": "Acronis",
+        "engine_update": "20240328",
+        "engine_version": "1.2.0.121",
+        "method": "blacklist",
+        "result": null
+      },
+      "AhnLab-V3": {
+        "category": "undetected",
+        "engine_name": "AhnLab-V3",
+        "engine_update": "20260126",
+        "engine_version": "3.29.1.10604",
+        "method": "blacklist",
+        "result": null
+      },
+      "Alibaba": {
+        "category": "undetected",
+        "engine_name": "Alibaba",
+        "engine_update": "20190527",
+        "engine_version": "0.3.0.5",
+        "method": "blacklist",
+        "result": null
+      },
+      "Antiy-AVL": {
+        "category": "undetected",
+        "engine_name": "Antiy-AVL",
+        "engine_update": "20260126",
+        "engine_version": "3.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Arcabit": {
+        "category": "undetected",
+        "engine_name": "Arcabit",
+        "engine_update": "20260126",
+        "engine_version": "2025.0.0.23",
+        "method": "blacklist",
+        "result": null
+      },
+      "Avast": {
+        "category": "undetected",
+        "engine_name": "Avast",
+        "engine_update": "20260125",
+        "engine_version": "23.9.8494.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Avast-Mobile": {
+        "category": "undetected",
+        "engine_name": "Avast-Mobile",
+        "engine_update": "20260126",
+        "engine_version": "260126-06",
+        "method": "blacklist",
+        "result": null
+      },
+      "Avira": {
+        "category": "undetected",
+        "engine_name": "Avira",
+        "engine_update": "20260126",
+        "engine_version": "8.3.3.24",
+        "method": "blacklist",
+        "result": null
+      },
+      "Baidu": {
+        "category": "timeout",
+        "engine_name": "Baidu",
+        "engine_update": "20190318",
+        "engine_version": "1.0.0.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "BitDefender": {
+        "category": "undetected",
+        "engine_name": "BitDefender",
+        "engine_update": "20260126",
+        "engine_version": "7.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "BitDefenderFalx": {
+        "category": "undetected",
+        "engine_name": "BitDefenderFalx",
+        "engine_update": "20251216",
+        "engine_version": "2.0.936",
+        "method": "blacklist",
+        "result": null
+      },
+      "Bkav": {
+        "category": "undetected",
+        "engine_name": "Bkav",
+        "engine_update": "20260126",
+        "engine_version": "2.0.0.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "CAT-QuickHeal": {
+        "category": "undetected",
+        "engine_name": "CAT-QuickHeal",
+        "engine_update": "20260125",
+        "engine_version": "22.00",
+        "method": "blacklist",
+        "result": null
+      },
+      "CMC": {
+        "category": "undetected",
+        "engine_name": "CMC",
+        "engine_update": "20260126",
+        "engine_version": "2.4.2022.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "CTX": {
+        "category": "undetected",
+        "engine_name": "CTX",
+        "engine_update": "20260126",
+        "engine_version": "2024.8.29.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "ClamAV": {
+        "category": "timeout",
+        "engine_name": "ClamAV",
+        "engine_update": "20260126",
+        "engine_version": "1.5.1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "CrowdStrike": {
+        "category": "undetected",
+        "engine_name": "CrowdStrike",
+        "engine_update": "20251219",
+        "engine_version": "1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Cylance": {
+        "category": "type-unsupported",
+        "engine_name": "Cylance",
+        "engine_update": "20260115",
+        "engine_version": "3.0.0.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Cynet": {
+        "category": "type-unsupported",
+        "engine_name": "Cynet",
+        "engine_update": "20260126",
+        "engine_version": "4.0.3.4",
+        "method": "blacklist",
+        "result": null
+      },
+      "DeepInstinct": {
+        "category": "type-unsupported",
+        "engine_name": "DeepInstinct",
+        "engine_update": "20260125",
+        "engine_version": "5.0.0.8",
+        "method": "blacklist",
+        "result": null
+      },
+      "DrWeb": {
+        "category": "undetected",
+        "engine_name": "DrWeb",
+        "engine_update": "20260126",
+        "engine_version": "7.0.72.9030",
+        "method": "blacklist",
+        "result": null
+      },
+      "ESET-NOD32": {
+        "category": "undetected",
+        "engine_name": "ESET-NOD32",
+        "engine_update": "20260126",
+        "engine_version": "18.2.18.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Elastic": {
+        "category": "type-unsupported",
+        "engine_name": "Elastic",
+        "engine_update": "20260122",
+        "engine_version": "4.0.245",
+        "method": "blacklist",
+        "result": null
+      },
+      "Emsisoft": {
+        "category": "undetected",
+        "engine_name": "Emsisoft",
+        "engine_update": "20260126",
+        "engine_version": "2024.8.0.61147",
+        "method": "blacklist",
+        "result": null
+      },
+      "F-Secure": {
+        "category": "undetected",
+        "engine_name": "F-Secure",
+        "engine_update": "20260126",
+        "engine_version": "18.10.1547.307",
+        "method": "blacklist",
+        "result": null
+      },
+      "Fortinet": {
+        "category": "undetected",
+        "engine_name": "Fortinet",
+        "engine_update": "20260126",
+        "engine_version": "7.0.30.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "GData": {
+        "category": "undetected",
+        "engine_name": "GData",
+        "engine_update": "20260126",
+        "engine_version": "GD:27.43316AVA:64.30556",
+        "method": "blacklist",
+        "result": null
+      },
+      "Google": {
+        "category": "undetected",
+        "engine_name": "Google",
+        "engine_update": "20260126",
+        "engine_version": "1769439657",
+        "method": "blacklist",
+        "result": null
+      },
+      "Gridinsoft": {
+        "category": "undetected",
+        "engine_name": "Gridinsoft",
+        "engine_update": "20260126",
+        "engine_version": "1.0.236.174",
+        "method": "blacklist",
+        "result": null
+      },
+      "Ikarus": {
+        "category": "undetected",
+        "engine_name": "Ikarus",
+        "engine_update": "20260126",
+        "engine_version": "6.4.16.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Jiangmin": {
+        "category": "undetected",
+        "engine_name": "Jiangmin",
+        "engine_update": "20260125",
+        "engine_version": "16.0.100",
+        "method": "blacklist",
+        "result": null
+      },
+      "K7AntiVirus": {
+        "category": "undetected",
+        "engine_name": "K7AntiVirus",
+        "engine_update": "20260126",
+        "engine_version": "14.30.58398",
+        "method": "blacklist",
+        "result": null
+      },
+      "K7GW": {
+        "category": "undetected",
+        "engine_name": "K7GW",
+        "engine_update": "20260126",
+        "engine_version": "14.30.58399",
+        "method": "blacklist",
+        "result": null
+      },
+      "Kaspersky": {
+        "category": "undetected",
+        "engine_name": "Kaspersky",
+        "engine_update": "20260126",
+        "engine_version": "22.0.1.28",
+        "method": "blacklist",
+        "result": null
+      },
+      "Kingsoft": {
+        "category": "undetected",
+        "engine_name": "Kingsoft",
+        "engine_update": "20260126",
+        "engine_version": "None",
+        "method": "blacklist",
+        "result": null
+      },
+      "Lionic": {
+        "category": "undetected",
+        "engine_name": "Lionic",
+        "engine_update": "20260126",
+        "engine_version": "8.16",
+        "method": "blacklist",
+        "result": null
+      },
+      "Malwarebytes": {
+        "category": "undetected",
+        "engine_name": "Malwarebytes",
+        "engine_update": "20260126",
+        "engine_version": "3.1.0.204",
+        "method": "blacklist",
+        "result": null
+      },
+      "MaxSecure": {
+        "category": "timeout",
+        "engine_name": "MaxSecure",
+        "engine_update": "20260123",
+        "engine_version": "1.0.0.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "McAfeeD": {
+        "category": "undetected",
+        "engine_name": "McAfeeD",
+        "engine_update": "20260126",
+        "engine_version": "1.2.0.13486",
+        "method": "blacklist",
+        "result": null
+      },
+      "MicroWorld-eScan": {
+        "category": "undetected",
+        "engine_name": "MicroWorld-eScan",
+        "engine_update": "20260126",
+        "engine_version": "14.0.409.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Microsoft": {
+        "category": "undetected",
+        "engine_name": "Microsoft",
+        "engine_update": "20260126",
+        "engine_version": "1.1.25110.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "NANO-Antivirus": {
+        "category": "undetected",
+        "engine_name": "NANO-Antivirus",
+        "engine_update": "20260126",
+        "engine_version": "1.0.170.26895",
+        "method": "blacklist",
+        "result": null
+      },
+      "Paloalto": {
+        "category": "type-unsupported",
+        "engine_name": "Paloalto",
+        "engine_update": "20260126",
+        "engine_version": "0.9.0.1003",
+        "method": "blacklist",
+        "result": null
+      },
+      "Panda": {
+        "category": "undetected",
+        "engine_name": "Panda",
+        "engine_update": "20260126",
+        "engine_version": "4.6.4.2",
+        "method": "blacklist",
+        "result": null
+      },
+      "Rising": {
+        "category": "undetected",
+        "engine_name": "Rising",
+        "engine_update": "20260126",
+        "engine_version": "25.0.0.28",
+        "method": "blacklist",
+        "result": null
+      },
+      "SUPERAntiSpyware": {
+        "category": "undetected",
+        "engine_name": "SUPERAntiSpyware",
+        "engine_update": "20260126",
+        "engine_version": "5.6.0.1032",
+        "method": "blacklist",
+        "result": null
+      },
+      "Sangfor": {
+        "category": "undetected",
+        "engine_name": "Sangfor",
+        "engine_update": "20260126",
+        "engine_version": "2.22.3.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "SentinelOne": {
+        "category": "type-unsupported",
+        "engine_name": "SentinelOne",
+        "engine_update": "20251224",
+        "engine_version": "7.5.3.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "Skyhigh": {
+        "category": "timeout",
+        "engine_name": "Skyhigh",
+        "engine_update": "20260126",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      },
+      "Sophos": {
+        "category": "undetected",
+        "engine_name": "Sophos",
+        "engine_update": "20260126",
+        "engine_version": "3.3.1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "Symantec": {
+        "category": "undetected",
+        "engine_name": "Symantec",
+        "engine_update": "20260126",
+        "engine_version": "1.22.0.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "SymantecMobileInsight": {
+        "category": "undetected",
+        "engine_name": "SymantecMobileInsight",
+        "engine_update": "20260123",
+        "engine_version": "2.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "TACHYON": {
+        "category": "undetected",
+        "engine_name": "TACHYON",
+        "engine_update": "20260126",
+        "engine_version": "2026-01-26.02",
+        "method": "blacklist",
+        "result": null
+      },
+      "Tencent": {
+        "category": "undetected",
+        "engine_name": "Tencent",
+        "engine_update": "20260126",
+        "engine_version": "1.0.0.1",
+        "method": "blacklist",
+        "result": null
+      },
+      "Trapmine": {
+        "category": "type-unsupported",
+        "engine_name": "Trapmine",
+        "engine_update": "20260103",
+        "engine_version": "4.0.8.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "TrellixENS": {
+        "category": "timeout",
+        "engine_name": "TrellixENS",
+        "engine_update": "20260126",
+        "engine_version": "6.0.6.653",
+        "method": "blacklist",
+        "result": null
+      },
+      "TrendMicro": {
+        "category": "undetected",
+        "engine_name": "TrendMicro",
+        "engine_update": "20260126",
+        "engine_version": "24.550.0.1002",
+        "method": "blacklist",
+        "result": null
+      },
+      "TrendMicro-HouseCall": {
+        "category": "undetected",
+        "engine_name": "TrendMicro-HouseCall",
+        "engine_update": "20260126",
+        "engine_version": "24.550.0.1002",
+        "method": "blacklist",
+        "result": null
+      },
+      "Trustlook": {
+        "category": "undetected",
+        "engine_name": "Trustlook",
+        "engine_update": "20260126",
+        "engine_version": "1.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "VBA32": {
+        "category": "undetected",
+        "engine_name": "VBA32",
+        "engine_update": "20260126",
+        "engine_version": "5.5.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "VIPRE": {
+        "category": "undetected",
+        "engine_name": "VIPRE",
+        "engine_update": "20260126",
+        "engine_version": "6.0.0.35",
+        "method": "blacklist",
+        "result": null
+      },
+      "Varist": {
+        "category": "undetected",
+        "engine_name": "Varist",
+        "engine_update": "20260126",
+        "engine_version": "6.6.1.3",
+        "method": "blacklist",
+        "result": null
+      },
+      "ViRobot": {
+        "category": "undetected",
+        "engine_name": "ViRobot",
+        "engine_update": "20260126",
+        "engine_version": "2014.3.20.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "VirIT": {
+        "category": "timeout",
+        "engine_name": "VirIT",
+        "engine_update": "20260126",
+        "engine_version": null,
+        "method": "blacklist",
+        "result": null
+      },
+      "Webroot": {
+        "category": "undetected",
+        "engine_name": "Webroot",
+        "engine_update": "20250227",
+        "engine_version": "1.9.0.8",
+        "method": "blacklist",
+        "result": null
+      },
+      "Xcitium": {
+        "category": "undetected",
+        "engine_name": "Xcitium",
+        "engine_update": "20260125",
+        "engine_version": "38362",
+        "method": "blacklist",
+        "result": null
+      },
+      "Yandex": {
+        "category": "undetected",
+        "engine_name": "Yandex",
+        "engine_update": "20260126",
+        "engine_version": "5.5.2.24",
+        "method": "blacklist",
+        "result": null
+      },
+      "Zillya": {
+        "category": "undetected",
+        "engine_name": "Zillya",
+        "engine_update": "20260123",
+        "engine_version": "2.0.0.5530",
+        "method": "blacklist",
+        "result": null
+      },
+      "ZoneAlarm": {
+        "category": "undetected",
+        "engine_name": "ZoneAlarm",
+        "engine_update": "20260126",
+        "engine_version": "6.22-112233426",
+        "method": "blacklist",
+        "result": null
+      },
+      "Zoner": {
+        "category": "undetected",
+        "engine_name": "Zoner",
+        "engine_update": "20260126",
+        "engine_version": "2.2.2.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "alibabacloud": {
+        "category": "type-unsupported",
+        "engine_name": "alibabacloud",
+        "engine_update": "20250321",
+        "engine_version": "2.2.0",
+        "method": "blacklist",
+        "result": null
+      },
+      "huorong": {
+        "category": "undetected",
+        "engine_name": "huorong",
+        "engine_update": "20260126",
+        "engine_version": "efd1b32:efd1b32:683fcfa:683fcfa",
+        "method": "blacklist",
+        "result": null
+      },
+      "tehtris": {
+        "category": "type-unsupported",
+        "engine_name": "tehtris",
+        "engine_update": "20260126",
+        "engine_version": "v0.1.4",
+        "method": "blacklist",
+        "result": null
+      }
+    },
+    "last_analysis_stats": {
+      "confirmed-timeout": 0,
+      "failure": 0,
+      "harmless": 0,
+      "malicious": 0,
+      "suspicious": 0,
+      "timeout": 6,
+      "type-unsupported": 10,
+      "undetected": 60
+    },
+    "last_modification_date": 1769454409,
+    "last_submission_date": 1769447052,
+    "magic": "Zip archive data, at least v0.0 to extract, compression method=deflate",
+    "magika": "APK",
+    "md5": "34d2cc9fa31d0a7f057f2db1d4271b94",
+    "names": [],
+    "permhash": "8cd5e5fce0c8f71761d412f38eb795d03da191904b93ec969a1dcdbab027fd18",
+    "picklescan": {
+      "contains_invalid_pickle": false,
+      "globals": [],
+      "issues_count": 0
+    },
+    "reputation": 0,
+    "sha1": "d94f32dc95225ea7303bbf64c5d1454a1a04a05c",
+    "sha256": "35154da070e162ce661e5a7874030a052f71a40f8f0d72fd00d9dedf8400ac0c",
+    "size": 37661820,
+    "ssdeep": "786432:c3Hb5VivRFT++05+uszyku6NaTHVZD4aYqTqYAGHP9T9vQVoIJXQA7/ggFKJ:cXlVivRFeFbkCVYWqwHPHRkXk",
+    "tags": [
+      "apk",
+      "android"
+    ],
+    "times_submitted": 1,
+    "tlsh": "T1618723EBF72D881FDC732AB68C7A6262665A0C4646523B573418B31D28736C84F5EFC4",
+    "total_votes": {
+      "harmless": 0,
+      "malicious": 0
+    },
+    "trid": [
+      {
+        "file_type": "Android Package",
+        "probability": 43.5
+      },
+      {
+        "file_type": "VYM Mind Map",
+        "probability": 20.1
+      },
+      {
+        "file_type": "Sweet Home 3D Design (generic)",
+        "probability": 16.9
+      },
+      {
+        "file_type": "Mozilla Firefox browser extension",
+        "probability": 12.9
+      },
+      {
+        "file_type": "ZIP compressed archive",
+        "probability": 6.4
+      }
+    ],
+    "type_description": "Android",
+    "type_extension": "apk",
+    "type_tag": "android",
+    "type_tags": [
+      "executable",
+      "mobile",
+      "android",
+      "apk"
+    ],
+    "unique_sources": 1,
+    "vhash": "5b620cdb60fe126826fc21d82de7ba68"
+  }
+]
