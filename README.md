@@ -24,7 +24,10 @@ The goal is to build **pair-wise comparison tables** between matched RU/EU apps 
   - `pairs/` pair-wise comparison tables
 
 VirusTotal reports were downloaded via vt-cli (VirusTotal API v3) and stored as results/vt/file/<sha256>.json. These raw JSON files are parsed by scripts/build_vt_csv.py into results/vt/vt_features.csv.
+
 Local AndroidManifest analysis is done with Androguard. I parse each APK and extract permissions, SDK versions, debuggable flag, component counts, and exported component counts, using scripts/extract_manifest.py, saved as results/manifest/<sha256>.json, and then aggregated by scripts/build_local_csv.py into results/local/local_from_manifest.csv.
+
+## Pair-wise outputs (RU vs EU)
 
 All pair-wise outputs are in `results/pairs/`:
 
