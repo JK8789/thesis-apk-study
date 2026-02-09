@@ -11,7 +11,8 @@ The goal is to build **pair-wise comparison tables** between matched RU/EU apps 
 - `data/`
   - `ru/` RU APKs
   - `eu/` EU APKs
-  - `meta/` pairing metadata / input tables
+  - `meta/apps.csv` input table: list of apps contained region, category, pair_id, app_name,	apk_path,	sha256 columns
+
 - `scripts/` analysis scripts (manifest extraction, CSV building, QC, pair tables)
 - `results/`
   - `manifest/` per-APK JSON extracted locally from AndroidManifest.xml
