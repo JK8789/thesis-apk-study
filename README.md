@@ -28,7 +28,7 @@ VirusTotal reports were downloaded via vt-cli (VirusTotal API v3) and stored as 
 
 Local AndroidManifest analysis is done with Androguard. I parse each APK and extract permissions, SDK versions, debuggable flag, component counts, and exported component counts, using scripts/extract_manifest.py, saved as results/manifest/<sha256>.json, and then aggregated by scripts/build_local_csv.py into results/local/local_from_manifest.csv.
 
-## Pair-wise outputs (RU vs EU)
+## Part I permissions
 
 All pair-wise outputs are in `results/pairs/`:
 
@@ -65,3 +65,7 @@ All pair-wise outputs are in `results/pairs/`:
   Per pair per component name (using VT component name lists):
   - `category, pair_id, component_type, component_name, status`
   - status ∈ `ru_only`, `eu_only`, `common`
+
+## Part II data safeties
+
+## Part III third party libraries
