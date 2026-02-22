@@ -1,0 +1,13 @@
+region,prefix,apps_with_prefix,in_which_APKs
+ru,com.yandex.pay,3,Gosuslugi;Yandex Go Taxi;Yandex Market
+ru,com.yandex.pay.core.models,2,Yandex Go Taxi;Yandex Market
+ru,com.yandex.pay.core.navigation,2,Gosuslugi;Yandex Market
+ru,com.yandex.pay.core.network,2,Gosuslugi;Yandex Market
+ru,com.yandex.pay.core.widgets,2,Gosuslugi;Yandex Market
+eu,com.amazon.mShop.amazon.pay,1,Amazon Shopping
+ru,com.yandex.pay.core.design,1,Gosuslugi
+ru,com.yandex.pay.core.finances,1,Yandex Market
+ru,com.yandex.pay.core.mvi,1,Gosuslugi
+ru,com.yandex.pay.core.utils,1,Gosuslugi
+ru,com.yandex.pay.strings,1,Gosuslugi
+ru,com.yandex.pay.widgets,1,Yandex Market

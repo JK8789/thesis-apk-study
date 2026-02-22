@@ -1,0 +1,13 @@
+com.adobe.marketing.mobile
+com.adobe.marketing.mobile.analytics
+com.amplitude.android
+com.google.android.gms
+com.google.android.gms.analytics
+com.google.firebase
+com.google.firebase.analytics
+com.google.firebase.ktx
+com.yandex.pay
+io.appmetrica.analytics
+io.appmetrica.analytics.logger
+io.appmetrica.analytics.push.logger
+io.appmetrica.analytics.push.provider.api

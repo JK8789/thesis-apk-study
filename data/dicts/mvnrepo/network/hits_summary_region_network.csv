@@ -1,0 +1,9 @@
+region,prefix,apps_with_prefix,in_which_APKs
+eu,com.android.volley,5,Amazon Shopping;Revolut;Vinted;X;bol
+eu,io.ktor.network,3,DB Navigator;X;itsme
+ru,com.android.volley,3,Avito;RZD;Yandex Maps
+ru,io.ktor.network,2,Avito;Gosuslugi
+eu,com.facebook.android,1,WhatsApp
+eu,io.netty.buffer,1,Bolt
+eu,io.netty.handler,1,Bolt
+eu,io.netty.resolver,1,Bolt

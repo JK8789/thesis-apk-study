@@ -1,0 +1,6 @@
+com.android.volley
+com.facebook.android
+io.ktor.network
+io.netty.buffer
+io.netty.handler
+io.netty.resolver

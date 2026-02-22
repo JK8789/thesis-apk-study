@@ -1,0 +1,12 @@
+com.amazon.mShop.amazon.pay
+com.yandex.pay
+com.yandex.pay.core.design
+com.yandex.pay.core.finances
+com.yandex.pay.core.models
+com.yandex.pay.core.mvi
+com.yandex.pay.core.navigation
+com.yandex.pay.core.network
+com.yandex.pay.core.utils
+com.yandex.pay.core.widgets
+com.yandex.pay.strings
+com.yandex.pay.widgets

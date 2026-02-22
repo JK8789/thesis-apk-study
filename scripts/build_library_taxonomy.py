@@ -11,22 +11,90 @@ OUT.mkdir(parents=True, exist_ok=True)
 
 def classify(prefix: str) -> str:
     p = (prefix or "").lower()
-    # order matters: more specific first
-    if "captcha" in p or "geetest" in p or "seon" in p or "fraud" in p or "risk" in p:
+
+    # Anti-fraud / captcha / risk
+    if any(x in p for x in ["geetest", "captcha", "recaptcha", "seon", "fraud", "risk", "threat", "fingerprint"]):
         return "anti_fraud"
-    if ".ads" in p or "ads" in p or "adservice" in p or "admob" in p or "monetization" in p:
-        return "ads"
-    if "pay" in p or "payment" in p or "sbp" in p:
+
+    # Payments (use vendor names + very specific payment tokens)
+    if any(x in p for x in [
+        "stripe",
+        "paypal",
+        "adyen",
+        "braintree",
+        "klarna",
+    ]):
         return "payments"
-    if "tracker" in p or "analytics" in p or "appmetrica" in p or "metric" in p:
+
+    # Strong payment patterns (safer than "pay")
+    if any(x in p for x in [
+        "payment", "payments", "billing", "vkpay", "sbpay", "samsungpay", ".pay.", ".paylib", "googlepay", "applepay", ".paylibrary.", "pay.",
+    ]):
+        return "payments"
+
+    # Ads (avoid raw "ad" or "ads" substring; require structure or known vendors)
+    if any(x in p for x in [
+        ".ads.",              # safest generic rule
+        "admob",
+        "doubleclick",
+        "applovin",
+        "ironsource",
+        "adcolony",
+        "unity3d.ads",
+        "facebook.ads",
+        "adservice",
+        "yandex.mobile.ads",
+        "miniappsads",
+        "google.android.gms.ads",
+    ]):
+        return "ads"
+
+    # Analytics / attribution / tracking (use vendors)
+    if any(x in p for x in [
+        "adjust.sdk",
+        "appmetrica",
+        "firebase.analytics",
+        "amplitude",
+        "mixpanel",
+        "my.tracker",
+        "flurry",
+        "segment",
+        "analytics",
+        "tracker",
+    ]):
         return "analytics"
-    if "push" in p or "messaging" in p or "fcm" in p:
+
+    # Push / messaging
+    if any(x in p for x in [
+        "firebase.messaging",
+        "push",
+        "onesignal",
+        "pushwoosh",
+    ]):
         return "push"
-    if "crash" in p or "sentry" in p or "bugsnag" in p or "firebasecrash" in p:
+
+    # Crash reporting
+    if any(x in p for x in [
+        "sentry",
+        "bugsnag",
+        "crashlytics",
+        "crash",
+        "firebase.crashlytics",
+    ]):
         return "crash"
-    if "net" in p or "okhttp" in p or "cronet" in p:
+
+    # Networking (optional)
+    if any(x in p for x in [
+        "okhttp",
+        "network",
+        "retrofit",
+        "cronet",
+        "org.chromium.net",
+    ]):
         return "networking"
+
     return "other"
+
 
 def main():
     libs = pd.read_csv(LIBS)
