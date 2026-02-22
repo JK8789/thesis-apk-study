@@ -1,0 +1,679 @@
+app,store,direction,category,item,purpose,optional
+Yandex Maps,googleplay,collected,Audio,Other audio files,"App functionality, Analytics, Personalization",True
+Yandex Maps,googleplay,collected,Device or other IDs,Device or other IDs,"Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Yandex Maps,googleplay,collected,Messages,Other in-app messages,App functionality,True
+Yandex Maps,googleplay,collected,Location,Approximate location,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",True
+Yandex Maps,googleplay,collected,Location,Precise location,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",True
+Yandex Maps,googleplay,collected,Files and docs,Files and docs,App functionality,True
+Yandex Maps,googleplay,collected,Photos and videos,Photos,App functionality,True
+Yandex Maps,googleplay,collected,Photos and videos,Videos,App functionality,True
+Yandex Maps,googleplay,collected,App activity,App interactions,"Analytics, Advertising or marketing, Personalization",True
+Yandex Maps,googleplay,collected,App activity,In-app search history,"Analytics, Advertising or marketing, Personalization",True
+Yandex Maps,googleplay,collected,App activity,Other user-generated content,Analytics,True
+Yandex Maps,googleplay,collected,App activity,Other actions,Analytics,True
+Yandex Maps,googleplay,collected,Calendar,Calendar events,App functionality,True
+Yandex Maps,googleplay,collected,Web browsing,Web browsing history,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",True
+Yandex Maps,googleplay,collected,Health and fitness,Fitness info,"App functionality, Analytics",True
+Yandex Maps,googleplay,collected,Personal info,Name,Account management,True
+Yandex Maps,googleplay,collected,Personal info,Email address,Account management,True
+Yandex Maps,googleplay,collected,Personal info,User IDs,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Yandex Maps,googleplay,collected,Personal info,Address,"App functionality, Account management",True
+Yandex Maps,googleplay,collected,Personal info,Phone number,Account management,True
+Yandex Maps,googleplay,collected,Personal info,Other info,Account management,True
+Yandex Maps,googleplay,collected,Contacts,Contacts,App functionality,True
+Yandex Maps,googleplay,collected,App info and performance,Crash logs,Analytics,False
+Yandex Maps,googleplay,collected,App info and performance,Diagnostics,Analytics,True
+Yandex Maps,googleplay,collected,App info and performance,Other app performance data,Analytics,True
+Yandex Maps,googleplay,collected,Financial info,User payment info,App functionality,True
+Yandex Maps,googleplay,collected,Financial info,Purchase history,"App functionality, Analytics",True
+Yandex Maps,googleplay,shared,No data shared,,,False
+Google Maps,googleplay,collected,Photos and videos,Photos and Videos,,False
+Google Maps,googleplay,collected,Photos and videos,Photos,"App functionality, Analytics, Fraud prevention, security, and compliance, Account management",True
+Google Maps,googleplay,collected,Photos and videos,Videos,"App functionality, Analytics, Fraud prevention, security, and compliance",True
+Google Maps,googleplay,collected,Messages,Other in-app messages,,False
+Google Maps,googleplay,collected,Messages,Other in-app messages,"App functionality, Analytics",True
+Google Maps,googleplay,collected,Files and docs,Files and docs,,False
+Google Maps,googleplay,collected,Files and docs,Files and docs,"Fraud prevention, security, and compliance",True
+Google Maps,googleplay,collected,Personal info,Name,"App functionality, Account management",True
+Google Maps,googleplay,collected,Personal info,Email address,"App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Account management",True
+Google Maps,googleplay,collected,Personal info,User IDs,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Google Maps,googleplay,collected,Personal info,Address,"App functionality, Advertising or marketing, Personalization, Account management",True
+Google Maps,googleplay,collected,Personal info,Phone number,"App functionality, Fraud prevention, security, and compliance, Account management",True
+Google Maps,googleplay,collected,Personal info,Other info,"App functionality, Analytics, Personalization, Account management",False
+Google Maps,googleplay,collected,Device or other IDs,Device or other IDs,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Google Maps,googleplay,collected,Audio,Voice or sound recordings,,False
+Google Maps,googleplay,collected,Audio,Voice or sound recordings,"App functionality, Analytics, Personalization",True
+Google Maps,googleplay,collected,Contacts,Contacts,,False
+Google Maps,googleplay,collected,Contacts,Contacts,"App functionality, Personalization, Account management",True
+Google Maps,googleplay,collected,Web browsing,Web browsing history,,False
+Google Maps,googleplay,collected,Web browsing,Web browsing history,Advertising or marketing,False
+Google Maps,googleplay,collected,Location,Approximate location and Precise location,,False
+Google Maps,googleplay,collected,Location,Approximate location,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Precise location, App functionality, Analytics, Personalization",False
+Google Maps,googleplay,collected,App info and performance,Crash logs,"App functionality, Analytics, Fraud prevention, security, and compliance, Diagnostics, App functionality, Analytics, Fraud prevention, security, and compliance, Account management, Other app performance data, Analytics, Fraud prevention, security, and compliance",False
+Google Maps,googleplay,collected,App activity,App interactions,"App functionality, Analytics, Advertising or marketing, Personalization, In-app search history, App functionality, Analytics, Advertising or marketing, Personalization, Installed apps, App functionality, Analytics, Fraud prevention, security, and compliance",False
+Google Maps,googleplay,collected,App activity,Other user-generated content,"App functionality, Analytics, Personalization, Other actions, App functionality, Analytics",True
+Google Maps,googleplay,shared,No data shared,,,False
+Yandex Go Taxi,googleplay,collected,App activity,App interactions,"Analytics, Advertising or marketing, Personalization",False
+Yandex Go Taxi,googleplay,collected,App activity,In-app search history,"Analytics, Advertising or marketing, Personalization",False
+Yandex Go Taxi,googleplay,collected,App activity,Other user-generated content,Analytics,True
+Yandex Go Taxi,googleplay,collected,App activity,Other actions,Analytics,True
+Yandex Go Taxi,googleplay,collected,Messages,Other in-app messages,"App functionality, Fraud prevention, security, and compliance",True
+Yandex Go Taxi,googleplay,collected,Files and docs,Files and docs,App functionality,True
+Yandex Go Taxi,googleplay,collected,Contacts,Contacts,App functionality,True
+Yandex Go Taxi,googleplay,collected,Device or other IDs,Device or other IDs,"Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Yandex Go Taxi,googleplay,collected,App info and performance,Crash logs,Analytics,False
+Yandex Go Taxi,googleplay,collected,App info and performance,Diagnostics,Analytics,False
+Yandex Go Taxi,googleplay,collected,App info and performance,Other app performance data,Analytics,False
+Yandex Go Taxi,googleplay,collected,Audio,Voice or sound recordings,"App functionality, Analytics",True
+Yandex Go Taxi,googleplay,collected,Financial info,User payment info and Purchase history,,False
+Yandex Go Taxi,googleplay,collected,Financial info,User payment info,"App functionality, Fraud prevention, security, and compliance",True
+Yandex Go Taxi,googleplay,collected,Financial info,Purchase history,"App functionality, Analytics, Fraud prevention, security, and compliance",False
+Yandex Go Taxi,googleplay,collected,Personal info,Name,Account management,True
+Yandex Go Taxi,googleplay,collected,Personal info,Email address,"Developer communications, Account management",True
+Yandex Go Taxi,googleplay,collected,Personal info,User Ids,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Yandex Go Taxi,googleplay,collected,Personal info,Address,Account management,True
+Yandex Go Taxi,googleplay,collected,Personal info,Phone number,"App functionality, Account management",False
+Yandex Go Taxi,googleplay,collected,Personal info,Other info,Account management,True
+Yandex Go Taxi,googleplay,collected,Photos and videos,Photos,App functionality,True
+Yandex Go Taxi,googleplay,collected,Photos and videos,Videos,App functionality,True
+Yandex Go Taxi,googleplay,collected,Location,Approximate location,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",True
+Yandex Go Taxi,googleplay,collected,Location,Precise location,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",True
+Yandex Go Taxi,googleplay,shared,Device or other IDs,Device or other IDs,"Analytics, Advertising or marketing",False
+Bolt,googleplay,collected,Personal info,User IDs,"App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account management",False
+Bolt,googleplay,collected,Personal info,Address,App functionality,True
+Bolt,googleplay,collected,Personal info,Other info,App functionality,True
+Bolt,googleplay,collected,App info and performance,Other app performance data,Analytics,False
+Bolt,googleplay,collected,Audio,Voice or sound recordings,"App functionality, Fraud prevention, security, and compliance",True
+Bolt,googleplay,collected,App activity,App interactions,"Analytics, Fraud prevention, security, and compliance",False
+Bolt,googleplay,collected,App activity,In-app search history,"App functionality, Analytics, Personalization",False
+Bolt,googleplay,collected,App activity,Other user-generated content,App functionality,True
+Bolt,googleplay,shared,No data shared,,,False
+RZD,googleplay,collected,Financial info,User payment info and Purchase history,,False
+RZD,googleplay,collected,Financial info,User payment info,"App functionality, Account management",False
+RZD,googleplay,collected,Financial info,Purchase history,"App functionality, Account management",False
+RZD,googleplay,collected,App activity,In-app search history and Installed apps,,False
+RZD,googleplay,collected,App activity,In-app search history,"App functionality, Analytics",False
+RZD,googleplay,collected,App activity,Installed apps,"App functionality, Fraud prevention, security, and compliance",False
+RZD,googleplay,collected,Location,Approximate location and Precise location,,False
+RZD,googleplay,collected,Location,Approximate location,App functionality,True
+RZD,googleplay,collected,Location,Precise location,App functionality,True
+RZD,googleplay,collected,Files and docs,Files and docs,App functionality,False
+RZD,googleplay,collected,Personal info,Name,"App functionality, Account management",False
+RZD,googleplay,collected,Personal info,Email address,"App functionality, Account management",False
+RZD,googleplay,collected,Personal info,User Ids,"App functionality, Account management",False
+RZD,googleplay,collected,Personal info,Phone number,"App functionality, Account management, Personal info:Other info-> App functionality, Account management",False
+RZD,googleplay,collected,Photos and videos,Photos,App functionality,True
+RZD,googleplay,collected,Messages,Emails and Other in-app messages,,False
+RZD,googleplay,collected,Messages,Emails,"App functionality, Account management",False
+RZD,googleplay,collected,Messages,Other in-app messages,App functionality,True
+RZD,googleplay,collected,App info and performance,Crash logs,Analytics,False
+RZD,googleplay,collected,Device or other IDs,Device or other Ids,App functionality,False
+RZD,googleplay,shared,No data shared,,,False
+DB Navigator,googleplay,collected,Personal info,Name,"App functionality, Fraud prevention, security, and compliance, Account management",True
+DB Navigator,googleplay,collected,Personal info,Email address,"App functionality, Fraud prevention, security, and compliance, Account management",True
+DB Navigator,googleplay,collected,Personal info,User IDs,"App functionality, Fraud prevention, security, and compliance, Account management",True
+DB Navigator,googleplay,collected,Personal info,Address,"App functionality, Fraud prevention, security, and compliance, Account management",True
+DB Navigator,googleplay,collected,Personal info,Phone number,"App functionality, Fraud prevention, security, and compliance, Account management",True
+DB Navigator,googleplay,collected,Personal info,Other info,"App functionality, Fraud prevention, security, and compliance, Account management",True
+DB Navigator,googleplay,collected,App info and performance,Crash logs and Diagnostics,,False
+DB Navigator,googleplay,collected,App info and performance,Crash logs,Analytics,False
+DB Navigator,googleplay,collected,App info and performance,Diagnostics,"App functionality, Analytics",False
+DB Navigator,googleplay,collected,Financial info,User payment info and Purchase history,,False
+DB Navigator,googleplay,collected,Financial info,User payment info,"App functionality, Fraud prevention, security, and compliance, Account management",True
+DB Navigator,googleplay,collected,Financial info,Purchase history,App functionality,True
+DB Navigator,googleplay,collected,Files and docs,Files and docs,App functionality,True
+DB Navigator,googleplay,collected,App activity,App interactions and In-app search history,,False
+DB Navigator,googleplay,collected,App activity,App interactions,"App functionality, Analytics",False
+DB Navigator,googleplay,collected,App activity,In-app search history,App functionality,False
+DB Navigator,googleplay,collected,Photos and videos,Photos,App functionality,True
+DB Navigator,googleplay,collected,Device or other IDs,Device or other IDs,"App functionality, Analytics, Advertising or marketing, Account management",False
+DB Navigator,googleplay,shared,App info and performance,Crash logs,Analytics,False
+DB Navigator,googleplay,shared,App activity,App interactions,Analytics,False
+DB Navigator,googleplay,shared,Device or other IDs,Device or other IDs,"Analytics, Advertising or marketing",False
+Yandex Trains,googleplay,collected,Personal info,Name,"App functionality, Fraud prevention, security, and compliance, Personalization",True
+Yandex Trains,googleplay,collected,Personal info,Email address,"App functionality, Fraud prevention, security, and compliance",True
+Yandex Trains,googleplay,collected,Personal info,User IDs,"App functionality, Analytics",True
+Yandex Trains,googleplay,collected,Personal info,Address,"App functionality, Analytics",True
+Yandex Trains,googleplay,collected,Personal info,Phone number,App functionality,True
+Yandex Trains,googleplay,collected,Personal info,Other info,"App functionality, Analytics, Fraud prevention, security, and compliance",True
+Yandex Trains,googleplay,collected,Location,Approximate location and Precise location,,False
+Yandex Trains,googleplay,collected,Location,Approximate location,"App functionality, Personalization",True
+Yandex Trains,googleplay,collected,Location,Precise location,"App functionality, Personalization",True
+Yandex Trains,googleplay,collected,Device or other IDs,Device or other IDs,Analytics,False
+Yandex Trains,googleplay,collected,App info and performance,Crash logs and Diagnostics,,False
+Yandex Trains,googleplay,collected,App info and performance,Crash logs,Analytics,False
+Yandex Trains,googleplay,collected,App info and performance,Diagnostics,Analytics,False
+Yandex Trains,googleplay,collected,Financial info,User payment info and Purchase history,,False
+Yandex Trains,googleplay,collected,Financial info,User payment info,"App functionality, Fraud prevention, security, and compliance",True
+Yandex Trains,googleplay,collected,Financial info,Purchase history,Analytics,True
+Yandex Trains,googleplay,collected,App activity,App interactions and In-app search history,,False
+Yandex Trains,googleplay,collected,App activity,App interactions,Analytics,False
+Yandex Trains,googleplay,collected,App activity,In-app search history,"App functionality, Analytics, Personalization",False
+Yandex Trains,googleplay,shared,No data shared,,,False
+Mobiliteit.lu,googleplay,collected,Photos and videos,Photos,,False
+Mobiliteit.lu,googleplay,collected,Photos and videos,Photos,Account management,True
+Mobiliteit.lu,googleplay,collected,Personal info,Name,Account management,True
+Mobiliteit.lu,googleplay,collected,Personal info,Email address,"App functionality, Fraud prevention, security, and compliance, Account management",True
+Mobiliteit.lu,googleplay,collected,Personal info,User IDs,"App functionality, Personalization, Account management",True
+Mobiliteit.lu,googleplay,collected,Personal info,Address,Account management,True
+Mobiliteit.lu,googleplay,collected,Personal info,Phone number,Account management,True
+Mobiliteit.lu,googleplay,collected,Personal info,Other info,Account management,True
+Mobiliteit.lu,googleplay,shared,No data shared,,,False
+Ozon,googleplay,collected,Device or other IDs,Device or other IDs,"Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",True
+Ozon,googleplay,collected,Photos and videos,Photos and Videos,,False
+Ozon,googleplay,collected,Photos and videos,Photos,App functionality,True
+Ozon,googleplay,collected,Photos and videos,Videos,App functionality,True
+Ozon,googleplay,collected,Location,Approximate location,,False
+Ozon,googleplay,collected,Location,Approximate location,"App functionality, Analytics",True
+Ozon,googleplay,collected,Personal info,Name,App functionality,False
+Ozon,googleplay,collected,Personal info,"Email address, App functionality",,False
+Ozon,googleplay,collected,Personal info,User Ids,"App functionality, Analytics",False
+Ozon,googleplay,collected,Personal info,Address,App functionality,False
+Ozon,googleplay,collected,Personal info,Phone number,App functionality,False
+Ozon,googleplay,collected,Personal info,Sexual orientation,Analytics,True
+Ozon,googleplay,collected,Personal info,Other info,"App functionality, Analytics",False
+Ozon,googleplay,collected,App info and performance,Crash logs,"App functionality, Analytics",False
+Ozon,googleplay,collected,App info and performance,Diagnostics,"App functionality, Analytics",False
+Ozon,googleplay,collected,App info and performance,Other app performance data,"App functionality, Analytics",False
+Ozon,googleplay,collected,Financial info,User payment info,App functionality,True
+Ozon,googleplay,collected,App activity,App interactions,Analytics,False
+Ozon,googleplay,collected,App activity,In-app search history,Analytics,False
+Ozon,googleplay,collected,App activity,Other user-generated content,"Analytics, App activity:Other actions-> Analytics",False
+Ozon,googleplay,shared,Device or other IDs,Device or other IDs,"Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",False
+Ozon,googleplay,shared,Location,Approximate location,"App functionality, Analytics",False
+Ozon,googleplay,shared,Location,Precise location,App functionality,False
+Ozon,googleplay,shared,App info and performance,Crash logs,Analytics,False
+Ozon,googleplay,shared,App info and performance,Diagnostics,Analytics,False
+Ozon,googleplay,shared,App info and performance,Other app performance data,Analytics,False
+Ozon,googleplay,shared,App activity,App interactions,,False
+Ozon,googleplay,shared,App activity,App interactions,Analytics,False
+Amazon Shopping,googleplay,collected,Health and fitness,Health info,"App functionality, Account management",True
+Amazon Shopping,googleplay,collected,Personal info,Name,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Account management",True
+Amazon Shopping,googleplay,collected,Personal info,Email address,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Account management",True
+Amazon Shopping,googleplay,collected,Personal info,User IDs,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",True
+Amazon Shopping,googleplay,collected,Personal info,Address,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Account management",True
+Amazon Shopping,googleplay,collected,Personal info,Phone number,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management",True
+Amazon Shopping,googleplay,collected,Personal info,Other info,"App functionality, Fraud prevention, security, and compliance, Personalization, Account management",True
+Amazon Shopping,googleplay,collected,Photos and videos,Photos and Videos,,False
+Amazon Shopping,googleplay,collected,Photos and videos,Photos,"App functionality, Analytics, Fraud prevention, security, and compliance, Personalization",True
+Amazon Shopping,googleplay,collected,Photos and videos,Videos,"App functionality, Analytics, Fraud prevention, security, and compliance, Personalization",True
+Amazon Shopping,googleplay,collected,Audio,Voice or sound recordings,"App functionality, Analytics, Personalization",True
+Amazon Shopping,googleplay,collected,App info and performance,Crash logs,"App functionality, Analytics",False
+Amazon Shopping,googleplay,collected,App info and performance,Diagnostics,"App functionality, Analytics, Fraud prevention, security, and compliance",False
+Amazon Shopping,googleplay,collected,App info and performance,Other app performance data,"App functionality, Analytics",False
+Amazon Shopping,googleplay,collected,Location,Approximate location and Precise location,,False
+Amazon Shopping,googleplay,collected,Location,Approximate location,"App functionality, Analytics, Advertising or marketing",True
+Amazon Shopping,googleplay,collected,Location,Precise location,"App functionality, Analytics",True
+Amazon Shopping,googleplay,collected,Messages,Other in-app messages,App functionality,True
+Amazon Shopping,googleplay,collected,Device or other IDs,Device or other Ids,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention,->security, and compliance",False
+Amazon Shopping,googleplay,collected,Financial info,User payment info,"App functionality, Fraud prevention, security, and compliance, Account management",True
+Amazon Shopping,googleplay,collected,Financial info,Purchase history,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",True
+Amazon Shopping,googleplay,collected,Financial info,Other financial info,"App functionality, Analytics, Fraud prevention, security, and compliance",True
+Amazon Shopping,googleplay,collected,Files and docs,Files and docs,"App functionality, Fraud prevention, security, and compliance",True
+Amazon Shopping,googleplay,collected,App activity,App interactions,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",False
+Amazon Shopping,googleplay,collected,App activity,In-app search history,"App functionality, Analytics, Advertising or marketing, Personalization, Account management",True
+Amazon Shopping,googleplay,collected,App activity,Other user-generated content,"App functionality, Analytics, Fraud prevention, security, and compliance, Personalization",True
+Amazon Shopping,googleplay,collected,App activity,Other actions,"App functionality, Analytics, Personalization",True
+Amazon Shopping,googleplay,shared,Health and fitness,Health info,App functionality,False
+Amazon Shopping,googleplay,shared,Personal info,Name,"App functionality, Fraud prevention, security, and compliance, Account management",False
+Amazon Shopping,googleplay,shared,Personal info,Email address,"App functionality, Fraud prevention, security, and compliance",False
+Amazon Shopping,googleplay,shared,Personal info,Address,"App functionality, Fraud prevention, security, and compliance, Account management",False
+Amazon Shopping,googleplay,shared,Personal info,Phone number,"App functionality, Fraud prevention, security, and compliance, Account management",False
+Amazon Shopping,googleplay,shared,Personal info,Other info,"App functionality, Fraud prevention, security, and compliance, Account management",False
+Amazon Shopping,googleplay,shared,Photos and videos,Photos and Videos,,False
+Amazon Shopping,googleplay,shared,Photos and videos,Photos,"App functionality, Fraud prevention, security, and compliance, Photos and videos:Videos-> App functionality, Fraud prevention, security, and compliance",False
+Amazon Shopping,googleplay,shared,Device or other IDs,Device or other Ids,"App functionality, Advertising or marketing, Fraud prevention, security, and compliance",False
+Amazon Shopping,googleplay,shared,Financial info,User payment info and Other financial info,,False
+Amazon Shopping,googleplay,shared,Financial info,User payment info,"App functionality, Fraud prevention, security, and compliance",False
+Amazon Shopping,googleplay,shared,Financial info,Other financial info,App functionality,False
+Amazon Shopping,googleplay,shared,App activity,App interactions and Other user-generated content,,False
+Amazon Shopping,googleplay,shared,App activity,App interactions,"App functionality, Analytics, Fraud prevention, security, and compliance",False
+Amazon Shopping,googleplay,shared,App activity,Other user-generated content,App functionality,False
+Wildberries,googleplay,collected,Location,Precise location,"App functionality, Personalization",True
+Wildberries,googleplay,collected,Personal info,Name,"Fraud prevention, security, and compliance",True
+Wildberries,googleplay,collected,Personal info,Email address,"Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Account management",True
+Wildberries,googleplay,collected,Personal info,User Ids,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Wildberries,googleplay,collected,Personal info,Address,App functionality,True
+Wildberries,googleplay,collected,Personal info,Phone number,"App functionality, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Account management",True
+Wildberries,googleplay,collected,Personal info,Other info,"Fraud prevention, security, and compliance",False
+Wildberries,googleplay,collected,App activity,Other user-generated content,App functionality,True
+Wildberries,googleplay,collected,Financial info,Purchase history,App functionality,False
+Wildberries,googleplay,shared,Device or other IDs,Device or other Ids,"App functionality, Analytics, Fraud prevention, security, and compliance, Account management",False
+Wildberries,googleplay,shared,App info and performance,Crash logs,Analytics,False
+Wildberries,googleplay,shared,App info and performance,Diagnostics,Analytics,False
+Wildberries,googleplay,shared,App info and performance,Other app performance data,Analytics,False
+Wildberries,googleplay,shared,Personal info,Name,"Fraud prevention, security, and compliance",False
+Wildberries,googleplay,shared,Photos and videos,Photos,"App functionality, Account management",False
+Wildberries,googleplay,shared,App activity,App interactions,Analytics,False
+Wildberries,googleplay,shared,App activity,Other user-generated content,App functionality,False
+Wildberries,googleplay,shared,App activity,Other actions,Analytics,False
+Wildberries,googleplay,shared,Financial info,User payment info,"Fraud prevention, security, and compliance",False
+Zalando,googleplay,collected,Device or other IDs,Device or other Ids,"App functionality, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",False
+Zalando,googleplay,collected,Personal info,Name,"App functionality, Advertising or marketing, Personalization, Account management",False
+Zalando,googleplay,collected,Personal info,Email address,"App functionality, Advertising or marketing, Account management",False
+Zalando,googleplay,collected,Personal info,User Ids,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Zalando,googleplay,collected,Personal info,Address,"Personalization, Account management",False
+Zalando,googleplay,collected,Personal info,Phone number,Account management,True
+Zalando,googleplay,collected,Personal info,Other info,Account management,True
+Zalando,googleplay,collected,Financial info,User payment info,Account management,False
+Zalando,googleplay,collected,Financial info,Purchase history,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Zalando,googleplay,collected,Financial info,Credit score,Account management,False
+Zalando,googleplay,collected,App activity,App interactions,"Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",True
+Zalando,googleplay,collected,App activity,In-app search history,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",True
+Zalando,googleplay,collected,App activity,Other actions,Personalization,True
+Zalando,googleplay,collected,App info and performance,Crash logs and Diagnostics,,False
+Zalando,googleplay,collected,App info and performance,Crash logs,Analytics,False
+Zalando,googleplay,collected,App info and performance,Diagnostics,"Analytics, Fraud prevention, security, and compliance",False
+Zalando,googleplay,shared,Device or other IDs,Device or other Ids,"App functionality, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",False
+Zalando,googleplay,shared,Personal info,Name,"Personalization, Account management",False
+Zalando,googleplay,shared,Personal info,Email address,"Advertising or marketing, Account management",False
+Zalando,googleplay,shared,Personal info,User Ids,"Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Zalando,googleplay,shared,Personal info,Address,Account management,False
+Zalando,googleplay,shared,Personal info,Phone number,Account management,False
+Zalando,googleplay,shared,Personal info,Other info,Account management,False
+Zalando,googleplay,shared,Financial info,User payment info and Purchase history,,False
+Zalando,googleplay,shared,Financial info,User payment info,Account management,False
+Zalando,googleplay,shared,Financial info,Purchase history,"Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management",False
+Zalando,googleplay,shared,App activity,App interactions and In-app search history,,False
+Zalando,googleplay,shared,App activity,App interactions,"Analytics, Advertising or marketing, Personalization, Account management",False
+Zalando,googleplay,shared,App activity,In-app search history,"Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",False
+Zalando,googleplay,shared,App info and performance,Crash logs and Diagnostics,,False
+Zalando,googleplay,shared,App info and performance,Crash logs,Analytics,False
+Zalando,googleplay,shared,App info and performance,Diagnostics,"Analytics, Fraud prevention, security, and compliance",False
+Yandex Market,googleplay,collected,Messages,Other in-app messages,App functionality,True
+Yandex Market,googleplay,collected,Personal info,Name,"App functionality, Fraud prevention, security, and compliance, Account management",True
+Yandex Market,googleplay,collected,Personal info,Email address,"App functionality, Developer communications, Advertising or marketing, Account management",True
+Yandex Market,googleplay,collected,Personal info,User Ids,"App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account management",False
+Yandex Market,googleplay,collected,Personal info,Address,"App functionality, Fraud prevention, security, and compliance, Personalization",True
+Yandex Market,googleplay,collected,Personal info,Phone number,"App functionality, Fraud prevention, security, and compliance, Account management",True
+Yandex Market,googleplay,collected,Personal info,Other info,Account management,True
+Yandex Market,googleplay,collected,Device or other IDs,Device or other IDs,"Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Yandex Market,googleplay,collected,Web browsing,Web browsing history,App functionality,True
+Yandex Market,googleplay,collected,Location,Approximate location and Precise location,,False
+Yandex Market,googleplay,collected,Location,Approximate location,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",True
+Yandex Market,googleplay,collected,Location,Precise location,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",True
+Yandex Market,googleplay,collected,App activity,App interactions,Analytics,False
+Yandex Market,googleplay,collected,App activity,In-app search history,App functionality,True
+Yandex Market,googleplay,collected,App activity,Other user-generated content,App functionality,True
+Yandex Market,googleplay,collected,App activity,Other actions,Analytics,True
+Yandex Market,googleplay,collected,Photos and videos,Photos,"App functionality, Developer communications",True
+Yandex Market,googleplay,collected,Photos and videos,Videos,App functionality,True
+Yandex Market,googleplay,collected,App info and performance,Crash logs,Analytics,False
+Yandex Market,googleplay,collected,App info and performance,Diagnostics,Analytics,False
+Yandex Market,googleplay,collected,App info and performance,Other app performance data,Analytics,False
+Yandex Market,googleplay,collected,Files and docs,Files and docs,App functionality,True
+Yandex Market,googleplay,collected,Financial info,User payment info and Purchase history,,False
+Yandex Market,googleplay,collected,Financial info,User payment info,"App functionality, Fraud prevention, security, and compliance",True
+Yandex Market,googleplay,collected,Financial info,Purchase history,"App functionality, Analytics",True
+Yandex Market,googleplay,shared,Messages,Other in-app messages,App functionality,False
+Yandex Market,googleplay,shared,Personal info,Name,"Fraud prevention, security, and compliance",False
+Yandex Market,googleplay,shared,Personal info,Address,"Fraud prevention, security, and compliance",False
+Yandex Market,googleplay,shared,Personal info,Phone number,"Fraud prevention, security, and compliance",False
+Yandex Market,googleplay,shared,Photos and videos,Photos,App functionality,False
+Yandex Market,googleplay,shared,Photos and videos,Videos,App functionality,False
+Yandex Market,googleplay,shared,Files and docs,App functionality,,False
+bol,googleplay,collected,App activity,App interactions,"App functionality, Analytics, Advertising or marketing, Personalization",True
+bol,googleplay,collected,App activity,In-app search history,"App functionality, Analytics, Advertising or marketing, Personalization",False
+bol,googleplay,collected,App activity,Other user-generated content,"App functionality, Analytics",True
+bol,googleplay,collected,App activity,Other actions,"Analytics, Advertising or marketing, Personalization",True
+bol,googleplay,collected,App info and performance,Crash logs and Diagnostics,,False
+bol,googleplay,collected,App info and performance,Crash logs,Analytics,False
+bol,googleplay,collected,App info and performance,Diagnostics,Analytics,False
+bol,googleplay,collected,Messages,Other in-app messages,"App functionality, Analytics, Advertising or marketing",True
+bol,googleplay,collected,Financial info,User payment info and Purchase history,,False
+bol,googleplay,collected,Financial info,User payment info,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",True
+bol,googleplay,collected,Financial info,Purchase history,"App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account management",True
+bol,googleplay,collected,Web browsing,Web browsing history,"Analytics, Advertising or marketing, Personalization",False
+bol,googleplay,collected,Device or other IDs,Device or other Ids,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention,->security, and compliance, Personalization, Account management",False
+bol,googleplay,collected,Personal info,Name,"App functionality, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+bol,googleplay,collected,Personal info,Email address,"App functionality, Advertising or marketing, Fraud prevention, security, and compliance, Account management",True
+bol,googleplay,collected,Personal info,User IDs,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+bol,googleplay,collected,Personal info,Address,"App functionality, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+bol,googleplay,collected,Personal info,Phone number,"App functionality, Advertising or marketing, Account management",True
+bol,googleplay,collected,Personal info,Other info,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management",True
+bol,googleplay,collected,Location,Approximate location,"Analytics, Advertising or marketing",False
+bol,googleplay,shared,No data shared,,,False
+Avito,rustore,collected,no declared data,,,False
+Avito,rustore,shared,no declared data,,,False
+Vinted,googleplay,collected,Messages,Emails and Other in-app messages,,False
+Vinted,googleplay,collected,Messages,Emails,"App functionality, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Account management",False
+Vinted,googleplay,collected,Messages,Other in-app messages,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Account management",False
+Vinted,googleplay,collected,Location,Approximate location and Precise location,,False
+Vinted,googleplay,collected,Location,Approximate location,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Vinted,googleplay,collected,Location,Precise location,App functionality,True
+Vinted,googleplay,collected,App info and performance,Crash logs and Diagnostics,,False
+Vinted,googleplay,collected,App info and performance,Crash logs,"App functionality, Analytics",False
+Vinted,googleplay,collected,App info and performance,Diagnostics,"App functionality, Analytics",False
+Vinted,googleplay,collected,Personal info,Name,"App functionality, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Account management",False
+Vinted,googleplay,collected,Personal info,Email address,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Account management",False
+Vinted,googleplay,collected,Personal info,User Ids,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Vinted,googleplay,collected,Personal info,Address,"App functionality, Analytics, Fraud prevention, security, and compliance, Account management",True
+Vinted,googleplay,collected,Personal info,Phone number,"App functionality, Fraud prevention, security, and compliance, Account management",False
+Vinted,googleplay,collected,Personal info,Other info,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Vinted,googleplay,collected,App activity,App interactions,"Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",False
+Vinted,googleplay,collected,App activity,In-app search history,"App functionality, Analytics, Advertising or marketing, Personalization",False
+Vinted,googleplay,collected,App activity,Other user-generated content,"App functionality, Analytics, Fraud prevention, security, and compliance, Account management",True
+Vinted,googleplay,collected,App activity,Other actions,"App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Personalization, Account management",False
+Vinted,googleplay,collected,Photos and videos,Photos,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management",True
+Vinted,googleplay,collected,Photos and videos,Videos,"App functionality, Fraud prevention, security, and compliance",True
+Vinted,googleplay,collected,Financial info,User payment info and Purchase history,,False
+Vinted,googleplay,collected,Financial info,User payment info,"App functionality, Fraud prevention, security, and compliance, Account management",True
+Vinted,googleplay,collected,Financial info,Purchase history,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Vinted,googleplay,collected,Device or other Ids,Device or other Ids,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance->Account management",False
+Vinted,googleplay,shared,Messages,Other in-app messages,App functionality,False
+Vinted,googleplay,shared,Location,Approximate location,Advertising or marketing,False
+Vinted,googleplay,shared,Personal info,Name,"App functionality, Fraud prevention, security, and compliance",False
+Vinted,googleplay,shared,Personal info,Email address,"Fraud prevention, security, and compliance",False
+Vinted,googleplay,shared,Personal info,User Ids,"Advertising or marketing, Fraud prevention, security, and compliance",False
+Vinted,googleplay,shared,Personal info,Other info,"Advertising or marketing, Fraud prevention, security, and compliance",False
+Vinted,googleplay,shared,App activity,App interactions,Analytics,False
+Vinted,googleplay,shared,Financial info,User payment info and Purchase history,,False
+Vinted,googleplay,shared,Financial info,User payment info,"App functionality, Fraud prevention, security, and compliance",False
+Vinted,googleplay,shared,Financial info,Purchase history,"Fraud prevention, security, and compliance",False
+Vinted,googleplay,shared,Device or other Ids,Device or other Ids,Advertising or marketing,False
+Sberbank,rustore,collected,Contact information,,So you can instantly transfer money using your phone number,False
+Sberbank,rustore,collected,Passport information,,"To ensure that you, and not a fraudster, applied for a banking product",False
+Sberbank,rustore,collected,Photos and files,,So you can send the bank information about problems or change your... profile picture in SberBank Online,False
+Sberbank,rustore,collected,Cookie information,,To make it easier for you to use the website and apps,False
+Sberbank,rustore,collected,Geolocation,,So you can quickly find the nearest branch or ATM on the map,False
+Sberbank,rustore,collected,Transaction data,,To ensure secure bank transfers,False
+Sberbank,rustore,collected,Health information,,To provide you with special service if needed,False
+Sberbank,rustore,collected,"Audio recordings of your voice, video recordings",,To conduct quality control of service and ensure security at the bank's offices,False
+Sberbank,rustore,shared,,no declared data,,False
+BGL,googleplay,collected,Files and docs,Files and docs,"App functionality, Fraud prevention, security, and compliance",True
+BGL,googleplay,collected,Personal info,User IDs,"App functionality, Fraud prevention, security, and compliance, Account management",False
+BGL,googleplay,shared,No data shared,,,False
+Tinkoff,,collected,no declared data,,,False
+Tinkoff,,shared,no declared data,,,False
+ING Luxembourg,googleplay,collected,Device or other IDs,Device or other Ids,"Fraud prevention, security, and compliance",False
+ING Luxembourg,googleplay,collected,App activity,App interactions,"Analytics, Fraud prevention, security, and compliance",False
+ING Luxembourg,googleplay,collected,Financial info,Purchase history and Other financial info,,False
+ING Luxembourg,googleplay,collected,Financial info,Purchase history,"App functionality, Fraud prevention, security, and compliance",False
+ING Luxembourg,googleplay,collected,Financial info,Other financial info,"App functionality, Fraud prevention, security, and compliance",False
+ING Luxembourg,googleplay,shared,No data shared,,,False
+Alfa Bank,rustore,collected,Contacts,"Information about the user's contacts, names, correspondence history, details such as usernames, call logs, and information about the recency, frequency, and duration of communications",,False
+Alfa Bank,rustore,shared,Contacts,"Information about the user's contacts, names, correspondence history, details such as usernames, call logs, and information about the recency, frequency, and duration of communications",,False
+Revolut,googleplay,collected,App activity,App interactions,"App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance",False
+Revolut,googleplay,collected,App activity,In-app search history,"App functionality, Analytics",False
+Revolut,googleplay,collected,App activity,Installed apps,"Fraud prevention, security, and compliance",False
+Revolut,googleplay,collected,Personal info,Name,"App functionality, Fraud prevention, security, and compliance, Account management",False
+Revolut,googleplay,collected,Personal info,Email address,"App functionality, Fraud prevention, security, and compliance, Account management",False
+Revolut,googleplay,collected,Personal info,Address,"App functionality, Fraud prevention, security, and compliance, Account management",False
+Revolut,googleplay,collected,Personal info,Phone number,"App functionality, Fraud prevention, security, and compliance, Account management",False
+Revolut,googleplay,collected,Personal info,Other info,"App functionality, Fraud prevention, security, and compliance, Account management",False
+Revolut,googleplay,collected,Device or other IDs,Device or other Ids,App functionality,False
+Revolut,googleplay,collected,Location,Approximate location and Precise location,,False
+Revolut,googleplay,collected,Location,Approximate location,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",True
+Revolut,googleplay,collected,Location,Precise location,"App functionality, Analytics, Fraud prevention, security, and compliance, Personalization",True
+Revolut,googleplay,collected,App info and performance,Crash logs and Diagnostics,,False
+Revolut,googleplay,collected,App info and performance,Crash logs,"App functionality, Analytics, Developer communications",False
+Revolut,googleplay,collected,App info and performance,Diagnostics,"App functionality, Analytics, Developer communications",False
+Revolut,googleplay,collected,Financial info,User payment info,"App functionality, Fraud prevention, security, and compliance, Account managemen",True
+Revolut,googleplay,collected,",Financial info",Purchase history,App functionality,False
+Revolut,googleplay,collected,Financial info,Other financial info,"App functionality, Fraud prevention, security, and compliance, Account management",True
+Revolut,googleplay,collected,Contacts,Contacts,"App functionality, Fraud prevention, security, and compliance",True
+Revolut,googleplay,shared,No data shared,,,False
+VTB,rustore,collected,no declared data,,,False
+VTB,rustore,shared,no declared data,,,False
+BILnet,googleplay,collected,Personal info,Name and User IDs,,False
+BILnet,googleplay,collected,Personal info,Name,"App functionality, Account management",False
+BILnet,googleplay,collected,Personal info,User Ids,"App functionality, Account management",False
+BILnet,googleplay,collected,App activity,App interactions,Analytics,True
+BILnet,googleplay,collected,Messages,Other in-app messages,"App functionality, Fraud prevention, security, and compliance, Account management",False
+BILnet,googleplay,collected,Financial info,User payment info,"App functionality, Account management",False
+BILnet,googleplay,collected,Financial info,Purchase history,"App functionality, Account management",False
+BILnet,googleplay,collected,Financial info,Other financial info,"App functionality, Account management",False
+BILnet,googleplay,collected,App info and performance,Crash logs,Analytics,True
+BILnet,googleplay,shared,No data shared,,,False
+EMIAS.INFO,googleplay,collected,Personal info,Other info,App functionality,False
+EMIAS.INFO,googleplay,shared,No data shared,,,False
+Doctena,googleplay,collected,App activity,App interactions,Analytics,True
+Doctena,googleplay,collected,Personal info,Name,"App functionality, Personalization, Account management",False
+Doctena,googleplay,collected,Personal info,Email address,"App functionality, Developer communications, Fraud prevention, security, and compliance, Personalization, Account management",False
+Doctena,googleplay,collected,Personal info,User Ids,"App functionality, Fraud prevention, security, and compliance, Account management",False
+Doctena,googleplay,collected,Personal info,Address,"App functionality, Account management",True
+Doctena,googleplay,collected,Personal info,Phone number,"App functionality, Fraud prevention, security, and compliance, Account management",False
+Doctena,googleplay,collected,Personal info,Other info,"App functionality, Account management",True
+Doctena,googleplay,collected,Files and docs,Files and docs,"App functionality, Personalization",True
+Doctena,googleplay,collected,Messages,Emails,App functionality,False
+Doctena,googleplay,collected,Messages,SMS or MMS,"App functionality, Fraud prevention, security, and compliance",False
+Doctena,googleplay,collected,App info and performance,Diagnostics,Analytics,True
+Doctena,googleplay,collected,Calendar,Calendar events,App functionality,False
+Doctena,googleplay,collected,Health and fitness,Health info,"App functionality, Personalization",True
+Doctena,googleplay,shared,Personal info,Name,"App functionality, Fraud prevention, security, and compliance, Personalization, Account management",False
+Doctena,googleplay,shared,Personal info,Address,"App functionality, Account management",False
+Doctena,googleplay,shared,Personal info,Phone number,"App functionality, Fraud prevention, security, and compliance, Personalization, Account management",False
+VK,googleplay,collected,Financial info,Purchase history,"App functionality, Fraud prevention, security, and compliance",False
+VK,googleplay,collected,Photos and videos,Photos,"App functionality, Fraud prevention, security, and compliance, Account management",True
+VK,googleplay,collected,Photos and videos,Videos,"App functionality, Fraud prevention, security, and compliance",True
+VK,googleplay,collected,Personal info,Name,Account management,False
+VK,googleplay,collected,Personal info,Email address,"Developer communications, Fraud prevention, security, and compliance, Account management’ Personal info:User Ids-> App functionality, Analytics, Fraud prevention, security, and compliance",True
+VK,googleplay,collected,Personal info,Phone number,"App functionality, Advertising or marketing, Fraud prevention, security, and compliance, Account management",False
+VK,googleplay,collected,Personal info,Other info,"Advertising or marketing, Account management",True
+VK,googleplay,collected,Health and fitness,Fitness info,App functionality,True
+VK,googleplay,collected,Files and docs,Files and docs,App functionality,True
+VK,googleplay,collected,Device or other IDs,Device or other IDs,"App functionality, Analytics, Advertising or marketing, Personalization",True
+VK,googleplay,collected,Contacts,Contacts,"App functionality, Analytics, Personalization",True
+VK,googleplay,collected,Audio,Music files,"App functionality, Fraud prevention, security, and compliance, Personalization",True
+VK,googleplay,collected,Messages,Other in-app messages,"App functionality, Developer communications",False
+VK,googleplay,collected,App activity,App interactions,"Advertising or marketing, Personalization",False
+VK,googleplay,collected,App activity,In-app search history,"App functionality, Personalization",False
+VK,googleplay,collected,App activity,Installed apps,Personalization,True
+VK,googleplay,collected,App activity,Other user-generated content,App functionality,True
+VK,googleplay,collected,App activity,Other actions,"App functionality, Advertising or marketing, Personalization",False
+VK,googleplay,collected,App info and performance,Crash logs and Diagnostics,,False
+VK,googleplay,collected,App info and performance,Crash logs,Analytics,False
+VK,googleplay,collected,App info and performance,Diagnostics,Analytics,False
+VK,googleplay,collected,Location,Precise location,"App functionality, Advertising or marketing",True
+VK,googleplay,shared,Personal info,Name,Account management,False
+VK,googleplay,shared,Personal info,User Ids,"App functionality, Fraud prevention, security, and compliance",False
+VK,googleplay,shared,Personal info,Phone number,"App functionality, Advertising or marketing, Fraud prevention, security, and compliance, Account management",False
+VK,googleplay,shared,Personal info,Other info,"Advertising or marketing, Account management",False
+VK,googleplay,shared,Device or other Ids,Device or other Ids,"Analytics, Advertising or marketing",False
+VK,googleplay,shared,Audio,Music files,App functionality,False
+VK,googleplay,shared,App activity,Installed apps,Personalization,False
+VK,googleplay,shared,App info and performance,Crash logs and Diagnostics,,False
+VK,googleplay,shared,App info and performance,Crash logs,Analytics,False
+VK,googleplay,shared,App info and performance,Diagnostics,Analytics,False
+VK,googleplay,shared,Location,Precise location,"App functionality, Advertising or marketing",False
+Facebook,googleplay,collected,Web browsing,Web browsing history,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Facebook,googleplay,collected,Personal info,Name,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Facebook,googleplay,collected,Personal info,Email address,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Facebook,googleplay,collected,Personal info,User Ids,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Facebook,googleplay,collected,Personal info,Address,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Facebook,googleplay,collected,Personal info,Phone number,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Facebook,googleplay,collected,Personal info,Political or religious beliefs,"App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account management",True
+Facebook,googleplay,collected,Personal info,Sexual orientation,"App functionality, Analytics, Fraud prevention, security, and compliance, Personalization, Account",True
+Facebook,googleplay,collected,Personal info,Other info,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Facebook,googleplay,collected,App activity,App interactions,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Facebook,googleplay,collected,App activity,In-app search history,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Facebook,googleplay,collected,App activity,Installed apps,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Facebook,googleplay,collected,App activity,Other user-generated content,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Facebook,googleplay,collected,App activity,Other actions,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Facebook,googleplay,collected,Files and docs,Files and docs,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Facebook,googleplay,collected,Photos and videos,Photos,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Facebook,googleplay,collected,Photos and videos,Videos,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Facebook,googleplay,collected,App info and performance,Crash logs,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Facebook,googleplay,collected,App info and performance,Diagnostics,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Facebook,googleplay,collected,App info and performance,Other app performance data,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Facebook,googleplay,collected,Financial info,User payment info,"App functionality, Analytics, Fraud prevention, security, and compliance, Account management",True
+Facebook,googleplay,collected,Financial info,Purchase history,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Facebook,googleplay,collected,Financial info,Credit score,"App functionality, Fraud prevention, security, and compliance, Account management",True
+Facebook,googleplay,collected,Financial info,Other financial info,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Facebook,googleplay,collected,Location,Approximate location and Precise location,,False
+Facebook,googleplay,collected,Location,Approximate location,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Facebook,googleplay,collected,Location,Precise location,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Facebook,googleplay,collected,Device or other IDs,Device or other Ids,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention,->security, and compliance, Personalization, Account management",False
+Facebook,googleplay,collected,Contacts,Contacts,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Facebook,googleplay,collected,Health and fitness,Health info and Fitness info,,False
+Facebook,googleplay,collected,Health and fitness,Health info,"App functionality, Analytics, Fraud prevention, security, and compliance, Account management",True
+Facebook,googleplay,collected,Health and fitness,Fitness info,"App functionality, Analytics, Fraud prevention, security, and compliance, Account management",True
+Facebook,googleplay,collected,Messages,Emails,"App functionality, Fraud prevention, security, and compliance, Account management",True
+Facebook,googleplay,collected,Messages,SMS or MMS,"App functionality, Fraud prevention, security, and compliance, Account management",True
+Facebook,googleplay,collected,Messages,Other in-app messages,"App functionality, Fraud prevention, security, and compliance, Account management",True
+Facebook,googleplay,collected,Calendar,Calendar events,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Facebook,googleplay,collected,Audio,Voice or sound recordings,"App functionality, Analytics, Fraud prevention, security, and compliance, Account management",True
+Facebook,googleplay,collected,Audio,Music files,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+Facebook,googleplay,collected,Audio,Other audio files,"App functionality, Analytics, Fraud prevention, security, and compliance, Account management",True
+Facebook,googleplay,shared,Personal info,Name,"Fraud prevention, security, and compliance",False
+Facebook,googleplay,shared,Personal info,Email address,"Fraud prevention, security, and compliance",False
+Facebook,googleplay,shared,Personal info,User Ids,"Fraud prevention, security, and compliance",False
+Facebook,googleplay,shared,Personal info,Phone number,"Fraud prevention, security, and compliance",False
+Facebook,googleplay,shared,Device or other Ids,Device or other Ids,Advertising or marketing,False
+OK,googleplay,collected,Audio,Voice or sound recordings and Other audio files,,False
+OK,googleplay,collected,Audio,Voice or sound recordings,App functionality,True
+OK,googleplay,collected,Audio,Other audio files,App functionality,True
+OK,googleplay,collected,Device or other IDs,Device or other Ids,Analytics,False
+OK,googleplay,collected,Personal info,Name,Account management,True
+OK,googleplay,collected,Personal info,Email address,"Developer communications, Account management",False
+OK,googleplay,collected,Personal info,Address,"Advertising or marketing, Personalization",True
+OK,googleplay,collected,Personal info,Phone number,"Fraud prevention, security, and compliance, Account management",True
+OK,googleplay,collected,Financial info,Purchase history,"App functionality, Analytics, Fraud prevention, security, and compliance",False
+OK,googleplay,collected,App info and performance,Crash logs,Analytics,False
+OK,googleplay,collected,App info and performance,Diagnostics,Analytics,False
+OK,googleplay,collected,App info and performance,Other app performance data,Analytics,False
+OK,googleplay,collected,Files and docs,Files and docs,App functionality,True
+OK,googleplay,collected,Photos and videos,Photos and Videos,,False
+OK,googleplay,collected,Photos and videos,Photos,App functionality,True
+OK,googleplay,collected,Photos and videos,Videos,App functionality,True
+OK,googleplay,collected,App activity,App interactions and Other user-generated content,,False
+OK,googleplay,collected,App activity,App interactions,App functionality,True
+OK,googleplay,collected,App activity,Other user-generated content,"App functionality, Analytics",True
+OK,googleplay,collected,Messages,Emails and Other in-app messages,,False
+OK,googleplay,collected,Messages,Emails,"Developer communications, Fraud prevention, security, and compliance, Account management",True
+OK,googleplay,collected,Messages,Other in-app messages,"App functionality, Developer communications",True
+OK,googleplay,collected,Contacts,Contacts,App functionality,True
+OK,googleplay,shared,Personal info,User IDs,,False
+OK,googleplay,shared,Personal info,User IDs,"App functionality, Analytics, Developer communications, Advertising or marketing, Personalization",False
+OK,googleplay,shared,Location,Precise location,"App functionality, Advertising or marketing",False
+X,googleplay,collected,Device or other IDs,Device or other Ids,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance->Account management",False
+X,googleplay,collected,Personal info,Name,"App functionality, Developer communications, Fraud prevention, security, and compliance, Account management",True
+X,googleplay,collected,Personal info,Email address,"App functionality, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+X,googleplay,collected,Personal info,User Ids,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+X,googleplay,collected,Personal info,Address,App functionality,True
+X,googleplay,collected,Personal info,Phone number,"App functionality, Developer communications, Fraud prevention, security, and compliance, Personalization, Account management",True
+X,googleplay,collected,Personal info,Other info,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management",False
+X,googleplay,collected,App info and performance,Crash logs,Analytics,False
+X,googleplay,collected,App info and performance,Diagnostics,"App functionality, Analytics, Advertising or marketing",False
+X,googleplay,collected,App info and performance,Other app performance data,"App functionality, Analytics",False
+X,googleplay,collected,Financial info,Purchase history,"App functionality, Analytics, Advertising or marketing",True
+X,googleplay,collected,Messages,Other in-app messages,"App functionality, Analytics, Fraud prevention, security, and compliance",False
+X,googleplay,collected,Photos and videos,Photos and Videos,,False
+X,googleplay,collected,Photos and videos,Photos,"App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Account management",True
+X,googleplay,collected,Photos and videos,Videos,"App functionality, Analytics, Fraud prevention, security, and compliance, Account management",True
+X,googleplay,collected,App activity,App interactions,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",False
+X,googleplay,collected,App activity,In-app search history,"App functionality, Analytics, Personalization, Installed apps, App functionality, Analytics, Advertising or marketing, Personalization",False
+X,googleplay,collected,App activity,Other user-generated content,"App functionality, Analytics, Fraud prevention, security, and compliance, Personalization",False
+X,googleplay,collected,App activity,Other actions,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization",False
+X,googleplay,collected,Contacts,Contacts,"App functionality, Analytics, Developer communications, Fraud prevention, security, and compliance, Personalization",True
+X,googleplay,collected,Web browsing,Web browsing history,"App functionality, Analytics, Advertising or marketing",False
+X,googleplay,collected,Audio,Voice or sound recordings,"App functionality, Analytics, Fraud prevention, security, and compliance",True
+X,googleplay,collected,Location,Approximate location and Precise location,,False
+X,googleplay,collected,Location,Approximate location,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+X,googleplay,collected,Location,Precise location,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",True
+X,googleplay,shared,,No data shared,,False
+MAX,appstore,collected,Contact Info,,,False
+MAX,appstore,collected,Contacts,,,False
+MAX,appstore,collected,User Content,,,False
+MAX,appstore,collected,Search History,,,False
+MAX,appstore,collected,Identifiers,,,False
+MAX,appstore,collected,Usage Data,,,False
+MAX,appstore,collected,Location,,,False
+MAX,appstore,collected,Diagnostics,,,False
+MAX,appstore,shared,,no declared data,,False
+WhatsApp,googleplay,collected,Contacts,Contacts,"App functionality, Fraud prevention, security, and compliance",True
+WhatsApp,googleplay,collected,Financial info,User payment info and Purchase history,,False
+WhatsApp,googleplay,collected,Financial info,User payment info,"App functionality, Fraud prevention, security, and compliance",True
+WhatsApp,googleplay,collected,Financial info,Purchase history,"App functionality, Analytics, Fraud prevention, security, and compliance",True
+WhatsApp,googleplay,collected,Location,Approximate location,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance",False
+WhatsApp,googleplay,collected,Device or other IDs,Device or other Ids,"App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention,security, and compliance",False
+WhatsApp,googleplay,collected,Personal info,Email address,"App functionality, Fraud prevention, security, and compliance",True
+WhatsApp,googleplay,collected,Personal info,User Ids,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Account management",False
+WhatsApp,googleplay,collected,Personal info,Phone number,"App functionality, Analytics, Fraud prevention, security, and compliance",False
+WhatsApp,googleplay,collected,App info and performance,Crash logs,"App functionality, Analytics",False
+WhatsApp,googleplay,collected,App info and performance,Diagnostics,"App functionality, Analytics",False
+WhatsApp,googleplay,collected,App info and performance,Other app performance data,"App functionality, Analytics",False
+WhatsApp,googleplay,collected,App activity,App interactions,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and complianceж App activity:In-app search history->App functionality, Analytics",False
+WhatsApp,googleplay,collected,App activity,Other user-generated content,"App functionality, Analytics, Fraud prevention, security, and compliance, Personalization",True
+WhatsApp,googleplay,shared,No data shared,,,False
+Yandex Telemost,googleplay,collected,Personal info,Name,Account management,True
+Yandex Telemost,googleplay,collected,Personal info,Email address,Account management,True
+Yandex Telemost,googleplay,collected,Personal info,User Ids,"App functionality, Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Yandex Telemost,googleplay,collected,Personal info,Other info,Account management,True
+Yandex Telemost,googleplay,collected,App activity,App interactions and Other actions,,False
+Yandex Telemost,googleplay,collected,App activity,App interactions,"Analytics, Advertising or marketing, Personalization",False
+Yandex Telemost,googleplay,collected,App activity,Other actions,Analytics,True
+Yandex Telemost,googleplay,collected,Audio,Voice or sound recordings,App functionality,True
+Yandex Telemost,googleplay,collected,Device or other IDs,Device or other Ids,"Analytics, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, Account management",False
+Yandex Telemost,googleplay,collected,App info and performance,Crash logs,Analytics,False
+Yandex Telemost,googleplay,collected,App info and performance,Diagnostics,Analytics,False
+Yandex Telemost,googleplay,collected,App info and performance,Other app performance data,Analytics,True
+Yandex Telemost,googleplay,collected,Messages,Other in-app messages,"App functionality, Fraud prevention, security, and compliance",True
+Yandex Telemost,googleplay,shared,No data shared,,,False
+Telegram,googleplay,collected,Contacts,Contacts,App functionality,True
+Telegram,googleplay,collected,Location,Precise location,App functionality,True
+Telegram,googleplay,collected,Photos and videos,Photos and Videos,,False
+Telegram,googleplay,collected,Photos and videos,Photos,App functionality,True
+Telegram,googleplay,collected,Photos and videos,Videos,App functionality,True
+Telegram,googleplay,collected,Audio,Voice or sound recordings,App functionality,True
+Telegram,googleplay,collected,Files and docs,Files and docs,App functionality,True
+Telegram,googleplay,collected,Personal info,Name and User IDs,,False
+Telegram,googleplay,collected,Personal info,Name,App functionality,False
+Telegram,googleplay,collected,Personal info,User Ids,App functionality,False
+Telegram,googleplay,collected,Messages,Other in-app messages,App functionality,True
+Telegram,googleplay,shared,No data shared,,,False
+Gosuslugi,googleplay,collected,Personal info,Name,App functionality,False
+Gosuslugi,googleplay,collected,Personal info,Email address,App functionality,False
+Gosuslugi,googleplay,collected,Personal info,User Ids,App functionality,False
+Gosuslugi,googleplay,collected,Personal info,Address,App functionality,False
+Gosuslugi,googleplay,collected,Personal info,Phone number,App functionality,False
+Gosuslugi,googleplay,collected,Personal info,Other info,App functionality,False
+Gosuslugi,googleplay,collected,App activity,Installed apps,App functionality,False
+Gosuslugi,googleplay,collected,Health and fitness,Health info,App functionality,False
+Gosuslugi,googleplay,collected,Financial info,User payment info and Purchase history,,False
+Gosuslugi,googleplay,collected,Financial info,User payment info,App functionality,True
+Gosuslugi,googleplay,collected,Financial info,Purchase history,App functionality,False
+Gosuslugi,googleplay,shared,Financial info,User payment info,"App functionality, Fraud prevention, security, and compliance",False
+MyGuichet.lu,googleplay,collected,Photos and videos,Photos and Videos,,False
+MyGuichet.lu,googleplay,collected,Photos and videos,Photos,App functionality,False
+MyGuichet.lu,googleplay,collected,Photos and videos,Videos,App functionality,False
+MyGuichet.lu,googleplay,collected,Calendar,Calendar events,App functionality,False
+MyGuichet.lu,googleplay,collected,Financial info,User payment info and Other financial info,,False
+MyGuichet.lu,googleplay,collected,Financial info,User payment info,App functionality,False
+MyGuichet.lu,googleplay,collected,Financial info,Other financial info,App functionality,False
+MyGuichet.lu,googleplay,collected,Files and docs,App functionality,,False
+MyGuichet.lu,googleplay,collected,Personal info,Name,App functionality,False
+MyGuichet.lu,googleplay,collected,Personal info,Email address,App functionality,False
+MyGuichet.lu,googleplay,collected,Personal info,User Ids,App functionality,False
+MyGuichet.lu,googleplay,collected,Personal info,Address,App functionality,False
+MyGuichet.lu,googleplay,collected,Personal info,Phone number,App functionality,False
+MyGuichet.lu,googleplay,collected,Personal info,Other info,App functionality,False
+MyGuichet.lu,googleplay,collected,Device or other IDs,Device or other Ids,App functionality,False
+MyGuichet.lu,googleplay,collected,Health and fitness,Health info and Fitness info,,False
+MyGuichet.lu,googleplay,collected,Health and fitness,Health info,App functionality,False
+MyGuichet.lu,googleplay,collected,Health and fitness,Fitness info,App functionality,False
+MyGuichet.lu,googleplay,collected,Contacts,Contacts,App functionality,False
+MyGuichet.lu,googleplay,shared,No data shared,,,False
+Nalogi FL,googleplay,collected,Personal info,Email address,App functionality,False
+Nalogi FL,googleplay,collected,Personal info,User Ids,App functionality,False
+Nalogi FL,googleplay,collected,Personal info,Phone number,App functionality,True
+Nalogi FL,googleplay,shared,No data shared,,,False
+impots.gouv,googleplay,collected,Calendar,Calendar events,Personalization,True
+impots.gouv,googleplay,collected,Personal info,Email address,Account management,False
+impots.gouv,googleplay,collected,Personal info,User Ids,"App functionality, Account management, Address, Account management",False
+impots.gouv,googleplay,collected,Personal info,Phone number,Account management,False
+impots.gouv,googleplay,collected,Financial info,User payment info,App functionality,False
+impots.gouv,googleplay,shared,No data shared,,,False
+Gosuslugi Biometria,googleplay,collected,No data collected,,,False
+Gosuslugi Biometria,googleplay,shared,No data shared,,,False
+itsme,googleplay,collected,Personal info,Name,"App functionality, Account management",False
+itsme,googleplay,collected,Personal info,Email address,"Developer communications, Advertising or marketing, Fraud prevention, security, and compliance",True
+itsme,googleplay,collected,Personal info,User Ids,App functionality,False
+itsme,googleplay,collected,Personal info,Address,App functionality,False
+itsme,googleplay,collected,Personal info,Phone number,"App functionality, Account management",False
+itsme,googleplay,collected,Personal info,Other info,App functionality,False
+itsme,googleplay,collected,Device or other Ids,Device or other Ids,Analytics,False
+itsme,googleplay,shared,App activity,App interactions,Analytics,False
+itsme,googleplay,shared,App info and performance,Crash logs and Other app performance data,,False
+itsme,googleplay,shared,App info and performance,Crash logs,Analytics,False
+itsme,googleplay,shared,App info and performance,Other app performance data,Analytics,False
