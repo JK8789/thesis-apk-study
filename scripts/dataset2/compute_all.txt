@@ -1,0 +1,63 @@
+-compute SHA-256
+
+sha256sum ee.mtakso.driver/play/Bolt_Driver.apk \
+> ee.mtakso.driver/play/sha256.txt
+
+sha256sum ee.mtakso.driver/rustore/Bolt_Driver.apk \
+> ee.mtakso.driver/rustore/sha256.txt
+
+-extract signing certificate digest (APK signer cert SHA-256)
+
+apksigner verify --print-certs ee.mtakso.driver/play/Bolt_Driver.apk \
+| grep "certificate SHA-256 digest" \
+> ee.mtakso.driver/play/cert_sha256.txt
+
+apksigner verify --print-certs ee.mtakso.driver/rustore/Bolt_Driver.apk \
+| grep "certificate SHA-256 digest" \
+> ee.mtakso.driver/rustore/cert_sha256.txt
+
+-extract versionName and versionCode
+
+aapt dump badging ee.mtakso.driver/play/Bolt_Driver.apk \
+| grep "package:" \
+> ee.mtakso.driver/play/version.txt
+
+aapt dump badging ee.mtakso.driver/rustore/Bolt_Driver.apk \
+| grep "package:" \
+> ee.mtakso.driver/rustore/version.txt
+
+- extract permissions
+
+aapt dump permissions ee.mtakso.driver/play/Bolt_Driver.apk \
+| awk '{print $2}' \
+| sed 's/name=//' \
+| tr -d "'" \
+| sort -u \
+> ee.mtakso.driver/play/permissions.txt
+
+aapt dump permissions ee.mtakso.driver/rustore/Bolt_Driver.apk \
+| awk '{print $2}' \
+| sed 's/name=//' \
+| tr -d "'" \
+| sort -u \
+> ee.mtakso.driver/rustore/permissions.txt
+
+- interesting differences:
+
+diff ee.mtakso.driver/play/permissions.txt \
+ee.mtakso.driver/rustore/permissions.txt  > ee.mtakso.driver/diff.txt
+
+- Apk size in bytes
+
+stat -c %s ee.mtakso.driver/play/Bolt_Driver.apk > ee.mtakso.driver/play/size_bytes.txt
+
+stat -c %s ee.mtakso.driver/rustore/Bolt_Driver.apk > ee.mtakso.driver/rustore/size_bytes.txt
+
+
+
+
+
+===============
+
+
+

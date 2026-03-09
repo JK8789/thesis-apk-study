@@ -6,6 +6,8 @@ from pathlib import Path
 import requests
 
 BASE = "https://androzoo.uni.lu/api/download"
+# Read data/meta/eu_selected.csv
+# downloaded the APK binary, save it into data/eu/ (or data/ru/)
 
 def main(selected_csv: Path, out_dir: Path, apikey: str, sleep_s: float = 0.5):
     out_dir.mkdir(parents=True, exist_ok=True)

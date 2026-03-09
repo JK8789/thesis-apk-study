@@ -1,0 +1,560 @@
+sha256,region,category,pair_id,app_name,package,abi,so_name,apk_zip_path,compressed_size,uncompressed_size
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,arm64-v8a,libandroidx.graphics.path.so,lib/arm64-v8a/libandroidx.graphics.path.so,10096,10096
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,arm64-v8a,libarcore_sdk_c.so,lib/arm64-v8a/libarcore_sdk_c.so,68040,68040
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,arm64-v8a,libarcore_sdk_jni.so,lib/arm64-v8a/libarcore_sdk_jni.so,100800,100800
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,arm64-v8a,libc++_shared.so,lib/arm64-v8a/libc++_shared.so,1253536,1253536
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,arm64-v8a,libdatastore_shared_counter.so,lib/arm64-v8a/libdatastore_shared_counter.so,7112,7112
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,arm64-v8a,libindoorssdk.so,lib/arm64-v8a/libindoorssdk.so,204808,204808
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,arm64-v8a,libkfp-jni-lib.so,lib/arm64-v8a/libkfp-jni-lib.so,26504,26504
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,arm64-v8a,libmaplibre.so,lib/arm64-v8a/libmaplibre.so,11264136,11264136
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,arm64-v8a,libsqlcipher.so,lib/arm64-v8a/libsqlcipher.so,3351792,3351792
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,armeabi-v7a,libandroidx.graphics.path.so,lib/armeabi-v7a/libandroidx.graphics.path.so,7252,7252
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,armeabi-v7a,libarcore_sdk_c.so,lib/armeabi-v7a/libarcore_sdk_c.so,50836,50836
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,armeabi-v7a,libarcore_sdk_jni.so,lib/armeabi-v7a/libarcore_sdk_jni.so,63104,63104
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,armeabi-v7a,libc++_shared.so,lib/armeabi-v7a/libc++_shared.so,850380,850380
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,armeabi-v7a,libdatastore_shared_counter.so,lib/armeabi-v7a/libdatastore_shared_counter.so,4416,4416
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,armeabi-v7a,libindoorssdk.so,lib/armeabi-v7a/libindoorssdk.so,128956,128956
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,armeabi-v7a,libkfp-jni-lib.so,lib/armeabi-v7a/libkfp-jni-lib.so,13748,13748
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,armeabi-v7a,libmaplibre.so,lib/armeabi-v7a/libmaplibre.so,8206936,8206936
+F82235296527716D0EFC61D2B5395DE977274E9D91252EBCB932A66276344383,ru,transport_rail,rail1,RZD,ru.rzd.pass,armeabi-v7a,libsqlcipher.so,lib/armeabi-v7a/libsqlcipher.so,2152104,2152104
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libandroidx.graphics.path.so,lib/arm64-v8a/libandroidx.graphics.path.so,4386,10096
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libbarhopper_v3.so,lib/arm64-v8a/libbarhopper_v3.so,1621477,3805328
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libcrashlytics-common.so,lib/arm64-v8a/libcrashlytics-common.so,281569,755960
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libcrashlytics-handler.so,lib/arm64-v8a/libcrashlytics-handler.so,61902,185960
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libcrashlytics-trampoline.so,lib/arm64-v8a/libcrashlytics-trampoline.so,1696,4848
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libcrashlytics.so,lib/arm64-v8a/libcrashlytics.so,66346,195568
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libface_detector_v2_jni.so,lib/arm64-v8a/libface_detector_v2_jni.so,3299665,8335920
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libgtc4core.so,lib/arm64-v8a/libgtc4core.so,405494,1016280
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libimage_processing_util_jni.so,lib/arm64-v8a/libimage_processing_util_jni.so,14799,29008
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libimagepipeline.so,lib/arm64-v8a/libimagepipeline.so,3203,10328
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libjingle_peerconnection_so.so,lib/arm64-v8a/libjingle_peerconnection_so.so,4509664,9922352
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libmaps-mobile.so,lib/arm64-v8a/libmaps-mobile.so,11422456,30375560
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libnative-filters.so,lib/arm64-v8a/libnative-filters.so,14347,30776
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libnative-imagetranscoder.so,lib/arm64-v8a/libnative-imagetranscoder.so,182104,448616
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,librenderscript-toolkit.so,lib/arm64-v8a/librenderscript-toolkit.so,153861,470008
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libsentry-android.so,lib/arm64-v8a/libsentry-android.so,5528,16832
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libsentry.so,lib/arm64-v8a/libsentry.so,247862,720048
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libsigner.so,lib/arm64-v8a/libsigner.so,499686,946192
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libsurface_util_jni.so,lib/arm64-v8a/libsurface_util_jni.so,1706,4832
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libtensorflowlite_jni.so,lib/arm64-v8a/libtensorflowlite_jni.so,1378158,3401664
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libtoolChecker.so,lib/arm64-v8a/libtoolChecker.so,2207,5512
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,arm64-v8a,libzstd-jni-1.5.6-6.so,lib/arm64-v8a/libzstd-jni-1.5.6-6.so,258488,600064
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libandroidx.graphics.path.so,lib/armeabi-v7a/libandroidx.graphics.path.so,4064,7252
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libbarhopper_v3.so,lib/armeabi-v7a/libbarhopper_v3.so,1397974,2504444
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libcrashlytics-common.so,lib/armeabi-v7a/libcrashlytics-common.so,231291,437928
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libcrashlytics-handler.so,lib/armeabi-v7a/libcrashlytics-handler.so,43147,87924
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libcrashlytics-trampoline.so,lib/armeabi-v7a/libcrashlytics-trampoline.so,1569,3368
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libcrashlytics.so,lib/armeabi-v7a/libcrashlytics.so,47008,94556
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libface_detector_v2_jni.so,lib/armeabi-v7a/libface_detector_v2_jni.so,2744852,5266280
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libgtc4core.so,lib/armeabi-v7a/libgtc4core.so,264210,391924
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libimage_processing_util_jni.so,lib/armeabi-v7a/libimage_processing_util_jni.so,12586,20380
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libimagepipeline.so,lib/armeabi-v7a/libimagepipeline.so,3095,9900
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libjingle_peerconnection_so.so,lib/armeabi-v7a/libjingle_peerconnection_so.so,3859519,6560812
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libmaps-mobile.so,lib/armeabi-v7a/libmaps-mobile.so,8811323,16928772
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libnative-filters.so,lib/armeabi-v7a/libnative-filters.so,7905,13960
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libnative-imagetranscoder.so,lib/armeabi-v7a/libnative-imagetranscoder.so,127821,251516
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,librenderscript-toolkit.so,lib/armeabi-v7a/librenderscript-toolkit.so,127931,309148
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libsentry-android.so,lib/armeabi-v7a/libsentry-android.so,4978,12080
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libsentry.so,lib/armeabi-v7a/libsentry.so,219186,468380
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libsigner.so,lib/armeabi-v7a/libsigner.so,502480,894652
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libsurface_util_jni.so,lib/armeabi-v7a/libsurface_util_jni.so,1577,3440
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libtensorflowlite_jni.so,lib/armeabi-v7a/libtensorflowlite_jni.so,1188765,2247576
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libtoolChecker.so,lib/armeabi-v7a/libtoolChecker.so,1974,3944
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,armeabi-v7a,libzstd-jni-1.5.6-6.so,lib/armeabi-v7a/libzstd-jni-1.5.6-6.so,251978,468644
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libandroidx.graphics.path.so,lib/x86/libandroidx.graphics.path.so,4782,9284
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libbarhopper_v3.so,lib/x86/libbarhopper_v3.so,2163221,5494304
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libcrashlytics-common.so,lib/x86/libcrashlytics-common.so,308842,767860
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libcrashlytics-handler.so,lib/x86/libcrashlytics-handler.so,65449,172772
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libcrashlytics-trampoline.so,lib/x86/libcrashlytics-trampoline.so,1664,3580
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libcrashlytics.so,lib/x86/libcrashlytics.so,70091,182668
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libface_detector_v2_jni.so,lib/x86/libface_detector_v2_jni.so,3791964,9642348
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libgtc4core.so,lib/x86/libgtc4core.so,239375,523020
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libimage_processing_util_jni.so,lib/x86/libimage_processing_util_jni.so,18390,38292
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libimagepipeline.so,lib/x86/libimagepipeline.so,3196,9848
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libjingle_peerconnection_so.so,lib/x86/libjingle_peerconnection_so.so,5217585,12151692
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libmaps-mobile.so,lib/x86/libmaps-mobile.so,12159401,32489184
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libnative-filters.so,lib/x86/libnative-filters.so,8942,22100
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libnative-imagetranscoder.so,lib/x86/libnative-imagetranscoder.so,190423,530088
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,librenderscript-toolkit.so,lib/x86/librenderscript-toolkit.so,151923,398832
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libsentry-android.so,lib/x86/libsentry-android.so,5827,14760
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libsentry.so,lib/x86/libsentry.so,273325,737928
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libsigner.so,lib/x86/libsigner.so,411118,942200
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libsurface_util_jni.so,lib/x86/libsurface_util_jni.so,1723,3712
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libtensorflowlite_jni.so,lib/x86/libtensorflowlite_jni.so,1769833,4463368
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libtoolChecker.so,lib/x86/libtoolChecker.so,2093,4292
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86,libzstd-jni-1.5.6-6.so,lib/x86/libzstd-jni-1.5.6-6.so,263144,636520
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libandroidx.graphics.path.so,lib/x86_64/libandroidx.graphics.path.so,4614,10760
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libbarhopper_v3.so,lib/x86_64/libbarhopper_v3.so,2076598,5140464
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libcrashlytics-common.so,lib/x86_64/libcrashlytics-common.so,301295,794368
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libcrashlytics-handler.so,lib/x86_64/libcrashlytics-handler.so,64938,190456
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libcrashlytics-trampoline.so,lib/x86_64/libcrashlytics-trampoline.so,1610,4528
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libcrashlytics.so,lib/x86_64/libcrashlytics.so,69594,199872
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libface_detector_v2_jni.so,lib/x86_64/libface_detector_v2_jni.so,3826647,9795144
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libgtc4core.so,lib/x86_64/libgtc4core.so,245380,523760
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libimage_processing_util_jni.so,lib/x86_64/libimage_processing_util_jni.so,22727,48104
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libimagepipeline.so,lib/x86_64/libimagepipeline.so,3330,10608
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libjingle_peerconnection_so.so,lib/x86_64/libjingle_peerconnection_so.so,5408021,12821392
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libmaps-mobile.so,lib/x86_64/libmaps-mobile.so,11622130,33219136
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libnative-filters.so,lib/x86_64/libnative-filters.so,13564,31048
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libnative-imagetranscoder.so,lib/x86_64/libnative-imagetranscoder.so,192628,567672
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,librenderscript-toolkit.so,lib/x86_64/librenderscript-toolkit.so,148117,421968
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libsentry-android.so,lib/x86_64/libsentry-android.so,5680,16384
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libsentry.so,lib/x86_64/libsentry.so,252018,706760
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libsigner.so,lib/x86_64/libsigner.so,360297,885888
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libsurface_util_jni.so,lib/x86_64/libsurface_util_jni.so,1776,4928
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libtensorflowlite_jni.so,lib/x86_64/libtensorflowlite_jni.so,1807861,4543712
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libtoolChecker.so,lib/x86_64/libtoolChecker.so,2117,5416
+6C4FCC752216A0ED5BE67C058A9ED6CAF1C8CFA70032C107EE23A3E8EF63CE44,ru,ecom_4,ecom4,Avito,com.avito.android,x86_64,libzstd-jni-1.5.6-6.so,lib/x86_64/libzstd-jni-1.5.6-6.so,280142,706744
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,arm64-v8a,libPhoenixAndroid.so,lib/arm64-v8a/libPhoenixAndroid.so,3476304,3476304
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,arm64-v8a,libandroidx.graphics.path.so,lib/arm64-v8a/libandroidx.graphics.path.so,10096,10096
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,arm64-v8a,libapplovin-native-crash-reporter.so,lib/arm64-v8a/libapplovin-native-crash-reporter.so,860200,860200
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,arm64-v8a,libdatastore_shared_counter.so,lib/arm64-v8a/libdatastore_shared_counter.so,7112,7112
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,arm64-v8a,libe653.so,lib/arm64-v8a/libe653.so,969384,969384
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,arm64-v8a,libeef0.so,lib/arm64-v8a/libeef0.so,1104560,1104560
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,arm64-v8a,libimage_processing_util_jni.so,lib/arm64-v8a/libimage_processing_util_jni.so,32544,32544
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,arm64-v8a,libsigner.so,lib/arm64-v8a/libsigner.so,983864,983864
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,arm64-v8a,libsurface_util_jni.so,lib/arm64-v8a/libsurface_util_jni.so,4896,4896
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,arm64-v8a,libtensorflowlite_jni_gms_client.so,lib/arm64-v8a/libtensorflowlite_jni_gms_client.so,577104,577104
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,armeabi-v7a,libPhoenixAndroid.so,lib/armeabi-v7a/libPhoenixAndroid.so,2463420,2463420
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,armeabi-v7a,libandroidx.graphics.path.so,lib/armeabi-v7a/libandroidx.graphics.path.so,7252,7252
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,armeabi-v7a,libapplovin-native-crash-reporter.so,lib/armeabi-v7a/libapplovin-native-crash-reporter.so,500664,500664
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,armeabi-v7a,libdatastore_shared_counter.so,lib/armeabi-v7a/libdatastore_shared_counter.so,4416,4416
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,armeabi-v7a,libe653.so,lib/armeabi-v7a/libe653.so,914124,914124
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,armeabi-v7a,libeef0.so,lib/armeabi-v7a/libeef0.so,981404,981404
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,armeabi-v7a,libimage_processing_util_jni.so,lib/armeabi-v7a/libimage_processing_util_jni.so,24448,24448
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,armeabi-v7a,libsigner.so,lib/armeabi-v7a/libsigner.so,927136,927136
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,armeabi-v7a,libsurface_util_jni.so,lib/armeabi-v7a/libsurface_util_jni.so,3460,3460
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,armeabi-v7a,libtensorflowlite_jni_gms_client.so,lib/armeabi-v7a/libtensorflowlite_jni_gms_client.so,363316,363316
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86,libandroidx.graphics.path.so,lib/x86/libandroidx.graphics.path.so,9284,9284
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86,libapplovin-native-crash-reporter.so,lib/x86/libapplovin-native-crash-reporter.so,860200,860200
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86,libdatastore_shared_counter.so,lib/x86/libdatastore_shared_counter.so,5148,5148
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86,libeef0.so,lib/x86/libeef0.so,884584,884584
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86,libimage_processing_util_jni.so,lib/x86/libimage_processing_util_jni.so,41276,41276
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86,libsigner.so,lib/x86/libsigner.so,985200,985200
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86,libsurface_util_jni.so,lib/x86/libsurface_util_jni.so,3812,3812
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86,libtensorflowlite_jni_gms_client.so,lib/x86/libtensorflowlite_jni_gms_client.so,658176,658176
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86_64,libandroidx.graphics.path.so,lib/x86_64/libandroidx.graphics.path.so,10760,10760
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86_64,libapplovin-native-crash-reporter.so,lib/x86_64/libapplovin-native-crash-reporter.so,890472,890472
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86_64,libdatastore_shared_counter.so,lib/x86_64/libdatastore_shared_counter.so,6224,6224
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86_64,libeef0.so,lib/x86_64/libeef0.so,973616,973616
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86_64,libimage_processing_util_jni.so,lib/x86_64/libimage_processing_util_jni.so,49496,49496
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86_64,libsigner.so,lib/x86_64/libsigner.so,920968,920968
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86_64,libsurface_util_jni.so,lib/x86_64/libsurface_util_jni.so,4912,4912
+CA9CE3BA252AD0530AABAE16F6CEAF1206C10D352631AECE6C704790F1C285D8,eu,ecom_4,ecom4,Vinted,fr.vinted,x86_64,libtensorflowlite_jni_gms_client.so,lib/x86_64/libtensorflowlite_jni_gms_client.so,608568,608568
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libandroidx.graphics.path.so,lib/arm64-v8a/libandroidx.graphics.path.so,4386,10096
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libapp_services.so,lib/arm64-v8a/libapp_services.so,4291501,9797536
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libbio_sdk.so,lib/arm64-v8a/libbio_sdk.so,3567994,8876064
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libbio_sdk_jni.so,lib/arm64-v8a/libbio_sdk_jni.so,38649,199024
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libbms_fp.so,lib/arm64-v8a/libbms_fp.so,5273,12176
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libc++_shared.so,lib/arm64-v8a/libc++_shared.so,304999,1027152
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libcore_dump_watchdog.so,lib/arm64-v8a/libcore_dump_watchdog.so,2019,51408
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libcrashlytics-common.so,lib/arm64-v8a/libcrashlytics-common.so,281543,755864
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libcrashlytics-handler.so,lib/arm64-v8a/libcrashlytics-handler.so,61908,185960
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libcrashlytics-trampoline.so,lib/arm64-v8a/libcrashlytics-trampoline.so,3525,9584
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libcrashlytics.so,lib/arm64-v8a/libcrashlytics.so,66337,195568
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libcrashpad-api.so,lib/arm64-v8a/libcrashpad-api.so,300638,987608
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libcrashpad_handler.so,lib/arm64-v8a/libcrashpad_handler.so,360718,1005816
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libdgismap-10.8.0.so,lib/arm64-v8a/libdgismap-10.8.0.so,13140354,32842760
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libimage_processing_util_jni.so,lib/arm64-v8a/libimage_processing_util_jni.so,14799,29008
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libjingle_peerconnection_so.so,lib/arm64-v8a/libjingle_peerconnection_so.so,4161422,9185976
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,liboggopus_java_bind_lib.so,lib/arm64-v8a/liboggopus_java_bind_lib.so,242312,402104
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libonnxruntime.so,lib/arm64-v8a/libonnxruntime.so,849006,2308000
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libsalutevision.so,lib/arm64-v8a/libsalutevision.so,7758489,16923440
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libspotter_java_bind_lib.so,lib/arm64-v8a/libspotter_java_bind_lib.so,870708,2306328
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libsqlcipher.so,lib/arm64-v8a/libsqlcipher.so,2446688,5797528
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libsurface_util_jni.so,lib/arm64-v8a/libsurface_util_jni.so,1706,4832
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libyuv.so,lib/arm64-v8a/libyuv.so,207147,570864
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,arm64-v8a,libz.so,lib/arm64-v8a/libz.so,54349,100264
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libandroidx.graphics.path.so,lib/armeabi-v7a/libandroidx.graphics.path.so,4064,7252
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libapp_services.so,lib/armeabi-v7a/libapp_services.so,4270868,7388116
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libbio_sdk.so,lib/armeabi-v7a/libbio_sdk.so,3269432,6501372
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libbio_sdk_jni.so,lib/armeabi-v7a/libbio_sdk_jni.so,33523,143288
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libbms_fp.so,lib/armeabi-v7a/libbms_fp.so,4703,8604
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libc++_shared.so,lib/armeabi-v7a/libc++_shared.so,235255,610064
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libcore_dump_watchdog.so,lib/armeabi-v7a/libcore_dump_watchdog.so,2069,50856
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libcrashlytics-common.so,lib/armeabi-v7a/libcrashlytics-common.so,229473,435732
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libcrashlytics-handler.so,lib/armeabi-v7a/libcrashlytics-handler.so,43141,87908
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libcrashlytics-trampoline.so,lib/armeabi-v7a/libcrashlytics-trampoline.so,3138,6912
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libcrashlytics.so,lib/armeabi-v7a/libcrashlytics.so,47002,94540
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libcrashpad-api.so,lib/armeabi-v7a/libcrashpad-api.so,257572,645040
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libcrashpad_handler.so,lib/armeabi-v7a/libcrashpad_handler.so,329763,754928
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libdgismap-10.8.0.so,lib/armeabi-v7a/libdgismap-10.8.0.so,12240512,24716912
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libimage_processing_util_jni.so,lib/armeabi-v7a/libimage_processing_util_jni.so,12586,20380
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libjingle_peerconnection_so.so,lib/armeabi-v7a/libjingle_peerconnection_so.so,3589329,5964816
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,liboggopus_java_bind_lib.so,lib/armeabi-v7a/liboggopus_java_bind_lib.so,210052,298588
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libonnxruntime.so,lib/armeabi-v7a/libonnxruntime.so,830229,1682596
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libsalutevision.so,lib/armeabi-v7a/libsalutevision.so,6751572,12153748
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libspotter_java_bind_lib.so,lib/armeabi-v7a/libspotter_java_bind_lib.so,765809,1885040
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libsqlcipher.so,lib/armeabi-v7a/libsqlcipher.so,2037466,4035640
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libsurface_util_jni.so,lib/armeabi-v7a/libsurface_util_jni.so,1577,3440
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libyuv.so,lib/armeabi-v7a/libyuv.so,182854,389196
+25689DB366425428AB6C683D1ABE2FC7A9DA2C5DE5132F23F1A194619B5AA141,ru,bank_1,bank1,Sberbank,ru.sberbankmobile,armeabi-v7a,libz.so,lib/armeabi-v7a/libz.so,43841,71360
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libandroidx.graphics.path.so,lib/arm64-v8a/libandroidx.graphics.path.so,4386,10096
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libc++_shared.so,lib/arm64-v8a/libc++_shared.so,397503,1253544
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libcrashlytics-common.so,lib/arm64-v8a/libcrashlytics-common.so,281543,755864
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libcrashlytics-handler.so,lib/arm64-v8a/libcrashlytics-handler.so,61908,185960
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libcrashlytics-trampoline.so,lib/arm64-v8a/libcrashlytics-trampoline.so,1690,4848
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libcrashlytics.so,lib/arm64-v8a/libcrashlytics.so,66337,195568
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libcspjni.so,lib/arm64-v8a/libcspjni.so,3631973,12160976
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libdpboot.cj46.so,lib/arm64-v8a/libdpboot.cj46.so,5161,10072
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libi.so,lib/arm64-v8a/libi.so,987592,2456896
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libimage_processing_util_jni.so,lib/arm64-v8a/libimage_processing_util_jni.so,15630,32544
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libjingle_peerconnection_so.so,lib/arm64-v8a/libjingle_peerconnection_so.so,5346075,11377336
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libjniPdfium.so,lib/arm64-v8a/libjniPdfium.so,11361,29712
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libjniidengine.so,lib/arm64-v8a/libjniidengine.so,12183949,28847936
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libmaps-mobile.so,lib/arm64-v8a/libmaps-mobile.so,10467350,25987440
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libmodft2.so,lib/arm64-v8a/libmodft2.so,383742,753440
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libmodpdfium.so,lib/arm64-v8a/libmodpdfium.so,2518872,4838816
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libmodpng.so,lib/arm64-v8a/libmodpng.so,120311,247472
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libprotector.cj46.so,lib/arm64-v8a/libprotector.cj46.so,360561,370192
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libqr_scanner_cpp.so,lib/arm64-v8a/libqr_scanner_cpp.so,2553074,7082072
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libqr_scanner_jni.so,lib/arm64-v8a/libqr_scanner_jni.so,300972,1042448
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libquickjs.so,lib/arm64-v8a/libquickjs.so,363799,844024
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,librooot.so,lib/arm64-v8a/librooot.so,17411,53408
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,librtconnection.so,lib/arm64-v8a/librtconnection.so,77986,232480
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,librtpcsc.so,lib/arm64-v8a/librtpcsc.so,381827,1348768
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libsqlcipher.so,lib/arm64-v8a/libsqlcipher.so,2282811,5182808
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libsupport.so,lib/arm64-v8a/libsupport.so,1416,3992
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libsurface_util_jni.so,lib/arm64-v8a/libsurface_util_jni.so,1756,4896
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libtensorflowlite_jni.so,lib/arm64-v8a/libtensorflowlite_jni.so,1747383,4320472
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libtinkoff_av_opus_utils.so,lib/arm64-v8a/libtinkoff_av_opus_utils.so,369977,733120
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libtoolChecker.so,lib/arm64-v8a/libtoolChecker.so,2207,5512
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libucs-credential.so,lib/arm64-v8a/libucs-credential.so,159784,295208
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libvoicekit.so,lib/arm64-v8a/libvoicekit.so,645174,1613936
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libvoicekit_wrapper.so,lib/arm64-v8a/libvoicekit_wrapper.so,4257,11408
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,arm64-v8a,libwrapper.so,lib/arm64-v8a/libwrapper.so,566057,2293472
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libandroidx.graphics.path.so,lib/armeabi-v7a/libandroidx.graphics.path.so,4064,7252
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libc++_shared.so,lib/armeabi-v7a/libc++_shared.so,345923,850380
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libcrashlytics-common.so,lib/armeabi-v7a/libcrashlytics-common.so,229473,435732
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libcrashlytics-handler.so,lib/armeabi-v7a/libcrashlytics-handler.so,43141,87908
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libcrashlytics-trampoline.so,lib/armeabi-v7a/libcrashlytics-trampoline.so,1571,3368
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libcrashlytics.so,lib/armeabi-v7a/libcrashlytics.so,47002,94540
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libcspjni.so,lib/armeabi-v7a/libcspjni.so,3636502,10806296
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libdpboot.cj46.so,lib/armeabi-v7a/libdpboot.cj46.so,4743,7656
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libi.so,lib/armeabi-v7a/libi.so,1062101,2316976
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libimage_processing_util_jni.so,lib/armeabi-v7a/libimage_processing_util_jni.so,14296,24448
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libjingle_peerconnection_so.so,lib/armeabi-v7a/libjingle_peerconnection_so.so,3888938,6536680
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libjniPdfium.so,lib/armeabi-v7a/libjniPdfium.so,9663,20448
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libjniidengine.so,lib/armeabi-v7a/libjniidengine.so,12273842,28839628
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libmaps-mobile.so,lib/armeabi-v7a/libmaps-mobile.so,8377005,15609496
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libmodft2.so,lib/armeabi-v7a/libmodft2.so,324998,515212
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libmodpdfium.so,lib/armeabi-v7a/libmodpdfium.so,2083739,3213824
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libmodpng.so,lib/armeabi-v7a/libmodpng.so,102463,178696
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libprotector.cj46.so,lib/armeabi-v7a/libprotector.cj46.so,315866,329072
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libqr_scanner_cpp.so,lib/armeabi-v7a/libqr_scanner_cpp.so,2301998,5035628
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libqr_scanner_jni.so,lib/armeabi-v7a/libqr_scanner_jni.so,267977,848452
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libquickjs.so,lib/armeabi-v7a/libquickjs.so,317558,540160
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,librooot.so,lib/armeabi-v7a/librooot.so,16957,50176
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,librtconnection.so,lib/armeabi-v7a/librtconnection.so,60658,132668
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,librtpcsc.so,lib/armeabi-v7a/librtpcsc.so,300152,806580
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libsqlcipher.so,lib/armeabi-v7a/libsqlcipher.so,1875931,3555080
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libsupport.so,lib/armeabi-v7a/libsupport.so,1300,2748
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libsurface_util_jni.so,lib/armeabi-v7a/libsurface_util_jni.so,1606,3460
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libtensorflowlite_jni.so,lib/armeabi-v7a/libtensorflowlite_jni.so,1512691,2867528
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libtinkoff_av_opus_utils.so,lib/armeabi-v7a/libtinkoff_av_opus_utils.so,304512,505240
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libtoolChecker.so,lib/armeabi-v7a/libtoolChecker.so,1974,3944
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libucs-credential.so,lib/armeabi-v7a/libucs-credential.so,135143,231984
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libvoicekit.so,lib/armeabi-v7a/libvoicekit.so,528605,1148152
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libvoicekit_wrapper.so,lib/armeabi-v7a/libvoicekit_wrapper.so,5317,10844
+AEB8DD6E08F45707C0250F88B340D52A5DAB11D818C9BDD87DB4D64ACDB69DA5,ru,bank_2,bank2,Tinkoff,com.idamob.tinkoff.android,armeabi-v7a,libwrapper.so,lib/armeabi-v7a/libwrapper.so,536931,1763376
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libandroidx.graphics.path.so,lib/arm64-v8a/libandroidx.graphics.path.so,4386,10096
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libcheckroot.so,lib/arm64-v8a/libcheckroot.so,15416,49064
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libcrypt_known_path.so,lib/arm64-v8a/libcrypt_known_path.so,113643,359456
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libcrypto-1.1.so,lib/arm64-v8a/libcrypto-1.1.so,1011448,3343344
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libcspjni.so,lib/arm64-v8a/libcspjni.so,2910519,9424040
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libdatastore_shared_counter.so,lib/arm64-v8a/libdatastore_shared_counter.so,2630,7112
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libdsswrapper.so,lib/arm64-v8a/libdsswrapper.so,142169,491888
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libitp11gost.so,lib/arm64-v8a/libitp11gost.so,832759,2092904
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libjniidengine.so,lib/arm64-v8a/libjniidengine.so,7180102,17734776
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libpkcs11_vccc.so,lib/arm64-v8a/libpkcs11_vccc.so,2801644,4668784
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libpki.so,lib/arm64-v8a/libpki.so,1663663,5718640
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libroot.so,lib/arm64-v8a/libroot.so,1732,4576
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,librtconnection.so,lib/arm64-v8a/librtconnection.so,89974,276544
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,librtpcsc.so,lib/arm64-v8a/librtpcsc.so,406555,1318200
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,librtpkcs11ecp.so,lib/arm64-v8a/librtpkcs11ecp.so,2263100,6633344
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libsentry-android.so,lib/arm64-v8a/libsentry-android.so,5239,15856
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libsentry.so,lib/arm64-v8a/libsentry.so,382571,1214928
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libsofttoken_pkcs11.so,lib/arm64-v8a/libsofttoken_pkcs11.so,1053864,3039592
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libsofttoken_pkcs11_session.so,lib/arm64-v8a/libsofttoken_pkcs11_session.so,308589,937664
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libssl-1.1.so,lib/arm64-v8a/libssl-1.1.so,257836,871168
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libsupport.so,lib/arm64-v8a/libsupport.so,1171,5592
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libtoolChecker.so,lib/arm64-v8a/libtoolChecker.so,2207,5512
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libucs-credential.so,lib/arm64-v8a/libucs-credential.so,159782,295208
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,arm64-v8a,libuprngm.so,lib/arm64-v8a/libuprngm.so,286844,534440
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libandroidx.graphics.path.so,lib/armeabi-v7a/libandroidx.graphics.path.so,4064,7252
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libcheckroot.so,lib/armeabi-v7a/libcheckroot.so,14817,45324
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libcrypt_known_path.so,lib/armeabi-v7a/libcrypt_known_path.so,96999,263332
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libcrypto-1.1.so,lib/armeabi-v7a/libcrypto-1.1.so,886343,2669636
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libcspjni.so,lib/armeabi-v7a/libcspjni.so,2853651,8299140
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libdatastore_shared_counter.so,lib/armeabi-v7a/libdatastore_shared_counter.so,2033,4416
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libdsswrapper.so,lib/armeabi-v7a/libdsswrapper.so,120395,341632
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libitp11gost.so,lib/armeabi-v7a/libitp11gost.so,775941,1744924
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libjniidengine.so,lib/armeabi-v7a/libjniidengine.so,7851438,19663068
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libpkcs11_vccc.so,lib/armeabi-v7a/libpkcs11_vccc.so,2754801,4254148
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libpki.so,lib/armeabi-v7a/libpki.so,1402073,3900504
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libroot.so,lib/armeabi-v7a/libroot.so,1553,3140
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,librtconnection.so,lib/armeabi-v7a/librtconnection.so,66357,153224
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,librtpcsc.so,lib/armeabi-v7a/librtpcsc.so,298539,772500
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,librtpkcs11ecp.so,lib/armeabi-v7a/librtpkcs11ecp.so,2071230,4523040
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libsentry-android.so,lib/armeabi-v7a/libsentry-android.so,4710,11488
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libsentry.so,lib/armeabi-v7a/libsentry.so,317965,707340
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libsofttoken_pkcs11.so,lib/armeabi-v7a/libsofttoken_pkcs11.so,919256,2469860
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libsofttoken_pkcs11_session.so,lib/armeabi-v7a/libsofttoken_pkcs11_session.so,272072,738264
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libssl-1.1.so,lib/armeabi-v7a/libssl-1.1.so,220345,677328
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libsupport.so,lib/armeabi-v7a/libsupport.so,4197,9340
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libtoolChecker.so,lib/armeabi-v7a/libtoolChecker.so,1974,3944
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libucs-credential.so,lib/armeabi-v7a/libucs-credential.so,135146,231984
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,armeabi-v7a,libuprngm.so,lib/armeabi-v7a/libuprngm.so,282198,471672
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libandroidx.graphics.path.so,lib/x86/libandroidx.graphics.path.so,4782,9284
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libcheckroot.so,lib/x86/libcheckroot.so,14812,44924
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libcrypt_known_path.so,lib/x86/libcrypt_known_path.so,119892,339028
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libcrypto-1.1.so,lib/x86/libcrypto-1.1.so,1221792,3431900
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libcspjni.so,lib/x86/libcspjni.so,2863556,9254820
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libdatastore_shared_counter.so,lib/x86/libdatastore_shared_counter.so,2330,5148
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libdsswrapper.so,lib/x86/libdsswrapper.so,155774,483016
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libitp11gost.so,lib/x86/libitp11gost.so,895723,2088944
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libjniidengine.so,lib/x86/libjniidengine.so,8458719,23386356
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libpkcs11_vccc.so,lib/x86/libpkcs11_vccc.so,2924624,4799328
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libpki.so,lib/x86/libpki.so,1880477,5954940
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libroot.so,lib/x86/libroot.so,1789,3748
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libsentry-android.so,lib/x86/libsentry-android.so,5484,13916
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libsentry.so,lib/x86/libsentry.so,460159,1303616
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libsofttoken_pkcs11.so,lib/x86/libsofttoken_pkcs11.so,1130539,3098932
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libsofttoken_pkcs11_session.so,lib/x86/libsofttoken_pkcs11_session.so,341473,935412
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libssl-1.1.so,lib/x86/libssl-1.1.so,264708,848992
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libsupport.so,lib/x86/libsupport.so,1359,5140
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libtoolChecker.so,lib/x86/libtoolChecker.so,2093,4292
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libucs-credential.so,lib/x86/libucs-credential.so,143487,297692
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86,libuprngm.so,lib/x86/libuprngm.so,294244,505384
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libandroidx.graphics.path.so,lib/x86_64/libandroidx.graphics.path.so,4614,10760
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libcheckroot.so,lib/x86_64/libcheckroot.so,15104,47712
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libcrypt_known_path.so,lib/x86_64/libcrypt_known_path.so,114827,336240
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libcrypto-1.1.so,lib/x86_64/libcrypto-1.1.so,1237868,3507160
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libcspjni.so,lib/x86_64/libcspjni.so,2799565,8673000
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libdatastore_shared_counter.so,lib/x86_64/libdatastore_shared_counter.so,2320,6224
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libdsswrapper.so,lib/x86_64/libdsswrapper.so,154815,500992
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libitp11gost.so,lib/x86_64/libitp11gost.so,869386,2049880
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libjniidengine.so,lib/x86_64/libjniidengine.so,8557261,21921160
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libpkcs11_vccc.so,lib/x86_64/libpkcs11_vccc.so,2893933,4797288
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libpki.so,lib/x86_64/libpki.so,1783790,5905016
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libroot.so,lib/x86_64/libroot.so,1752,4624
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libsentry-android.so,lib/x86_64/libsentry-android.so,5402,15760
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libsentry.so,lib/x86_64/libsentry.so,424723,1276008
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libsofttoken_pkcs11.so,lib/x86_64/libsofttoken_pkcs11.so,1039308,2778024
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libsofttoken_pkcs11_session.so,lib/x86_64/libsofttoken_pkcs11_session.so,319694,910040
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libssl-1.1.so,lib/x86_64/libssl-1.1.so,254695,828840
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libsupport.so,lib/x86_64/libsupport.so,1392,5864
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libtoolChecker.so,lib/x86_64/libtoolChecker.so,2117,5416
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libucs-credential.so,lib/x86_64/libucs-credential.so,152150,334440
+EE840CCCB173415F19C6C05F77D90483507F5FA6E523452C6347DBFA68CAA106,ru,bank_3,bank3,Alfa Bank,ru.alfabank.oavdo.amc,x86_64,libuprngm.so,lib/x86_64/libuprngm.so,289380,510456
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libTransform.so,lib/arm64-v8a/libTransform.so,3078,9928
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libandroidx.graphics.path.so,lib/arm64-v8a/libandroidx.graphics.path.so,4386,10096
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libappmetrica-native-runner.so,lib/arm64-v8a/libappmetrica-native-runner.so,86099,267032
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libappmetrica-native.so,lib/arm64-v8a/libappmetrica-native.so,277957,927048
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libappmetrica-service-native.so,lib/arm64-v8a/libappmetrica-service-native.so,290130,960104
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libappmetrica_crashpad_handler.so,lib/arm64-v8a/libappmetrica_crashpad_handler.so,355500,987120
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libbms_fp.so,lib/arm64-v8a/libbms_fp.so,5267,12176
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libc++_shared.so,lib/arm64-v8a/libc++_shared.so,1655678,6766464
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libdigirub.so,lib/arm64-v8a/libdigirub.so,614763,2396040
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libdpboot.cj46.so,lib/arm64-v8a/libdpboot.cj46.so,5166,10072
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libface_detector_v2_jni.so,lib/arm64-v8a/libface_detector_v2_jni.so,2688528,7020096
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libhashfile.so,lib/arm64-v8a/libhashfile.so,81327,270672
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libimage_processing_util_jni.so,lib/arm64-v8a/libimage_processing_util_jni.so,15630,32544
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libjnimultiengine.so,lib/arm64-v8a/libjnimultiengine.so,10089884,20690448
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libprotector.cj46.so,lib/arm64-v8a/libprotector.cj46.so,360538,369984
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libscertui.so,lib/arm64-v8a/libscertui.so,382220,1338128
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libspki.so,lib/arm64-v8a/libspki.so,3281505,8797176
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libspki1.so,lib/arm64-v8a/libspki1.so,1205402,2540840
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libspkissl.so,lib/arm64-v8a/libspkissl.so,648068,1703816
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libsqlcipher.so,lib/arm64-v8a/libsqlcipher.so,2282870,5182792
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libsurface_util_jni.so,lib/arm64-v8a/libsurface_util_jni.so,1756,4896
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libtensorflowlite_jni.so,lib/arm64-v8a/libtensorflowlite_jni.so,1747384,4320480
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libucs-credential.so,lib/arm64-v8a/libucs-credential.so,158838,310584
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libvdcsp.so,lib/arm64-v8a/libvdcsp.so,1088567,3341992
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libvdkdevs.so,lib/arm64-v8a/libvdkdevs.so,137429,417144
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libvdkeys00.so,lib/arm64-v8a/libvdkeys00.so,43748,127736
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libvdkeys16.so,lib/arm64-v8a/libvdkeys16.so,164012,506488
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libvdkeys17.so,lib/arm64-v8a/libvdkeys17.so,146995,456880
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libvdrand01.so,lib/arm64-v8a/libvdrand01.so,40377,116944
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libvdrand16.so,lib/arm64-v8a/libvdrand16.so,104028,337384
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,arm64-v8a,libwebrtc-lib.so,lib/arm64-v8a/libwebrtc-lib.so,131558,346296
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libTransform.so,lib/armeabi-v7a/libTransform.so,7651,17960
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libandroidx.graphics.path.so,lib/armeabi-v7a/libandroidx.graphics.path.so,4064,7252
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libappmetrica-native-runner.so,lib/armeabi-v7a/libappmetrica-native-runner.so,69120,157552
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libappmetrica-native.so,lib/armeabi-v7a/libappmetrica-native.so,236771,600080
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libappmetrica-service-native.so,lib/armeabi-v7a/libappmetrica-service-native.so,246964,627592
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libappmetrica_crashpad_handler.so,lib/armeabi-v7a/libappmetrica_crashpad_handler.so,324357,745200
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libbms_fp.so,lib/armeabi-v7a/libbms_fp.so,4704,8604
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libc++_shared.so,lib/armeabi-v7a/libc++_shared.so,1287775,4173304
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libdigirub.so,lib/armeabi-v7a/libdigirub.so,558591,1809540
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libdpboot.cj46.so,lib/armeabi-v7a/libdpboot.cj46.so,4746,7656
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libface_detector_v2_jni.so,lib/armeabi-v7a/libface_detector_v2_jni.so,2229866,4327452
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libhashfile.so,lib/armeabi-v7a/libhashfile.so,84660,213068
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libimage_processing_util_jni.so,lib/armeabi-v7a/libimage_processing_util_jni.so,14296,24448
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libjnimultiengine.so,lib/armeabi-v7a/libjnimultiengine.so,10064185,20154812
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libprotector.cj46.so,lib/armeabi-v7a/libprotector.cj46.so,315846,328600
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libscertui.so,lib/armeabi-v7a/libscertui.so,352461,1050560
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libspki.so,lib/armeabi-v7a/libspki.so,3008143,6736732
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libspki1.so,lib/armeabi-v7a/libspki1.so,1153754,2142408
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libspkissl.so,lib/armeabi-v7a/libspkissl.so,588488,1336704
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libsqlcipher.so,lib/armeabi-v7a/libsqlcipher.so,1875986,3555336
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libsurface_util_jni.so,lib/armeabi-v7a/libsurface_util_jni.so,1606,3460
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libtensorflowlite_jni.so,lib/armeabi-v7a/libtensorflowlite_jni.so,1512694,2867532
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libucs-credential.so,lib/armeabi-v7a/libucs-credential.so,135594,243388
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libvdcsp.so,lib/armeabi-v7a/libvdcsp.so,1062499,2566196
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libvdkdevs.so,lib/armeabi-v7a/libvdkdevs.so,124977,313548
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libvdkeys00.so,lib/armeabi-v7a/libvdkeys00.so,40855,104880
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libvdkeys16.so,lib/armeabi-v7a/libvdkeys16.so,151543,376172
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libvdkeys17.so,lib/armeabi-v7a/libvdkeys17.so,135695,340460
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libvdrand01.so,lib/armeabi-v7a/libvdrand01.so,36247,95496
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libvdrand16.so,lib/armeabi-v7a/libvdrand16.so,96341,254344
+DFCA79723F76139789279379A3DCEEDB483E85F8500A53E74B2616A2FC6E7A3B,ru,bank_4,bank4,VTB,ru.vtb24.mobilebanking.android,armeabi-v7a,libwebrtc-lib.so,lib/armeabi-v7a/libwebrtc-lib.so,99152,218828
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libc++_shared.so,lib/arm64-v8a/libc++_shared.so,1292904,1292904
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libdatastore_shared_counter.so,lib/arm64-v8a/libdatastore_shared_counter.so,7112,7112
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libfbjni.so,lib/arm64-v8a/libfbjni.so,177000,177000
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libgifimage.so,lib/arm64-v8a/libgifimage.so,318992,318992
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libhermes.so,lib/arm64-v8a/libhermes.so,2249600,2249600
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libhermestooling.so,lib/arm64-v8a/libhermestooling.so,149920,149920
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libimagepipeline.so,lib/arm64-v8a/libimagepipeline.so,8760,8760
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libjingle_peerconnection_so.so,lib/arm64-v8a/libjingle_peerconnection_so.so,11391928,11391928
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libjniPdfium.so,lib/arm64-v8a/libjniPdfium.so,29488,29488
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libjsctooling.so,lib/arm64-v8a/libjsctooling.so,131112,131112
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libjsi.so,lib/arm64-v8a/libjsi.so,412408,412408
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libmaps-mobile.so,lib/arm64-v8a/libmaps-mobile.so,25987440,25987440
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libmodft2.so,lib/arm64-v8a/libmodft2.so,752992,752992
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libmodpdfium.so,lib/arm64-v8a/libmodpdfium.so,4844960,4844960
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libmodpng.so,lib/arm64-v8a/libmodpng.so,249344,249344
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libnative-filters.so,lib/arm64-v8a/libnative-filters.so,23712,23712
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libnative-imagetranscoder.so,lib/arm64-v8a/libnative-imagetranscoder.so,585376,585376
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libreactnative.so,lib/arm64-v8a/libreactnative.so,6276096,6276096
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,librnscreens.so,lib/arm64-v8a/librnscreens.so,63360,63360
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,librnworklets.so,lib/arm64-v8a/librnworklets.so,501216,501216
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libsentry-android.so,lib/arm64-v8a/libsentry-android.so,15760,15760
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libsentry.so,lib/arm64-v8a/libsentry.so,1217520,1217520
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libstatic-webp.so,lib/arm64-v8a/libstatic-webp.so,501856,501856
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libtiff.so,lib/arm64-v8a/libtiff.so,671728,671728
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libtiffconverter.so,lib/arm64-v8a/libtiffconverter.so,732392,732392
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libtifffactory.so,lib/arm64-v8a/libtifffactory.so,308344,308344
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libtiffsaver.so,lib/arm64-v8a/libtiffsaver.so,14616,14616
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,arm64-v8a,libucrop.so,lib/arm64-v8a/libucrop.so,886640,886640
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libc++_shared.so,lib/armeabi-v7a/libc++_shared.so,872872,872872
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libdatastore_shared_counter.so,lib/armeabi-v7a/libdatastore_shared_counter.so,4416,4416
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libfbjni.so,lib/armeabi-v7a/libfbjni.so,119456,119456
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libgifimage.so,lib/armeabi-v7a/libgifimage.so,184380,184380
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libhermes.so,lib/armeabi-v7a/libhermes.so,1502164,1502164
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libhermestooling.so,lib/armeabi-v7a/libhermestooling.so,86400,86400
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libimagepipeline.so,lib/armeabi-v7a/libimagepipeline.so,5876,5876
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libjingle_peerconnection_so.so,lib/armeabi-v7a/libjingle_peerconnection_so.so,6679080,6679080
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libjniPdfium.so,lib/armeabi-v7a/libjniPdfium.so,21540,21540
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libjsctooling.so,lib/armeabi-v7a/libjsctooling.so,69816,69816
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libjsi.so,lib/armeabi-v7a/libjsi.so,293656,293656
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libmaps-mobile.so,lib/armeabi-v7a/libmaps-mobile.so,15609496,15609496
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libmodft2.so,lib/armeabi-v7a/libmodft2.so,517444,517444
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libmodpdfium.so,lib/armeabi-v7a/libmodpdfium.so,3219936,3219936
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libmodpng.so,lib/armeabi-v7a/libmodpng.so,179312,179312
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libnative-filters.so,lib/armeabi-v7a/libnative-filters.so,12588,12588
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libnative-imagetranscoder.so,lib/armeabi-v7a/libnative-imagetranscoder.so,341072,341072
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libreactnative.so,lib/armeabi-v7a/libreactnative.so,4526660,4526660
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,librnscreens.so,lib/armeabi-v7a/librnscreens.so,24368,24368
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,librnworklets.so,lib/armeabi-v7a/librnworklets.so,333760,333760
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libsentry-android.so,lib/armeabi-v7a/libsentry-android.so,11392,11392
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libsentry.so,lib/armeabi-v7a/libsentry.so,709508,709508
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libstatic-webp.so,lib/armeabi-v7a/libstatic-webp.so,367592,367592
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libtiff.so,lib/armeabi-v7a/libtiff.so,506644,506644
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libtiffconverter.so,lib/armeabi-v7a/libtiffconverter.so,406320,406320
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libtifffactory.so,lib/armeabi-v7a/libtifffactory.so,234888,234888
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libtiffsaver.so,lib/armeabi-v7a/libtiffsaver.so,9836,9836
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi-v7a,libucrop.so,lib/armeabi-v7a/libucrop.so,525836,525836
+73463E0B60F35128EE5868577CD003AB5295EDFBB0702A8EB1E494D1CE11663C,ru,health,health,EMIAS.INFO,com.programmisty.emiasapp,armeabi,libucrop.so,lib/armeabi/libucrop.so,554500,554500
+AF94CFC4463207594EEBEDEBEE47C5B2455F38BA3611988785FFFBCD87B85302,eu,social_1,social1,Facebook,com.facebook.katana,arm64-v8a,libachilles-jni.so,lib/arm64-v8a/libachilles-jni.so,7133,19752
+AF94CFC4463207594EEBEDEBEE47C5B2455F38BA3611988785FFFBCD87B85302,eu,social_1,social1,Facebook,com.facebook.katana,arm64-v8a,libandroidx.graphics.path.so,lib/arm64-v8a/libandroidx.graphics.path.so,4271,10096
+AF94CFC4463207594EEBEDEBEE47C5B2455F38BA3611988785FFFBCD87B85302,eu,social_1,social1,Facebook,com.facebook.katana,arm64-v8a,libappcomponentfactory-jni.so,lib/arm64-v8a/libappcomponentfactory-jni.so,4524,11288
+AF94CFC4463207594EEBEDEBEE47C5B2455F38BA3611988785FFFBCD87B85302,eu,social_1,social1,Facebook,com.facebook.katana,arm64-v8a,libbreakpad.so,lib/arm64-v8a/libbreakpad.so,72682,353760
+AF94CFC4463207594EEBEDEBEE47C5B2455F38BA3611988785FFFBCD87B85302,eu,social_1,social1,Facebook,com.facebook.katana,arm64-v8a,libbreakpad_cpp_helper.so,lib/arm64-v8a/libbreakpad_cpp_helper.so,2514,6704
+AF94CFC4463207594EEBEDEBEE47C5B2455F38BA3611988785FFFBCD87B85302,eu,social_1,social1,Facebook,com.facebook.katana,arm64-v8a,libc++_shared.so,lib/arm64-v8a/libc++_shared.so,171094,427568
+AF94CFC4463207594EEBEDEBEE47C5B2455F38BA3611988785FFFBCD87B85302,eu,social_1,social1,Facebook,com.facebook.katana,arm64-v8a,libdextricks-early.so,lib/arm64-v8a/libdextricks-early.so,2484,6160
+AF94CFC4463207594EEBEDEBEE47C5B2455F38BA3611988785FFFBCD87B85302,eu,social_1,social1,Facebook,com.facebook.katana,arm64-v8a,libdistract-config.so,lib/arm64-v8a/libdistract-config.so,3949,10552
+AF94CFC4463207594EEBEDEBEE47C5B2455F38BA3611988785FFFBCD87B85302,eu,social_1,social1,Facebook,com.facebook.katana,arm64-v8a,libfbunwindstack.so,lib/arm64-v8a/libfbunwindstack.so,126650,270944
+AF94CFC4463207594EEBEDEBEE47C5B2455F38BA3611988785FFFBCD87B85302,eu,social_1,social1,Facebook,com.facebook.katana,arm64-v8a,libsqlitejni.so,lib/arm64-v8a/libsqlitejni.so,13593,37736
+AF94CFC4463207594EEBEDEBEE47C5B2455F38BA3611988785FFFBCD87B85302,eu,social_1,social1,Facebook,com.facebook.katana,arm64-v8a,libsuperpack-jni.so,lib/arm64-v8a/libsuperpack-jni.so,132536,302392
+AF94CFC4463207594EEBEDEBEE47C5B2455F38BA3611988785FFFBCD87B85302,eu,social_1,social1,Facebook,com.facebook.katana,arm64-v8a,libsuperpack_common.so,lib/arm64-v8a/libsuperpack_common.so,1029,3432
+AF94CFC4463207594EEBEDEBEE47C5B2455F38BA3611988785FFFBCD87B85302,eu,social_1,social1,Facebook,com.facebook.katana,arm64-v8a,libunwindstack_binary.so,lib/arm64-v8a/libunwindstack_binary.so,4273,10840
+AF94CFC4463207594EEBEDEBEE47C5B2455F38BA3611988785FFFBCD87B85302,eu,social_1,social1,Facebook,com.facebook.katana,arm64-v8a,libxplat_superpack_portability_c_portabilityAndroid.so,lib/arm64-v8a/libxplat_superpack_portability_c_portabilityAndroid.so,1035,3464
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libEnhancementLibShared.so,lib/arm64-v8a/libEnhancementLibShared.so,531380,1335800
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libc++_shared.so,lib/arm64-v8a/libc++_shared.so,406559,1292904
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libcspjni.so,lib/arm64-v8a/libcspjni.so,2768531,6473944
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libffmpg.so,lib/arm64-v8a/libffmpg.so,751813,1954240
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libgifimage.so,lib/arm64-v8a/libgifimage.so,106613,318992
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libgleff.so,lib/arm64-v8a/libgleff.so,103123,303376
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libimage_processing_util_jni.so,lib/arm64-v8a/libimage_processing_util_jni.so,14799,29008
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libimagepipeline.so,lib/arm64-v8a/libimagepipeline.so,3175,8760
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libjingle_peerconnection_so.so,lib/arm64-v8a/libjingle_peerconnection_so.so,7394071,12686512
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libjlottie.so,lib/arm64-v8a/libjlottie.so,335250,1007688
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libnative-filters.so,lib/arm64-v8a/libnative-filters.so,12767,23712
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libnative-imagetranscoder.so,lib/arm64-v8a/libnative-imagetranscoder.so,224841,585376
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libqrcode.so,lib/arm64-v8a/libqrcode.so,66710,135200
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libstatic-webp.so,lib/arm64-v8a/libstatic-webp.so,206899,501856
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libsupport.so,lib/arm64-v8a/libsupport.so,1416,3992
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libsurface_util_jni.so,lib/arm64-v8a/libsurface_util_jni.so,1706,4832
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libtensorflowlite.so,lib/arm64-v8a/libtensorflowlite.so,1754428,4867632
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,arm64-v8a,libtracernative.so,lib/arm64-v8a/libtracernative.so,267355,798992
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libEnhancementLibShared.so,lib/armeabi-v7a/libEnhancementLibShared.so,475997,1169820
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libc++_shared.so,lib/armeabi-v7a/libc++_shared.so,348963,872756
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libcspjni.so,lib/armeabi-v7a/libcspjni.so,2342850,4378464
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libffmpg.so,lib/armeabi-v7a/libffmpg.so,758851,1706892
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libgifimage.so,lib/armeabi-v7a/libgifimage.so,82644,184380
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libgleff.so,lib/armeabi-v7a/libgleff.so,76007,155496
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libimage_processing_util_jni.so,lib/armeabi-v7a/libimage_processing_util_jni.so,12586,20380
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libimagepipeline.so,lib/armeabi-v7a/libimagepipeline.so,2737,5876
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libjingle_peerconnection_so.so,lib/armeabi-v7a/libjingle_peerconnection_so.so,6783186,9298112
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libjlottie.so,lib/armeabi-v7a/libjlottie.so,274405,672148
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libnative-filters.so,lib/armeabi-v7a/libnative-filters.so,7022,12588
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libnative-imagetranscoder.so,lib/armeabi-v7a/libnative-imagetranscoder.so,165916,341072
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libqrcode.so,lib/armeabi-v7a/libqrcode.so,49324,80052
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libstatic-webp.so,lib/armeabi-v7a/libstatic-webp.so,179082,367592
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libsupport.so,lib/armeabi-v7a/libsupport.so,1300,2748
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libsurface_util_jni.so,lib/armeabi-v7a/libsurface_util_jni.so,1577,3440
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libtensorflowlite.so,lib/armeabi-v7a/libtensorflowlite.so,1658479,3679528
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,armeabi-v7a,libtracernative.so,lib/armeabi-v7a/libtracernative.so,213045,468420
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libEnhancementLibShared.so,lib/x86/libEnhancementLibShared.so,589991,1488976
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libc++_shared.so,lib/x86/libc++_shared.so,437372,1254988
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libffmpg.so,lib/x86/libffmpg.so,1271284,3225036
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libgifimage.so,lib/x86/libgifimage.so,107422,281448
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libgleff.so,lib/x86/libgleff.so,118821,304104
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libimage_processing_util_jni.so,lib/x86/libimage_processing_util_jni.so,18390,38292
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libimagepipeline.so,lib/x86/libimagepipeline.so,3111,7040
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libjingle_peerconnection_so.so,lib/x86/libjingle_peerconnection_so.so,7908820,13825680
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libjlottie.so,lib/x86/libjlottie.so,374776,1018808
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libnative-filters.so,lib/x86/libnative-filters.so,10832,22040
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libnative-imagetranscoder.so,lib/x86/libnative-imagetranscoder.so,216889,664736
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libqrcode.so,lib/x86/libqrcode.so,74585,165060
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libstatic-webp.so,lib/x86/libstatic-webp.so,228150,550092
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libsurface_util_jni.so,lib/x86/libsurface_util_jni.so,1723,3712
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libtensorflowlite.so,lib/x86/libtensorflowlite.so,1958199,5662116
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86,libtracernative.so,lib/x86/libtracernative.so,296205,798116
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libEnhancementLibShared.so,lib/x86_64/libEnhancementLibShared.so,581302,1466888
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libc++_shared.so,lib/x86_64/libc++_shared.so,416045,1252080
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libcspjni.so,lib/x86_64/libcspjni.so,2499436,6322088
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libffmpg.so,lib/x86_64/libffmpg.so,1222590,3278384
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libgifimage.so,lib/x86_64/libgifimage.so,104650,302952
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libgleff.so,lib/x86_64/libgleff.so,113066,320192
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libimage_processing_util_jni.so,lib/x86_64/libimage_processing_util_jni.so,22727,48104
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libimagepipeline.so,lib/x86_64/libimagepipeline.so,3135,8464
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libjingle_peerconnection_so.so,lib/x86_64/libjingle_peerconnection_so.so,7761150,13813488
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libjlottie.so,lib/x86_64/libjlottie.so,358761,1035040
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libnative-filters.so,lib/x86_64/libnative-filters.so,15659,30528
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libnative-imagetranscoder.so,lib/x86_64/libnative-imagetranscoder.so,222364,720432
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libqrcode.so,lib/x86_64/libqrcode.so,75014,160864
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libstatic-webp.so,lib/x86_64/libstatic-webp.so,219947,560968
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libsupport.so,lib/x86_64/libsupport.so,1439,4056
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libsurface_util_jni.so,lib/x86_64/libsurface_util_jni.so,1776,4928
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libtensorflowlite.so,lib/x86_64/libtensorflowlite.so,2154814,6145776
+0EE9AEE643DEE087F7221212C0BF87B23DD451CDA7589AB3D04339E6E7668745,ru,msg_1,msg1,MAX,ru.oneme.app,x86_64,libtracernative.so,lib/x86_64/libtracernative.so,278501,783792
+0B387F643423A3F4F9D5D6708A2B05E3E72B5C0147D040D5D3BA40F128FB9F7F,eu,msg_2,msg2,Telegram,org.telegram.messenger,arm64-v8a,liblanguage_id_l2c_jni.so,lib/arm64-v8a/liblanguage_id_l2c_jni.so,1019552,1019552
+0B387F643423A3F4F9D5D6708A2B05E3E72B5C0147D040D5D3BA40F128FB9F7F,eu,msg_2,msg2,Telegram,org.telegram.messenger,arm64-v8a,libtmessages.49.so,lib/arm64-v8a/libtmessages.49.so,26484320,26484320
+0B387F643423A3F4F9D5D6708A2B05E3E72B5C0147D040D5D3BA40F128FB9F7F,eu,msg_2,msg2,Telegram,org.telegram.messenger,armeabi-v7a,liblanguage_id_l2c_jni.so,lib/armeabi-v7a/liblanguage_id_l2c_jni.so,609628,609628
+0B387F643423A3F4F9D5D6708A2B05E3E72B5C0147D040D5D3BA40F128FB9F7F,eu,msg_2,msg2,Telegram,org.telegram.messenger,armeabi-v7a,libtmessages.49.so,lib/armeabi-v7a/libtmessages.49.so,23721364,23721364
+0B387F643423A3F4F9D5D6708A2B05E3E72B5C0147D040D5D3BA40F128FB9F7F,eu,msg_2,msg2,Telegram,org.telegram.messenger,x86,liblanguage_id_l2c_jni.so,lib/x86/liblanguage_id_l2c_jni.so,1359344,1359344
+0B387F643423A3F4F9D5D6708A2B05E3E72B5C0147D040D5D3BA40F128FB9F7F,eu,msg_2,msg2,Telegram,org.telegram.messenger,x86,libtmessages.49.so,lib/x86/libtmessages.49.so,30209736,30209736
+0B387F643423A3F4F9D5D6708A2B05E3E72B5C0147D040D5D3BA40F128FB9F7F,eu,msg_2,msg2,Telegram,org.telegram.messenger,x86_64,liblanguage_id_l2c_jni.so,lib/x86_64/liblanguage_id_l2c_jni.so,1324480,1324480
+0B387F643423A3F4F9D5D6708A2B05E3E72B5C0147D040D5D3BA40F128FB9F7F,eu,msg_2,msg2,Telegram,org.telegram.messenger,x86_64,libtmessages.49.so,lib/x86_64/libtmessages.49.so,30663536,30663536

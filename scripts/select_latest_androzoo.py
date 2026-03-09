@@ -5,6 +5,8 @@ import sys
 from pathlib import Path
 
 # latest.csv.gz columns (AndroZoo): sha256,sha1,md5,dex_date,apk_size,pkg_name,vercode,vt_detection,vt_scan_date,dex_size,markets
+# Read data/meta/latest.csv.gz, Read data/meta/latest.csv.gz,  
+# output: data/meta/eu_selected.csv, /ru_selected.csv, data/meta/eu_missing.txt, /ru_missing.txt
 
 def main(latest_gz: Path, packages_txt: Path, out_csv: Path, missing_txt: Path, market_filter: str = "play.google.com"):
     targets = [line.strip() for line in packages_txt.read_text(encoding="utf-8").splitlines() if line.strip()]
