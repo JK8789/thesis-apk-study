@@ -1,0 +1,11 @@
+package,dataset2_store,in_androzoo,androzoo_markets,androzoo_has_play,androzoo_best_play_vercode,androzoo_best_play_sha256,play_http_status,play_live_available,rustore_http_status,rustore_live_available
+com.booking,Google Play|RuStore,1,1mobile|PlayDrone|VirusShare|anzhi|appchina|mi.com|play.google.com,1,31601,0E224A1C99E10DAADC3CA6E6C3E15A6F8F075BDC0A03C4BB8B634DB996E70458,200,1,200,1
+com.duolingo,Google Play|RuStore,1,1mobile|PlayDrone|VirusShare|anzhi|appchina|mi.com|play.google.com,1,2217,EA71B78C812CD5A5CB0CA7C3B9A62D716283F4FE67F1594E179BB7925128E03F,200,1,200,1
+com.imo.android.imoim,Google Play|RuStore,1,1mobile|PlayDrone|VirusShare|angeeks|anzhi|appchina|freewarelovers|mi.com|play.google.com,1,26011021,6098C35D6606803DF1B81A10B4F0621BBCFF6DA74E9CCF6BDC91C58C989F7535,200,1,200,1
+com.mapswithme.maps.pro,Google Play|RuStore,1,VirusShare|anzhi|appchina|mi.com|play.google.com,1,71982,7F78BE03AA5B939169088BDB5B88CA953E52C7F9F106A4F40BC6FC99F88DBAFE,200,1,200,1
+com.spotify.music,Google Play|RuStore,1,PlayDrone|VirusShare|appchina|play.google.com,1,137636128,ED5B1B04AA54B0F08053095CD6AB2627B75963B4D0138AAF9B1E4C15B27AE508,200,1,200,1
+com.vkontakte.android,Google Play|RuStore,1,1mobile|PlayDrone|VirusShare|angeeks|anzhi|appchina|freewarelovers|mi.com|play.google.com|proandroid,1,47685,9ABDD8774B2E0C00698B07B7B8094D887FB655AAA121D7E9A6971D026574DB9D,200,1,200,1
+ee.mtakso.driver,Google Play|RuStore,1,play.google.com,1,749,1493CF6E33A3E03FF59C172B1B25AEAAA6EC10C00F04558D52F6D7A2D7BCBE85,200,1,200,1
+org.telegram.messenger,Google Play|RuStore,1,PlayDrone|VirusShare|anzhi|fdroid|mi.com|play.google.com|unknown,1,63852,0B387F643423A3F4F9D5D6708A2B05E3E72B5C0147D040D5D3BA40F128FB9F7F,200,1,200,1
+ru.yandex.taxi,Google Play|RuStore,1,1mobile|PlayDrone|anzhi|appchina|play.google.com,1,50127705,8287C5937FC7DA4A35602D3AABA2ECD2045389DE0CBC84899326C55326832958,200,1,200,1
+ru.yandex.yandexmaps,Google Play|RuStore,1,1mobile|PlayDrone|angeeks|appchina|play.google.com|proandroid|torrents,1,738798720,899FEA0EBC3F624C8BE992EA5FE1B9DD412DDF8E831F31E94151A59EBA734384,200,1,200,1
