@@ -1,0 +1,270 @@
+library,ru_app_count,eu_app_count,total_app_count,region_type,ru_apps,eu_apps,ru_usage_percent,eu_usage_percent
+com.google,20,20,40,Common,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;Gosuslugi Biometria;MAX;Nalogi FL;OK;Ozon;RZD;Sberbank;Tinkoff;VK;VTB;Wildberries;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Telemost;Yandex Trains,Amazon Shopping;BGL;BILnet;Bolt;DB Navigator;Doctena;Facebook;Google Maps;ING Luxembourg;Mobiliteit.lu;MyGuichet.lu;Revolut;Telegram;Vinted;WhatsApp;X;Zalando;bol;impots.gouv;itsme,100.0,100.0
+com.airbnb,18,11,29,Common,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;Gosuslugi Biometria;OK;Ozon;RZD;Sberbank;Tinkoff;VK;VTB;Wildberries;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Telemost;Yandex Trains,Amazon Shopping;BILnet;Bolt;DB Navigator;Google Maps;Revolut;Vinted;WhatsApp;X;Zalando;itsme,90.0,55.0
+com.android,16,13,29,Common,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;Gosuslugi Biometria;Nalogi FL;OK;Ozon;RZD;VK;VTB;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Telemost;Yandex Trains,Amazon Shopping;BILnet;Bolt;DB Navigator;Google Maps;MyGuichet.lu;Revolut;Telegram;Vinted;WhatsApp;X;Zalando;bol,80.0,65.0
+com.facebook,16,12,28,Common,Avito;EMIAS.INFO;Gosuslugi;Gosuslugi Biometria;MAX;Nalogi FL;OK;Ozon;Sberbank;Tinkoff;VK;Wildberries;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Trains,Amazon Shopping;BILnet;Bolt;DB Navigator;Facebook;Google Maps;Revolut;Vinted;WhatsApp;X;Zalando;impots.gouv,80.0,60.0
+com.github,16,7,23,Common,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;Gosuslugi Biometria;Nalogi FL;Ozon;RZD;Sberbank;Tinkoff;VK;VTB;Wildberries;Yandex Go Taxi;Yandex Maps;Yandex Market,Amazon Shopping;BGL;BILnet;Revolut;Vinted;X;impots.gouv,80.0,35.0
+org.apache,13,8,21,Common,Alfa Bank;Gosuslugi;Gosuslugi Biometria;MAX;Nalogi FL;OK;RZD;Tinkoff;VTB;Wildberries;Yandex Go Taxi;Yandex Market;Yandex Trains,Amazon Shopping;BGL;BILnet;Bolt;DB Navigator;Revolut;WhatsApp;X,65.0,40.0
+io.reactivex,12,9,21,Common,Alfa Bank;Avito;Gosuslugi Biometria;MAX;OK;Ozon;Sberbank;Tinkoff;VK;VTB;Yandex Maps;Yandex Trains,Amazon Shopping;BGL;Bolt;DB Navigator;Revolut;Vinted;X;Zalando;bol,60.0,45.0
+com.squareup,14,6,20,Common,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;OK;Ozon;RZD;Sberbank;VK;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Telemost;Yandex Trains,Amazon Shopping;BGL;Vinted;X;Zalando;bol,70.0,30.0
+org.slf4j,11,8,19,Common,Alfa Bank;Avito;Gosuslugi;Gosuslugi Biometria;OK;Sberbank;Tinkoff;VTB;Wildberries;Yandex Maps;Yandex Telemost,Amazon Shopping;BGL;Bolt;DB Navigator;Revolut;WhatsApp;X;Zalando,55.0,40.0
+com.caverock,11,7,18,Common,Alfa Bank;Gosuslugi;OK;Sberbank;Tinkoff;VTB;Wildberries;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Trains,Amazon Shopping;DB Navigator;Revolut;Vinted;WhatsApp;X;bol,55.0,35.0
+com.jakewharton,11,6,17,Common,Avito;Gosuslugi;Gosuslugi Biometria;MAX;OK;Tinkoff;VTB;Wildberries;Yandex Go Taxi;Yandex Maps;Yandex Trains,Amazon Shopping;Bolt;Vinted;X;Zalando;bol,55.0,30.0
+com.fasterxml,10,7,17,Common,Avito;Gosuslugi;MAX;OK;Sberbank;Tinkoff;VK;VTB;Yandex Maps;Yandex Trains,Amazon Shopping;BGL;DB Navigator;Google Maps;Revolut;Vinted;X,50.0,35.0
+io.ktor,8,6,14,Common,Avito;Gosuslugi;OK;RZD;Sberbank;Wildberries;Yandex Maps;Yandex Telemost,Amazon Shopping;Bolt;DB Navigator;Mobiliteit.lu;X;itsme,40.0,30.0
+org.chromium.net,7,4,11,Common,Avito;Gosuslugi;OK;Ozon;VK;Wildberries;Yandex Market,Amazon Shopping;Google Maps;Vinted;WhatsApp,35.0,20.0
+org.bouncycastle,6,5,11,Common,Alfa Bank;Gosuslugi;Gosuslugi Biometria;Sberbank;Tinkoff;VTB,Amazon Shopping;Revolut;Vinted;X;itsme,30.0,25.0
+org.tensorflow,5,6,11,Common,Avito;Tinkoff;VK;VTB;Wildberries,Amazon Shopping;Google Maps;Revolut;Vinted;X;itsme,25.0,30.0
+com.scottyab,8,2,10,Common,Alfa Bank;Avito;Nalogi FL;Ozon;Tinkoff;Yandex Go Taxi;Yandex Maps;Yandex Market,BGL;Revolut,40.0,10.0
+com.journeyapps,7,3,10,Common,Alfa Bank;Gosuslugi;Ozon;RZD;VTB;Yandex Maps;Yandex Market,BGL;Vinted;bol,35.0,15.0
+io.sentry,7,3,10,Common,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;Ozon;Tinkoff;Wildberries,BILnet;Bolt;bol,35.0,15.0
+org.koin,6,4,10,Common,Alfa Bank;Avito;OK;Tinkoff;VTB;Yandex Maps,Amazon Shopping;Bolt;Vinted;Zalando,30.0,20.0
+org.reactivestreams,4,6,10,Common,Avito;Gosuslugi Biometria;OK;Yandex Trains,Amazon Shopping;BGL;Bolt;Revolut;Vinted;X,20.0,30.0
+com.huawei,9,0,9,RU_only,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;OK;Sberbank;Tinkoff;VK;VTB,,45.0,0.0
+io.opentelemetry,7,2,9,Common,OK;Tinkoff;VK;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Trains,Vinted;Zalando,35.0,10.0
+com.vk,8,0,8,RU_only,Alfa Bank;Avito;OK;Ozon;Sberbank;Tinkoff;VK;Wildberries,,40.0,0.0
+de.hdodenhof,7,1,8,Common,Gosuslugi Biometria;RZD;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Telemost;Yandex Trains,Amazon Shopping,35.0,5.0
+io.github,7,1,8,Common,Avito;Gosuslugi;OK;Tinkoff;VTB;Yandex Market;Yandex Telemost,Revolut,35.0,5.0
+org.jsoup,6,2,8,Common,Avito;Gosuslugi;Ozon;Sberbank;VK;Wildberries,Amazon Shopping;bol,30.0,10.0
+com.appsflyer,5,3,8,Common,Alfa Bank;Ozon;Tinkoff;Wildberries;Yandex Maps,Bolt;Revolut;bol,25.0,15.0
+io.michaelrocks,5,3,8,Common,MAX;OK;Sberbank;Tinkoff;VK,Bolt;Revolut;X,25.0,15.0
+com.yandex.div,7,0,7,RU_only,Avito;OK;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Telemost;Yandex Trains,,35.0,0.0
+org.msgpack,7,0,7,RU_only,MAX;OK;VK;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Telemost,,35.0,0.0
+ru.tinkoff,7,0,7,RU_only,Avito;Gosuslugi;Ozon;RZD;Tinkoff;Wildberries;Yandex Maps,,35.0,0.0
+me.leolin,6,1,7,Common,MAX;OK;RZD;VK;Wildberries;Yandex Go Taxi,impots.gouv,30.0,5.0
+com.getkeepsafe,5,2,7,Common,Avito;Gosuslugi;OK;Yandex Go Taxi;Yandex Maps,Amazon Shopping;Revolut,25.0,10.0
+org.joda,5,2,7,Common,Avito;Ozon;Tinkoff;VTB;Yandex Maps,BGL;Revolut,25.0,10.0
+ru.yandex,6,0,6,RU_only,OK;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Telemost;Yandex Trains,,30.0,0.0
+io.grpc,4,2,6,Common,Tinkoff;VTB;Wildberries;Yandex Maps,Google Maps;Revolut,20.0,10.0
+com.adjust.sdk,3,3,6,Common,Avito;Yandex Go Taxi;Yandex Market,DB Navigator;Vinted;Zalando,15.0,15.0
+org.checkerframework,3,3,6,Common,Avito;Gosuslugi Biometria;Yandex Maps,BGL;BILnet;Bolt,15.0,15.0
+com.my.tracker,5,0,5,RU_only,Alfa Bank;Avito;MAX;OK;VK,,25.0,0.0
+org.threeten,5,0,5,RU_only,Avito;Tinkoff;VTB;Wildberries;Yandex Trains,,25.0,0.0
+ru.ok,5,0,5,RU_only,Avito;MAX;OK;VK;Wildberries,,25.0,0.0
+com.hannesdorfmann,4,1,5,Common,Gosuslugi;Gosuslugi Biometria;RZD;Yandex Maps,Bolt,20.0,5.0
+com.redmadrobot,4,1,5,Common,Gosuslugi;Gosuslugi Biometria;Sberbank;Yandex Maps,Revolut,20.0,5.0
+com.yalantis,4,1,5,Common,EMIAS.INFO;Nalogi FL;RZD;Sberbank,DB Navigator,20.0,5.0
+org.json,3,2,5,Common,EMIAS.INFO;Gosuslugi;OK,Amazon Shopping;Vinted,15.0,10.0
+io.requery,2,3,5,Common,VK;Wildberries,Amazon Shopping;WhatsApp;X,10.0,15.0
+org.jspecify,1,4,5,Common,Nalogi FL,BGL;BILnet;Bolt;MyGuichet.lu,5.0,20.0
+com.yandex.android,4,0,4,RU_only,Avito;OK;Yandex Market;Yandex Trains,,20.0,0.0
+com.nimbusds,3,1,4,Common,Sberbank;Tinkoff;VTB,Vinted,15.0,5.0
+com.otaliastudios,3,1,4,Common,Avito;Gosuslugi;OK,Vinted,15.0,5.0
+com.wdullaer,3,1,4,Common,Alfa Bank;Sberbank;Tinkoff,BGL,15.0,5.0
+net.zetetic,3,1,4,Common,Sberbank;Tinkoff;VTB,Revolut,15.0,5.0
+com.russhwolf,2,2,4,Common,Avito;Yandex Maps,Bolt;X,10.0,10.0
+net.sf,2,2,4,Common,Gosuslugi Biometria;Wildberries,Revolut;itsme,10.0,10.0
+com.apollographql.apollo,1,3,4,Common,Yandex Market,X;Zalando;bol,5.0,15.0
+org.brotli,1,3,4,Common,Yandex Go Taxi,Amazon Shopping;Vinted;X,5.0,15.0
+com.annimon,3,0,3,RU_only,Tinkoff;VTB;Yandex Maps,,15.0,0.0
+com.my.target,3,0,3,RU_only,Avito;OK;VK,,15.0,0.0
+com.pnikosis,3,0,3,RU_only,OK;VK;VTB,,15.0,0.0
+com.theartofdev.edmodo,3,0,3,RU_only,OK;VTB;Wildberries,,15.0,0.0
+com.yandex.pay,3,0,3,RU_only,Gosuslugi;Yandex Go Taxi;Yandex Market,,15.0,0.0
+io.antmedia,3,0,3,RU_only,MAX;OK;VK,,15.0,0.0
+io.noties,3,0,3,RU_only,Avito;Sberbank;Yandex Maps,,15.0,0.0
+org.ini4j,3,0,3,RU_only,Alfa Bank;MAX;Tinkoff,,15.0,0.0
+org.simpleframework,3,0,3,RU_only,Alfa Bank;Sberbank;Yandex Trains,,15.0,0.0
+org.tukaani,3,0,3,RU_only,Alfa Bank;Tinkoff;VTB,,15.0,0.0
+pub.devrel,3,0,3,RU_only,OK;RZD;VK,,15.0,0.0
+com.arkivanov.essenty,2,1,3,Common,OK;Wildberries,X,10.0,5.0
+com.bluelinelabs,2,1,3,Common,MAX;Yandex Maps,X,10.0,5.0
+com.makeramen,2,1,3,Common,Alfa Bank;RZD,Revolut,10.0,5.0
+io.jsonwebtoken,2,1,3,Common,OK;Sberbank,X,10.0,5.0
+net.bytebuddy,2,1,3,Common,Alfa Bank;Avito,itsme,10.0,5.0
+org.hamcrest,2,1,3,Common,Avito;Gosuslugi,Vinted,10.0,5.0
+org.mockito,2,1,3,Common,Alfa Bank;Avito,itsme,10.0,5.0
+org.objenesis,2,1,3,Common,Alfa Bank;Avito,itsme,10.0,5.0
+com.auth0,1,2,3,Common,Alfa Bank,X;Zalando,5.0,10.0
+com.googlecode,1,2,3,Common,VK,MyGuichet.lu;Telegram,5.0,10.0
+dev.chrisbanes,1,2,3,Common,Wildberries,MyGuichet.lu;X,5.0,10.0
+jp.wasabeef,1,2,3,Common,Yandex Maps,BILnet;Revolut,5.0,10.0
+org.ejbca.cvc,1,2,3,Common,Gosuslugi Biometria,Revolut;itsme,5.0,10.0
+org.jmrtd,1,2,3,Common,Gosuslugi Biometria,Revolut;itsme,5.0,10.0
+cafe.adriel.voyager,2,0,2,RU_only,Tinkoff;Wildberries,,10.0,0.0
+co.nstant.in,2,0,2,RU_only,Gosuslugi;Tinkoff,,10.0,0.0
+com.apollographql.apollo3,2,0,2,RU_only,Yandex Go Taxi;Yandex Maps,,10.0,0.0
+com.avito.android,2,0,2,RU_only,Avito;Gosuslugi,,10.0,0.0
+com.datatheorem.android.trustkit,2,0,2,RU_only,Tinkoff;VTB,,10.0,0.0
+com.wutka,2,0,2,RU_only,Alfa Bank;Yandex Trains,,10.0,0.0
+io.perfmark,2,0,2,RU_only,Wildberries;Yandex Maps,,10.0,0.0
+io.socket,2,0,2,RU_only,Gosuslugi;Tinkoff,,10.0,0.0
+io.supercharge,2,0,2,RU_only,Sberbank;VTB,,10.0,0.0
+me.zhanghai.android.materialprogressbar,2,0,2,RU_only,Ozon;VK,,10.0,0.0
+net.danlew,2,0,2,RU_only,Ozon;Tinkoff,,10.0,0.0
+net.jpountz.lz4,2,0,2,RU_only,MAX;OK,,10.0,0.0
+org.commonmark,2,0,2,RU_only,Avito;Yandex Maps,,10.0,0.0
+org.greenrobot,2,0,2,RU_only,Nalogi FL;RZD,,10.0,0.0
+ru.mail,2,0,2,RU_only,OK;VK,,10.0,0.0
+ru.rutoken,2,0,2,RU_only,Alfa Bank;Tinkoff,,10.0,0.0
+app.cash.sqldelight,1,1,2,Common,RZD,X,5.0,5.0
+com.amazonaws,1,1,2,Common,OK,Amazon Shopping,5.0,5.0
+com.amplitude,1,1,2,Common,Sberbank,itsme,5.0,5.0
+com.applovin,1,1,2,Common,OK,Vinted,5.0,5.0
+com.arkivanov.decompose,1,1,2,Common,Wildberries,X,5.0,5.0
+com.beust,1,1,2,Common,Gosuslugi,X,5.0,5.0
+com.futuremind,1,1,2,Common,MAX,X,5.0,5.0
+com.hbb20,1,1,2,Common,MAX,X,5.0,5.0
+com.microsoft,1,1,2,Common,Tinkoff,MyGuichet.lu,5.0,5.0
+com.sothree.slidinguppanel,1,1,2,Common,Alfa Bank,BGL,5.0,5.0
+com.twilio,1,1,2,Common,Yandex Go Taxi,Revolut,5.0,5.0
+com.unity3d.ads,1,1,2,Common,OK,Vinted,5.0,5.0
+com.valentinilk.shimmer,1,1,2,Common,Wildberries,X,5.0,5.0
+com.vungle,1,1,2,Common,OK,Vinted,5.0,5.0
+me.relex,1,1,2,Common,OK,BILnet,5.0,5.0
+me.saket,1,1,2,Common,Gosuslugi,X,5.0,5.0
+ch.qos.logback,0,2,2,EU_only,,Revolut;itsme,0.0,10.0
+com.adobe,0,2,2,EU_only,,Amazon Shopping;BGL,0.0,10.0
+com.amazon.device,0,2,2,EU_only,,Amazon Shopping;Vinted,0.0,10.0
+com.daimajia,0,2,2,EU_only,,Bolt;Zalando,0.0,10.0
+com.goncalossilva,0,2,2,EU_only,,Amazon Shopping;X,0.0,10.0
+com.lyft,0,2,2,EU_only,,Revolut;X,0.0,10.0
+com.stripe,0,2,2,EU_only,,Telegram;X,0.0,10.0
+com.tencent,0,2,2,EU_only,,Amazon Shopping;Vinted,0.0,10.0
+com.uber,0,2,2,EU_only,,Bolt;Vinted,0.0,10.0
+dev.zacsweers,0,2,2,EU_only,,Vinted;X,0.0,10.0
+jakarta.inject,0,2,2,EU_only,,BGL;Bolt,0.0,10.0
+net.openid,0,2,2,EU_only,,Zalando;bol,0.0,10.0
+org.aspectj,0,2,2,EU_only,,Amazon Shopping;Telegram,0.0,10.0
+org.parceler,0,2,2,EU_only,,X;Zalando,0.0,10.0
+ai.x,1,0,1,RU_only,Yandex Telemost,,5.0,0.0
+androidmads.library.qrgenearator,1,0,1,RU_only,Wildberries,,5.0,0.0
+app.cash.zipline,1,0,1,RU_only,Tinkoff,,5.0,0.0
+at.favre.lib,1,0,1,RU_only,OK,,5.0,0.0
+com.alexvasilkov,1,0,1,RU_only,Gosuslugi,,5.0,0.0
+com.appyvet,1,0,1,RU_only,Wildberries,,5.0,0.0
+com.badoo.mobile,1,0,1,RU_only,Wildberries,,5.0,0.0
+com.bea.xml,1,0,1,RU_only,Yandex Trains,,5.0,0.0
+com.bytedance,1,0,1,RU_only,OK,,5.0,0.0
+com.connectsdk,1,0,1,RU_only,OK,,5.0,0.0
+com.davemorrissey.labs,1,0,1,RU_only,Gosuslugi,,5.0,0.0
+com.detmir.recycli,1,0,1,RU_only,Ozon,,5.0,0.0
+com.dynatrace,1,0,1,RU_only,VTB,,5.0,0.0
+com.evernote,1,0,1,RU_only,Yandex Maps,,5.0,0.0
+com.freeletics.rxredux,1,0,1,RU_only,Tinkoff,,5.0,0.0
+com.geetest.captcha,1,0,1,RU_only,Avito,,5.0,0.0
+com.giphy.sdk,1,0,1,RU_only,EMIAS.INFO,,5.0,0.0
+com.itextpdf,1,0,1,RU_only,Tinkoff,,5.0,0.0
+com.jaredrummler,1,0,1,RU_only,Avito,,5.0,0.0
+com.karumi,1,0,1,RU_only,Alfa Bank,,5.0,0.0
+com.koushikdutta.async,1,0,1,RU_only,OK,,5.0,0.0
+com.neovisionaries,1,0,1,RU_only,Gosuslugi Biometria,,5.0,0.0
+com.nex3z,1,0,1,RU_only,RZD,,5.0,0.0
+com.pierfrancescosoffritti.androidyoutubeplayer,1,0,1,RU_only,Wildberries,,5.0,0.0
+com.pushtorefresh,1,0,1,RU_only,Yandex Maps,,5.0,0.0
+com.serjltt.moshi,1,0,1,RU_only,Yandex Maps,,5.0,0.0
+com.soywiz,1,0,1,RU_only,Yandex Maps,,5.0,0.0
+com.tbuonomo,1,0,1,RU_only,Gosuslugi,,5.0,0.0
+com.thoughtbot,1,0,1,RU_only,Wildberries,,5.0,0.0
+com.tonicartos,1,0,1,RU_only,VK,,5.0,0.0
+com.upokecenter,1,0,1,RU_only,Gosuslugi,,5.0,0.0
+com.voximplant,1,0,1,RU_only,Sberbank,,5.0,0.0
+hu.supercluster,1,0,1,RU_only,Yandex Maps,,5.0,0.0
+io.card,1,0,1,RU_only,Gosuslugi,,5.0,0.0
+io.gsonfire,1,0,1,RU_only,Yandex Market,,5.0,0.0
+io.qameta,1,0,1,RU_only,Yandex Maps,,5.0,0.0
+io.rsocket,1,0,1,RU_only,Sberbank,,5.0,0.0
+io.tus.java.client,1,0,1,RU_only,Yandex Maps,,5.0,0.0
+me.dm7.barcodescanner,1,0,1,RU_only,RZD,,5.0,0.0
+me.grishka.appkit,1,0,1,RU_only,VK,,5.0,0.0
+net.glxn,1,0,1,RU_only,Tinkoff,,5.0,0.0
+net.i2p,1,0,1,RU_only,Gosuslugi,,5.0,0.0
+net.lingala,1,0,1,RU_only,Tinkoff,,5.0,0.0
+net.pwall.json,1,0,1,RU_only,Gosuslugi,,5.0,0.0
+net.pwall.log,1,0,1,RU_only,Gosuslugi,,5.0,0.0
+net.pwall.util,1,0,1,RU_only,Gosuslugi,,5.0,0.0
+net.pwall.yaml,1,0,1,RU_only,Gosuslugi,,5.0,0.0
+org.altbeacon,1,0,1,RU_only,Yandex Go Taxi,,5.0,0.0
+org.codehaus,1,0,1,RU_only,Gosuslugi Biometria,,5.0,0.0
+org.hildan.krossbow,1,0,1,RU_only,Alfa Bank,,5.0,0.0
+org.jacoco,1,0,1,RU_only,OK,,5.0,0.0
+org.jdom,1,0,1,RU_only,Gosuslugi,,5.0,0.0
+org.jitsi,1,0,1,RU_only,EMIAS.INFO,,5.0,0.0
+org.mp4parser,1,0,1,RU_only,VK,,5.0,0.0
+org.rajawali3d,1,0,1,RU_only,RZD,,5.0,0.0
+org.shredzone.commons,1,0,1,RU_only,VK,,5.0,0.0
+org.sufficientlysecure,1,0,1,RU_only,VTB,,5.0,0.0
+org.xbill,1,0,1,RU_only,Wildberries,,5.0,0.0
+ru.gildor.coroutines,1,0,1,RU_only,Wildberries,,5.0,0.0
+uk.co.samuelwall,1,0,1,RU_only,Wildberries,,5.0,0.0
+app.cash.turbine,0,1,1,EU_only,,itsme,0.0,5.0
+co.datadome,0,1,1,EU_only,,Vinted,0.0,5.0
+co.touchlab,0,1,1,EU_only,,Bolt,0.0,5.0
+com.adyen,0,1,1,EU_only,,Vinted,0.0,5.0
+com.amazon.android,0,1,1,EU_only,,Amazon Shopping,0.0,5.0
+com.amazon.ion,0,1,1,EU_only,,Amazon Shopping,0.0,5.0
+com.andraskindler.quickscroll,0,1,1,EU_only,,BGL,0.0,5.0
+com.bendb.thrifty,0,1,1,EU_only,,X,0.0,5.0
+com.bol,0,1,1,EU_only,,bol,0.0,5.0
+com.bugsnag,0,1,1,EU_only,,Amazon Shopping,0.0,5.0
+com.carrotsearch,0,1,1,EU_only,,Telegram,0.0,5.0
+com.checkout,0,1,1,EU_only,,Vinted,0.0,5.0
+com.clevertap,0,1,1,EU_only,,Bolt,0.0,5.0
+com.codahale,0,1,1,EU_only,,X,0.0,5.0
+com.contentstack,0,1,1,EU_only,,bol,0.0,5.0
+com.edmodo,0,1,1,EU_only,,Zalando,0.0,5.0
+com.f2prateek,0,1,1,EU_only,,Bolt,0.0,5.0
+com.faltenreich,0,1,1,EU_only,,BGL,0.0,5.0
+com.fyber,0,1,1,EU_only,,Vinted,0.0,5.0
+com.goterl,0,1,1,EU_only,,X,0.0,5.0
+com.h6ah4i.android,0,1,1,EU_only,,Zalando,0.0,5.0
+com.hivemq,0,1,1,EU_only,,Bolt,0.0,5.0
+com.iabtcf,0,1,1,EU_only,,Vinted,0.0,5.0
+com.incognia,0,1,1,EU_only,,Vinted,0.0,5.0
+com.ing,0,1,1,EU_only,,ING Luxembourg,0.0,5.0
+com.instagram,0,1,1,EU_only,,WhatsApp,0.0,5.0
+com.instana,0,1,1,EU_only,,DB Navigator,0.0,5.0
+com.ionspin.kotlin,0,1,1,EU_only,,X,0.0,5.0
+com.jme3,0,1,1,EU_only,,Amazon Shopping,0.0,5.0
+com.klarna,0,1,1,EU_only,,Vinted,0.0,5.0
+com.launchdarkly,0,1,1,EU_only,,Vinted,0.0,5.0
+com.mikepenz,0,1,1,EU_only,,X,0.0,5.0
+com.mikhaellopez,0,1,1,EU_only,,BILnet,0.0,5.0
+com.mixpanel,0,1,1,EU_only,,Bolt,0.0,5.0
+com.nineoldandroids,0,1,1,EU_only,,BGL,0.0,5.0
+com.onesignal,0,1,1,EU_only,,Doctena,0.0,5.0
+com.onfido,0,1,1,EU_only,,Revolut,0.0,5.0
+com.optimizely.ab,0,1,1,EU_only,,DB Navigator,0.0,5.0
+com.orhanobut,0,1,1,EU_only,,Revolut,0.0,5.0
+com.patloew.colocation,0,1,1,EU_only,,Vinted,0.0,5.0
+com.plaid,0,1,1,EU_only,,X,0.0,5.0
+com.polidea.rxandroidble2,0,1,1,EU_only,,Bolt,0.0,5.0
+com.revolut,0,1,1,EU_only,,Revolut,0.0,5.0
+com.ryanharter.auto.value,0,1,1,EU_only,,X,0.0,5.0
+com.samskivert,0,1,1,EU_only,,Revolut,0.0,5.0
+com.spotify,0,1,1,EU_only,,Google Maps,0.0,5.0
+com.tickaroo.tikxml,0,1,1,EU_only,,Bolt,0.0,5.0
+com.twitter,0,1,1,EU_only,,X,0.0,5.0
+com.urbanairship,0,1,1,EU_only,,bol,0.0,5.0
+com.vdurmont,0,1,1,EU_only,,X,0.0,5.0
+de.greenrobot,0,1,1,EU_only,,X,0.0,5.0
+de.javagl,0,1,1,EU_only,,MyGuichet.lu,0.0,5.0
+de.zalando,0,1,1,EU_only,,Zalando,0.0,5.0
+dev.openfeature,0,1,1,EU_only,,Vinted,0.0,5.0
+eu.bolt,0,1,1,EU_only,,Bolt,0.0,5.0
+financial.atomic,0,1,1,EU_only,,Revolut,0.0,5.0
+fr.greweb,0,1,1,EU_only,,Amazon Shopping,0.0,5.0
+io.livekit,0,1,1,EU_only,,X,0.0,5.0
+io.mockk,0,1,1,EU_only,,itsme,0.0,5.0
+io.netty,0,1,1,EU_only,,Bolt,0.0,5.0
+io.seon.androidsdk,0,1,1,EU_only,,Revolut,0.0,5.0
+io.vavr,0,1,1,EU_only,,Revolut,0.0,5.0
+it.innove,0,1,1,EU_only,,Amazon Shopping,0.0,5.0
+it.sephiroth,0,1,1,EU_only,,Revolut,0.0,5.0
+net.minidev,0,1,1,EU_only,,WhatsApp,0.0,5.0
+org.apmem.tools,0,1,1,EU_only,,Bolt,0.0,5.0
+org.ccil.cowan.tagsoup,0,1,1,EU_only,,Bolt,0.0,5.0
+org.iban4j,0,1,1,EU_only,,BGL,0.0,5.0
+org.iq80.snappy,0,1,1,EU_only,,Amazon Shopping,0.0,5.0
+org.jctools,0,1,1,EU_only,,Bolt,0.0,5.0
+org.kodein.di,0,1,1,EU_only,,X,0.0,5.0
+org.kodein.type,0,1,1,EU_only,,X,0.0,5.0
+org.microg,0,1,1,EU_only,,WhatsApp,0.0,5.0
+org.opentest4j,0,1,1,EU_only,,itsme,0.0,5.0
+org.reduxkotlin,0,1,1,EU_only,,Zalando,0.0,5.0
+org.signal,0,1,1,EU_only,,WhatsApp,0.0,5.0
+org.snakeyaml,0,1,1,EU_only,,Vinted,0.0,5.0
+org.springframework,0,1,1,EU_only,,BGL,0.0,5.0
+org.telegram,0,1,1,EU_only,,Telegram,0.0,5.0
+org.whispersystems,0,1,1,EU_only,,WhatsApp,0.0,5.0
+org.yaml,0,1,1,EU_only,,Vinted,0.0,5.0

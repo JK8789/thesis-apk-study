@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" package="ru.vk.store" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"/>
+    <uses-permission android:name="android.permission.ENFORCE_UPDATE_OWNERSHIP"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.android.permission.GET_INSTALLED_APPS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:maxSdkVersion="23" android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <permission android:knownCerts="@array/vk_known_certs" android:name="ru.vk.store.usersstore.permission.SAVE" android:protectionLevel="knownSigner|signature"/>
+    <permission android:knownCerts="@array/vk_known_certs" android:name="ru.vk.store.usersstore.permission.LOAD" android:protectionLevel="knownSigner|signature"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_PHONE_NUMBERS"/>
+    <uses-permission android:name="android.provider.Telephony.SMS_RECEIVED"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/>
+    <uses-permission android:maxSdkVersion="22" android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="ru.sberbank.mobile.sberid.BIND_PERSONALIZATION_SERVICE"/>
+    <uses-permission android:name="android.permission.READ_BASIC_PHONE_STATE"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-feature android:name="android.hardware.sensor.light" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.compass" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.gyroscope" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.barometer" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.proximity" android:required="false"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <permission android:name="ru.vk.store.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="ru.vk.store.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:forceDarkAllowed="true" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="ru.vk.store.App" android:networkSecurityConfig="@xml/network_security_config" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="false" android:theme="@style/Theme.RuStore" android:usesCleartextTraffic="false">
+        <meta-data android:name="ru.mail.libverify.application_name" android:value="mrg_rustore_android"/>
+        <meta-data android:name="ru.mail.libverify.application_key" android:value="fc6ea1f18cde4251a0713d312dd9ea6b"/>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="ru.vk.store.app.MainActivity" android:supportsPictureInPicture="true" android:theme="@style/Theme.RuStore.SplashScreen" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="rustore"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="market"/>
+                <data android:host="details"/>
+                <data android:host="launch"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:host="apps.rustore.ru"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:host="www.rustore.ru"/>
+                <data android:pathPrefix="/catalog"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:host="www.rustore.ru"/>
+                <data android:pathPrefix="/coupon"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:host="www.rustore.ru"/>
+                <data android:pathPrefix="/kiosk"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:host="www.rustore.ru"/>
+                <data android:pathPrefix="/story"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:host="www.rustore.ru"/>
+                <data android:pathPrefix="/roulette"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:host="qr.vk.com"/>
+                <data android:host="qr.vk.ru"/>
+                <data android:pathPattern="/rustore.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:host="www.rustore.ru"/>
+                <data android:pathPrefix="/autoupdates"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:host="www.rustore.ru"/>
+                <data android:pathPrefix="/mine"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:launchMode="singleTask" android:name="com.sdkit.paylib.paylibnative.ui.activity.PaylibNativeActivity" android:theme="@style/paylib_native_default_theme_fixed" android:windowSoftInputMode="adjustResize"/>
+        <provider android:authorities="ru.vk.store.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"/>
+        </provider>
+        <provider android:authorities="ru.vk.store.ZippedFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="ru.vk.store.lib.zip.ZippedFileProvider"/>
+        <receiver android:exported="false" android:name="ru.vk.store.feature.notifications.impl.presentation.NotificationBroadcastReceiver"/>
+        <provider android:authorities="ru.vk.store.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:exported="false" android:name="androidx.work.multiprocess.RemoteWorkerService"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="ru.vk.store.feature.storeapp.details.direct.impl.presentation.activity.DirectDetailsActivity" android:taskAffinity="ru.vk.store.feature.storeapp.details.direct.impl.presentation.DirectDetailsActivity" android:theme="@style/Theme.RuStore.Transparent">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:host="adv.rustore.ru"/>
+                <data android:pathPrefix="/app"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="ru.vk.store.warming.provider" android:enabled="true" android:exported="true" android:name="ru.vk.store.feature.storeapp.details.direct.impl.presentation.contentprovider.WarmingContentProvider"/>
+        <service android:exported="true" android:name="ru.vk.store.feature.storeapp.details.direct.impl.presentation.RapidFlowService">
+            <intent-filter>
+                <action android:name="ru.vk.provider.install.rapid.RapidTokenProvider"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="ru.vk.store.com.inappstory.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.inappstory.sdk.share.InAppStoryFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/inappstory_file_path"/>
+        </provider>
+        <activity android:hardwareAccelerated="true" android:name="com.inappstory.sdk.stories.ui.reader.StoriesActivity" android:screenOrientation="portrait" android:theme="@style/StoriesSDKAppTheme.Transparent"/>
+        <activity android:hardwareAccelerated="true" android:name="com.inappstory.sdk.stories.ui.reader.StoriesTabletActivity" android:theme="@style/StoriesSDKAppTheme.Transparent"/>
+        <activity android:hardwareAccelerated="true" android:name="com.inappstory.sdk.game.reader.GameActivity" android:theme="@style/StoriesSDKAppTheme.GameActivity" android:windowSoftInputMode="adjustResize"/>
+        <receiver android:name="com.inappstory.sdk.stories.utils.StoryShareBroadcastReceiver"/>
+        <activity android:exported="false" android:name="ru.vk.store.lib.browser.webview.WebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="ru.vk.store.feature.permissions.impl.presentation.RequestPermissionActivity" android:theme="@style/Theme.RuStore.Transparent">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:host="www.rustore.ru"/>
+                <data android:pathPrefix="/notification"/>
+                <data android:pathPrefix="/workinbackground"/>
+                <data android:pathPrefix="/usage-stats"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="rustorepermission"/>
+                <data android:host="notification"/>
+                <data android:host="workinbackground"/>
+                <data android:host="usage-stats"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="true" android:name="ru.vk.store.feature.storeapp.install.referrer.remote.impl.presentation.RemoteInstallReferrerProvider">
+            <intent-filter>
+                <action android:name="ru.vk.store.sdk.install.referrer.InstallReferrerProvider"/>
+            </intent-filter>
+        </service>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:foregroundServiceType="dataSync" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <activity android:exported="true" android:name="ru.vk.store.feature.storeapp.update.remote.flexible.impl.presentation.FlexibleAppUpdateActivity" android:theme="@style/Theme.RuStore.Transparent">
+            <intent-filter>
+                <action android:name="ru.vk.store.FlexibleAppUpdate"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="ru.vk.store.feature.storeapp.update.remote.flexible.impl.presentation.completion.FlexibleUpdateCompletionActivity" android:theme="@style/Theme.RuStore.Transparent"/>
+        <activity android:exported="true" android:name="ru.vk.store.feature.storeapp.update.remote.force.impl.presentation.StoreappForceUpdateActivity" android:theme="@style/Theme.RuStore">
+            <intent-filter>
+                <action android:name="ru.vk.store.AnyAppForceUpdateActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="true" android:name="ru.vk.store.feature.install.identifier.impl.presentation.RemoteInstallIdentifierProvider">
+            <intent-filter>
+                <action android:name="ru.vk.store.provider.RuStoreInstallIdentifierProvider"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="ru.vk.store.feature.storeapp.update.remote.impl.presentation.RemoteAppUpdateFlowService">
+            <intent-filter>
+                <action android:name="ru.vk.store.provider.appupdate.RemoteAppUpdateFlowProvider"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="true" android:name="ru.vk.store.feature.storeapp.update.remote.entrance.impl.presentation.UpdateEntranceActivity" android:theme="@style/Theme.RuStore.Transparent">
+            <intent-filter>
+                <action android:name="ru.vk.store.FlexibleAppUpdateNew"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="true" android:name="ru.vk.store.feature.push.featureavailability.remote.impl.RemoteFeatureAvailabilityChecker">
+            <intent-filter>
+                <action android:name="ru.vk.store.provider.feature.FeatureAvailabilityProvider"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="ru.vk.store.feature.auth.logout.impl.presentation.LogoutActivity" android:theme="@style/Theme.RuStore.Transparent"/>
+        <activity android:exported="true" android:name="ru.vk.store.feature.storeapp.review.remote.impl.presentation.AddAppReviewActivity" android:theme="@style/Theme.RuStore.Transparent" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="ru.vk.store.RequestAppReview"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="true" android:name="ru.vk.store.feature.storeapp.review.remote.impl.presentation.RemoteReviewFlowProvider">
+            <intent-filter>
+                <action android:name="ru.vk.store.provider.review.RemoteReviewFlowProvider"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="ru.vk.store.feature.push.client.impl.presentation.PushClientMessagingService">
+            <intent-filter>
+                <action android:name="ru.rustore.sdk.pushclient.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="ru.vk.store.feature.storeapp.payments.remote.impl.presentation.RemotePayTokenProvider">
+            <intent-filter>
+                <action android:name="ru.vk.store.provider.RemotePayTokenProvider"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="ru.vk.store.feature.storeapp.payments.remote.impl.presentation.PayInfoProvider">
+            <intent-filter>
+                <action android:name="ru.vk.store.provider.PayInfoProvider"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="ru.vk.store.feature.user.profile.remote.impl.RemoteUserProfileProvider">
+            <intent-filter>
+                <action android:name="ru.vk.store.provider.user.RemoteUserProfileProvider"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="ru.vk.store.feature.payments.remote.impl.presentation.RemotePaymentInfoProvider">
+            <intent-filter>
+                <action android:name="ru.vk.store.provider.RuStorePaymentInfoProvider"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="ru.vk.store.feature.gamecenter.remote.impl.presentation.RemoteGameCenterInfoProvider">
+            <intent-filter>
+                <action android:name="ru.vk.store.provider.RuStoreGameCenterInfoProvider"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="sak_version" android:value="1.139.3\n"/>
+        <meta-data android:name="com.vk.sdk.APP_ID" android:value="8186525"/>
+        <meta-data android:name="com.vk.sdk.CLIENT_SECRET" android:value="stub"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.vk.api.sdk.ui.VKCaptchaActivity" android:theme="@style/VkSuperappkit.Light.Transparent"/>
+        <activity android:name="com.vk.api.sdk.ui.VKConfirmationActivity" android:theme="@style/VkSuperappkit.Light.Transparent"/>
+        <activity android:exported="true" android:name="com.vk.superapp.logs.SuperappLogsActivity" android:theme="@style/Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="logs" android:scheme="ru.vk.store.sak"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="true" android:name="com.vk.superapp.logs.SuperappLogsBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE"/>
+                <data android:host="*725" android:scheme="android_secret_code"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="ru.vk.store.vk.superappkit.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.vk.superapp.logs.LogsFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/vk_logger_file_paths"/>
+        </provider>
+        <provider android:authorities="ru.vk.store.vk.superappkit.file_provider" android:exported="false" android:grantUriPermissions="true" android:name="com.vk.superapp.provider.SakFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/vk_provider_paths"/>
+        </provider>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="ru.rustore.sdk.pay.internal.presentation.ui.PayActivity" android:theme="@style/Theme.RuStorePay" android:windowSoftInputMode="adjustResize"/>
+        <meta-data android:name="com.vk.oauth.sber.OAUTH_CLIENT_ID" android:value="4e859744-98ae-4031-95f0-22e99d7e30d2"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.vk.oauth.sber.oauth.VkSberOAuthActivity" android:theme="@style/VkSuperappkit.Light.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="@string/vk_sber_deeplink_host" android:scheme="ru.vk.store.vkid"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="ru.vk.store.UsersContentProvider" android:exported="true" android:name="com.vk.usersstore.contentprovider.UsersContentProvider" android:readPermission="ru.vk.store.usersstore.permission.LOAD" android:writePermission="ru.vk.store.usersstore.permission.SAVE"/>
+        <activity android:exported="false" android:label="" android:name="com.vk.auth.avatarpicker.AuthAvatarPickerActivity" android:theme="@style/VkSuperappkit.Light.Transparent"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="" android:name="com.vk.auth.main.VkClientAuthActivity" android:theme="@style/VkSuperappkit.Light"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:label="" android:name="com.vk.auth.main.VkClientAuthActivity$OauthActivity" android:theme="@style/VkSuperappkit.Light.Transparent"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.vk.auth.ui.password.askpassword.VkAskPasswordActivity" android:theme="@style/VkSuperappkit.Light.Transparent"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.vk.auth.changepassword.VkChangePasswordProxyActivity" android:theme="@style/VkSuperappkit.Light.Transparent"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.vk.auth.changepassword.VkChangePasswordActivity" android:theme="@style/VkSuperappkit.Light"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.vk.superapp.browser.ui.VkBrowserActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="com.vk.superapp.browser.internal.ui.shortcats.ShortcutActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.vk.superapp.browser.internal.ui.communitypicker.VkCommunityPickerActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.vk.superapp.browser.ui.VkImagesPreviewActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.vk.superapp.browser.internal.ui.friends.VkFriendsPickerActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.vk.superapp.browser.internal.ui.identity.fragments.VkIdentityActivity"/>
+        <receiver android:exported="true" android:name="com.vk.superapp.browser.utils.SuperAppLoadingBroadcastReceiver">
+            <intent-filter>
+                <action android:enabled="true" android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.vk.superapp.browser.internal.ui.shortcats.ShortcutSuccessReceiver"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.vk.search.restore.VkRestoreSearchActivity"/>
+        <meta-data android:name="com.vk.accountmanager.enabled" android:value="true"/>
+        <meta-data android:name="com.vk.accountmanager.id" android:value="@string/vk_account_manager_id"/>
+        <service android:exported="true" android:name="com.vk.accountmanager.domain.interactor.VkAccountAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/vk_account_manager_authenticator"/>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.vk.auth.captcha.impl.SakCaptchaActivity" android:theme="@style/VkSuperappkit.Light.Transparent" android:windowSoftInputMode="adjustResize"/>
+        <provider android:authorities="ru.vk.store.vk.auth.captcha.init.provider" android:exported="false" android:name="com.vk.id.captcha.init.SdkInitContentProvider"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.vk.auth.smartflow.impl.maxmessenger.MaxMessengerReturnActivity" android:theme="@style/VkSuperappkit.Light.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="vk8186525"/>
+                <data android:host="max_back_redirect"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.vk.auth.DefaultAuthActivity$BottomSheetActivity" android:theme="@style/VkSuperappkit.Light.Transparent" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.vk.auth.DefaultAuthActivity" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.vk.auth.modal.base.ModalAuthHostActivity" android:theme="@style/Theme.AppCompat.Dialog" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <meta-data android:name="com.vk.oauth.tinkoff.OAUTH_CLIENT_ID" android:value="tid_vkid-mb"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.vk.oauth.tinkoff.oauth.VkTinkoffOAuthActivity" android:theme="@style/VkSuperappkit.Light.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="@string/vk_tinkoff_deeplink_host" android:scheme="ru.vk.store"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="true" android:name="ru.mail.auth.sdk.RedirectReceiverActivity" android:theme="@style/Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="oauth2redirect" android:scheme="ru.vk.store"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.vk.oauth.yandex.VkYandexOAuthActivity" android:theme="@style/VkSuperappkit.Light.Transparent"/>
+        <activity android:exported="true" android:name="com.yandex.authsdk.internal.BrowserDataActivity" android:theme="@style/Theme.AuthSdk.Transparent">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="yxd97a37b853c343faa960947613be7f12.oauth.yandex.ru" android:path="/auth/finish" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:path="/auth/finish" android:scheme="yxd97a37b853c343faa960947613be7f12"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.vk.oauth.esia.OAUTH_CLIENT_ID" android:value="VKC"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.vk.oauth.esia.VkEsiaOAuthActivity" android:theme="@style/VkSuperappkit.Light.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="@string/vk_esia_redirect_host" android:scheme="ru.vk.store"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.vk.oauth.alfa.OAUTH_CLIENT_ID" android:value="7d2e30dc-bc6d-4dc0-9ce3-c4ddc3d07668"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.vk.oauth.alfa.oauth.VkAlfaOAuthActivity" android:theme="@style/VkSuperappkit.Light.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="@string/vk_alfa_deeplink_host" android:scheme="ru.vk.store.vkid"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.vk.auth.oauth.passkey.VkPasskeyWebAuthActivity" android:theme="@style/VkSuperappkit.Light.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="vk8186525"/>
+                <data android:host="vk.ru"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="true" android:name="com.vk.silentauth.host.SilentAuthService">
+            <intent-filter>
+                <action android:name="com.vk.silentauth.action.GET_INFO"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="ru.vk.store.rustorepushclientinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="ru.rustore.sdk.pushclient.provider.RuStorePushClientInitProvider"/>
+        <receiver android:exported="true" android:name="ru.rustore.sdk.pushclient.internal.arbiter.ArbiterBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.vk.push.ACTION_MASTER_HOST_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="ru.mail.libverify.notifications.ChangePushPermissionsReceiver">
+            <intent-filter>
+                <action android:name="android.app.action.APP_BLOCK_STATE_CHANGED"/>
+                <action android:name="android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.platform.libverify.sms.SmsRetrieverService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:enabled="false" android:exported="true" android:name="ru.mail.libverify.sms.IncomingSmsReceiver" android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:exported="true" android:name="ru.mail.libverify.sms.IncomingCallReceiver" android:permission="android.permission.READ_PHONE_STATE">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.sms.SmsHandlingService" android:permission="android.permission.BIND_JOB_SERVICE">
+            <intent-filter>
+                <action android:name="ru.mail.sms.SmsHandlingService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="ru.mail.libverify.ipc.IpcMessageService" android:permission="android.permission.INTERNET">
+            <intent-filter>
+                <action android:name="ru.mail.libverify.ipc.IpcMessageService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="ru.mail.libverify.ipc.IpcNotificationService" android:permission="android.permission.INTERNET">
+            <intent-filter>
+                <action android:name="ru.mail.libverify.ipc.IpcNotificationService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.notifications.NotificationService">
+            <intent-filter>
+                <action android:name="ru.mail.notifications.NotificationService"/>
+            </intent-filter>
+        </service>
+        <activity android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="ru.mail.libverify.notifications.SettingsActivity" android:noHistory="true" android:taskAffinity="ru.mail.libverify.notifications.SettingsActivity" android:theme="@style/libverify.Theme.Settings"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="ru.mail.libverify.notifications.SmsCodeNotificationActivity" android:noHistory="true" android:taskAffinity="ru.mail.libverify.notifications.SmsCodeNotificationActivity" android:theme="@style/libverify.Theme.Custom.Popup" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <receiver android:exported="false" android:name="ru.mail.libverify.utils.NetworkStateReceiver"/>
+        <receiver android:name="ru.mail.libverify.utils.network.NetworkStateReceiver"/>
+        <receiver android:exported="false" android:name="ru.mail.libverify.utils.ScreenStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.libverify.utils.network.NetworkCheckService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:label="PackageStateReceiver:2017002" android:name="ru.mail.libverify.utils.PackageStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_MY_PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ru.mail.libverify.utils.PackageStateReceiver"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:label="VerificationCheckService" android:name="ru.mail.libverify.fetcher.FetcherService"/>
+        <service android:enabled="true" android:exported="false" android:label="VerificationCheckService" android:name="ru.mail.libverify.fetcher.FetcherJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:enabled="false" android:exported="false" android:name="ru.mail.libverify.utils.SystemRestartReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ru.mail.libverify.utils.AlarmReceiver"/>
+        <receiver android:enabled="false" android:exported="false" android:name="ru.mail.libverify.utils.BatteryLevelReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="ru.mail.libverify.utils.permissions.ShadowActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="ru.vk.store.verifyinitprovider" android:exported="false" android:name="ru.mail.libverify.utils.VerifyInitProvider"/>
+        <receiver android:exported="false" android:name="ru.mail.verify.core.utils.network.NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.verify.core.utils.VerificationService"/>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.verify.core.utils.VerificationJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.verify.core.gcm.GcmProcessService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.verify.core.utils.IntentProcessService"/>
+        <service android:enabled="true" android:exported="false" android:name="ru.mail.verify.core.utils.IntentProcessJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <meta-data android:name="MYTRACKER_APK_PREINSTALL_PARAMS" android:value=""/>
+        <receiver android:exported="false" android:name="ru.vk.store.feature.deviceuninstall.impl.data.UninstallingBroadcastReceiver"/>
+        <service android:exported="true" android:name="ru.vk.store.feature.storeapp.analytics.remote.impl.presentation.RemoteAnalyticsProvider">
+            <intent-filter>
+                <action android:name="ru.vk.store.provider.analytics.RemoteAnalyticsProvider"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="ru.vk.store.lib.installer.session.SessionInstallerBroadcastReceiver"/>
+        <service android:exported="true" android:name="ru.vk.store.feature.rustore.version.remote.impl.presentation.RuStoreVersionProviderImpl">
+            <intent-filter>
+                <action android:name="ru.vk.store.provider.StoreVersionProvider"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="com.vk.push.pushsdk.broadcast.VkpnsReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.vk.push.pushsdk.broadcast.FullyPackageRemovedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_DATA_CLEARED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.vk.push.pushsdk.broadcast.TimeChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="false" android:exported="true" android:name="com.vk.push.pushsdk.ipc.PushService">
+            <intent-filter>
+                <action android:name="com.vk.push.HOST_SERVICE"/>
+                <action android:name="com.vk.push.PUSH_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="false" android:exported="true" android:foregroundServiceType="dataSync" android:name="com.vk.push.pushsdk.ipc.ForegroundPushService">
+            <intent-filter>
+                <action android:name="com.vk.push.HOST_SERVICE"/>
+                <action android:name="com.vk.push.PUSH_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="false" android:exported="true" android:name="com.vk.push.pushsdk.masterhost.MasterSelectionService">
+            <intent-filter>
+                <action android:name="com.vk.push.HOST_SERVICE"/>
+                <action android:name="com.vk.push.MASTER_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.vk.push.pushsdk.service.TestPushService">
+            <intent-filter>
+                <action android:name="com.vk.push.TEST_PUSH"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.vk.push.pushsdk.work.multiprocess.service.WorkManagerRegistratorService">
+            <intent-filter>
+                <action android:name="com.vk.push.WORK_REGISTRATOR"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.vk.push.pushsdk.work.multiprocess.service.WorkManagerExecutorService" android:process=":vkpns">
+            <intent-filter>
+                <action android:name="com.vk.push.WORK_EXECUTOR"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing" android:value="true"/>
+        <activity android:exported="false" android:name="sberid.sdk.auth.view.activity.WebViewActivity"/>
+        <activity android:exported="false" android:name="ru.tinkoff.core.tinkoffId.ui.webView.TinkoffWebViewAuthActivity" android:theme="@style/TinkoffIdAuth.Theme"/>
+        <provider android:authorities="ru.vk.store.MailIDInitProvider" android:exported="false" android:name="ru.mail.auth.sdk.MailIDInitProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="ru.mail.auth.sdk.MailRuSdkServiceActivity" android:theme="@style/Transparent"/>
+        <service android:enabled="true" android:exported="false" android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder">
+            <meta-data android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY" android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl"/>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:enabled="true" android:exported="false" android:fitsSystemWindows="true" android:name="androidx.credentials.playservices.HiddenActivity" android:theme="@style/Theme.Hidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:enabled="true" android:exported="false" android:fitsSystemWindows="true" android:name="androidx.credentials.playservices.IdentityCredentialApiHiddenActivity" android:theme="@style/Theme.Hidden"/>
+        <activity android:exported="false" android:label="" android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity" android:theme="@style/EasyPermissions.Transparent"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <service android:enabled="false" android:exported="true" android:name="com.vk.push.authsdk.ipc.AuthService">
+            <intent-filter>
+                <action android:name="com.vk.push.HOST_SERVICE"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.vk.push.pushsdk.process_name" android:value="ru.vk.store"/>
+        <provider android:authorities="ru.vk.store.VkpnsDeviceIdContentProvider" android:exported="true" android:name="com.vk.push.core.deviceid.contentprovider.VkpnsDeviceIdContentProvider">
+            <intent-filter>
+                <action android:name="com.vk.push.GET_DEVICE_ID"/>
+            </intent-filter>
+        </provider>
+        <service android:exported="false" android:name="androidx.work.multiprocess.RemoteWorkManagerService"/>
+        <meta-data android:name="ru.ok.tracer.startup.Initializer@b7b8ba75-c336-4dee-8e2a-64ef488e0218" android:value="ru.ok.tracer.crash.report.CrashReportInitializer"/>
+        <meta-data android:name="ru.ok.tracer.startup.Initializer@06f2fae1-db2b-4f87-bc14-fc15c26da3b9" android:value="ru.ok.tracer.performance.metrics.PerformanceMetricsInitializer"/>
+        <provider android:authorities="ru.vk.store.tracer-startup" android:exported="false" android:name="ru.ok.tracer.startup.InitializationProvider"/>
+        <meta-data android:name="ru.ok.tracer.startup.Initializer@25573e8a-bb0f-473f-938a-ca5b3541bda1" android:value="ru.ok.tracer.utils.LoggerInitializer"/>
+        <meta-data android:name="ru.ok.tracer.startup.Initializer@e416cfb4-5661-4523-b12c-0ff4ccabd436" android:value="ru.ok.tracer.TracerInitializer"/>
+        <meta-data android:name="ru.ok.tracer.startup.Initializer@0d46a772-bffc-4ede-ac88-5dcaf5f822c1" android:value="ru.ok.tracer.disk.usage.DiskUsageInitializer"/>
+        <meta-data android:name="ru.ok.tracer.startup.Initializer@c776f0d5-2110-4920-b53e-7b72536d8135" android:value="ru.ok.tracer.heap.dumps.HeapDumpInitializer"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.my.target.common.MyTargetActivity"/>
+        <provider android:authorities="ru.vk.store.mytargetcontentprovider" android:enabled="true" android:exported="false" android:name="com.my.target.common.MyTargetContentProvider"/>
+        <service android:enabled="true" android:exported="false" android:name="io.appmetrica.analytics.internal.AppMetricaService" android:process=":AppMetrica">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="io.appmetrica.analytics.IAppMetricaService"/>
+                <data android:scheme="appmetrica"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="ru.vk.store.appmetrica.preloadinfo.retail" android:enabled="true" android:exported="true" android:name="io.appmetrica.analytics.internal.PreloadInfoContentProvider" android:process=":AppMetrica"/>
+        <receiver android:exported="true" android:name="ru.mail.libverify.platform.firebase.sms.SmsRetrieverReceiver" android:permission="com.google.android.gms.auth.api.phone.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:enabled="true" android:exported="false" android:name="com.yandex.metrica.MetricaService" android:process=":Metrica">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.yandex.metrica.IMetricaService"/>
+                <data android:scheme="metrica"/>
+            </intent-filter>
+            <meta-data android:name="metrica:api:level" android:value="105"/>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.yandex.metrica.ConfigurationService" android:process=":Metrica">
+            <meta-data android:name="metrica:configuration:api:level" android:value="3"/>
+            <intent-filter>
+                <action android:name="com.yandex.metrica.configuration.ACTION_INIT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.yandex.metrica.ConfigurationJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":Metrica"/>
+        <provider android:authorities="ru.vk.store.appmetrica.preloadinfo.retail" android:enabled="true" android:exported="true" android:name="com.yandex.metrica.PreloadInfoContentProvider" android:process=":Metrica"/>
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="6.2.1"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivityV2" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <activity android:name="com.vk.api.sdk.ui.VKWebViewAuthActivity" android:theme="@style/WebViewAuthActivityTheme"/>
+        <meta-data android:name="VKSdkVersion" android:value="4.0.0"/>
+        <meta-data android:name="VKSdkVersionCode" android:value="33"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:label="SendMetricsEventJobService" android:name="ru.rustore.sdk.metrics.internal.presentation.SendMetricsEventJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:name="receivers.TimeSyncRequestedReceiver"/>
+        <provider android:authorities="ru.vk.store.sdk.imaging" android:enabled="true" android:exported="false" android:name="ru.rustore.sdk.imaging.ImageLoaderContentProvider"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ads-identifier" android:value="ads-identifier:3.4.62.300"/>
+        <meta-data android:name="com.facebook.soloader.enabled" android:value="false"/>
+        <service android:name="com.kavsdk.SdkService"/>
+        <service android:name="com.kavsdk.JobSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:launchMode="singleTop" android:name="com.kavsdk.shared.cellmon.FakeActivity" android:taskAffinity="" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <receiver android:exported="true" android:name="com.kavsdk.StartReceiver">
+            <intent-filter>
+                <action android:exported="true" android:name="com.avsdk.READY"/>
+                <action android:exported="true" android:name="com.avsdk.LAUNCH"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.kavsdk.AlarmReceiver"/>
+        <activity android:launchMode="singleTask" android:name="com.vk.id.captcha.web.VKCaptchaWebViewActivity" android:theme="@style/VKCaptchaTheme"/>
+        <activity android:label="" android:name="com.yandex.authsdk.internal.AuthSdkActivity" android:theme="@style/Theme.AuthSdk.Transparent"/>
+        <activity android:launchMode="singleTop" android:name="com.yandex.authsdk.internal.BrowserLoginActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.yandex.authsdk.internal.WebViewLoginActivity" android:theme="@style/Theme.AuthSdk"/>
+        <meta-data android:name="com.yandex.auth.CLIENT_ID" android:value="d97a37b853c343faa960947613be7f12"/>
+        <meta-data android:name="com.yandex.auth.OAUTH_HOST" android:value="oauth.yandex.ru"/>
+    </application>
+</manifest>

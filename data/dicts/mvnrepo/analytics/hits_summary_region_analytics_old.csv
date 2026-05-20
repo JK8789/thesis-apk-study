@@ -1,0 +1,19 @@
+region,prefix,apps_with_prefix,in_which_APKs
+ru,com.google.android.gms,20,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;Gosuslugi Biometria;MAX;Nalogi FL;OK;Ozon;RZD;Sberbank;Tinkoff;VK;VTB;Wildberries;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Telemost;Yandex Trains
+eu,com.google.android.gms,19,Amazon Shopping;BGL;BILnet;Bolt;DB Navigator;Doctena;Google Maps;ING Luxembourg;Mobiliteit.lu;MyGuichet.lu;Revolut;Telegram;Vinted;WhatsApp;X;Zalando;bol;impots.gouv;itsme
+eu,com.google.firebase,19,Amazon Shopping;BGL;BILnet;Bolt;DB Navigator;Doctena;Google Maps;ING Luxembourg;Mobiliteit.lu;MyGuichet.lu;Revolut;Telegram;Vinted;WhatsApp;X;Zalando;bol;impots.gouv;itsme
+ru,com.google.firebase,19,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;Gosuslugi Biometria;MAX;Nalogi FL;OK;Ozon;RZD;Sberbank;Tinkoff;VK;VTB;Wildberries;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Trains
+eu,com.google.firebase.analytics,15,Amazon Shopping;BGL;BILnet;Bolt;DB Navigator;Google Maps;Mobiliteit.lu;MyGuichet.lu;Revolut;Telegram;Vinted;X;Zalando;bol;itsme
+ru,com.google.firebase.analytics,15,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;Gosuslugi Biometria;Nalogi FL;OK;Ozon;RZD;Sberbank;VK;VTB;Wildberries;Yandex Go Taxi;Yandex Trains
+ru,com.google.firebase.ktx,14,Alfa Bank;Avito;Gosuslugi;Gosuslugi Biometria;Nalogi FL;OK;Ozon;RZD;Sberbank;Tinkoff;VK;Wildberries;Yandex Maps;Yandex Market
+eu,com.google.firebase.ktx,10,BILnet;Bolt;Google Maps;ING Luxembourg;Mobiliteit.lu;Revolut;Vinted;WhatsApp;Zalando;impots.gouv
+ru,io.appmetrica.analytics,10,EMIAS.INFO;Gosuslugi;Nalogi FL;OK;VTB;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Telemost;Yandex Trains
+ru,io.appmetrica.analytics.logger,9,Gosuslugi;Nalogi FL;OK;VTB;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Telemost;Yandex Trains
+ru,com.google.android.gms.analytics,3,OK;Ozon;Yandex Market
+ru,com.yandex.pay,3,Gosuslugi;Yandex Go Taxi;Yandex Market
+ru,io.appmetrica.analytics.push.provider.api,3,Yandex Go Taxi;Yandex Maps;Yandex Market
+ru,io.appmetrica.analytics.push.logger,2,Yandex Go Taxi;Yandex Market
+eu,com.adobe.marketing.mobile,1,BGL
+eu,com.adobe.marketing.mobile.analytics,1,BGL
+eu,com.amplitude.android,1,itsme
+eu,com.google.android.gms.analytics,1,Mobiliteit.lu

@@ -1,0 +1,36 @@
+region,prefix,apps_with_prefix,in_which_APKs
+ru,com.google.android.gms,20,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;Gosuslugi Biometria;MAX;Nalogi FL;OK;Ozon;RZD;Sberbank;Tinkoff;VK;VTB;Wildberries;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Telemost;Yandex Trains
+eu,com.google.android.gms,19,Amazon Shopping;BGL;BILnet;Bolt;DB Navigator;Doctena;Google Maps;ING Luxembourg;Mobiliteit.lu;MyGuichet.lu;Revolut;Telegram;Vinted;WhatsApp;X;Zalando;bol;impots.gouv;itsme
+eu,com.google.firebase,19,Amazon Shopping;BGL;BILnet;Bolt;DB Navigator;Doctena;Google Maps;ING Luxembourg;Mobiliteit.lu;MyGuichet.lu;Revolut;Telegram;Vinted;WhatsApp;X;Zalando;bol;impots.gouv;itsme
+ru,com.google.firebase,19,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;Gosuslugi Biometria;MAX;Nalogi FL;OK;Ozon;RZD;Sberbank;Tinkoff;VK;VTB;Wildberries;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Trains
+ru,com.google.android.gms.ads,18,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;Nalogi FL;OK;Ozon;RZD;Sberbank;Tinkoff;VK;VTB;Wildberries;Yandex Go Taxi;Yandex Maps;Yandex Market;Yandex Telemost;Yandex Trains
+eu,com.google.android.gms.base,12,Amazon Shopping;BGL;BILnet;Bolt;DB Navigator;Doctena;Mobiliteit.lu;MyGuichet.lu;Revolut;Telegram;Vinted;itsme
+eu,com.google.android.gms.ads,11,Amazon Shopping;BGL;BILnet;Bolt;DB Navigator;Revolut;Vinted;X;Zalando;bol;itsme
+ru,com.google.android.gms.base,10,Gosuslugi;Gosuslugi Biometria;Nalogi FL;OK;Ozon;RZD;VK;VTB;Wildberries;Yandex Trains
+ru,com.huawei.hms,9,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;OK;Sberbank;Tinkoff;VK;VTB
+ru,com.huawei.hms.base,9,Alfa Bank;Avito;EMIAS.INFO;Gosuslugi;OK;Sberbank;Tinkoff;VK;VTB
+eu,androidx.privacysandbox.ads,8,BGL;BILnet;Bolt;Revolut;Vinted;X;Zalando;bol
+eu,androidx.privacysandbox.ads.adservices,8,BGL;BILnet;Bolt;Revolut;Vinted;X;Zalando;bol
+ru,androidx.privacysandbox.ads,7,Avito;Gosuslugi;OK;RZD;Wildberries;Yandex Go Taxi;Yandex Maps
+ru,androidx.privacysandbox.ads.adservices,7,Avito;Gosuslugi;OK;RZD;Wildberries;Yandex Go Taxi;Yandex Maps
+ru,com.yandex.android,4,Avito;OK;Yandex Market;Yandex Trains
+eu,com.google.ads.mediation,3,Vinted;X;bol
+eu,com.google.ads.interactivemedia.v3,2,Amazon Shopping;X
+ru,androidx.ads.identifier,2,OK;VK
+ru,com.google.ads.mediation,2,OK;Yandex Maps
+eu,com.amazon.android,1,Amazon Shopping
+eu,com.applovin.mediation,1,Vinted
+eu,com.applovin.mediation.adapter,1,Vinted
+eu,com.unity3d.ads,1,Vinted
+eu,com.vungle.ads,1,Vinted
+ru,com.applovin.mediation,1,OK
+ru,com.applovin.mediation.adapter,1,OK
+ru,com.google.ads.mediation.facebook,1,OK
+ru,com.google.ads.mediation.mintegral,1,OK
+ru,com.google.ads.mediation.moloco,1,OK
+ru,com.google.ads.mediation.pangle,1,OK
+ru,com.google.ads.mediation.vungle,1,OK
+ru,com.huawei.hms.ads,1,Sberbank
+ru,com.huawei.hms.ads.identifier,1,Sberbank
+ru,com.unity3d.ads,1,OK
+ru,com.vungle.ads,1,OK

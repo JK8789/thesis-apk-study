@@ -40,7 +40,7 @@ def parse_version_txt(path: Path):
 def parse_summary(path: Path):
     result = {
         "requested_permissions_count": 0,
-        "declared_permissions_count": 0,
+        "custom_permissions_count": 0,
         "activities_all": 0,
         "activities_exported": 0,
         "services_all": 0,
@@ -123,7 +123,7 @@ def load_store_record(package_dir: Path, store: str):
         "signer_cert_sha256": None,
         "size_bytes": None,
         "requested_permissions_count": 0,
-        "declared_permissions_count": 0,
+        "custom_permissions_count": 0,
         "activities_all": 0,
         "activities_exported": 0,
         "services_all": 0,
@@ -180,7 +180,7 @@ def compute_pairwise_values(this_row, other_row):
 
     this_row["pair_diff_size_bytes"] = diff_int("size_bytes")
     this_row["pair_diff_requested_permissions_count"] = diff_int("requested_permissions_count")
-    this_row["pair_diff_declared_permissions_count"] = diff_int("declared_permissions_count")
+    this_row["pair_diff_custom_permissions_count"] = diff_int("custom_permissions_count")
     this_row["pair_diff_activities_all"] = diff_int("activities_all")
     this_row["pair_diff_activities_exported"] = diff_int("activities_exported")
     this_row["pair_diff_services_all"] = diff_int("services_all")
@@ -210,16 +210,16 @@ def main():
                 rows.append(row)
 
     fieldnames = [
-        "package",
-        "store",
         "apk_filename",
-        "versionCode",
+        "store",
+        "package",
         "versionName",
+        "versionCode",
         "sha256",
         "signer_cert_sha256",
         "size_bytes",
         "requested_permissions_count",
-        "declared_permissions_count",
+        "custom_permissions_count",
         "activities_all",
         "activities_exported",
         "services_all",
@@ -235,7 +235,7 @@ def main():
         "pair_same_version",
         "pair_diff_size_bytes",
         "pair_diff_requested_permissions_count",
-        "pair_diff_declared_permissions_count",
+        "pair_diff_custom_permissions_count",
         "pair_diff_activities_all",
         "pair_diff_activities_exported",
         "pair_diff_services_all",

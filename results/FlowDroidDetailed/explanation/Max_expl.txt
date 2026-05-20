@@ -1,0 +1,129 @@
+1. Result-by-result comments for MAX XML
+
+Below is a compact comment for each of the 51 visible MAX results reconstructed from the XML. The result numbering follows the XML order from the MAX file. The sink distribution is: 21 logging results, 15 activity-launch results, 9 provider-write results, 4 broadcast results, and 2 media or file-handling results.
+
+AssertionTracker logging
+one.me.android.OneMeApplication propagates display metrics, locale, and memory-class information into an error log. This is environment and runtime diagnostics, not a strong privacy-relevant leak.
+TamTam share path, provider update
+ru.ok.tamtam.android.util.share.b reaches ContentResolver.update(...). This is more meaningful than generic logging because it shows structured write activity through Android provider interfaces.
+Vivo badge broadcast
+VivoHomeBadger.executeBadge(...) forwards package and class-name data into sendBroadcast(...). This is launcher-badge support, operational rather than sensitive.
+Call service activity launch
+one.me.calls.impl.service.f reaches startActivity(...). The visible sources include looper, cache-directory, and audio-service related values. This suggests call-flow orchestration, but not direct exposure of sensitive user content.
+Provider insert in sn0.b
+sn0.b reaches ContentResolver.insert(...). This is another structured provider write and is one of the more interesting results in MAX.
+Device connection logging
+ru.cprocsp.ACSP.tools.receiver.DeviceConnectionReceiver logs Intent.getAction(). This indicates device or hardware-event handling, but the sink is only verbose logging.
+Nova badge insert
+NovaHomeBadger.executeBadge(...) performs a provider insert for badge state. This is again launcher integration, not user-data exfiltration.
+SoLoader error logging
+com.facebook.soloader logs application-info derived values. This is library-loading diagnostics.
+File-prefs logging
+one.me.fileprefs.i.log(...) combines values from shared preferences, cache directories, and some runtime objects into a debug log. This is a broad diagnostic path, but still ends in logging.
+Sony badge broadcast
+SonyHomeBadger.executeBadgeByBroadcast(...) sends a badge-related broadcast using package and class-name data. Operational only.
+TamTam share path, provider insert
+ru.ok.tamtam.android.util.share.b also reaches ContentResolver.insert(...). Together with Result 2, this suggests non-trivial provider-backed share or handoff logic.
+Intent extras to activity launch
+one.me.android.calls.a propagates Intent.getExtras() into startActivity(...). This is one of the clearest app-specific control-flow paths because incoming intent state affects subsequent navigation.
+MyTracker debug logging
+com.my.tracker.core.Tracer logs a value derived from getPackageName(). This shows embedded analytics instrumentation.
+SDK tool launches activity
+one.me.sdk.android.tools.f reaches startActivity(...). This looks like internal UI or utility navigation rather than a privacy leak.
+Broadcast from wa.l
+A broadcast is sent in wa.l.d(...). This suggests inter-component signaling, but the visible path is not semantically explicit about personal data.
+Throwable-based debug logging
+u60.q.v(...) reaches Log.d(..., Throwable). This is debugging or operational tracing.
+ProcessPhoenix restart flow
+ProcessPhoenix.onCreate(...) reaches startActivities(...). This is application restart or process-recovery infrastructure, not a user-data leak.
+Another intent-extras call launch
+one.me.android.calls.a again propagates incoming intent state into activity launching. This reinforces the presence of repeated intent-driven call navigation.
+MyTracker error logging
+com.my.tracker.core.Tracer.e(...) logs runtime-derived values. Telemetry or analytics support, but still log-oriented.
+Video player debug logging
+one.video.player.BaseVideoPlayer reaches a debug log sink. This supports the presence of media functionality, though the sink is only diagnostic.
+Samsung badge update
+SamsungHomeBadger.executeBadge(...) reaches ContentResolver.update(...). Operational launcher-state maintenance.
+Sony badge insert
+SonyHomeBadger.insertBadgeSync(...) reaches ContentResolver.insert(...). Same badge-management pattern.
+Explicit broadcast helper
+BroadcastHelper.sendIntentExplicitly(...) reaches sendBroadcast(...). This confirms internal broadcast-based coordination support.
+TamTam shared flow launching activity
+ru.ok.tamtam.shared.d reaches startActivity(...). This is more interesting than generic library logging because it appears in app-specific shared logic.
+External-calls analytics logging
+ru.ok.android.externcalls.analytics.internal.log.DefaultCallAnalyticsLogger logs data. This supports the presence of call analytics or call telemetry infrastructure.
+Repeated SDK tool launch
+one.me.sdk.android.tools.f again launches an activity. Likely utility or permission-related navigation.
+Repeated call-launch path
+one.me.android.calls.a again sends intent-derived state into startActivity(...). This repeated motif is one of the most relevant MAX patterns.
+Media metadata access via file descriptor
+com.facebook.imagepipeline.producers.r0 reaches MediaMetadataRetriever.setDataSource(FileDescriptor). This is one of the clearest media or file-handling paths in MAX.
+Repeated call-launch path
+Another one.me.android.calls.a result. Again indicates internal call-related navigation driven by incoming intent state.
+SoLoader warning log
+com.facebook.soloader warning-level logging. Diagnostic only.
+SoLoader verbose log
+Another library-loading diagnostic path.
+Calls service launch
+one.me.calls.impl.service.f.d(...) launches an activity. Another sign of non-trivial call-service control flow.
+SoLoader debug log
+Further framework-library diagnostics.
+Samsung badge insert
+Another launcher badge provider write. Operational.
+SDK helper navigation
+one.me.sdk.android.tools.f.n(...) launches an activity. Internal navigation utility.
+ShortcutBadger init logging
+ShortcutBadger.initBadger(...) reaches an error log sink. This confirms embedded badge-support infrastructure.
+General debug logger
+m4.p$a.a(...) logs a string pair. Diagnostic only.
+EXIF interface from file descriptor
+LocalExifThumbnailProducer$Api24Utils reaches new ExifInterface(FileDescriptor). This is a second clear file and image-handling path.
+Println logging path
+yv.m.e(...) reaches Log.println(...). Generic logging or error-report support.
+Another println logging path
+e5.b.l(...) also reaches Log.println(...). Diagnostic.
+Calls service startActivity by ID/timestamp-like input
+one.me.calls.impl.service.f.a(java.lang.String,long) launches an activity. This again points to call-related internal workflow.
+General debug logger
+r.s0.a(...) logs strings. Not privacy-relevant by itself.
+SDK helper launch
+one.me.sdk.android.tools.f.h(...) launches an activity. Another UI or helper navigation path.
+Deep-link interception path
+one.me.android.deeplink.LinkInterceptorActivity.handleCallIntent(...) reaches startActivity(...). This is one of the most interesting MAX results because it shows a deep-link component forwarding an incoming intent into subsequent navigation.
+Repeated call-launch path
+one.me.android.calls.a again launches an activity from tainted intent state. Strongly supports the view that MAX has many intent-driven internal navigation flows.
+External call analytics error logging
+DefaultCallAnalyticsLogger.e(...) reaches Log.e(..., Throwable). This supports call analytics instrumentation, but again only via logging sinks.
+Image crop view logging
+TransformImageView.onImageLaidOut() reaches a debug log sink. Supports image-editing or media UI functionality.
+MyTracker debug logging
+Another analytics-related logging path in com.my.tracker.core.Tracer.
+Device cache warning log
+ru.cprocsp.ACSP.tools.config.DeviceCache.cache(...) logs cached values. This points to device or crypto-environment support, but not to direct data sharing.
+Second sn0.b provider update
+sn0.b reaches ContentResolver.update(...). Together with Result 5, this makes sn0.b one of the more relevant provider-write locations in MAX.
+EverythingMe badge insert
+Another badge-provider insert path. Operational only.
+
+============================================================================================
+2. Most interesting places in the MAX XML
+
+These are the locations I would treat as the most useful for the thesis discussion.
+
+1. one.me.android.deeplink.LinkInterceptorActivity.handleCallIntent(...)
+This is the clearest externally meaningful location in the visible MAX XML. The result shows a deep-link interception component forwarding an incoming intent into startActivity(...). Even without proving misuse, this is security-relevant because deep-link entry points are externally influenced by design.
+
+2. one.me.android.calls.a and one.me.calls.impl.service.f
+These two locations appear repeatedly in activity-launch results. The important point is not the raw leak count, but the repeated pattern: incoming intent state, extras, or related runtime context influence subsequent call-related navigation. This suggests a substantial internal call-control layer.
+
+3. ru.ok.tamtam.android.util.share.b
+This class appears in both ContentResolver.update(...) and ContentResolver.insert(...) paths. Provider-backed writes are more interesting than generic logging because they indicate structured state manipulation through Android content-provider interfaces.
+
+4. sn0.b
+Like the TamTam share class, sn0.b appears in both insert and update results. The obfuscated name limits semantic interpretation, but repeated provider writes still make it a relevant place for manual inspection.
+
+5. Media-handling paths in Facebook image pipeline
+The MediaMetadataRetriever.setDataSource(FileDescriptor) and ExifInterface(FileDescriptor) results are among the clearest functionally meaningful MAX paths. They support the presence of image, file, or media-processing logic in the distributed APK.
+
+6. Analytics and telemetry points
+com.my.tracker.core.Tracer and ru.ok.android.externcalls.analytics.internal.log.DefaultCallAnalyticsLogger show that analytics and call-event instrumentation are present, but the currently visible paths mostly end in local logging sinks rather than in clearly external network sinks.

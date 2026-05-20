@@ -1,0 +1,11 @@
+Before commenting on the results, the most important interpretation rule is this:
+
+getIntent(), startActivity(), setResult(), and related APIs usually indicate Android inter-component communication, not external data transmission by themselves. Android documents getIntent() as the way to retrieve the Intent that started an activity, and Intent/intent filters as the mechanism apps use to start activities and exchange parameters. Android also recommends the Activity Result APIs as the modern wrapper around startActivityForResult() / onActivityResult().
+
+sendBroadcast() indicates a broadcast-style IPC path, which can matter if a receiver is exported or permission-protected. Android describes broadcasts as messages sent by the system or apps to notify receivers of events.
+
+ContentResolver.insert() / update() indicate writes into a content provider or resolver-backed storage, which is more interesting than pure navigation, but still not the same as network exfiltration. Android documents ContentResolver.insert() as inserting a new row into a provider and returning a content URI.
+
+MediaMetadataRetriever.setDataSource(FileDescriptor), MediaPlayer.setDataSource(FileDescriptor,...), and Typeface.Builder(FileDescriptor) are file/media descriptor consumption APIs. They usually indicate opening media or file content rather than sharing it outward.
+
+PendingIntent.getIntentSender() followed by startIntentSenderForResult() is commonly used to launch a delegated system or SDK UI flow. Android documents this pattern in system-mediated flows.

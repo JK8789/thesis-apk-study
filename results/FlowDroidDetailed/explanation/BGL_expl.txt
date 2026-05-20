@@ -1,0 +1,296 @@
+1. BGL result-by-result comments
+
+BGL FlowDroid XML
+Termination state: DataFlowOutOfMemory
+Summary: 48 leaks from 1165 sources
+
+1. com.medallia.digital.mobilesdk.Broadcasts$d.a: getApplicationContext() / getPackageName() -> sendBroadcast(Intent).
+SDK broadcast flow inside Medallia. This looks like feedback or analytics infrastructure, not clearly sensitive user data.
+
+2. Glide MemorySizeCalculator.<init>: ActivityManager.isLowRamDevice() / getMemoryClass() -> Log.d("MemorySizeCalculator", ...).
+Device-capability values are written to debug logs. Operational and low sensitivity.
+
+3. Glide LruBitmapPool.put: Bitmap.getConfig() -> Log.v("LruBitmapPool", ...).
+Image/bitmap configuration reaches a logging sink. Media/cache diagnostics, not external sharing.
+
+4. Medallia q4.a: Intent.getScheme() -> Log.v("LocalBroadcastManager", ...).
+Intent scheme is logged in Medallia SDK flow. Shows SDK instrumentation of broadcast-style intent metadata.
+
+5. AdobeExperienceSDK debug: many object hashCode()/toString() values, including app model objects and SignalStrength.toString() -> Log.d(...).
+Large SDK logging flow. Important because it mixes internal model objects, framework values, and telephony-related string representations into Adobe logging.
+
+6. OneTrust Helper.q.a(JSONObject,String): source value -> sendBroadcast(Intent).
+Consent/privacy SDK broadcast behavior. Operational SDK path rather than direct personal-data evidence.
+
+7. Glide Downsampler.decodeStream: InputStream-related value -> Log.d("Downsampler", ..., Throwable).
+Image decode failure/debug logging. Media processing, low security relevance.
+
+8. BarcodeScanner CameraConfigurationUtils.setBestPreviewFPS: camera parameter values -> Log.i("CameraConfiguration", ...).
+Camera configuration values are logged. This supports barcode/camera functionality but not sensitive-data exfiltration.
+
+9. Medallia c5.a(Activity): startActivityForResult(Intent, 3) from SDK values.
+SDK-controlled activity launch flow. Suggests user feedback/form UI logic, not direct data sharing.
+
+10. Glide LruBitmapPool.trimToSize: bitmap/cache-related value -> Log.d("LruBitmapPool", ...).
+Another image/cache diagnostic log flow.
+
+11. OneTrust OTLogger verbose path: multiple values -> Log.v(...).
+Consent SDK logging flow. Likely instrumentation, compliance, or diagnostic behavior.
+
+12. CameraConfigurationUtils.findSettableValue: camera-supported values -> Log.i("CameraConfiguration", ...).
+Camera capability logging. Operational camera setup.
+
+13. AdobeExperienceSDK error: many values -> Log.e(...).
+Another large Adobe SDK logging path. Similar to result 5, but error-level sink.
+
+14. CameraConfigurationUtils.setMetering: getMeteringAreas() -> Log.i("CameraConfiguration", ...).
+Camera metering configuration reaches log output. Camera diagnostics.
+
+15. CameraConfigurationUtils.setBestExposure: exposure compensation step -> Log.i("CameraConfiguration", ...).
+Camera exposure configuration logged. Operational.
+
+16. MPAndroidChart PieRadarChartBase.calculateOffsets: chart/painters values -> Log.i("MPAndroidChart", ...).
+UI/chart rendering data reaches logs. Low security relevance.
+
+17. coil.util.DebugLogger.log: image/debug value -> Log.println(...).
+Coil image-loading debug path. Operational.
+
+18. OneTrust OTLogger info path: many values -> Log.i(...).
+Large consent SDK logging flow. Operational instrumentation.
+
+19. Glide Downsampler.logDecode: decode information -> Log.v("Downsampler", ...).
+Image decoding diagnostics.
+
+20. OneTrust Helper.q.a(String,int): many values -> sendBroadcast(Intent).
+Consent SDK broadcast behavior. More interesting than logging, but still likely internal SDK signaling.
+
+21. lu.bgl.spm.core.activities.DrawerActivity.refreshActivity: source activity state -> startActivity(Intent).
+Internal app navigation refresh. App-specific but likely normal UI control flow.
+
+22. AutoFocusManager.<init>: autofocus/camera-related value -> Log.i(...).
+Camera autofocus configuration logged.
+
+23. Glide DrawableToBitmapConverter.drawToBitmap: drawable-related values -> Log.w("DrawableToBitmap", ...).
+Graphic conversion warning log. Operational.
+
+24. App2AppActivity.handleIntent: intent-derived values -> startActivity(Intent).
+Interesting app-specific result. App2AppActivity forwards incoming intent state to another activity. Relevant for app-to-app or signature flows.
+
+25. VideoDecoder.ParcelFileDescriptorInitializer.initialize: ParcelFileDescriptor.getFileDescriptor() -> MediaMetadataRetriever.setDataSource(FileDescriptor).
+File/media handling path. Strong evidence of file/media processing, not external sharing.
+
+26. CaptureManager.returnResult: barcode scanner values -> Activity.setResult(...).
+Barcode scanning result is returned to caller. Good evidence of scan/capture functionality.
+
+27. OneTrust OTLogger warning path: many values -> Log.w(...).
+Consent SDK warning-level instrumentation.
+
+28. CameraConfigurationUtils.setBestExposure: exposure value -> Log.i(...).
+Camera configuration log. Same family as result 15.
+
+29. AdobeExperienceSDK trace: many values -> Log.v(...).
+Adobe SDK trace-level instrumentation.
+
+30. App2AppActivity.handleIntent: another intent-derived flow -> startActivity(Intent).
+Same functional family as result 24. Strong candidate for app-to-app integration analysis.
+
+31. TeaserControllerImpl.clickButton: app-specific value -> setResult(...).
+Application teaser/controller result propagation. Internal app UI flow.
+
+32. Medallia f3.c: SDK value -> startActivity(Intent).
+Medallia launches an activity from SDK-driven state. Suggests survey/form/prompt UI behavior.
+
+33. SplashActivity.next: source value -> startActivity(Intent).
+App launch/splash navigation. App-specific but routine.
+
+34. Glide DrawableToBitmapConverter.drawToBitmap: drawable-related values -> Log.w(...).
+Same family as result 23. Image conversion warning.
+
+35. CameraConfigurationUtils.setBestPreviewFPS: camera FPS values -> Log.i(...).
+Camera preview configuration logging. Same family as result 8.
+
+36. SplashActivity.next: source value -> startActivity(Intent).
+Another splash/launch navigation flow.
+
+37. Medallia f3.c: SDK values -> startActivity(Intent).
+Same family as result 32. SDK-triggered activity launch.
+
+38. App2AppActivity.handleIntent: intent-derived values -> startActivity(Intent).
+Same family as results 24 and 30. Important for app-to-app flow interpretation.
+
+39. Medallia c5.a(Activity,int): SDK values -> startActivityForResult(Intent, 2).
+Another Medallia SDK UI-launch path.
+
+40. Glide LruBitmapPool.put: Bitmap.getConfig() -> Log.v(...).
+Same family as result 3. Bitmap/logging diagnostic.
+
+41. OneTrust Helper.q.a(String): source value -> sendBroadcast(Intent).
+Consent SDK broadcast signaling. Operational.
+
+42. Glide ManifestParser.parse: manifest/glide module values -> Log.d("ManifestParser", ...).
+Library/module discovery logging.
+
+43. OneTrust OTLogger debug path: many values -> Log.d(...).
+Consent SDK debug instrumentation.
+
+44. Medallia r2.a(...): SDK values -> startActivity(Intent).
+Another Medallia activity launch. Suggests feedback/engagement flow.
+
+45. CameraConfigurationUtils.setBestPreviewFPS: camera preview values -> Log.i(...).
+Same family as results 8 and 35.
+
+46. AdobeExperienceSDK warning: a few values -> Log.w(...).
+Adobe SDK warning-level logging flow.
+
+47. OneTrust OTLogger error path: many values -> Log.e(...).
+Consent SDK error logging.
+
+48. CameraConfigurationUtils.setFocusArea: focus-area value -> Log.i(...).
+Camera focus-area configuration logged. Operational camera behavior.
+
+
+====================================================
+
+2. Most interesting places in the BGL XML
+
+A. Adobe Experience SDK logging flows
+
+Most important:
+
+Results 5, 13, 29, 46
+especially Result 5
+
+Why they matter:
+
+they are not simple one-source one-sink flows
+they aggregate many object representations into Adobe logging
+one visible source family includes SignalStrength.toString()
+some app-specific classes also appear, such as teaser, portfolio, and direct-invest models
+
+Interpretation:
+
+this does not prove external data sharing
+but it does show a strong telemetry / analytics / diagnostics instrumentation layer
+it is more relevant than trivial bitmap logs
+B. OneTrust consent/logging and broadcast flows
+
+Most important:
+
+Results 6, 11, 18, 20, 27, 41, 43, 47
+
+Why they matter:
+
+they indicate a substantial privacy/consent SDK footprint
+some are logging flows
+some are broadcast flows
+this is useful when comparing declared data processing and compliance-oriented functionality
+
+Interpretation:
+
+these findings support the presence of a compliance / consent management layer
+but again mostly as internal SDK behavior
+C. App2AppActivity flows
+
+Most important:
+
+Results 24, 30, 38
+
+Why they matter:
+
+they are app-specific
+App2AppActivity is one of the exported activities in your extracted manifest data
+incoming intent state influences later activity launches
+
+Interpretation:
+
+this is one of the most interesting app-native areas in BGL
+it may reflect signature/app-to-app workflows
+it deserves more attention than generic SDK logs
+D. Barcode/camera flows
+
+Most important:
+
+Results 8, 12, 14, 15, 22, 26, 35, 45, 48
+
+Why they matter:
+
+they align with the declared Files and docs category and the CAMERA permission
+CaptureManager.returnResult is especially useful because it shows a scanner result being passed back via setResult(...)
+together, they support real document/scan functionality in the app
+
+Interpretation:
+
+not suspicious by themselves
+but strong evidence that camera/document workflows are technically present
+E. Media/file handling
+
+Most important:
+
+Result 25
+
+Why it matters:
+
+file descriptor reaches MediaMetadataRetriever.setDataSource(...)
+confirms file/media handling capability
+useful as technical support for file/document-related functionality
+F. Splash and internal navigation flows
+
+Most important:
+
+Results 21, 33, 36
+
+These are app-specific but lower security value. They mainly show normal app navigation.
+
+3. Professional interpretation before the LaTeX
+
+For BGL, the current XML is very different from Sberbank.
+
+Dominant pattern in BGL
+
+BGL is dominated by:
+
+SDK logging
+consent/privacy SDK behavior
+analytics/telemetry-style instrumentation
+camera/barcode setup and return flows
+some app-to-app launch handling
+
+It is less dominated by deep-link propagation and provider-backed writes than Sberbank.
+
+Relation to declared data collection
+
+BGL declares only:
+
+Files and docs
+User IDs
+no data shared
+
+This is a much narrower disclosure than Sberbank.
+
+What matches well
+Files and docs is supported reasonably well by:
+camera/barcode flows
+file/media handling
+open-document and capture-related app structure
+camera/storage permissions
+What does not match clearly yet
+User IDs is not strongly visible in the representative XML paths
+the XML is more dominated by:
+Adobe logging
+Medallia SDK activity/broadcast flows
+OneTrust logging/broadcast flows
+so the static evidence does not yet show a clear direct path for user IDs
+
+
+
+------------------------------------------------------------
+
+5. What figure I would add for BGL
+
+For BGL, I would add only one XML screenshot, not many.
+
+Best choice:
+
+the AdobeExperienceSDK logging result if the screenshot is readable
+or the App2AppActivity result if you want a more app-specific example
+or the CaptureManager.returnResult result if you want the figure to support Files and docs

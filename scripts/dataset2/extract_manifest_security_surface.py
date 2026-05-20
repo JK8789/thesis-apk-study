@@ -52,21 +52,21 @@ def main():
     # ------------------------
 
     requested_permissions = set()
-    declared_permissions = set()
+    custom_permissions = set()
 
     for el in manifest:
 
         tag = el.tag.split("}")[-1]
 
-        if tag in ["uses-permission", "uses-permission-sdk-23", "uses-permission-sdk-m"]:
+        if tag in ["uses-permission"]:
             name = attr(el, "name")
             if name:
                 requested_permissions.add(name)
 
-        if tag in ["permission", "permission-group", "permission-tree"]:
+        if tag in ["permission"]:
             name = attr(el, "name")
             if name:
-                declared_permissions.add(name)
+                custom_permissions.add(name)
 
     # ------------------------
     # components
@@ -125,7 +125,7 @@ def main():
     # ------------------------
 
     write_list(out_dir / "requested_permissions.txt", requested_permissions)
-    write_list(out_dir / "declared_permissions.txt", declared_permissions)
+    write_list(out_dir / "custom_permissions.txt", custom_permissions)
 
     write_list(out_dir / "activities_all.txt", activities_all)
     write_list(out_dir / "activities_exported.txt", activities_exported)
@@ -149,7 +149,7 @@ def main():
         "versionName": apk.get_androidversion_name(),
 
         "requested_permissions_count": len(requested_permissions),
-        "declared_permissions_count": len(declared_permissions),
+        "custom_permissions_count": len(custom_permissions),
 
         "activities_all": len(set(activities_all)),
         "activities_exported": len(set(activities_exported)),

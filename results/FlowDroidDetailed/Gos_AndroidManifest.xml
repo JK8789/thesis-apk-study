@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" android:requiredSplitTypes="base__abi" android:splitTypes="" package="ru.rostel" platformBuildVersionCode="35" platformBuildVersionName="15">
+    <uses-permission android:name="android.permission.DETECT_SCREEN_CAPTURE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:maxSdkVersion="28" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER"/>
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <queries>
+        <package android:name="ru.yandex.yandexnavi"/>
+        <package android:name="com.samsung.android.spay"/>
+        <package android:name="ru.fanid"/>
+        <package android:name="ru.vk.store"/>
+        <package android:name="ru.gosuslugi.auto"/>
+        <package android:name="ru.sigma.gisgkh"/>
+        <package android:name="ru.gosuslugi.goskey"/>
+        <package android:name="ru.gosuslugi.culture"/>
+        <package android:name="ru.gosuslugi.pos"/>
+        <package android:name="ru.rtlabs.mobile.ebs.gosuslugi.android"/>
+        <package android:name="ru.gosuslugi.school"/>
+        <package android:name="com.noshufou.android.su"/>
+        <package android:name="com.noshufou.android.su.elite"/>
+        <package android:name="eu.chainfire.supersu"/>
+        <package android:name="com.koushikdutta.superuser"/>
+        <package android:name="com.thirdparty.superuser"/>
+        <package android:name="com.yellowes.su"/>
+        <package android:name="com.topjohnwu.magisk"/>
+        <package android:name="com.kingroot.kinguser"/>
+        <package android:name="com.kingo.root"/>
+        <package android:name="com.smedialink.oneclickroot"/>
+        <package android:name="com.zhiqupk.root.global"/>
+        <package android:name="com.alephzain.framaroot"/>
+        <package android:name="com.koushikdutta.rommanager"/>
+        <package android:name="com.koushikdutta.rommanager.license"/>
+        <package android:name="com.dimonvideo.luckypatcher"/>
+        <package android:name="com.chelpus.lackypatch"/>
+        <package android:name="com.ramdroid.appquarantine"/>
+        <package android:name="com.ramdroid.appquarantinepro"/>
+        <package android:name="com.android.vending.billing.InAppBillingService.COIN"/>
+        <package android:name="com.android.vending.billing.InAppBillingService.LUCK"/>
+        <package android:name="com.chelpus.luckypatcher"/>
+        <package android:name="com.blackmartalpha"/>
+        <package android:name="org.blackmart.market"/>
+        <package android:name="com.allinone.free"/>
+        <package android:name="com.repodroid.app"/>
+        <package android:name="org.creeplays.hack"/>
+        <package android:name="com.baseappfull.fwd"/>
+        <package android:name="com.zmapp"/>
+        <package android:name="com.dv.marketmod.installer"/>
+        <package android:name="org.mobilism.android"/>
+        <package android:name="com.android.wp.net.log"/>
+        <package android:name="com.android.camera.update"/>
+        <package android:name="cc.madkite.freedom"/>
+        <package android:name="com.solohsu.android.edxp.manager"/>
+        <package android:name="org.meowcat.edxposed.manager"/>
+        <package android:name="com.xmodgame"/>
+        <package android:name="com.cih.game_cih"/>
+        <package android:name="com.charles.lpoqasert"/>
+        <package android:name="catch_.me_.if_.you_.can_"/>
+        <package android:name="com.devadvance.rootcloak"/>
+        <package android:name="com.devadvance.rootcloakplus"/>
+        <package android:name="de.robv.android.xposed.installer"/>
+        <package android:name="com.saurik.substrate"/>
+        <package android:name="com.zachspong.temprootremovejb"/>
+        <package android:name="com.amphoras.hidemyroot"/>
+        <package android:name="com.amphoras.hidemyrootadfree"/>
+        <package android:name="com.formyhm.hiderootPremium"/>
+        <package android:name="com.formyhm.hideroot"/>
+        <package android:name="akegps.fakelocation.mocklocation.gpsfaker"/>
+        <package android:name="com.blogspot.newapphorizons.fakegps"/>
+        <package android:name="com.discipleskies.mock_location_spoofer"/>
+        <package android:name="com.evezzon.fakegps"/>
+        <package android:name="com.fakegps.fakelocation"/>
+        <package android:name="com.fakegps.locationchanger"/>
+        <package android:name="com.fakegps.mock"/>
+        <package android:name="com.fakegpsjoystick.anytospoofer"/>
+        <package android:name="com.github.warren_bank.mock_location"/>
+        <package android:name="com.hopefactory2021.fakegpslocation"/>
+        <package android:name="com.incorporateapps.fakegps.fre"/>
+        <package android:name="com.incorporateapps.fakegps_route"/>
+        <package android:name="com.just4funtools.fakegpslocationprofessional"/>
+        <package android:name="com.lexa.fakegps"/>
+        <package android:name="com.lexa.fakegpsdonate"/>
+        <package android:name="com.locationchanger"/>
+        <package android:name="com.locationfaker.gps"/>
+        <package android:name="com.mobile.fakelocation"/>
+        <package android:name="com.mock.cartage"/>
+        <package android:name="com.rasfar.mock.location"/>
+        <package android:name="com.rosteam.gpsemulator"/>
+        <package android:name="com.safisoft.fakelocation_duckgps"/>
+        <package android:name="com.usefullapps.fakegpslocationpro"/>
+        <package android:name="com.wondershare.virtuallocation"/>
+        <package android:name="project.listick.fakegps"/>
+        <package android:name="top.tinysoft.fakegps"/>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:host="max.ru" android:scheme="max"/>
+        </intent>
+        <package android:name="com.huawei.appmarket"/>
+        <package android:name="com.android.vending"/>
+        <intent>
+            <action android:name="com.yandex.auth.action.YA_SDK_LOGIN"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.DIAL"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+        </intent>
+        <package android:name="ru.yandex.yandexmaps"/>
+        <package android:name="com.google.android.apps.maps"/>
+        <package android:name="com.huawei.maps.app"/>
+        <intent>
+            <action android:name="ru.yandex.yandexnavi.action.BUILD_ROUTE_ON_MAP"/>
+        </intent>
+        <intent>
+            <action android:name="ru.yandex.yandexmaps.action.BUILD_ROUTE_ON_MAP"/>
+        </intent>
+        <intent>
+            <action android:name="com.google.android.apps.maps.action.BUILD_ROUTE_ON_MAP"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.maps.app.action.BUILD_ROUTE_ON_MAP"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.hms.core.aidlservice"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.hms.core"/>
+        </intent>
+        <package android:name="com.huawei.hff"/>
+        <package android:name="com.huawei.hms"/>
+        <package android:name="com.huawei.hwid"/>
+        <package android:name="com.huawei.hwid.tv"/>
+    </queries>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:name="android.hardware.nfc" android:required="false"/>
+    <uses-feature android:name="android.hardware.nfc.hce" android:required="false"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-feature android:glEsVersion="0x00030000" android:required="true"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <permission android:name="ru.rostel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="ru.rostel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-permission android:name="android.permission.READ_BASIC_PHONE_STATE"/>
+    <uses-feature android:name="android.hardware.location.gps"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:dataExtractionRules="@xml/data_extraction_rules" android:enableOnBackInvokedCallback="true" android:extractNativeLibs="true" android:fullBackupContent="@xml/backup_rules" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="ru.minsvyaz.coreproject.MainApplication" android:networkSecurityConfig="@xml/network_security_config" android:resizeableActivity="false" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="false" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
+        <meta-data android:name="com.google.android.gms.wallet.api.enabled" android:value="true"/>
+        <meta-data android:name="debug_mode" android:value="N"/>
+        <meta-data android:name="spay_sdk_api_level" android:value="2.17"/>
+        <meta-data android:name="com.google.mlkit.vision.DEPENDENCIES" android:value="face,ocr"/>
+        <service android:enabled="false" android:exported="false" android:name="com.google.android.gms.metadata.ModuleDependencies">
+            <intent-filter>
+                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES"/>
+            </intent-filter>
+            <meta-data android:name="photopicker_activity:0:required" android:value=""/>
+        </service>
+        <service android:exported="true" android:name="ru.minsvyaz.coreproject.hce.HostCardEmulatorService" android:permission="android.permission.BIND_NFC_SERVICE">
+            <intent-filter>
+                <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE"/>
+            </intent-filter>
+            <meta-data android:name="android.nfc.cardemulation.host_apdu_service" android:resource="@xml/apdu_service"/>
+        </service>
+        <service android:exported="false" android:name="ru.minsvyaz.coreproject.services.PushServiceGms">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="ru.minsvyaz.coreproject.navigation.push.PushNavigationService"/>
+        <activity android:exported="true" android:name="ru.minsvyaz.coreproject.LauncherActivity" android:noHistory="true" android:taskAffinity="ru.rostel" android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="ru.minsvyaz.coreproject.MainActivity" android:screenOrientation="portrait" android:taskAffinity="ru.rostel" android:theme="@style/SplashTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:launchMode="singleInstance" android:name="ru.minsvyaz.coreproject.SideAuthActivity" android:screenOrientation="portrait" android:taskAffinity="ru.rostel" android:theme="@style/AppTheme"/>
+        <activity android:allowTaskReparenting="true" android:exported="false" android:launchMode="singleTask" android:name="ru.minsvyaz.coreproject.offline.OfflineActivity" android:screenOrientation="portrait" android:taskAffinity="ru.rostel" android:theme="@style/AppTheme"/>
+        <activity android:allowTaskReparenting="true" android:exported="false" android:launchMode="singleTask" android:name="ru.minsvyaz.coreproject.safety.SafetyBlockActivity" android:screenOrientation="portrait" android:taskAffinity="ru.rostel" android:theme="@style/AppTheme"/>
+        <activity android:name="ru.minsvyaz.permissions.internal.PermissionActivity" android:screenOrientation="portrait" android:taskAffinity="ru.rostel" android:theme="@style/AppTheme"/>
+        <activity android:allowTaskReparenting="true" android:exported="true" android:launchMode="singleTask" android:name="ru.minsvyaz.coreproject.DeeplinkActivity" android:noHistory="true" android:screenOrientation="portrait" android:taskAffinity="ru.rostel" android:theme="@style/SplashTheme">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="map.gosuslugi.ru"/>
+                <data android:host="www.map.gosuslugi.ru"/>
+                <data android:host="payment.gosuslugi.ru"/>
+                <data android:host="pay.gosuslugi.ru"/>
+                <data android:host="eln.gosuslugi.ru"/>
+                <data android:host="fssp.gosuslugi.ru"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="lk.gosuslugi.ru"/>
+                <data android:pathPattern="/personal/health.*"/>
+                <data android:pathPattern="/mail/.*"/>
+                <data android:pathPattern="/messages/.*"/>
+                <data android:pathPattern="/message/.*"/>
+                <data android:pathPattern="/mail/message/.*"/>
+                <data android:pathPattern="/notifications"/>
+                <data android:pathPattern="/notifications/.*"/>
+                <data android:pathPattern="/order/.*"/>
+                <data android:pathPattern="/orders"/>
+                <data android:pathPattern="/orders/.*"/>
+                <data android:pathPattern="/profile"/>
+                <data android:pathPattern="/profile/.*"/>
+                <data android:pathPattern="/quiz/.*"/>
+                <data android:pathPattern="/restrictions"/>
+                <data android:pathPattern="/settings"/>
+                <data android:pathPattern="/settings-delivery/.*"/>
+                <data android:pathPattern="/settings/.*"/>
+                <data android:pathPattern="/documents/qr/.*"/>
+                <data android:pathPattern="/documents/.*"/>
+                <data android:pathPattern="auth/signed_token"/>
+                <data android:pathPattern="/sign-feed/.*"/>
+                <data android:pathPattern="/target-education/.*"/>
+                <data android:pathPattern="/university-paid-contract/external/.*"/>
+                <data android:pathPattern="/spo/.*"/>
+                <data android:pathPattern="/GOSQR/.*"/>
+                <data android:pathPattern="/authorization/.*"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="gosuslugi"/>
+                <data android:pathPattern="/*."/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="www.gosuslugi.ru"/>
+                <data android:host="gosuslugi.ru"/>
+                <data android:pathPattern="/m1/.*"/>
+                <data android:pathPattern="/m2/.*"/>
+                <data android:pathPattern="/m3/.*"/>
+                <data android:pathPattern="/category"/>
+                <data android:pathPattern="/situation"/>
+                <data android:pathPattern="/help"/>
+                <data android:pathPattern="/help/faq/.*"/>
+                <data android:pathPattern="/newsearch"/>
+                <data android:pathPattern="/molodym"/>
+                <data android:pathPattern="/feedback"/>
+                <data android:pathPattern="/pay"/>
+                <data android:pathPattern="/pay.*"/>
+                <data android:pathPattern="/pay/paymentHistory/.*"/>
+                <data android:pathPattern="/pay/details/.*"/>
+                <data android:pathPattern="/pay/uin/.*"/>
+                <data android:pathPattern="/pay/quittance/.*"/>
+                <data android:pathPattern="/payment/.*"/>
+                <data android:pathPattern="/.*/1.*"/>
+                <data android:pathPattern="/.*/2.*"/>
+                <data android:pathPattern="/.*/3.*"/>
+                <data android:pathPattern="/.*/4.*"/>
+                <data android:pathPattern="/.*/5.*"/>
+                <data android:pathPattern="/.*/6.*"/>
+                <data android:pathPattern="/.*/7.*"/>
+                <data android:pathPattern="/.*/8.*"/>
+                <data android:pathPattern="/.*/9.*"/>
+                <data android:pathPattern="/.*/0.*"/>
+                <data android:pathPattern="/mpgu"/>
+                <data android:pathPattern="/quiz/.*"/>
+                <data android:pathPattern="/mobile/pso"/>
+                <data android:pathPattern="/offline-qr/.*"/>
+                <data android:pathPattern="/feedback-form/.*"/>
+                <data android:pathPattern="/gos-qr/.*"/>
+                <data android:pathPattern="/api/gosqr/v2/deals/.*"/>
+                <data android:pathPattern="/fssp-bdip"/>
+                <data android:pathPattern="/fssp-bdip/.*"/>
+                <data android:pathPattern="/invitation/europrotocol"/>
+                <data android:pathPattern="/europrotocol.*"/>
+                <data android:pathPattern="/api/gupd/scan/.*"/>
+                <data android:pathPattern="/api/gupd/exscan/.*"/>
+                <data android:pathPattern="/api/gupd/online/.*"/>
+                <data android:pathPattern="/somc/.*"/>
+                <data android:pathPattern="/somc2/.*"/>
+                <data android:pathPattern="/qr/.*"/>
+                <data android:pathPattern="/mchsvaults"/>
+                <data android:pathPattern="/mchsvaults/.*"/>
+                <data android:pathPattern="/speedtest.*"/>
+                <data android:pathPattern="/messagetodriver.*"/>
+                <data android:pathPattern="/vehicle/chat"/>
+                <data android:pathPattern="/vehicle/chat/.*"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="esia.gosuslugi.ru"/>
+                <data android:host="www.esia.gosuslugi.ru"/>
+                <data android:pathPattern="/profile/user.*"/>
+                <data android:pathPattern="/profile/user/personal.*"/>
+                <data android:pathPattern="/profile/offer"/>
+                <data android:pathPattern="/recovery/password/setNewPassword.xhtml.*"/>
+                <data android:pathPattern="/login/recovery/.*"/>
+                <data android:pathPattern="/login/registration.*"/>
+                <data android:pathPattern="/public/ra/.*"/>
+                <data android:pathPattern="/aas/delegate.*"/>
+                <data android:pathPattern="/aas/oauth2/fc.*"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="fssp.gosuslugi.ru"/>
+                <data android:pathPattern="/restrictions"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="voter.gosuslugi.ru"/>
+                <data android:pathPattern="/new/voter"/>
+                <data android:pathPattern="/voter"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https"/>
+                <data android:host="goskey.gosuslugi.ru"/>
+                <data android:pathPattern="/goskey1663fe88c5d74a108b919c740f92b362/workflow.*"/>
+                <data android:pathPattern="/tcb1663fe88c5d74a108b919c740f92b362/workflow.*"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="ru.rostel.coreproject.fileProvider;ru.rostel.FileProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <provider android:authorities="ru.rostel.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="ru.minsvyaz.coreproject.initializer.TimberInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="ru.minsvyaz.coreproject.initializer.EventTaskRegistryInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="ru.minsvyaz.disclaimer.impl.initializer.EventTaskRegistryInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="ru.minsvyaz.analytics_impl.metrica.YandexMetricaInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="ru.minsvyaz.trustedphoto.initializer.EventTaskRegistryInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="ru.minsvyaz.document.initializer.EventTaskRegistryInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="ru.minsvyaz.vehicle_owner_messenger_scope.initializer.EventTaskRegistryInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="ru.minsvyaz.faq.impl.initializer.EventTaskRegistryInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="ru.minsvyaz.pseudodocs.scopes.initializer.EventTaskRegistryInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="ru.minsvyaz.multiaccount.initializer.EventTaskRegistryInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="ru.minsvyaz.general_consent_impl.initializer.EventTaskRegistryInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="ru.minsvyaz.network.logs.storage.initializer.EventTaskRegistryInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="ru.minsvyaz.sentry.SentryInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:exported="false" android:name="ru.minsvyaz.coreproject.navigation.push.PushActionService">
+            <intent-filter>
+                <action android:name="DISMISS_ACTION"/>
+            </intent-filter>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.ktx.FirebaseDynamicLinksLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.FirebaseDynamicLinksKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:exported="false" android:name="ru.gosuslugi.europrotocol.presentation.ui.photofixation.notification.TimerNotificationReceiver"/>
+        <activity android:name="ru.minsvyaz.gallery.persentation.gallery.GalleryActivity" android:theme="@style/GalleryTransparentTheme"/>
+        <activity android:launchMode="singleTop" android:name="ru.minsvyaz.paylibrary.ui.GUPayPayActivity" android:theme="@style/Theme.AppCompat.Translucent" android:windowSoftInputMode="adjustResize"/>
+        <activity android:launchMode="singleTop" android:name="ru.minsvyaz.gupaymentdetailslib.ui.GuPaymentDetailsActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize"/>
+        <receiver android:exported="false" android:name="ru.minsvyaz.guvehicleownermessages.notification.LocalNotificationReceiver"/>
+        <activity android:exported="false" android:label="@string/ypay_checkout_title" android:launchMode="singleTop" android:name="com.yandex.pay.token.presentation.main.YPayTokenActivity" android:screenOrientation="portrait" android:theme="@style/ypay_Theme.YPay" android:windowSoftInputMode="adjustResize"/>
+        <meta-data android:name="userx_service_endpoint_configs" android:value="c3.console.userx.pro"/>
+        <meta-data android:name="userx_service_endpoint_data" android:value="c2.console.userx.pro"/>
+        <meta-data android:name="userx_service_endpoint_console" android:value="console.userx.pro"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.firebase.sessions.SessionLifecycleService"/>
+        <meta-data android:name="yandex.maps.runtime.stl.linkage" android:value="static"/>
+        <service android:exported="true" android:name="com.yandex.runtime.connectivity.internal.ConnectivityService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="ru.rostel.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:exported="true" android:name="androidx.compose.ui.tooling.PreviewActivity"/>
+        <service android:enabled="false" android:exported="false" android:name="androidx.camera.core.impl.MetadataHolderService">
+            <meta-data android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER" android:value="androidx.camera.camera2.Camera2Config$DefaultProvider"/>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.label.custom.internal.CustomLabelRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:authorities="ru.rostel.mlkitinitprovider" android:exported="false" android:initOrder="99" android:name="com.google.mlkit.common.internal.MlKitInitProvider"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:enabled="true" android:exported="false" android:name="io.appmetrica.analytics.internal.AppMetricaService">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="io.appmetrica.analytics.IAppMetricaService"/>
+                <data android:scheme="appmetrica"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="ru.rostel.appmetrica.preloadinfo.retail" android:enabled="true" android:exported="true" android:name="io.appmetrica.analytics.internal.PreloadInfoContentProvider"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <uses-library android:name="android.ext.adservices" android:required="false"/>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity" android:theme="@style/WhiteBackgroundTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity" android:theme="@style/WhiteBackgroundTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity" android:theme="@style/WhiteBackgroundDialogTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <provider android:authorities="ru.rostel.com.squareup.picasso" android:exported="false" android:name="com.squareup.picasso.PicassoProvider"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <activity android:label="" android:name="com.yandex.authsdk.internal.AuthSdkActivity" android:theme="@style/Theme.AuthSdk.Transparent"/>
+        <activity android:launchMode="singleTop" android:name="com.yandex.authsdk.internal.BrowserLoginActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.yandex.authsdk.internal.WebViewLoginActivity" android:theme="@style/Theme.AuthSdk"/>
+        <activity android:exported="true" android:name="com.yandex.authsdk.internal.BrowserDataActivity" android:theme="@style/Theme.AuthSdk.Transparent">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="yx&quot;d5a62d0a148c482a894c4ed349cc2e5c&quot;.oauth.yandex.ru" android:path="/auth/finish" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:path="/auth/finish" android:scheme="yx&quot;d5a62d0a148c482a894c4ed349cc2e5c&quot;"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.yandex.auth.CLIENT_ID" android:value="&quot;d5a62d0a148c482a894c4ed349cc2e5c&quot;"/>
+        <meta-data android:name="com.yandex.auth.OAUTH_HOST" android:value="oauth.yandex.ru"/>
+        <meta-data android:name="firebase_analytics_collection_enabled" android:value="false"/>
+        <meta-data android:name="firebase_analytics_collection_deactivated" android:value="true"/>
+        <meta-data android:name="firebase_messaging_auto_init_enabled" android:value="false"/>
+        <meta-data android:name="google_analytics_adid_collection_enabled" android:value="false"/>
+        <service android:exported="false" android:name="iit.trustservice.messaging.impl_gms.MessagingServiceImplGms">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.jakewharton.processphoenix.PhoenixActivity" android:process=":phoenix" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="false" android:name="com.jakewharton.processphoenix.PhoenixService" android:process=":phoenix"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_face" android:value="6"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-vision-face" android:value="ml-computer-vision-face:3.11.0.301"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_ocr" android:value="7"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-vision-ocr" android:value="ml-computer-vision-ocr:3.11.0.301"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-vision-cloud" android:value="ml-computer-vision:3.11.0.301"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-vision-ocr-latin-model" android:value="ml-computer-vision-ocr-latin-model:3.11.0.301"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-vision-ocr-base" android:value="ml-computer-vision-ocr-base:3.11.0.301"/>
+        <activity android:clearTaskOnLaunch="true" android:name="com.journeyapps.barcodescanner.CaptureActivity" android:screenOrientation="sensorLandscape" android:stateNotNeeded="true" android:theme="@style/zxing_CaptureTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-feature" android:value="ml-computer-vision-face-recognition-feature:3.7.0.301"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-model" android:value="ml-computer-vision-face-recognition-model:3.7.0.301"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-shape" android:value="ml-computer-vision-face-recognition-shape:3.7.0.301"/>
+        <provider android:authorities="ru.rostel.osagoinitprovider" android:exported="false" android:initOrder="100" android:name="com.rsa.accident.osago.sdk.internal.OsagoInitProvider"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="io.card.payment.CardIOActivity"/>
+        <activity android:name="io.card.payment.DataEntryActivity"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-base" android:value="ml-computer-vision-face-recognition-base:3.7.0.301"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-vision-base" android:value="ml-computer-vision-base:3.11.0.301"/>
+        <provider android:authorities="ru.rostel.MLInitializerProvider" android:exported="false" android:name="com.huawei.hms.mlsdk.common.provider.MLInitializerProvider"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-ha-inner" android:value="ml-computer-ha-inner:3.11.0.301"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:base" android:value="base:6.9.0.300"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:base:hmscore" android:value="1"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-dynamic" android:value="ml-computer-dynamic:3.11.0.301"/>
+        <meta-data android:name="availableLoaded" android:value="yes"/>
+        <provider android:authorities="ru.rostel.AGCInitializeProvider" android:exported="false" android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"/>
+        <service android:exported="false" android:name="com.huawei.agconnect.core.ServiceDiscovery"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-vision-inner" android:value="ml-computer-vision-inner:3.11.0.301"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ml-computer-net" android:value="ml-computer-net:3.11.0.301"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="networkservice_netdiag" android:value="com.huawei.hms.network.netdiag.NetDiagnosisService"/>
+        <meta-data android:name="networkservice_ai" android:value="com.huawei.hms.network.ai.AIPolicyService"/>
+        <meta-data android:name="networkservice_config" android:value="com.huawei.hms.network.conf.api.ConfigService"/>
+        <meta-data android:name="networkservice_dns" android:value="com.huawei.hms.network.dns.DNSService"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:network-api" android:value="network-api:6.0.7.300"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:dynamic-api" android:value="dynamic-api:1.0.24.300"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader" android:value="10"/>
+        <activity android:configChanges="fontScale|layoutDirection|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:name="com.huawei.hms.activity.BridgeActivity" android:screenOrientation="behind" android:theme="@style/Base_Translucent">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.huawei.hms.activity.EnableServiceActivity"/>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
+    </application>
+</manifest>

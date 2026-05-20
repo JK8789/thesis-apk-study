@@ -1,0 +1,375 @@
+mkdir -p ~/thesis-apk-study/results/FlowDroidTest
+
+java -Xmx8g -jar "$FD_JAR" \
+  -a "$APK" \
+  -p "$ANDROID_PLATFORMS" \
+  -s "$SS_FILE" \
+  -ct 300 -dt 1800 -rt 300 -ns -ne \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidTest/tbank_app.log
+
+—
+java - Xmx8g \
+- jar soot-infoflow-cmd-2.13.0-jar-with-dependencies.jar \
+-a < APK file >\
+-p < Android SDK >\
+-s < sources and sinks file >\
+- dt < timeout value > -process-multiple-dex
+
+
+java -Xmx8g -jar soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar -a ~/thesis-apk-study/data/ru/tbank_app.apk -p ~/Android/Sdk/platforms -s soot-infoflow-android/SourcesAndSinks.txt -dt 7200 -process-multiple-dex 2>&1 | tee ~/thesis-apk-study/results/test/tbank_app_flowdroid_7200_process_multiple_dex.log
+
+
+susiSourcesAndSinks + CHA:
+
+ING CHA
+
+java -Xmx8g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/com.ing.lu.mobile__vc82__C43F18067802A90DA14D6CE8D0622782C8A594D8896B44994A32EC2E40EF409B.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -ls \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/ing_CHA_susi.xml \
+  -dt 7200 -rt 1800 -ct 600 \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/ing_CHA_susi.log
+
+
+ING + multi-DEX:
+
+java -Xmx8g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/com.ing.lu.mobile__vc82__C43F18067802A90DA14D6CE8D0622782C8A594D8896B44994A32EC2E40EF409B.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -ls \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/ing_CHA_susi_multidex.xml \
+  -process-multiple-dex \
+  -dt 7200 -rt 1800 -ct 600 \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/ing_CHA_susi_multidex.log
+
+For WhatsApp:
+
+java -Xmx8g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/com.whatsapp__vc260379000__3AEAD4E3997767D098B6B77592AA056E7CDB06C1DA74A056A1397D0761D20CA1.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -ls \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/whatsapp_CHA_susi.xml \
+  -dt 7200 -rt 1800 -ct 600 \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/whatsapp_CHA_susi.log
+
+
++ DEX:
+
+java -Xmx8g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/com.whatsapp__vc260379000__3AEAD4E3997767D098B6B77592AA056E7CDB06C1DA74A056A1397D0761D20CA1.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -ls \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/whatsapp_CHA_susi_multidex.xml \
+  -process-multiple-dex \
+  -dt 7200 -rt 1800 -ct 600 \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/whatsapp_CHA_susi_multidex.log
+  
+  ---------------------------------------------------------
+  
+  Tinkoff
+  
+java -Xmx64g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/ru/tbank_app.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -cp -pr PRECISE -ps \
+  -process-multiple-dex \
+  -dt 14400 -rt 3600 -ct 1800 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/tinkoff_CHA_susi_64g_precise.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/tinkoff_CHA_susi_64g_precise.log
+  
+ING Luxembourg
+
+java -Xmx64g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/com.ing.lu.mobile__vc82__C43F18067802A90DA14D6CE8D0622782C8A594D8896B44994A32EC2E40EF409B.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -cp -pr PRECISE -ps \
+  -process-multiple-dex \
+  -dt 14400 -rt 3600 -ct 1800 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/ing_lux_CHA_susi_64g_precise.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/ing_lux_CHA_susi_64g_precise.log
+  
+Sberbank
+
+java -Xmx64g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/ru/SberbankOnline_last_vers.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -cp -pr PRECISE -ps \
+  -process-multiple-dex \
+  -dt 14400 -rt 3600 -ct 1800 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/sberbank_CHA_susi_64g_precise.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/sberbank_CHA_susi_64g_precise.log
+  
+BGL
+
+java -Xmx64g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/lu.bgl.spm.retail__vc458__E81541FB320BC58427611D50F6840C98F0D67D1AFD0B259342D996FB5BA03D66.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -cp -pr PRECISE -ps \
+  -process-multiple-dex \
+  -dt 14400 -rt 3600 -ct 1800 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/bgl_CHA_susi_64g_precise.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/bgl_CHA_susi_64g_precise.log
+  
+Gosuslugi
+
+java -Xmx64g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/ru/ru.rtlabs.mobile.ebs.gosuslugi.android__vc20250919__D268B65EF6833D29DDAE019FE2A73C0F13C781F9465A1A72C5C9BB629EAC7FAA.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -cp -pr PRECISE -ps \
+  -process-multiple-dex \
+  -dt 14400 -rt 3600 -ct 1800 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/gosuslugi_CHA_susi_64g_precise.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/gosuslugi_CHA_susi_64g_precise.log
+  
+MyGuichet.lu
+
+java -Xmx64g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/lu.etat.fp.gun.android__vc1103__36098542A5109843B1517F0F2B3667CB3EA0A84AD3B60E2DA658F5A398D3EE31.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -cp -pr PRECISE -ps \
+  -process-multiple-dex \
+  -dt 14400 -rt 3600 -ct 1800 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/myguichet_lu_CHA_susi_64g_precise.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/myguichet_lu_CHA_susi_64g_precise.log
+  
+MAX
+
+java -Xmx64g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/ru/MAX_last_v.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -cp -pr PRECISE -ps \
+  -process-multiple-dex \
+  -dt 14400 -rt 3600 -ct 1800 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/max_CHA_susi_64g_precise.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/max_CHA_susi_64g_precise.log
+  
+WhatsApp
+
+java -Xmx90g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/com.whatsapp__vc260379000__3AEAD4E3997767D098B6B77592AA056E7CDB06C1DA74A056A1397D0761D20CA1.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -cp -pr PRECISE -ps \
+  -process-multiple-dex \
+  -dt 14400 -rt 3600 -ct 1800 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/whatsapp_CHA_susi_90g_precise.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/whatsapp_CHA_susi_90g_precise.log
+  
+  
+  
+  -----
+    got res for whatsap:
+
+java -Xmx90g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar   -a ~/thesis-apk-study/data/eu/com.whatsapp__vc260379000__3AEAD4E3997767D098B6B77592AA056E7CDB06C1DA74A056A1397D0761D20CA1.apk   -p ~/Android/Sdk/platforms   -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt   -cg CHA    -o ~/thesis-apk-study/results/FlowDroidDetailed/whatsapp_CHA_susi_multidex_multidex_90_ct_600_dt_7200_rt_1800.xml   -process-multiple-dex   -dt 7200 -rt 1800 -ct 600   2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/whatsapp_CHA_susi_multidex_90_ct_600_dt_7200_rt_1800.log
+
+
+ 
+ 
+ trying Tinkoff:
+
+  Tinkoff
+  
+java -Xmx180g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/ru/tbank_app.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -process-multiple-dex \
+  -ct 600 \
+  -dt 1800 \
+  -rt 1800 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/tinkoff_CHA_susi_180g_multidex_ct_600_dt_1800_rt_1800.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/tinkoff_CHA_susi_180g_multidex_ct_600_dt_1800_rt_1800.log
+
+to add:?
+  -ns \
+  -ne \
+  
+  
+  ----  
+  
+  trying ing:
+  ING Luxembourg: 22 leaks from 8100 sources
+
+java -Xmx180g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/com.ing.lu.mobile__vc82__C43F18067802A90DA14D6CE8D0622782C8A594D8896B44994A32EC2E40EF409B.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -cp -pr PRECISE -ps \
+  -process-multiple-dex \
+  -dt 1800 -rt 1800 -ct 1800 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/ing_lux_CHA_susi_180g_precise_multidex_ct_1800_dt_1800_rt_1800.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/ing_lux_CHA_susi_180g_precise_multidex_ct_1800_dt_1800_rt_1800.log
+  
+  
+    ING not presice:25 leaks from 32 sources
+
+java -Xmx180g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/com.ing.lu.mobile__vc82__C43F18067802A90DA14D6CE8D0622782C8A594D8896B44994A32EC2E40EF409B.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -process-multiple-dex \
+  -dt 1800 -rt 1800 -ct 1800 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/ing_lux_CHA_susi_180g_multidex_ct_1800_dt_1800_rt_1800.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/ing_lux_CHA_susi_180g_multidex_ct_1800_dt_1800_rt_1800.log
+  
+  -- trying BGL (  was broken with cp -pr PRECISE -ps \)
+
+java -Xmx180g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/lu.bgl.spm.retail__vc458__E81541FB320BC58427611D50F6840C98F0D67D1AFD0B259342D996FB5BA03D66.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -process-multiple-dex \
+  -dt 1800 -rt 1800 -ct 1800 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/bgl_CHA_susi_180g_precise_multidex_ct_1800_dt_1800_rt_1800.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/bgl_CHA_susi_180g_precise_multidex_ct_1800_dt_1800_rt_1800.log
+  
+  broken;
+--  try ns ne: got 0:
+  
+  java -Xmx120g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/lu.bgl.spm.retail__vc458__E81541FB320BC58427611D50F6840C98F0D67D1AFD0B259342D996FB5BA03D66.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -process-multiple-dex \
+  -ns \
+  -ne \
+  -dt 1800 -rt 900 -ct 900 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/bgl_CHA_susi_120_ns_ne__multidex_ct_900_dt_1800_rt_900.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/bgl_CHA_susi_120_ns_ne__multidex_ct_900_dt_1800_rt_900.log
+  
+  --got 0:
+  
+  java -Xmx180g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/lu.bgl.spm.retail__vc458__E81541FB320BC58427611D50F6840C98F0D67D1AFD0B259342D996FB5BA03D66.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -process-multiple-dex \
+  -ns \
+  -ne \
+  -dt 1800 -rt 1800 -ct 900 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/bgl_CHA_susi_180_ns_ne_multidex_ct_900_dt_1800_rt_1800.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/bgl_CHA_susi_180_ns_ne_multidex_ct_900_dt_1800_rt_1800.log
+  
+  --got 48 leaks:
+    java -Xmx180g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/lu.bgl.spm.retail__vc458__E81541FB320BC58427611D50F6840C98F0D67D1AFD0B259342D996FB5BA03D66.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -process-multiple-dex \
+  -ne \
+  -dt 1800 -rt 1800 -ct 900 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/bgl_CHA_susi_180_ns_ne_multidex_ct_900_dt_1800_rt_1800.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/bgl_CHA_susi_180_ns_ne_multidex_ct_900_dt_1800_rt_1800.log
+  
+  
+  --Gosuslugi got 0:
+
+java -Xmx180g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/ru/ru.rtlabs.mobile.ebs.gosuslugi.android__vc20250919__D268B65EF6833D29DDAE019FE2A73C0F13C781F9465A1A72C5C9BB629EAC7FAA.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -cp -pr PRECISE -ps \
+  -process-multiple-dex \
+  -dt 900 -rt 1800 -ct 900 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/gosuslugi_CHA_susi_180g_precise.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/gosuslugi_CHA_susi_180g_precise_multidex_ct_900_dt_1800_rt_900.log
+  
+  
+    --Gosuslugi got 26:
+
+java -Xmx180g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/ru/ru.rtlabs.mobile.ebs.gosuslugi.android__vc20250919__D268B65EF6833D29DDAE019FE2A73C0F13C781F9465A1A72C5C9BB629EAC7FAA.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -ns \
+  -ne \
+  -process-multiple-dex \
+  -dt 1800 -rt 1800 -ct 900 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/gosuslugi_CHA_susi_180g_multiple_ns_ne_ct_900_dt_1800_rt_1800.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/gosuslugi_CHA_susi_180g__multiple_ns_ne_ct_900_dt_1800_rt_1800.log
+  
+  --MyGuichet.lu
+
+java -Xmx180g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/eu/lu.etat.fp.gun.android__vc1103__36098542A5109843B1517F0F2B3667CB3EA0A84AD3B60E2DA658F5A398D3EE31.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -cp -pr PRECISE -ps \
+  -process-multiple-dex \
+  -dt 1800 -rt 1800 -ct 900 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/myguichet_lu_CHA_susi_180g_precise_multidex_ct_900_dt_1800_rt_1800.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/myguichet_lu_CHA_susi_180g_precise_multidex_ct_900_dt_1800_rt_1800.log
+  
+  
+  --MAX, got 0
+
+java -Xmx180g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/ru/MAX_last_v.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -cp -pr PRECISE -ps \
+  -process-multiple-dex \
+  -dt 1800 -rt 1800 -ct 900 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/max_CHA_susi_180g_precise_multidex_ct_900_dt_1800_rt_1800.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/max_CHA_susi_180g_precise_multidex_ct_900_dt_1800_rt_1800.log
+  
+  
+  --got 51 leak:
+  
+  julia@system76-pc:~$ java -Xmx180g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar   -a ~/thesis-apk-study/data/ru/MAX_last_v.apk   -p ~/Android/Sdk/platforms   -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt   -cg CHA   -process-multiple-dex   -dt 1800 -rt 1800 -ct 900 -ns -ne  -o ~/thesis-apk-study/results/FlowDroidDetailed/max_CHA_susi_180g_precise_ns_ne_multidex_ct_900_dt_1800_rt_1800.xml   2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/max_CHA_susi_180g_ns_ne_multidex_ct_900_dt_1800_rt_1800.log
+
+
+
+Sberbank got 0:
+
+java -Xmx180g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar \
+  -a ~/thesis-apk-study/data/ru/SberbankOnline_last_vers.apk \
+  -p ~/Android/Sdk/platforms \
+  -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt \
+  -cg CHA \
+  -process-multiple-dex \
+  -ne \
+  -dt 1800 -rt 1800 -ct 900 \
+  -o ~/thesis-apk-study/results/FlowDroidDetailed/sberbank_CHA_susi_180g_p_ne_multidex_ct_900_dt_1800_rt_1800.xml \
+  2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/sberbank_CHA_susi_180g_ne_multidex_ct_900_dt_1800_rt_1800.log
+  
+  Sberbank got 77 leaks:
+  
+  java -Xmx180g -jar ~/tools/FlowDroid/soot-infoflow-cmd/target/soot-infoflow-cmd-jar-with-dependencies.jar   -a ~/thesis-apk-study/data/ru/SberbankOnline_last_vers.apk   -p ~/Android/Sdk/platforms   -s ~/tools/FlowDroid/soot-infoflow-android/susiSourcesAndSinks.txt   -cg CHA   -process-multiple-dex   -ne -ns   -dt 1800 -rt 1800 -ct 900   -o ~/thesis-apk-study/results/FlowDroidDetailed/sberbank_CHA_susi_180g_p_ne_ns_multidex_ct_900_dt_1800_rt_1800.xml   2>&1 | tee ~/thesis-apk-study/results/FlowDroidDetailed/sberbank_CHA_susi_180g_ne_ns_multidex_ct_900_dt_1800_rt_1800.log
+
+

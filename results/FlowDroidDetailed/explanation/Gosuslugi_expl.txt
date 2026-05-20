@@ -1,0 +1,114 @@
+1. Result-by-result comments for Gosuslugi
+
+I grouped the 26 visible results into technical categories first, because many are variants of the same pattern.
+
+A. Provider and structured-storage update flows
+
+Result 1.
+A ContentResolver.update(...) sink appears inside obfuscated Kaspersky-related code (kavsdk.o.lm), with sources including getContentResolver() and a Cursor.getLong(...) value. This looks like a provider-backed update flow inside embedded SDK functionality rather than a clear leak of user data to the network. It is interesting because it shows real structured data manipulation through Android provider interfaces, but the semantic content of the updated value is still unclear from the visible path.
+
+Result 4.
+Another ContentResolver.update(...) sink appears in ru.rtlabs.mobile.ebs.domain.dev.DevUtilsKt. This is more application-specific than Result 1. It shows that the Gosuslugi APK contains app-level provider write logic, not only SDK-level framework flows. However, the visible source is again getContentResolver(), so this path is structurally meaningful but not yet semantically rich.
+
+Result 9.
+ContentResolver.insert(...) is also present in the same DevUtilsKt area. Together with Result 4, this suggests that the app includes provider-based insert and update operations, which is stronger than seeing only intent forwarding. This does not by itself prove sensitive personal-data exposure, but it does show non-trivial internal state persistence or structured data handling.
+
+Result 13.
+Another ContentResolver.update(...) appears in obfuscated Kaspersky code (kavsdk.o.sh) with a selection clause like "thread_id=? AND date=?". This is one of the more concrete provider-style results, because it suggests write or update behavior over message- or schedule-like records. Even so, the path still does not clearly expose the semantic identity of the tainted user field.
+
+Result 22.
+This is a second visible provider update path in kavsdk.o.lm, again related to proxy settings / web filter code. It reinforces that the embedded Kaspersky-related functionality is not only present in the APK, but also appears repeatedly in the FlowDroid results.
+
+B. Navigation, intent propagation, and activity-launch flows
+
+Result 2.
+This is one of the most important results. A startActivity(...) sink in obfuscated Kaspersky code is reached by a mixture of sources: DevicePolicyManager.getActiveAdmins(), several Activity.getIntent() calls from document-recognition and self-registration components, and Intent.getExtras() from the ESIA login callback manager. This is notable because it joins together several application areas: identity/authentication, recognition workflow, and device-administration context. It still looks more like internal navigation and orchestration than external exfiltration, but it is one of the richest multi-source flows in the XML.
+
+Result 8.
+A startActivityForResult(...) sink appears in obfuscated code (kavsdk.o.acp) with source FakeActivity.onCreate(...).getIntent(). This is a classic activity handoff pattern. By itself it is not alarming, but it confirms substantial intent-driven control flow in the packaged code.
+
+Result 10.
+A startActivity(...) sink in kavsdk.o.sj is driven by Context.getPackageName(). This is likely framework or SDK navigation logic rather than sensitive user-data flow. It is technically a leak in FlowDroid terms, but not one of the most privacy-relevant visible results.
+
+Result 15.
+Another startActivity(...) sink in obfuscated code (kavsdk.o.sk) again depends on getPackageName(). Like Result 10, it is more useful as evidence of SDK-driven control flow than as evidence of sensitive data exposure.
+
+Result 20.
+This is one of the strongest application-specific findings. In ru.rtlabs.mobile.ebs.model.system.navigation.AppNavigator.T(), a startActivity(...) sink is influenced by getApplicationContext() and Intent.getComponent(). This indicates internal navigation logic in the Gosuslugi application itself, not only in third-party SDK code. It is important because Intent-derived state influences subsequent launches inside the app’s navigation layer.
+
+Result 21.
+A setResult(...) sink appears in com.esiasdk.android.EsiaAuthActivity, with the source coming from Intent.getExtras() in the ESIA login callback manager. This is one of the clearest semantically meaningful results in the XML, because it is directly tied to the ESIA authentication workflow. It suggests that values returned from an authentication-related callback are propagated back through activity results. That is expected behavior in login flows, but it is still an important concrete source-to-sink example.
+
+Result 23.
+Another application-specific startActivity(...) sink appears in ru.rtlabs.mobile.ebs.model.system.navigation.AppNavigator.M(), where getPackageName() contributes to an intent whose tainted access path includes URI fields (Intent.uri and Uri.ssp). This is more interesting than a generic package-name flow, because the sink-side access path shows URI-related intent content. It suggests URI-based or link-based navigation behavior inside Gosuslugi.
+
+Result 25.
+ru.rtlabs.mobile.ebs.model.system.navigation.LinksManager.c() contains another startActivity(...) sink influenced by getPackageName(). This strengthens the interpretation that link handling and navigation are a recurring theme in the visible Gosuslugi results.
+
+C. Logging and instrumentation flows
+
+Result 3.
+A Glide MemorySizeCalculator log sink receives values derived from ActivityManager.getMemoryClass() and isLowRamDevice(). This is clearly framework or library instrumentation, not a privacy-sensitive app-specific leak. It is useful mainly as evidence that the XML includes many operational flows that should not be over-interpreted.
+
+Results 6, 7, 11, 14, 16, 18, 19, 26.
+These are almost entirely Glide and image-processing diagnostics. Sources include Cursor.getString(...), Bitmap.getConfig(), Drawable.getCurrent(), and file/media objects. Sinks are Log.v(...), Log.d(...), or Log.w(...). These results indicate a visible media-processing and diagnostics layer, but they are weak evidence for privacy conclusions. They are best treated as framework-oriented background flows.
+
+D. NFC, document, and media-related flows
+
+Results 5 and 12.
+Both are important. In ru.rtlabs.mobile.ebs.domain.self_reg.repository.PassportChipReadingRepository, android.nfc.Tag.getTechList() reaches a Timber logging sink. This is one of the clearest domain-specific Gosuslugi findings because it is tied to passport-chip reading and self-registration. The sink is only logging, so it is not strong evidence of external disclosure, but it does support the claim that NFC-based document or identity workflows are present in the distributed APK.
+
+Result 17.
+A file descriptor from ParcelFileDescriptor.getFileDescriptor() reaches MediaMetadataRetriever.setDataSource(...). This is a media/file-handling path, similar to the kind of paths already seen in other apps such as BGL. It supports the existence of file or media processing inside the app, but it is not one of the most security-relevant results.
+
+E. Alarm and background scheduling
+
+Result 24.
+AlarmManager.setRepeating(...) is reached in com.kavsdk.AlarmReceiver.scheduleRepeatingBroadcast(...), with the source coming from getSystemService("alarm"). This is mainly a background scheduling or broadcast-management path. It is not a sensitive leak by itself, but it does show that the embedded Kaspersky-related component includes repeating background behavior.
+
+
+
+==============================================================
+
+2. Most interesting places in the Gosuslugi XML
+
+In my view, the most thesis-worthy XML areas are these five:
+
+1. ESIA authentication callback flow
+
+The strongest application-domain result is the ESIA path where Intent.getExtras() reaches setResult(...) in EsiaAuthActivity. This is useful because it is easy to explain, clearly tied to an identity-authentication function, and much more meaningful than generic Glide logging. It shows actual propagation of authentication-related callback state through Android result handling.
+
+2. Passport-chip / NFC reading flow
+
+The PassportChipReadingRepository results are also very strong for the thesis. Even though the sink is Timber logging, the source Tag.getTechList() clearly indicates NFC-backed identity-document processing. This supports the interpretation that the APK contains document-reading logic relevant to public-service identity workflows.
+
+3. AppNavigator and LinksManager navigation flows
+
+AppNavigator.T(), AppNavigator.M(), and LinksManager.c() are important because they are Gosuslugi application code, not only third-party SDK code. These results show that intent-derived or URI-related values influence internal navigation and launch behavior. They are useful because they speak directly to component-to-component flow inside the real app.
+
+4. Provider-backed insert and update operations
+
+The DevUtilsKt insert/update paths and the Kaspersky-related provider updates are some of the more structurally meaningful results in the XML. They show provider-style data manipulation rather than only logging or launch flows. This makes them useful to mention as evidence of internal structured state handling.
+
+5. Kaspersky-related SDK flows
+
+The repeated kavsdk.* results matter because earlier thesis results already suggested a heavier third-party SDK footprint for Gosuslugi. The XML supports that observation. However, the visible Kaspersky-related flows are mostly provider updates, activity launches, or alarm scheduling, not direct network exfiltration. So they support the “heavier dependency ecosystem” claim better than a strong privacy-leak claim.
+
+
+==========================================================
+3. What this means analytically
+
+The Gosuslugi XML does not mainly show a simple pattern of highly sensitive personal data being sent directly to obvious external sinks. Instead, the visible results are dominated by:
+
+internal navigation and activity-result propagation,
+provider-backed insert and update operations,
+authentication-related callback handling,
+NFC/document-reading related logging,
+SDK and media-library diagnostics,
+some recurring embedded Kaspersky-related flows.
+
+
+
+
+
+

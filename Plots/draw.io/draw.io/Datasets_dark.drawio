@@ -1,0 +1,18 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="tBd0tkLUvpPTin5PV0YR">
+    <mxGraphModel dx="1222" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ohI5BfJTBI-NW5BRZ4IT-1" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.infographic.cylinder;fillColor=#6a00ff;strokeColor=#3700CC;shadow=0;align=left;labelPosition=right;spacingLeft=10;fontStyle=1;fontColor=#6600CC;sketch=0;fontFamily=Verdana;fontSize=12;" value="Dataset &lt;i&gt;Dsa&lt;/i&gt;" vertex="1">
+          <mxGeometry height="120" width="100" x="350" y="440" as="geometry" />
+        </mxCell>
+        <object label="&lt;font style=&quot;color: rgb(0, 0, 255);&quot;&gt;Dataset &lt;i&gt;Dpw&lt;/i&gt;&lt;/font&gt;" Dataset="" id="ohI5BfJTBI-NW5BRZ4IT-2">
+          <mxCell parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.infographic.cylinder;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;align=left;labelPosition=right;spacingLeft=10;fontStyle=1;fontColor=#ffffff;sketch=0;fontFamily=Verdana;fontSize=12;labelPadding=0;textShadow=1;" vertex="1">
+            <mxGeometry height="120" width="100" x="350" y="330" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

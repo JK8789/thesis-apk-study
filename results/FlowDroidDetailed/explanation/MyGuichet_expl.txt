@@ -1,0 +1,64 @@
+1. Result-by-result comments for the 21 MyGuichet leaks
+
+I need to be precise here: the uploaded log and accessible XML snippets let me recover the dominant leak patterns and several explicit representative paths, but not every single full XML entry end-to-end in a neatly numbered list. So below I give a result-by-result reconstruction based on the visible paths and the repeated leak families in the MyGuichet artifacts. This is strong enough for thesis interpretation, but I would still avoid claiming that each comment is based on a fully expanded separate XML entry unless you manually cross-check line-by-line in the raw XML file.
+
+Results 1-4: Glide bitmap-pool logging flows
+
+Several MyGuichet leaks are clearly diagnostic Glide paths in which bitmap configuration reaches Log.v(...) or Log.d(...) inside LruBitmapPool. The sources are Bitmap.getConfig() through classes such as SizeConfigStrategy and AttributeStrategy. These are framework-oriented media or image-cache diagnostics, not strong privacy findings. They are useful mainly as evidence that the APK includes non-trivial image-processing infrastructure.
+
+Results 5-6: Mono / class-loader logging flows
+
+At least one visible result is tied to mono.android.MultiDexLoader.attachInfo(...), where Context.getApplicationInfo() and specifically ApplicationInfo.nativeLibraryDir propagate into IncrementalClassLoader.createDelegateClassLoader(...) and eventually to a Log.v(...) sink. This is a runtime/class-loading diagnostic path characteristic of the .NET MAUI / Mono layer, not a sensitive user-data flow. It matters because it shows that some reported leaks arise from the application framework itself rather than from business logic.
+
+Results 7-8: File-descriptor and media-handling flows
+
+One visible XML path shows AssetFileDescriptor.getParcelFileDescriptor() propagating through Glide data-fetcher callbacks. Another path category mentioned in the logs is a file-descriptor flow reaching MediaMetadataRetriever.setDataSource(...). These are media/file-handling flows. They are more relevant than plain logging because they show real file-based data movement, but they still do not directly demonstrate disclosure of sensitive personal data.
+
+Results 9-10: Camera-permission settings navigation flows
+
+A visible and important application-support path occurs in io.scanbot.sdk.ui_v2.common.components.CameraPermissionViewKt.openPermissionSettings(...). Here, Context.getPackageName() is converted via Uri.fromParts("package", ...) into an Intent("android.settings.APPLICATION_DETAILS_SETTINGS", uri), which is then passed to startActivity(...). This is not a privacy leak in the ordinary sense. It is a UI/navigation flow used to redirect the user to the app settings page when camera permission is needed. It is useful because it supports the plausibility of camera-scanner functionality declared by the app.
+
+Results 11-13: License-check and paywall flows
+
+A particularly characteristic MyGuichet result family is tied to the embedded PairIP license-check component. In com.pairip.licensecheck.LicenseActivity.showPaywallAndCloseApp(), the activity reads its incoming Intent, extracts getParcelableExtra("paywallintent"), casts it to PendingIntent, stores it into a runnable, and then uses runOnUiThread(...). These paths are technically interesting because they show intent-derived state influencing subsequent app-control behavior. However, they are not obvious personal-data exposures. They instead reflect licensing and anti-tamper or commercial-control logic embedded in the APK.
+
+Results 14-15: License-check exception logging flows
+
+Another PairIP path appears in LicenseClient.handleError(...), where Log.getStackTraceString(Throwable) is appended into a StringBuilder and then sent to Log.e("LicenseClient", ...). This is a classic exception-to-log flow. It should be treated as a diagnostic or anti-tamper instrumentation path rather than a privacy-relevant data disclosure.
+
+Results 16-18: Additional Glide, drawable, and decode logging flows
+
+The logs mention Downsampler, DrawableToBitmapConverter, current drawable state, and similar image-handling elements. These are again framework/media diagnostic flows. They reinforce the view that a noticeable share of the 21 reported MyGuichet leaks comes from imaging, media decoding, and Scanbot-adjacent support libraries rather than from clearly sensitive application-domain data.
+
+Results 19-21: Other framework-oriented or scanner-support flows
+
+The remaining visible MyGuichet findings appear to belong to the same broad set of patterns: logging, class loading, file descriptors, and scanner/camera support flows. Given the manifest, this is plausible. The app includes many Scanbot activities such as barcode, document, MRZ, VIN, health insurance card, and medical certificate scanners, and these components naturally produce camera, image, and document-processing control flows. However, the visible XML snippets do not currently show a strong, semantically explicit path from a clearly sensitive scanner result to an external sink such as a network API.
+
+
+==========================================================================================
+
+
+
+2. Most interesting places in the MyGuichet XML
+
+These are the XML areas I would emphasize in the thesis:
+
+1. CameraPermissionViewKt.openPermissionSettings(...)
+
+This is one of the clearest application-relevant paths because it shows how package-derived state is converted into a package: URI and then used to launch Android settings. It is not a privacy leak, but it strongly supports the declared and manifest-visible camera functionality. It is also easy to explain in academic prose.
+
+2. PairIP LicenseActivity.showPaywallAndCloseApp()
+
+This is the most distinctive app-specific infrastructure path in the visible MyGuichet result set. It shows intent-derived paywall control via PendingIntent and UI-thread execution. It is useful because it demonstrates non-trivial control-flow orchestration in the distributed APK, but it should be interpreted as license-enforcement logic rather than sensitive user-data handling.
+
+3. PairIP LicenseClient.handleError(...)
+
+The exception-to-log path is useful because it shows embedded licensing/anti-tamper instrumentation in the APK. Again, it is diagnostically meaningful but not strong privacy evidence.
+
+4. Mono IncrementalClassLoader / MultiDexLoader
+
+This path is interesting because it reveals the MAUI / Mono runtime layer quite directly. It explains why some leaks look like class-loading or deployment infrastructure rather than business-logic flows.
+
+5. Glide / file-descriptor media paths
+
+These are not the strongest privacy findings, but they are useful because they align with the app’s document and image-processing role. They support the plausibility of declared categories such as photos, videos, and files/docs.

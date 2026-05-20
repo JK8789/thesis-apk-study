@@ -1,0 +1,155 @@
+<mxfile host="app.diagrams.net" modified="2026-04-30T16:00:00.000Z" agent="ChatGPT" version="24.7.17" type="device">
+  <diagram id="mobileAppsDiagram" name="Page-1">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="title" value="Mobile applications and sensitive data flows" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+          <mxGeometry x="430" y="20" width="540" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="subtitle" value="Everyday apps often process personal user data and device-related information" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#4B5563;" vertex="1" parent="1">
+          <mxGeometry x="350" y="58" width="700" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- central user -->
+        <mxCell id="center" value="User&#xa;with phone" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#E8F1FF;strokeColor=#2563EB;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#0F172A;" vertex="1" parent="1">
+          <mxGeometry x="590" y="325" width="220" height="220" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="centerIcon" value="📱" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=42;" vertex="1" parent="1">
+          <mxGeometry x="655" y="360" width="90" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="banking" value="🏦&#xa;Banking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="135" width="170" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="social" value="👥&#xa;Social networks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EDE9FE;strokeColor=#8B5CF6;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="120" width="190" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="messaging" value="💬&#xa;Messaging" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#22C55E;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="120" width="170" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="transport" value="🚌&#xa;Transport" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="145" width="170" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="navigation" value="🧭&#xa;Navigation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0EA5E9;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="640" width="170" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="shopping" value="🛒&#xa;Shopping" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE7F3;strokeColor=#EC4899;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="665" width="170" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="health" value="❤️&#xa;Health services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#EF4444;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="665" width="190" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="public" value="🏛️&#xa;Public administration&#xa;platforms" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#6B7280;strokeWidth=2;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="635" width="210" height="95" as="geometry"/>
+        </mxCell>
+
+        <!-- data categories -->
+        <mxCell id="data1" value="Sensitive personal user data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#F97316;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#9A3412;" vertex="1" parent="1">
+          <mxGeometry x="470" y="585" width="220" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="data2" value="Device-related information" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#1D4ED8;" vertex="1" parent="1">
+          <mxGeometry x="715" y="585" width="215" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- legend -->
+        <mxCell id="legendBox" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="820" width="440" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="legendTitle" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="835" width="100" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="legendOutText" value="Solid blue arrows: apps send data toward the user context" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="105" y="870" width="340" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legendInText" value="Dashed orange arrows: personal and device data can flow back into app ecosystems" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#374151;" vertex="1" parent="1">
+          <mxGeometry x="105" y="900" width="355" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="legendBlueLine" value="" style="shape=line;strokeColor=#2563EB;strokeWidth=3;endArrow=block;endFill=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="880" width="35" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="legendOrangeLine" value="" style="shape=line;strokeColor=#F97316;strokeWidth=3;dashed=1;endArrow=block;endFill=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="910" width="35" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- explanatory note -->
+        <mxCell id="note" value="This diagram highlights that apps used in everyday digital life may handle financial, communication, mobility, shopping, health, and public-service data, together with device-related information." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=1;fontSize=13;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="525" y="820" width="650" height="95" as="geometry"/>
+        </mxCell>
+
+        <!-- outgoing solid blue arrows from center to apps -->
+        <mxCell id="e1" value="" style="endArrow=block;endFill=1;strokeColor=#2563EB;strokeWidth=3;curved=1;rounded=1;" edge="1" parent="1" source="center" target="banking">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" value="" style="endArrow=block;endFill=1;strokeColor=#2563EB;strokeWidth=3;curved=1;rounded=1;" edge="1" parent="1" source="center" target="social">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" value="" style="endArrow=block;endFill=1;strokeColor=#2563EB;strokeWidth=3;curved=1;rounded=1;" edge="1" parent="1" source="center" target="messaging">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" value="" style="endArrow=block;endFill=1;strokeColor=#2563EB;strokeWidth=3;curved=1;rounded=1;" edge="1" parent="1" source="center" target="transport">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" value="" style="endArrow=block;endFill=1;strokeColor=#2563EB;strokeWidth=3;curved=1;rounded=1;" edge="1" parent="1" source="center" target="navigation">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e6" value="" style="endArrow=block;endFill=1;strokeColor=#2563EB;strokeWidth=3;curved=1;rounded=1;" edge="1" parent="1" source="center" target="shopping">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e7" value="" style="endArrow=block;endFill=1;strokeColor=#2563EB;strokeWidth=3;curved=1;rounded=1;" edge="1" parent="1" source="center" target="health">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e8" value="" style="endArrow=block;endFill=1;strokeColor=#2563EB;strokeWidth=3;curved=1;rounded=1;" edge="1" parent="1" source="center" target="public">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- incoming dashed orange arrows back toward center -->
+        <mxCell id="e9" value="" style="endArrow=block;endFill=1;strokeColor=#F97316;strokeWidth=3;dashed=1;curved=1;rounded=1;" edge="1" parent="1" source="banking" target="center">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="255"/>
+              <mxPoint x="450" y="300"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="" style="endArrow=block;endFill=1;strokeColor=#F97316;strokeWidth=3;dashed=1;curved=1;rounded=1;" edge="1" parent="1" source="messaging" target="center">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="250"/>
+              <mxPoint x="840" y="310"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" value="" style="endArrow=block;endFill=1;strokeColor=#F97316;strokeWidth=3;dashed=1;curved=1;rounded=1;" edge="1" parent="1" source="shopping" target="center">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="620"/>
+              <mxPoint x="600" y="570"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" value="" style="endArrow=block;endFill=1;strokeColor=#F97316;strokeWidth=3;dashed=1;curved=1;rounded=1;" edge="1" parent="1" source="public" target="center">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="610"/>
+              <mxPoint x="900" y="570"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- links from center to data categories -->
+        <mxCell id="e13" value="" style="endArrow=block;endFill=1;strokeColor=#F97316;strokeWidth=3;curved=1;rounded=1;" edge="1" parent="1" source="center" target="data1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e14" value="" style="endArrow=block;endFill=1;strokeColor=#2563EB;strokeWidth=3;curved=1;rounded=1;" edge="1" parent="1" source="center" target="data2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,190 @@
+[main] WARN soot.jimple.infoflow.methodSummary.data.provider.LazySummaryProvider - Lazy loading summaries from a jar/zip file might throw a ClosedChannelException. Use the EagerSummaryProvider instead.
+[main] INFO soot.jimple.infoflow.methodSummary.taintWrappers.SummaryTaintWrapper - Initializing summary taint wrapper with summaries for 347 classes...
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /home/julia/thesis-apk-study/data/eu/lu.bgl.spm.retail__vc458__E81541FB320BC58427611D50F6840C98F0D67D1AFD0B259342D996FB5BA03D66.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.jimple.infoflow.android.resources.ARSCFileParser - Unsupported ResTable entry flags encountered: FLAG_WEAK 
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.039593985 seconds
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 165,888 MiB
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 57 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 57 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.cache.MemoryCache, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.cache.DiskCache$Factory, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.load.engine.bitmap_recycle.ArrayPool, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.manager.RequestManagerRetriever$RequestManagerFactory, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.manager.ConnectivityMonitorFactory, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.Glide$RequestOptionsFactory, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.manager.Lifecycle, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.bumptech.glide.manager.RequestManagerTreeNode, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for kotlin.Lazy, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for coil.EventListener$Factory, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for coil.util.Logger, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 37 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 57 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for lu.bgl.spm.Hilt_SPMApplication, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Could not create call to application callback <lu.bgl.spm.Hilt_SPMApplication: void onCreate()>. Local was null.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 9 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 57 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Could not create call to application callback <lu.bgl.spm.Hilt_SPMApplication: void onCreate()>. Local was null.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 4 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 57 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Could not create call to application callback <lu.bgl.spm.Hilt_SPMApplication: void onCreate()>. Local was null.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 4 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 57 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Could not create call to application callback <lu.bgl.spm.Hilt_SPMApplication: void onCreate()>. Local was null.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 1 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 12082 sources, 1010 sinks, and 129 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 219 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /home/julia/thesis-apk-study/data/eu/lu.bgl.spm.retail__vc458__E81541FB320BC58427611D50F6840C98F0D67D1AFD0B259342D996FB5BA03D66.apk with 12082 sources and 1010 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-sensitive result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 165,888 MiB
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 3 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 17.780683464 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 9672223 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 2513 sources and 370 sinks.
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] ERROR heros.solver.CountingThreadPoolExecutor - Worker thread execution failed: Index 5 out of bounds for length 4
+java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 4
+	at java.base/java.util.ArrayList.add(ArrayList.java:455)
+	at java.base/java.util.ArrayList.add(ArrayList.java:467)
+	at soot.tagkit.AbstractHost.getOrComputeTag(AbstractHost.java:186)
+	at soot.jimple.infoflow.util.SystemClassHandler.isClassInSystemPackage(SystemClassHandler.java:59)
+	at soot.jimple.infoflow.problems.AbstractInfoflowProblem.isExcluded(AbstractInfoflowProblem.java:362)
+	at soot.jimple.infoflow.problems.AliasProblem$1$4.computeTargetsInternal(AliasProblem.java:840)
+	at soot.jimple.infoflow.problems.AliasProblem$1$4.computeTargets(AliasProblem.java:810)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeCallToReturnFlowFunction(InfoflowSolver.java:113)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeCallToReturnFlowFunction(InfoflowSolver.java:41)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.processCall(IFDSSolver.java:352)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$PathEdgeProcessingTask.runInternal(IFDSSolver.java:743)
+	at soot.jimple.infoflow.solver.fastSolver.LocalWorklistTask.run(LocalWorklistTask.java:31)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Exception in thread "FlowDroid" [main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 4
+	at java.base/java.util.ArrayList.add(ArrayList.java:455)
+	at java.base/java.util.ArrayList.add(ArrayList.java:467)
+	at soot.tagkit.AbstractHost.getOrComputeTag(AbstractHost.java:186)
+	at soot.jimple.infoflow.util.SystemClassHandler.isClassInSystemPackage(SystemClassHandler.java:59)
+	at soot.jimple.infoflow.problems.AbstractInfoflowProblem.isExcluded(AbstractInfoflowProblem.java:362)
+	at soot.jimple.infoflow.problems.AliasProblem$1$4.computeTargetsInternal(AliasProblem.java:840)
+	at soot.jimple.infoflow.problems.AliasProblem$1$4.computeTargets(AliasProblem.java:810)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeCallToReturnFlowFunction(InfoflowSolver.java:113)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeCallToReturnFlowFunction(InfoflowSolver.java:41)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.processCall(IFDSSolver.java:352)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$PathEdgeProcessingTask.runInternal(IFDSSolver.java:743)
+	at soot.jimple.infoflow.solver.fastSolver.LocalWorklistTask.run(LocalWorklistTask.java:31)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] ERROR soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Exception during data flow analysis
+java.lang.RuntimeException: There were exceptions during IFDS analysis. Exiting.
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.runExecutorAndAwaitCompletion(IFDSSolver.java:262)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.awaitCompletionComputeValuesAndShutdown(IFDSSolver.java:229)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.solve(IFDSSolver.java:201)
+	at soot.jimple.infoflow.AbstractInfoflow.lambda$solveIFDSProblem$2(AbstractInfoflow.java:1537)
+	at soot.jimple.infoflow.AbstractInfoflow.runWithWatcher(AbstractInfoflow.java:1624)
+	at soot.jimple.infoflow.AbstractInfoflow.solveIFDSProblem(AbstractInfoflow.java:1535)
+	at soot.jimple.infoflow.AbstractInfoflow.runTaintAnalysis(AbstractInfoflow.java:1261)
+	at soot.jimple.infoflow.AbstractInfoflow.runAnalysis(AbstractInfoflow.java:932)
+	at soot.jimple.infoflow.AbstractInfoflow.runAnalysis(AbstractInfoflow.java:863)
+	at soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow.runAnalysis(SetupApplication.java:1373)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1663)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1592)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1509)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:359)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:257)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 4
+	at java.base/java.util.ArrayList.add(ArrayList.java:455)
+	at java.base/java.util.ArrayList.add(ArrayList.java:467)
+	at soot.tagkit.AbstractHost.getOrComputeTag(AbstractHost.java:186)
+	at soot.jimple.infoflow.util.SystemClassHandler.isClassInSystemPackage(SystemClassHandler.java:59)
+	at soot.jimple.infoflow.problems.AbstractInfoflowProblem.isExcluded(AbstractInfoflowProblem.java:362)
+	at soot.jimple.infoflow.problems.AliasProblem$1$4.computeTargetsInternal(AliasProblem.java:840)
+	at soot.jimple.infoflow.problems.AliasProblem$1$4.computeTargets(AliasProblem.java:810)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeCallToReturnFlowFunction(InfoflowSolver.java:113)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeCallToReturnFlowFunction(InfoflowSolver.java:41)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.processCall(IFDSSolver.java:352)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$PathEdgeProcessingTask.runInternal(IFDSSolver.java:743)
+	at soot.jimple.infoflow.solver.fastSolver.LocalWorklistTask.run(LocalWorklistTask.java:31)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks from 0 sources

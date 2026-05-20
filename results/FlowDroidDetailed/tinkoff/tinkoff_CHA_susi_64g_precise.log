@@ -1,0 +1,26 @@
+[main] WARN soot.jimple.infoflow.methodSummary.data.provider.LazySummaryProvider - Lazy loading summaries from a jar/zip file might throw a ClosedChannelException. Use the EagerSummaryProvider instead.
+[main] INFO soot.jimple.infoflow.methodSummary.taintWrappers.SummaryTaintWrapper - Initializing summary taint wrapper with summaries for 347 classes...
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /home/julia/thesis-apk-study/data/ru/tbank_app.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.jimple.infoflow.android.resources.ARSCFileParser - Unsupported ResTable entry flags encountered: FLAG_WEAK 
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.243227792 seconds
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 58,982.4 MiB
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 1259 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] ERROR soot.jimple.toolkits.typing.fast.TypePromotionUseVisitor - Failed Typing in <nc.e0: void b(java.lang.Object,java.lang.String)> at statement $u4#1#1 = $r2: Is not cast compatible: null_type <-- java.lang.Object
+[main] ERROR soot.jimple.toolkits.typing.fast.TypePromotionUseVisitor - Failed Typing in <im5.e: void run()> at statement $u0#3.<im5.h: androidx.compose.ui.platform.c i> = $u4#21#1: Is not cast compatible: androidx.compose.ui.platform.c <-- java.lang.Object
+[main] ERROR soot.jimple.toolkits.typing.fast.TypePromotionUseVisitor - Failed Typing in <ru.tinkoff.core.feature.applications.gifts.market.presentation.page.result.GiftsResultViewModel: li8.a t8()> at statement specialinvoke $r7.<li8.a: void <init>(androidx.compose.ui.platform.c,ie8.o,ie8.o,androidx.compose.ui.platform.c,androidx.compose.ui.platform.c,l8.u,ebb.a,int)>($u4#11#2, $u5#46#5, $u8#60#7, $r8, $u3#10#1, $u4#28#4, $u12, 32): Is not cast compatible: androidx.compose.ui.platform.c <-- java.lang.Object
+[main] ERROR soot.jimple.toolkits.typing.fast.TypePromotionUseVisitor - Failed Typing in <u2.t: void u(w2.g)> at statement $u2#9#3 = $r2: Is not cast compatible: w2.g <-- java.lang.Object
+[main] ERROR soot.jimple.toolkits.typing.fast.TypePromotionUseVisitor - Failed Typing in <oed.f: java.lang.Object j(java.lang.Object)> at statement virtualinvoke $u-1#73.<xc3.a: void b(java.lang.String,java.lang.Throwable)>("Error wile parsing message", $u0#13#3): Is not cast compatible: java.lang.Throwable <-- java.lang.Object
+[main] ERROR soot.jimple.toolkits.typing.fast.TypePromotionUseVisitor - Failed Typing in <jgz.m: java.lang.Object b(jgz.m,nh0.m,igz.k,kotlin.coroutines.jvm.internal.ContinuationImpl)> at statement throw $u9#19#4: Is not cast compatible: java.lang.Throwable <-- java.lang.Object
+[Low memory monitor] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Triggering memory warning at 63350 MB (68719 MB max, 62897 in watched memory pool)...
+[Low memory monitor] WARN soot.jimple.infoflow.memory.FlowDroidMemoryWatcher - Running out of memory, solvers terminated
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+Exception in thread "FlowDroid Timeout Watcher" Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.concurrent.ConcurrentHashMap$KeySetView.iterator(ConcurrentHashMap.java:4635)
+	at soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher$1.isTerminated(FlowDroidTimeoutWatcher.java:107)
+	at soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher$1.run(FlowDroidTimeoutWatcher.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:840)

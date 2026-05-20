@@ -1,0 +1,35 @@
+[main] WARN soot.jimple.infoflow.methodSummary.data.provider.LazySummaryProvider - Lazy loading summaries from a jar/zip file might throw a ClosedChannelException. Use the EagerSummaryProvider instead.
+[main] INFO soot.jimple.infoflow.methodSummary.taintWrappers.SummaryTaintWrapper - Initializing summary taint wrapper with summaries for 347 classes...
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /home/julia/thesis-apk-study/data/ru/SberbankOnline_last_vers.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.jimple.infoflow.android.resources.ARSCFileParser - Unsupported ResTable entry flags encountered: FLAG_WEAK 
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.095383081 seconds
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 165,888 MiB
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 1133 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#54 = $u1#8#1[$u3#51#8] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#60 = $u1#8#1[$u3#51#8] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#69 = $u1#8#1[$u2#67#10] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#75 = $u1#8#1[$u2#67#10] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#54 = $u1#8#1[$u3#51#8] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#60 = $u1#8#1[$u3#51#8] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#69 = $u1#8#1[$u2#67#10] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#75 = $u1#8#1[$u2#67#10] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u0#46 = $u1#3#1[$u11#44#7] in <Ap4.b: boolean f(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u0#46 = $u1#3#1[$u11#44#7] in <Ap4.b: boolean f(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u2#45 = $u1#3#1[$u0#44#7] in <Ap4.b: boolean g(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u2#45 = $u1#3#1[$u0#44#7] in <Ap4.b: boolean g(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.c$a)>
+[main] ERROR soot.jimple.toolkits.typing.fast.TypePromotionUseVisitor - Failed Typing in <X8.s$a: X8.H a()> at statement $u5#8_2#6 = $r5: Is not cast compatible: null_type <-- java.lang.Object
+[main] ERROR soot.jimple.toolkits.typing.fast.TypePromotionUseVisitor - Failed Typing in <P0.o: void g(R0.e)> at statement $u2#9#2 = $r2: Is not cast compatible: R0.e <-- java.lang.Object
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u0#48 = $u3#18#4[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u2#49 = $u9#31#6[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u10#52 = $u3#18#4[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u9#56 = $u9#31#6[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u0#48 = $u3#18#4[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u2#49 = $u9#31#6[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u10#52 = $u3#18#4[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u9#56 = $u9#31#6[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[FlowDroid Timeout Watcher] WARN soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - Timeout reached, stopping the solvers...
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated

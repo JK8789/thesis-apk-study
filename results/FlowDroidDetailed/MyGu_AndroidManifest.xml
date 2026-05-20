@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" android:requiredSplitTypes="base__abi,base__density" android:splitTypes="" package="lu.etat.fp.gun.android" platformBuildVersionCode="35" platformBuildVersionName="15">
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:maxSdkVersion="27" android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:minSdkVersion="28" android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <queries>
+        <package android:name="com.google.android.apps.maps"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="http"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.DIAL"/>
+            <data android:scheme="tel"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+            <data android:scheme="mailto"/>
+        </intent>
+        <intent>
+            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION"/>
+        </intent>
+        <package android:name="com.google.ar.core"/>
+        <package android:name="com.android.vending"/>
+        <intent>
+            <action android:name="com.google.android.play.core.install.BIND_INSTALL_SERVICE"/>
+        </intent>
+    </queries>
+    <permission android:name="lu.etat.fp.gun.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="lu.etat.fp.gun.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="false" android:extractNativeLibs="false" android:icon="@mipmap/appicon" android:label="MyGuichet.lu" android:largeHeap="true" android:name="crc642d188417b3fea591.MainApplication" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
+        <meta-data android:name="com.google.ar.core" android:value="optional"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@null"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/notif_color_accent"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="@string/default_notification_channel_id"/>
+        <meta-data android:name="com.google.android.ar.API_KEY" android:value="AIzaSyD3xVsDGA7Gbfvg5lzDFJlNp7ohq69TxP8"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity"/>
+        <provider android:authorities="lu.etat.fp.gun.android.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="microsoft.maui.essentials.fileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/microsoft_maui_essentials_fileprovider_file_paths"/>
+        </provider>
+        <receiver android:enabled="true" android:exported="false" android:label="Essentials Connectivity Broadcast Receiver" android:name="crc64e53d2f592022988e.ConnectivityBroadcastReceiver"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="crc64ba438d8f48cf7e75.IntermediateActivity"/>
+        <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="crc640a8d9a12ddbf2cf2.BatteryBroadcastReceiver"/>
+        <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver"/>
+        <activity android:name="crc64309747cde0365ea2.ProxyActivity"/>
+        <receiver android:enabled="true" android:exported="false" android:label="Shiny Broadcast Receiver" android:name="crc643387a08acbe69b14.ActionBroadcastReceiver"/>
+        <service android:exported="true" android:name="crc6457fe0494698a4c27.ShinyFirebaseService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="crc64396a3fe5f8138e3f.KeepAliveService"/>
+        <activity android:configChanges="density|fontScale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:launchMode="singleTask" android:name="crc642d188417b3fea591.MainActivity" android:resizeableActivity="false" android:theme="@style/My.SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="myguichetlu"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="redirect.myguichet.lu"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="SP0038-3"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="lu.etat.fp.gun.android.mono.android.MultiDexLoader.__mono_init__" android:exported="false" android:initOrder="1999999999" android:name="mono.android.MultiDexLoader"/>
+        <provider android:authorities="lu.etat.fp.gun.android.mono.MonoRuntimeProvider.__mono_init__" android:exported="false" android:initOrder="1999999998" android:name="mono.MonoRuntimeProvider"/>
+        <provider android:authorities="lu.etat.fp.gun.android.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+        </provider>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <service android:enabled="false" android:exported="false" android:name="androidx.camera.core.impl.MetadataHolderService">
+            <meta-data android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER" android:value="androidx.camera.camera2.Camera2Config$DefaultProvider"/>
+        </service>
+        <uses-library android:name="androidx.camera.extensions.impl" android:required="false"/>
+        <activity android:name="io.scanbot.sdk.ui_v2.barcode.BarcodeScannerActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="io.scanbot.sdk.ui_v2.document.DocumentScannerActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="io.scanbot.sdk.ui_v2.document.CroppingActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="io.scanbot.sdk.ui.view.edit.CroppingActivity" android:theme="@style/ScanbotSdkUITheme"/>
+        <activity android:name="io.scanbot.sdk.ui.view.camera.DocumentScannerActivity" android:theme="@style/ScanbotSdkUITheme"/>
+        <activity android:name="io.scanbot.sdk.ui.view.camera.FinderDocumentScannerActivity" android:theme="@style/ScanbotSdkUITheme"/>
+        <activity android:name="io.scanbot.sdk.ui.view.barcode.BarcodeScannerActivity" android:theme="@style/ScanbotSdkUITheme"/>
+        <activity android:name="io.scanbot.sdk.ui.view.barcode.batch.BatchBarcodeScannerActivity" android:theme="@style/ScanbotSdkUITheme"/>
+        <activity android:name="io.scanbot.sdk.ui.view.mrz.MRZScannerActivity" android:theme="@style/ScanbotSdkUITheme"/>
+        <activity android:name="io.scanbot.sdk.ui.view.hic.HealthInsuranceCardScannerActivity" android:theme="@style/ScanbotSdkUITheme"/>
+        <activity android:name="io.scanbot.sdk.ui.view.licenseplate.LicensePlateScannerActivity" android:theme="@style/ScanbotSdkUITheme"/>
+        <activity android:name="io.scanbot.sdk.ui.view.generictext.TextDataScannerActivity" android:theme="@style/ScanbotSdkUITheme"/>
+        <activity android:name="io.scanbot.sdk.ui.view.vin.VinScannerActivity" android:theme="@style/ScanbotSdkUITheme"/>
+        <activity android:name="io.scanbot.sdk.ui.view.genericdocument.GenericDocumentRecognizerActivity" android:theme="@style/ScanbotSdkUITheme"/>
+        <activity android:name="io.scanbot.sdk.ui.view.mc.MedicalCertificateRecognizerActivity" android:theme="@style/ScanbotSdkUITheme"/>
+        <activity android:name="io.scanbot.sdk.ui.view.check.CheckRecognizerActivity" android:theme="@style/ScanbotSdkUITheme"/>
+        <meta-data android:name="com.google.ar.core.min_apk_version" android:value="250210000"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTop" android:name="com.google.ar.core.InstallActivity" android:theme="@android:style/Theme.Material.Light.Dialog.Alert"/>
+        <activity android:configChanges="density|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="lu.etat.fp.gun.arlib.android.ArActivity" android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
+        <provider android:authorities="lu.etat.fp.gun.android.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:exported="false" android:name="com.pairip.licensecheck.LicenseActivity"/>
+        <provider android:authorities="lu.etat.fp.gun.android.com.pairip.licensecheck.LicenseContentProvider" android:exported="false" android:name="com.pairip.licensecheck.LicenseContentProvider"/>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="3"/>
+    </application>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+</manifest>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" android:requiredSplitTypes="base__abi,base__density" android:splitTypes="" package="lu.bgl.spm.retail" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <queries>
+        <package android:name="com.LuxTrustMobile"/>
+    </queries>
+    <queries>
+        <package android:name="com.LuxTrustMobile.uat"/>
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+    </queries>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="lu.bgl.spm.retail.LISTEN_BEADVISED_BROADCAST"/>
+    <permission android:name="lu.bgl.spm.retail.LISTEN_BEADVISED_BROADCAST" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:maxSdkVersion="28" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <supports-screens android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <permission android:name="lu.bgl.spm.retail.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="lu.bgl.spm.retail.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-permission android:name="com.personetics.module.permission.C2D_MESSAGE"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:dataExtractionRules="@xml/data_extraction_rules" android:enableOnBackInvokedCallback="true" android:extractNativeLibs="false" android:fullBackupContent="false" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/generique_label_app_name" android:largeHeap="true" android:logo="@color/transparent" android:name="lu.bgl.spm.SPMApplication" android:networkSecurityConfig="@xml/network_security_config" android:resizeableActivity="true" android:screenOrientation="landscape" android:supportsRtl="false" android:theme="@style/Theme.App.Starting" android:usesCleartextTraffic="false">
+        <activity android:configChanges="keyboardHidden|screenSize" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.ui.eshop.pack.ChangeOfferActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="false"/>
+        <provider android:authorities="lu.bgl.spm.retail.ShareFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@null"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/notificationColor"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="@string/default_notification_channel_id"/>
+        <service android:exported="false" android:name="lu.bgl.spm.core.service.NotificationsService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="lu.bgl.spm.ui.beAdvised.utils.BeAdvisedBroadcastReceiver" android:permission="lu.bgl.spm.LISTEN_BEADVISED_BROADCAST">
+            <intent-filter>
+                <action android:name="PUBLISH_RECO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="RECALL_RECO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="NEW_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="true" android:name="lu.bgl.spm.ui.launch.SplashActivity" android:resizeableActivity="false" android:theme="@style/Theme.App.Starting" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="api.bgl.lu" android:pathPrefix="/psd2/v1/validate-payment" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="api.bgl.lu" android:pathPrefix="/sca/login2" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.partner.PartnerActivity" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.generic.signature.App2AppActivity" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="SP0021"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.ui.myProfil.MyProfilActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.ui.authentication.AuthenticationActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="lu.bgl.spm.core.activities.modules.dashboard.DashboardActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.synthesis.SynthesisActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.discovercreditcards.DiscoverCreditCardsActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="lu.bgl.spm.core.activities.modules.eshop.EshopActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.myMobility.MyMobilityActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.myHome.MyHomeActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.ui.synthesis.openingAccount.OpenAccountActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="lu.bgl.spm.core.activities.modules.transfer.TransferActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.studentLoan.StudentLoanActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.personetics.PersoneticsActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.mail.MailActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.documents.DocumentsActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="lu.bgl.spm.core.activities.modules.dashboardInvest.DashboardInvestActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.invest.InvestActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.ui.eshop.invest.digoff.InvestOffersActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.clientOrder.ClientOrderActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="lu.bgl.spm.core.activities.modules.contact.ContactActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="lu.bgl.spm.ui.expressview.ExpressViewActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="lu.bgl.spm.core.activities.teasers.ActivityMainIntroductionImpl" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.ihub.IHubActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.portfolio.PortfolioActivityWM" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.trading.TradingActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:exported="true" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.aggregation.AggregationActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="api.bgl.lu" android:pathPrefix="/lh1_redirect" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.aggregation.ConfigurationActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.mifidProfile.MifidProfileActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.directInvest.DirectInvestActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.ui.synthesis.card.activation.CardActivationActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.utils.application.files.OpenDocumentActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.generic.signature.orely.OrelyActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar.Signature" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.generic.signature.cosi.CosiActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar.Signature" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="SP0264"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.ui.beAdvised.BeAdvisedActivity" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.portfolioView.PortfolioActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.generic.featurePresentation.FeaturePresentationActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.meeting.MeetingActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTask" android:name="lu.bgl.spm.core.activities.modules.mev.WealthAggregatorActivity" android:resizeableActivity="true" android:theme="@style/AppTheme.NoActionBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="true" android:name="androidx.compose.ui.tooling.PreviewActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:name="com.medallia.digital.mobilesdk.MedalliaFullFormActivity" android:theme="@style/MedalliaSDKTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:exported="false" android:name="com.medallia.digital.mobilesdk.MedalliaModalFormActivity" android:theme="@style/MedalliaSDKTheme"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:authorities="lu.bgl.spm.retail.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="lu.bgl.spm.retail.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="android.ext.adservices" android:required="false"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <activity android:clearTaskOnLaunch="true" android:name="com.journeyapps.barcodescanner.CaptureActivity" android:screenOrientation="sensorLandscape" android:stateNotNeeded="true" android:theme="@style/zxing_CaptureTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
+    </application>
+</manifest>

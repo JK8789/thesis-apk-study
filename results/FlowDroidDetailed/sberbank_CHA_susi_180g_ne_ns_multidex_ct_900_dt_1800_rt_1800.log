@@ -1,0 +1,586 @@
+[main] WARN soot.jimple.infoflow.methodSummary.data.provider.LazySummaryProvider - Lazy loading summaries from a jar/zip file might throw a ClosedChannelException. Use the EagerSummaryProvider instead.
+[main] INFO soot.jimple.infoflow.methodSummary.taintWrappers.SummaryTaintWrapper - Initializing summary taint wrapper with summaries for 347 classes...
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /home/julia/thesis-apk-study/data/ru/SberbankOnline_last_vers.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.jimple.infoflow.android.resources.ARSCFileParser - Unsupported ResTable entry flags encountered: FLAG_WEAK 
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.079877212 seconds
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 165,888 MiB
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 1133 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#54 = $u1#8#1[$u3#51#8] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#60 = $u1#8#1[$u3#51#8] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#69 = $u1#8#1[$u2#67#10] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#75 = $u1#8#1[$u2#67#10] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#54 = $u1#8#1[$u3#51#8] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#60 = $u1#8#1[$u3#51#8] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#69 = $u1#8#1[$u2#67#10] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u8#75 = $u1#8#1[$u2#67#10] in <Ap4.b: boolean i(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.FocusTargetNode,int,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u0#46 = $u1#3#1[$u11#44#7] in <Ap4.b: boolean f(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u0#46 = $u1#3#1[$u11#44#7] in <Ap4.b: boolean f(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u2#45 = $u1#3#1[$u0#44#7] in <Ap4.b: boolean g(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.c$a)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u2#45 = $u1#3#1[$u0#44#7] in <Ap4.b: boolean g(androidx.compose.ui.focus.FocusTargetNode,androidx.compose.ui.focus.c$a)>
+[main] ERROR soot.jimple.toolkits.typing.fast.TypePromotionUseVisitor - Failed Typing in <X8.s$a: X8.H a()> at statement $u5#8_2#6 = $r5: Is not cast compatible: null_type <-- java.lang.Object
+[main] ERROR soot.jimple.toolkits.typing.fast.TypePromotionUseVisitor - Failed Typing in <P0.o: void g(R0.e)> at statement $u2#9#2 = $r2: Is not cast compatible: R0.e <-- java.lang.Object
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u0#48 = $u3#18#4[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u2#49 = $u9#31#6[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u10#52 = $u3#18#4[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u9#56 = $u9#31#6[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u0#48 = $u3#18#4[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u2#49 = $u9#31#6[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u10#52 = $u3#18#4[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[main] WARN soot.jimple.toolkits.typing.fast.UseChecker - Conflicting array types at $u9#56 = $u9#31#6[$u1#7#1] in <h1.G: int compare(java.lang.Object,java.lang.Object)>
+[FlowDroid Timeout Watcher] WARN soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - Timeout reached, stopping the solvers...
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] WARN soot.jimple.infoflow.android.SetupApplication - Aborted callback collection because of Timeout: Elapsed 903, but configured timeout is 900
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] WARN soot.jimple.infoflow.android.SetupApplication - Callback analysis aborted early due to time or memory exhaustion
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 12082 sources, 1010 sinks, and 0 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 1847 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /home/julia/thesis-apk-study/data/ru/SberbankOnline_last_vers.apk with 12082 sources and 1010 sinks...
+[main] WARN soot.jimple.infoflow.InfoflowConfiguration - Static field tracking is disabled, results may be incomplete
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 165,888 MiB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 26 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 408.281212075 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 493441961 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 16573 sources and 2350 sinks.
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=boolean fields=[<java.lang.Boolean: boolean value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=long fields=[<java.lang.Long: long value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid] WARN soot.jimple.infoflow.data.AccessPathFactory - Primitive types cannot have fields: baseType=int fields=[<java.lang.Integer: int value>]
+[FlowDroid Timeout Watcher] WARN soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - Timeout reached, stopping the solvers...
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] ERROR soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Could not wait for executor termination
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at soot.jimple.infoflow.AbstractInfoflow.solveIFDSProblem(AbstractInfoflow.java:1549)
+	at soot.jimple.infoflow.AbstractInfoflow.runTaintAnalysis(AbstractInfoflow.java:1261)
+	at soot.jimple.infoflow.AbstractInfoflow.runAnalysis(AbstractInfoflow.java:932)
+	at soot.jimple.infoflow.AbstractInfoflow.runAnalysis(AbstractInfoflow.java:863)
+	at soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow.runAnalysis(SetupApplication.java:1373)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1663)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1592)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1509)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:359)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:257)
+[main] ERROR soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Executor did not terminate gracefully
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 453271
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 448449
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 3708186 forward and 228634 backward edges solved in 1491 seconds, processing 97 results...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 119610 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after cleanup: 103365 MB
+[main] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher started
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 9.64803E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 1 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.884E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 0.038362402 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 0.040548869 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 0.040957214 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 0.04364233 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.083497692 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.110627848 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 2 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 2.534E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 8.6424E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.80767E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 0.00222433 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 0.002281027 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.005148733 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.115983284 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 3 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.799E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.46341E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 2.43049E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 3.44857E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.40947E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.002106012 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.118241269 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 4 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 3.758E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.02139E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.92172E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 3.24148E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.1229E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.001527508 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.119933681 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 5 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 3.791E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.0048E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 3.74338E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.68797E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 5.52234E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.002821885 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.122892176 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 6 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 2.119E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 6.6445E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.09597E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.46024E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 2.47339E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.011010455 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.134139649 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 7 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 2.586E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 3.44779E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 3.96981E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.44297E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.88028E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.002641037 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.136882073 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 8 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 2.081E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 5.3418E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 9.7811E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.42322E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.86109E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.001145799 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.138137406 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 9 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 2.339E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 6.4162E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.13718E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 0.002702437 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 0.002751073 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.003408859 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.141881074 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 10 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 3.427E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.04186E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.84301E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.28089E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 5.14397E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.001311339 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.144340165 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 11 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 2.437E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 7.003E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.11159E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.54409E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.96192E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.001641739 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.146077664 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 12 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 2.105E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.535E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 9.5219E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 2.64432E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 3.0947E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 7.75724E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.146949198 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 13 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 2.196E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.3933E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 9.1359E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.28361E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.70029E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 4.24687E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.147445303 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 14 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 3.06E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.7533E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 8.2796E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.34832E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.70678E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 6.22673E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.148134175 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 15 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.862E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.2662E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 6.7881E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 7.55166E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 7.94674E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.001720407 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.150087923 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 16 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 2.481E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 6.4507E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.05428E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.45091E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.84438E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 5.65194E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.150817167 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 17 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.109E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 2.80944E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 3.98519E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.78924E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 5.48534E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.002122963 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.153183682 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 18 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.263E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 1.08907E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 5.46503E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 6.67439E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 9.09675E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.001093234 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.154420407 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 19 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 3.178E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 7.3438E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 4.60849E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 7.57249E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 8.4621E-4 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 0.001029936 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Path Reconstruction has used 0.155628317 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 20 with 2 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 2 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 3.982E-6 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Path Reconstruction has used 9.2192E-5 seconds
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Single batch has used 4.78783E-4 seconds
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 103360 MB
+[FlowDroid Timeout Watcher] INFO soot.jimple.infoflow.memory.FlowDroidTimeoutWatcher - FlowDroid timeout watcher terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Path reconstruction took 287 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r82.<android.app.Activity: void setResult(int,android.content.Intent)>(-1, $r42) in method <CL6.m: java.lang.Object invoke(java.lang.Object)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r42 = virtualinvoke $r82.<android.app.Activity: android.content.Intent getIntent()>() in method <CL6.m: java.lang.Object invoke(java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r2.<android.content.Context: void sendBroadcast(android.content.Intent)>($r3) in method <com.huawei.hms.adapter.BaseAdapter: void j()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = virtualinvoke $r2.<android.content.Context: java.lang.String getPackageName()>() in method <com.huawei.hms.adapter.BaseAdapter: void j()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<android.media.MediaMetadataRetriever: void setDataSource(java.io.FileDescriptor)>($r1) in method <com.bumptech.glide.load.resource.bitmap.VideoDecoder$g: void a(android.media.MediaMetadataRetriever,java.lang.Object)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke $r3.<android.os.ParcelFileDescriptor: java.io.FileDescriptor getFileDescriptor()>() in method <com.bumptech.glide.load.resource.bitmap.VideoDecoder$g: void a(android.media.MediaMetadataRetriever,java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r4.<android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>($r5, $r11) in method <xy7.b: void putLong(java.lang.String,long)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r2.<android.content.Context: android.content.ContentResolver getContentResolver()>() in method <xy7.b: void putLong(java.lang.String,long)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r4.<android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>($r7, $r9) in method <hq6.b$a: void a()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<android.content.Context: android.content.ContentResolver getContentResolver()>() in method <hq6.b$a: void a()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r1.<android.app.Activity: void startActivity(android.content.Intent)>($r9) in method <WL6.c: Ap0.e g(android.app.Activity,ru.sberbank.mobile.core.deeplink.api.scheme.handler.DeeplinkUri)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r3 = virtualinvoke $r1.<android.content.Context: java.lang.String getPackageName()>() in method <WL6.c: Ap0.e g(android.app.Activity,ru.sberbank.mobile.core.deeplink.api.scheme.handler.DeeplinkUri)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r65.<android.content.Context: void startActivity(android.content.Intent)>($r66) in method <AW0.b: java.lang.Object invoke(java.lang.Object)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r66 = virtualinvoke $r65.<android.app.Activity: android.content.Intent getIntent()>() in method <AW0.b: java.lang.Object invoke(java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r2.<android.content.Context: void sendBroadcast(android.content.Intent,java.lang.String)>($r6, $r5) in method <com.huawei.hms.support.api.push.service.HmsMsgService: void d(android.content.Context,android.os.Bundle)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = virtualinvoke $r2.<android.content.Context: java.lang.String getPackageName()>() in method <com.huawei.hms.support.api.push.service.HmsMsgService: void d(android.content.Context,android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r2.<android.content.Context: void startActivity(android.content.Intent)>($r3) in method <ru.sberbank.mobile.feature.notification.settings.impl.presentation.offboarding.notification.warning.OffboardingDisableNotificationWarningActivity$b: java.lang.Object invokeSuspend(java.lang.Object)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r3 = virtualinvoke $r2.<android.app.Activity: android.content.Intent getIntent()>() in method <ru.sberbank.mobile.feature.notification.settings.impl.presentation.offboarding.notification.warning.OffboardingDisableNotificationWarningActivity$b: java.lang.Object invokeSuspend(java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r61.<android.content.Context: void startActivity(android.content.Intent)>($r114) in method <F35.d: java.lang.Object invoke(java.lang.Object)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r62 = virtualinvoke $r102.<android.app.Activity: android.content.Intent getIntent()>() in method <F35.d: java.lang.Object invoke(java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<android.content.Context: void startActivity(android.content.Intent)>($r3) in method <ae.h: boolean handleDeepLink(android.content.Context,android.net.Uri)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke $r0.<android.content.Context: java.lang.String getPackageName()>() in method <ae.h: boolean handleDeepLink(android.content.Context,android.net.Uri)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r2.<android.app.Activity: void setResult(int,android.content.Intent)>(-1, $r9) in method <ru.sberbank.mobile.feature.takemedia.impl.presentation.TakePhotoActivity$a: void a(java.lang.Object)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r7 = virtualinvoke $r6.<android.content.Intent: android.os.Bundle getExtras()>() in method <ru.sberbank.mobile.feature.takemedia.impl.presentation.TakePhotoActivity$a: void a(java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = specialinvoke this.<android.content.Intent: android.os.Bundle getExtras()>() in method <com.huawei.hms.ui.SafeIntent: android.os.Bundle getExtras()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r8.<android.app.Activity: void startActivityForResult(android.content.Intent,int)>($r11, 30678) in method <fc5.c: void a(android.content.Context,Ja5.a)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = virtualinvoke $r2.<android.content.ContextWrapper: android.content.Context getBaseContext()>() in method <CQ0.c: android.app.Activity e(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r3.<android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>($r4, $r10) in method <xy7.b: void remove(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r3 = virtualinvoke $r2.<android.content.Context: android.content.ContentResolver getContentResolver()>() in method <xy7.b: void remove(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r3.<android.app.AlarmManager: void set(int,long,android.app.PendingIntent)>(0, $l1, $r1) in method <ru.sberbank.mobile.push.presentation.widget.balance.BalanceWidget: void b(int)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r11 = virtualinvoke $r17.<o.c: java.lang.Object getSystemService(java.lang.String)>("alarm") in method <ru.sberbank.mobile.push.presentation.widget.balance.BalanceWidget: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<android.content.Context: java.lang.Object getSystemService(java.lang.String)>($r0) in method <o.c: java.lang.Object getSystemService(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r14.<android.app.Activity: void startActivity(android.content.Intent)>($r26) in method <FN6.Q: java.lang.Object invoke()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r7 = virtualinvoke $r14.<android.content.Context: java.lang.String getPackageName()>() in method <FN6.Q: java.lang.Object invoke()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<android.content.Context: void startActivity(android.content.Intent)>($r4) in method <l94.c: void c(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = virtualinvoke $r0.<android.content.Context: java.lang.String getPackageName()>() in method <l94.c: void c(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r2.<android.app.Activity: void startIntentSenderForResult(android.content.IntentSender,int,android.content.Intent,int,int,int)>($r11, 1001, null, 0, 0, 0) in method <com.huawei.hms.adapter.ui.BaseResolutionAdapter: void onBridgeActivityCreate(android.app.Activity)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r11 = virtualinvoke $r10.<android.app.PendingIntent: android.content.IntentSender getIntentSender()>() in method <com.huawei.hms.adapter.ui.BaseResolutionAdapter: void onBridgeActivityCreate(android.app.Activity)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r5.<android.app.Activity: void startActivity(android.content.Intent)>($r6) in method <QR0.a: void b(android.content.Context,KR0.c)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = virtualinvoke $r2.<android.content.ContextWrapper: android.content.Context getBaseContext()>() in method <CQ0.c: android.app.Activity e(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke this.<android.app.Activity: void startIntentSenderForResult(android.content.IntentSender,int,android.content.Intent,int,int,int)>($r7, 0, null, 0, 0, 0) in method <ru.rustore.sdk.activitylauncher.RuStoreActivityLauncher: void onCreate(android.os.Bundle)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r7 = virtualinvoke $r6.<android.app.PendingIntent: android.content.IntentSender getIntentSender()>() in method <ru.rustore.sdk.activitylauncher.RuStoreActivityLauncher: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke this.<android.app.Activity: android.content.Intent getIntent()>() in method <ru.rustore.sdk.activitylauncher.RuStoreActivityLauncher: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke this.<android.app.Activity: void setResult(int,android.content.Intent)>(-1, $r9) in method <ru.sberbank.mobile.feature.efs.digitalcitizenprofile.impl.presentation.view.activity.DigitalCitizenProfileActivity: void Q4(android.content.Intent)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke this.<android.app.Activity: android.content.Intent getIntent()>() in method <ru.sberbank.mobile.feature.efs.digitalcitizenprofile.impl.presentation.view.activity.DigitalCitizenProfileActivity: void I4(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke $r0.<android.content.Intent: android.net.Uri getData()>() in method <ru.sberbank.mobile.feature.efs.digitalcitizenprofile.impl.presentation.view.activity.DigitalCitizenProfileActivity: void Q4(android.content.Intent)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke this.<android.app.Activity: android.content.Intent getIntent()>() in method <ru.sberbank.mobile.feature.efs.digitalcitizenprofile.impl.presentation.view.activity.DigitalCitizenProfileActivity: void I4(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke this.<android.app.Activity: void setResult(int,android.content.Intent)>(0, $r2) in method <ru.sberbank.mobile.feature.messenger.media.impl.presentation.photo.MessengerPreviewPhotoInChatActivity: void onBackPressed()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = virtualinvoke this.<android.app.Activity: android.content.Intent getIntent()>() in method <ru.sberbank.mobile.feature.messenger.media.impl.presentation.photo.MessengerPreviewPhotoInChatActivity: void onBackPressed()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r1.<android.content.Context: void startActivity(android.content.Intent)>($r4) in method <Fj6.k: java.lang.Object invoke()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke $r1.<android.content.Context: java.lang.String getPackageName()>() in method <Fj6.k: java.lang.Object invoke()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<android.app.Activity: void startActivity(android.content.Intent)>($r2) in method <CN5.h: void e(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = virtualinvoke $r2.<android.content.ContextWrapper: android.content.Context getBaseContext()>() in method <CQ0.c: android.app.Activity e(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r26.<android.app.Activity: void setResult(int,android.content.Intent)>(0, $r63) in method <AX.c: java.lang.Object invoke()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r35 = virtualinvoke $r34.<android.app.Activity: android.content.Intent getIntent()>() in method <AX.c: java.lang.Object invoke()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r3.<android.content.Context: void startActivity(android.content.Intent)>($r7) in method <DU5.i$a$a$a: java.lang.Object emit(java.lang.Object,Iq.d)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r11 = virtualinvoke $r10.<android.content.ContentResolver: java.lang.String getType(android.net.Uri)>($r5) in method <DU5.i$a$a$a: java.lang.Object emit(java.lang.Object,Iq.d)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r26.<android.content.Context: void startActivity(android.content.Intent)>($r28) in method <FX5.b: void onClick(android.view.View)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = virtualinvoke $r26.<android.content.Context: java.lang.String getPackageName()>() in method <FX5.b: void onClick(android.view.View)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r2.<android.app.ActivityManager$AppTask: void startActivity(android.content.Context,android.content.Intent,android.os.Bundle)>($r0, $r8, $r5) in method <Ph.a: void startActivity(com.sdkit.multiactivity.data.LaunchParams)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke $r1.<android.app.ActivityManager: java.util.List getAppTasks()>() in method <Qh.d: android.app.ActivityManager$AppTask getTaskById(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke $r1.<android.app.ActivityManager: java.util.List getAppTasks()>() in method <Rh.b: android.app.ActivityManager$AppTask getTaskById(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r8.<android.app.Activity: void startActivity(android.content.Intent)>($r13) in method <vL6.h: void a(android.content.Context,YK6.a)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = virtualinvoke $r2.<android.content.ContextWrapper: android.content.Context getBaseContext()>() in method <CQ0.c: android.app.Activity e(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r70.<android.content.Context: void startActivity(android.content.Intent)>($r71) in method <A97.t: java.lang.Object invoke(java.lang.Object)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r71 = virtualinvoke $r70.<android.app.Activity: android.content.Intent getIntent()>() in method <A97.t: java.lang.Object invoke(java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<android.app.Activity: void startIntentSenderForResult(android.content.IntentSender,int,android.content.Intent,int,int,int)>($r2, $i0, null, 0, 0, 0) in method <com.huawei.hms.support.api.client.Status: void startResolutionForResult(android.app.Activity,int)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke $r1.<android.app.PendingIntent: android.content.IntentSender getIntentSender()>() in method <com.huawei.hms.support.api.client.Status: void startResolutionForResult(android.app.Activity,int)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r5.<android.app.Activity: void setResult(int,android.content.Intent)>(0, $r27) in method <C83.a: void onClick(android.view.View)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r14 = virtualinvoke $r13.<android.app.Activity: android.content.Intent getIntent()>() in method <C83.a: void onClick(android.view.View)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<android.app.Activity: void startActivity(android.content.Intent)>($r11) in method <qF3.a: Ap0.e g(android.app.Activity,ru.sberbank.mobile.core.deeplink.api.scheme.handler.DeeplinkUri)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r3 = virtualinvoke $r2.<android.net.Uri: java.util.Set getQueryParameterNames()>() in method <qF3.a: Ap0.e g(android.app.Activity,ru.sberbank.mobile.core.deeplink.api.scheme.handler.DeeplinkUri)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r34.<android.content.Context: void startActivity(android.content.Intent)>($r37) in method <Bw2.e: java.lang.Object invoke()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r35 = virtualinvoke $r34.<android.content.Context: java.lang.String getPackageName()>() in method <Bw2.e: java.lang.Object invoke()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r31.<e.j: void startActivityForResult(android.content.Intent,int)>($r32, 1001) in method <Cf3.d: java.lang.Object invoke(java.lang.Object)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r32 = virtualinvoke $r31.<android.app.Activity: android.content.Intent getIntent()>() in method <Cf3.d: java.lang.Object invoke(java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r3.<android.content.Context: void startActivity(android.content.Intent)>($r33) in method <sZ2.w: java.lang.Object invoke(java.lang.Object)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<android.content.Context: java.lang.String getPackageName()>() in method <sZ2.w: java.lang.Object invoke(java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r3.<android.app.Activity: void startActivity(android.content.Intent)>($r0) in method <com.huawei.hms.common.internal.BaseHmsClient$1: void onBinderFailed(int,android.content.Intent)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke $r0.<android.content.Context: android.content.pm.ApplicationInfo getApplicationInfo()>() in method <com.huawei.hms.adapter.BinderAdapter: void e()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r14.<android.content.Context: void startActivity(android.content.Intent)>($r30) in method <G53.L: void onClick(android.view.View)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r17 = virtualinvoke $r26.<android.app.Activity: android.content.Intent getIntent()>() in method <G53.L: void onClick(android.view.View)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r10.<android.media.MediaPlayer: void setDataSource(java.io.FileDescriptor,long,long)>($r11, $l1, $l2) in method <ck0.d: void a(java.lang.Object)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r11 = virtualinvoke $r9.<android.content.res.AssetFileDescriptor: java.io.FileDescriptor getFileDescriptor()>() in method <ck0.d: void a(java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $l1 = virtualinvoke $r9.<android.content.res.AssetFileDescriptor: long getStartOffset()>() in method <ck0.d: void a(java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $l2 = virtualinvoke $r9.<android.content.res.AssetFileDescriptor: long getLength()>() in method <ck0.d: void a(java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke this.<android.content.Context: void startActivity(android.content.Intent)>($r2) in method <com.sdkit.multiactivity.presentation.TransparentActivity: void onCreate(android.os.Bundle)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke this.<android.app.Activity: android.content.Intent getIntent()>() in method <com.sdkit.multiactivity.presentation.TransparentActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r2.<android.app.Activity: void startActivity(android.content.Intent)>($r3) in method <Fh6.k: void a(android.content.Context,long,long)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = virtualinvoke $r2.<android.content.ContextWrapper: android.content.Context getBaseContext()>() in method <CQ0.c: android.app.Activity e(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<android.content.Context: void startActivity(android.content.Intent)>($r21) in method <K45.a$a$a: java.lang.Object emit(java.lang.Object,Iq.d)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r7 = virtualinvoke $r0.<android.content.Context: java.lang.String getPackageName()>() in method <K45.a$a$a: java.lang.Object emit(java.lang.Object,Iq.d)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink $r8 = virtualinvoke $r7.<android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>($r8, $r14) in method <kavsdk.o.pe: boolean 難經本義(android.content.Context,java.io.File)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r7 = virtualinvoke $r5.<android.content.Context: android.content.ContentResolver getContentResolver()>() in method <kavsdk.o.pe: boolean 難經本義(android.content.Context,java.io.File)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r11.<android.app.Activity: void startActivity(android.content.Intent)>($r10) in method <AA4.o: void Aa(android.content.Context,Zy4.a$a)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = virtualinvoke $r2.<android.content.ContextWrapper: android.content.Context getBaseContext()>() in method <CQ0.c: android.app.Activity e(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke this.<android.content.Context: void startActivity(android.content.Intent)>($r14) in method <zone.bi.mobile.callerid.impl.dialer.DialerActivity: void onCreate(android.os.Bundle)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r3 = virtualinvoke $r2.<android.content.Intent: android.net.Uri getData()>() in method <zone.bi.mobile.callerid.impl.dialer.DialerActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke this.<android.app.Activity: void startActivityForResult(android.content.Intent,int)>($r4, 103) in method <com.kavsdk.shared.cellmon.FakeActivity: void onCreate(android.os.Bundle)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke this.<android.app.Activity: android.content.Intent getIntent()>() in method <com.kavsdk.shared.cellmon.FakeActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r5.<android.content.Context: void startActivity(android.content.Intent)>($r7) in method <Cp.d: void a(android.view.View,java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke $r5.<android.content.Context: java.lang.String getPackageName()>() in method <Cp.d: void a(android.view.View,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r3.<android.app.AlarmManager: void setExactAndAllowWhileIdle(int,long,android.app.PendingIntent)>(0, $l1, $r1) in method <ru.sberbank.mobile.push.presentation.widget.balance.BalanceWidget: void b(int)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r11 = virtualinvoke $r17.<o.c: java.lang.Object getSystemService(java.lang.String)>("alarm") in method <ru.sberbank.mobile.push.presentation.widget.balance.BalanceWidget: void onReceive(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<android.content.Context: java.lang.Object getSystemService(java.lang.String)>($r0) in method <o.c: java.lang.Object getSystemService(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<android.content.Context: void startActivity(android.content.Intent)>($r11) in method <Xj4.i$a$a: java.lang.Object emit(java.lang.Object,Iq.d)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = virtualinvoke $r0.<android.content.Context: java.lang.String getPackageName()>() in method <Xj4.i$a$a: java.lang.Object emit(java.lang.Object,Iq.d)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r3.<android.content.Context: void startActivity(android.content.Intent)>($r7) in method <DU5.i$a$a$a: java.lang.Object emit(java.lang.Object,Iq.d)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<android.content.Context: java.lang.String getPackageName()>() in method <DU5.i$a$a$a: java.lang.Object emit(java.lang.Object,Iq.d)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke this.<android.app.Activity: void setResult(int,android.content.Intent)>(-1, $r0) in method <ru.sberbank.mobile.feature.messenger.media.impl.presentation.photo.MessageWithPhotoContentActivity: void p(int,int)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = virtualinvoke this.<android.app.Activity: android.content.Intent getIntent()>() in method <ru.sberbank.mobile.feature.messenger.media.impl.presentation.photo.MessageWithPhotoContentActivity: void p(int,int)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<android.content.Context: void startActivity(android.content.Intent)>($r6) in method <l94.c: void b(android.content.Context)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r7 = virtualinvoke $r0.<android.content.Context: java.lang.String getPackageName()>() in method <l94.c: void b(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke this.<android.content.Context: void startActivity(android.content.Intent)>($r11) in method <ru.sberbank.mobile.feature.efs.digitalcitizenprofile.impl.presentation.view.activity.DigitalCitizenProfileActivity: void P4(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke this.<android.app.Activity: android.content.Intent getIntent()>() in method <ru.sberbank.mobile.feature.efs.digitalcitizenprofile.impl.presentation.view.activity.DigitalCitizenProfileActivity: void I4(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke this.<android.app.Activity: android.content.Intent getIntent()>() in method <ru.sberbank.mobile.feature.efs.digitalcitizenprofile.impl.presentation.view.activity.DigitalCitizenProfileActivity: void I4(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r6.<android.app.PendingIntent: void send()>() in method <mq1.b: void a(android.service.notification.StatusBarNotification)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke $r1.<android.service.notification.StatusBarNotification: android.app.Notification getNotification()>() in method <mq1.b: void a(android.service.notification.StatusBarNotification)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke this.<android.content.Context: void startActivity(android.content.Intent)>($r7) in method <ru.sberbank.mobile.feature.sberbankid.auth.impl.presentation.activity.GrantMerchantDataPermissionsActivity: void I4(android.os.Bundle)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = specialinvoke this.<android.content.Intent: android.os.Bundle getExtras()>() in method <com.huawei.hms.ui.SafeIntent: android.os.Bundle getExtras()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = virtualinvoke $r9.<android.content.Intent: android.os.Bundle getExtras()>() in method <ru.sberbank.mobile.feature.sberbankid.auth.impl.presentation.activity.GrantMerchantDataPermissionsActivity: void I4(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r4.<android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>($r5, $r11) in method <xy7.b: void putString(java.lang.String,java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<android.content.Context: android.content.ContentResolver getContentResolver()>() in method <xy7.b: void putString(java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke this.<android.content.Context: void startActivity(android.content.Intent)>($r4) in method <ru.sberbank.mobile.feature.messenger.chat.impl.presentation.chat.ChatActivity: void U1(ru.sberbank.mobile.core.alert.AlertDialogFragment,java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke this.<android.content.Context: java.lang.String getPackageName()>() in method <ru.sberbank.mobile.feature.messenger.chat.impl.presentation.chat.ChatActivity: void U1(ru.sberbank.mobile.core.alert.AlertDialogFragment,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r29.<android.app.Activity: void setResult(int,android.content.Intent)>(0, $r64) in method <GU1.d: java.lang.Object invoke()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r31 = virtualinvoke $r30.<android.app.Activity: android.content.Intent getIntent()>() in method <GU1.d: java.lang.Object invoke()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r2.<e.j: void startActivityForResult(android.content.Intent,int)>($r1, $i0) in method <ru.sberbank.mobile.codescanner.impl.presentation.fragment.BaseScannerFragment: void b5(int)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r3 = virtualinvoke $r2.<android.content.Context: java.lang.String getPackageName()>() in method <ru.sberbank.mobile.codescanner.impl.presentation.fragment.BaseScannerFragment: void b5(int)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r66.<android.content.Context: void startActivity(android.content.Intent)>($r4) in method <AS2.j: java.lang.Object invoke()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r41 = virtualinvoke $r66.<android.content.Context: java.lang.String getPackageName()>() in method <AS2.j: java.lang.Object invoke()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r11.<android.content.Context: void startActivity(android.content.Intent)>($r12) in method <ks1.b$a$a: java.lang.Object invoke(java.lang.Object,java.lang.Object)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r14 = virtualinvoke $r13.<android.content.Context: java.lang.String getPackageName()>() in method <ks1.b$a$a: java.lang.Object invoke(java.lang.Object,java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r7.<android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>($r8, $r14, null, null) in method <kavsdk.o.pe: boolean 難經本義(android.content.Context,java.io.File)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r7 = virtualinvoke $r5.<android.content.Context: android.content.ContentResolver getContentResolver()>() in method <kavsdk.o.pe: boolean 難經本義(android.content.Context,java.io.File)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r1.<android.app.Activity: void startActivity(android.content.Intent)>($r27) in method <nu1.d: Ap0.e g(android.app.Activity,ru.sberbank.mobile.core.deeplink.api.scheme.handler.DeeplinkUri)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<android.net.Uri: java.util.Set getQueryParameterNames()>() in method <nu1.d: Ap0.e g(android.app.Activity,ru.sberbank.mobile.core.deeplink.api.scheme.handler.DeeplinkUri)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r9.<android.app.Activity: void startActivity(android.content.Intent)>($r23) in method <Fo1.a: void onClick(android.view.View)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = virtualinvoke $r2.<android.content.ContextWrapper: android.content.Context getBaseContext()>() in method <CQ0.c: android.app.Activity e(android.content.Context)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r51.<android.app.Activity: void setResult(int,android.content.Intent)>(0, $r99) in method <AH0.t: java.lang.Object invoke()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r53 = virtualinvoke $r52.<android.app.Activity: android.content.Intent getIntent()>() in method <AH0.t: java.lang.Object invoke()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r1.<android.app.Activity: void startActivityForResult(android.content.Intent,int)>($r9, 431057) in method <com.huawei.hms.activity.ForegroundBusDelegate: void h()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke $r1.<android.content.Context: java.lang.String getPackageName()>() in method <com.huawei.hms.activity.ForegroundBusDelegate: void h()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<android.app.AlarmManager: void setExact(int,long,android.app.PendingIntent)>(0, $l1, $r1) in method <c5.a$a: void a(android.app.AlarmManager,int,long,android.app.PendingIntent)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<android.content.Context: java.lang.Object getSystemService(java.lang.String)>($r0) in method <o.c: java.lang.Object getSystemService(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = virtualinvoke $r1.<android.content.Context: java.lang.Object getSystemService(java.lang.String)>("alarm") in method <c5.a: void b(android.content.Context,androidx.work.impl.WorkDatabase,i5.p,long)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = virtualinvoke $r1.<android.content.Context: java.lang.Object getSystemService(java.lang.String)>("alarm") in method <c5.a: void b(android.content.Context,androidx.work.impl.WorkDatabase,i5.p,long)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink specialinvoke $r24.<android.graphics.Typeface$Builder: void <init>(java.io.FileDescriptor)>($r23) in method <v2.j: android.graphics.Typeface b(android.content.Context,C2.n$b[],int)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r23 = virtualinvoke $r22.<android.os.ParcelFileDescriptor: java.io.FileDescriptor getFileDescriptor()>() in method <v2.j: android.graphics.Typeface b(android.content.Context,C2.n$b[],int)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r23.<android.content.Context: void startActivity(android.content.Intent)>($r37) in method <U33.b: void onClick(android.view.View)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r26 = virtualinvoke $r35.<android.app.Activity: android.content.Intent getIntent()>() in method <U33.b: void onClick(android.view.View)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r1.<e.j: void startActivityForResult(android.content.Intent,int)>($r6, $i0) in method <C60.a: void b(ru.sberbank.mobile.core.alert.AlertDialogFragment)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke $r1.<android.content.Context: java.lang.String getPackageName()>() in method <C60.a: void b(ru.sberbank.mobile.core.alert.AlertDialogFragment)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r2.<android.app.Activity: void setResult(int,android.content.Intent)>(-1, $r9) in method <ru.sberbank.mobile.feature.takemedia.impl.presentation.TakePhotoV2Activity$a: void a(java.lang.Object)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = specialinvoke this.<android.content.Intent: android.os.Bundle getExtras()>() in method <com.huawei.hms.ui.SafeIntent: android.os.Bundle getExtras()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r7 = virtualinvoke $r6.<android.content.Intent: android.os.Bundle getExtras()>() in method <ru.sberbank.mobile.feature.takemedia.impl.presentation.TakePhotoV2Activity$a: void a(java.lang.Object)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke this.<android.app.Activity: void setResult(int,android.content.Intent)>(-1, $r11) in method <ru.sberbank.mobile.feature.messenger.media.impl.presentation.video.PreviewVideoActivity: void P4()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r3 = virtualinvoke this.<android.app.Activity: android.content.Intent getIntent()>() in method <ru.sberbank.mobile.feature.messenger.media.impl.presentation.video.PreviewVideoActivity: void P4()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r1.<android.content.Context: void startActivity(android.content.Intent)>($r6) in method <C60.a: void b(ru.sberbank.mobile.core.alert.AlertDialogFragment)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r2 = virtualinvoke $r1.<android.content.Context: java.lang.String getPackageName()>() in method <C60.a: void b(ru.sberbank.mobile.core.alert.AlertDialogFragment)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<android.content.Context: void startActivity(android.content.Intent)>($r9) in method <p91.a: void a(android.content.Context,android.content.Intent,JB0.b,JB0.a)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r0 = specialinvoke this.<android.content.Intent: android.os.Bundle getExtras()>() in method <com.huawei.hms.ui.SafeIntent: android.os.Bundle getExtras()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = virtualinvoke $r3.<android.content.Intent: android.net.Uri getData()>() in method <p91.a: void a(android.content.Context,android.content.Intent,JB0.b,JB0.a)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<android.content.Intent: android.os.Bundle getExtras()>() in method <p91.a: void a(android.content.Context,android.content.Intent,JB0.b,JB0.a)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r4.<android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>(0, $l0, $l1, $r2) in method <com.kavsdk.AlarmReceiver: boolean scheduleRepeatingBroadcast(android.content.Context,long,long,android.content.Intent)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r4 = virtualinvoke $r3.<android.content.Context: java.lang.Object getSystemService(java.lang.String)>($r0) in method <o.c: java.lang.Object getSystemService(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r3 = virtualinvoke $r0.<android.content.Context: java.lang.Object getSystemService(java.lang.String)>("alarm") in method <com.kavsdk.AlarmReceiver: boolean scheduleRepeatingBroadcast(android.content.Context,long,long,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<android.app.Activity: void startActivityForResult(android.content.Intent,int)>($r1, 1001) in method <com.huawei.hms.adapter.ui.UpdateAdapter: boolean a(android.content.Intent,android.app.Activity)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = virtualinvoke $r2.<android.content.Context: java.lang.String getPackageName()>() in method <com.huawei.hms.adapter.ui.UpdateAdapter: boolean a(android.content.Intent,android.app.Activity)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<android.app.Activity: void startActivity(android.content.Intent)>($r19) in method <GO2.a: Ap0.e g(android.app.Activity,ru.sberbank.mobile.core.deeplink.api.scheme.handler.DeeplinkUri)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke $r0.<android.net.Uri: java.util.Set getQueryParameterNames()>() in method <C1.t0: java.util.HashMap e(android.net.Uri)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 2891 seconds. Maximum memory consumption: 119610 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 77 leaks from 94 sources

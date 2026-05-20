@@ -1,0 +1,728 @@
+Sberbank declares collection related to:
+
+contact information
+passport information
+photos and files
+geolocation
+transaction data
+health information
+audio/video recordings
+
+And the manifest indeed shows a very broad capability set, including:
+
+location permissions
+contacts permissions
+call/phone permissions
+camera
+external storage/media access
+microphone
+biometric use
+Bluetooth
+NFC
+many exported activities, services, receivers, and providers
+
+
+
+
+=======================================================================================
+
+The file contains 77 <Result> entries and the termination state is DataFlowTimeout, so this is a real but incomplete result set. The matching log also says the run found 77 leaks from 94 sources, with 16,573 active sources and 2,350 active sinks, and callback analysis was aborted early due to timeout, so some flows may be missing.
+
+The 77 results are dominated by these sink types:
+
+-startActivity(Intent): 39
+-setResult(int, Intent): 11
+-startActivityForResult(Intent, int): 7
+-ContentResolver.insert(...): 5
+-startIntentSenderForResult(...): 3
+-plus a few single cases of sendBroadcast, sendBroadcast(..., permission), ContentResolver.update, PendingIntent.send, AlarmManager.*, MediaPlayer.setDataSource, MediaMetadataRetriever.setDataSource, and Typeface.Builder(FileDescriptor)
+
+================================================================
+
+
+Result-by-result comments
+
+I will keep each comment concise and concrete.
+
+Sberbank FlowDroid XML
+Termination state: DataFlowTimeout
+Summary: 77 leaks from 94 sources
+
+1. CL6.m.invoke: Activity.getIntent() -> Activity.setResult(...).
+Internal result passing from an incoming activity intent back to a caller. Likely normal UI flow, not external sharing.
+
+2. com.huawei.hms.adapter.BaseAdapter.j: Context.getPackageName() -> sendBroadcast(Intent).
+Package name becomes part of a broadcast intent with a tainted ComponentName. Looks like Huawei Mobile Services integration, not sensitive user data.
+
+3. Glide VideoDecoder$g.a: ParcelFileDescriptor.getFileDescriptor() -> MediaMetadataRetriever.setDataSource(FileDescriptor).
+Media/file access path. This is file handling, not evidence of data leakage.
+
+4. xy7.b.putLong: getContentResolver() -> ContentResolver.insert(...).
+Write into a provider-backed store. More interesting than IPC, but the visible source is only the resolver handle, not clearly sensitive content yet.
+
+5. hq6.b$a.a: getContentResolver() -> ContentResolver.insert(...).
+Same general pattern as result 4. Provider/storage write. Needs URI and ContentValues context to know what is written.
+
+6. WL6.c.g: getPackageName() -> startActivity(Intent) with tainted Uri.fragment.
+Deep-link/navigation flow. Important if the target activity is exported or browsable, but not by itself a privacy leak.
+
+7. AW0.b.invoke: Activity.getIntent() -> startActivity(Intent) with tainted extras.
+Incoming intent extras are forwarded to another activity. Good candidate for checking exported components.
+
+8. com.huawei.hms.support.api.push.service.HmsMsgService.d: getPackageName() -> sendBroadcast(Intent, permission).
+Broadcast path in Huawei push code. Operational push/notification behavior, not clearly sensitive data.
+
+9. OffboardingDisableNotificationWarningActivity$b.invokeSuspend: getIntent() -> startActivity(Intent) with extras.
+Notification-settings/offboarding flow. Internal navigation, but it reuses incoming intent state.
+
+10. F35.d.invoke: getIntent() -> startActivity(Intent) with extras.
+Same pattern as result 7 and 9: activity-to-activity intent forwarding.
+
+11. ae.h.handleDeepLink: getPackageName() -> startActivity(Intent) with tainted Uri.ssp.
+Explicit deep-link handling. Interesting because externally supplied URI input may influence navigation.
+
+12. TakePhotoActivity$a.a: Intent.getExtras() -> setResult(...).
+Photo-related activity returns extras back to caller. Important for media workflow, but still internal result passing.
+
+13. fc5.c.a: getBaseContext() -> startActivityForResult(...).
+Context is resolved into an activity and another UI flow is launched. Routine delegated UI behavior.
+
+14. xy7.b.remove: getContentResolver() -> ContentResolver.insert(...).
+Another provider-backed write path. The method name suggests deletion/removal bookkeeping, but exact meaning is obfuscated.
+
+15. BalanceWidget.b: getSystemService("alarm") -> AlarmManager.set(...).
+Widget-driven scheduling path. Operational, not privacy-heavy by itself.
+
+16. FN6.Q.invoke: getPackageName() -> startActivity(Intent) with Uri/ssp.
+Another package-name-to-deeplink/navigation flow. Likely app-internal routing logic.
+
+17. com.huawei.hms.adapter.ui.BaseResolutionAdapter.onBridgeActivityCreate: PendingIntent.getIntentSender() -> startIntentSenderForResult(...).
+System or SDK resolution flow. Common delegated UI behavior.
+
+18. l94.c.c: getPackageName() -> startActivity(Intent) with Uri/ssp.
+Same deeplink/navigation family as results 6, 11, and 16.
+
+19. QR0.a.b: getBaseContext() -> startActivity(Intent).
+Context-to-activity launch helper. Routine UI routing.
+
+20. RuStoreActivityLauncher.onCreate: PendingIntent.getIntentSender() and getIntent() -> startIntentSenderForResult(...).
+RuStore SDK activity launcher path. Delegated SDK/system UI, not evidence of data sharing.
+
+21. DigitalCitizenProfileActivity.Q4: getIntent() and Intent.getData() -> setResult(...).
+More interesting than average, because a digital citizen profile activity takes incoming intent/URI data and returns a result. Good candidate for checking whether this activity is exported and what URI data it accepts.
+
+22. MessengerPreviewPhotoInChatActivity.onBackPressed: getIntent() -> setResult(...).
+Messenger photo-preview state is returned to caller. Internal media UX flow.
+
+23. Fj6.k.invoke: getPackageName() -> startActivity(Intent) with Uri/ssp.
+Navigation/deeplink flow.
+
+24. CN5.h.e: getBaseContext() -> startActivity(Intent).
+Routine context-to-activity routing.
+
+25. AX.c.invoke: getIntent() -> setResult(...).
+Internal result propagation.
+
+26. DU5.i$a$a$a.emit: ContentResolver.getType(Uri) -> startActivity(Intent) with tainted MIME type.
+Interesting because MIME type derived from a URI influences the launched activity. Suggests content/file opening or sharing workflow.
+
+27. FX5.b.onClick: getPackageName() -> startActivity(Intent) with Uri/ssp.
+Another deeplink/navigation case.
+
+28. Ph.a.startActivity: ActivityManager.getAppTasks() -> AppTask.startActivity(...).
+Task-stack management rather than user data handling.
+
+29. vL6.h.a: getBaseContext() -> startActivity(Intent).
+Standard launch helper.
+
+30. A97.t.invoke: getIntent() -> startActivity(Intent) with extras.
+Intent forwarding between activities.
+
+31. com.huawei.hms.support.api.client.Status.startResolutionForResult: PendingIntent.getIntentSender() -> startIntentSenderForResult(...).
+Huawei SDK resolution flow. Operational.
+
+32. C83.a.onClick: getIntent() -> setResult(...).
+UI result return.
+
+33. qF3.a.g: Uri.getQueryParameterNames() -> startActivity(Intent) with tainted extras and keys.
+Interesting deep-link case. URI query parameter names influence the launched intent. Useful for checking external input reachability and deep-link sanitization.
+
+34. Bw2.e.invoke: getPackageName() -> startActivity(Intent) with Uri/ssp.
+Another package-name-based routing path.
+
+35. Cf3.d.invoke: getIntent() -> startActivityForResult(...) with extras.
+Incoming extras drive a delegated flow.
+
+36. sZ2.w.invoke: getPackageName() -> startActivity(Intent) with Uri/ssp.
+Same deeplink/navigation family.
+
+37. BaseHmsClient$1.onBinderFailed: getApplicationInfo() -> startActivity(Intent) with component/package fields.
+Huawei SDK recovery or error-handling flow. More operational than privacy-relevant.
+
+38. G53.L.onClick: getIntent() -> startActivity(Intent) with extra keys.
+Incoming activity state reused in another launch.
+
+39. ck0.d.a: AssetFileDescriptor.getFileDescriptor()/offset/length -> MediaPlayer.setDataSource(...).
+Media playback path. File/media handling, not evidence of disclosure.
+
+40. TransparentActivity.onCreate: getIntent() -> startActivity(Intent).
+Multi-activity or proxy launch pattern. Internal orchestration.
+
+41. Fh6.k.a: getBaseContext() -> startActivity(Intent).
+Standard launch helper.
+
+42. K45...emit: getPackageName() -> startActivity(Intent) with Uri/ssp.
+Another package/URI routing path.
+
+43. o.pe.難經本義: getContentResolver() -> ContentResolver.insert(...).
+Interesting provider write path. Likely Kaspersky-related code. Needs URI/provider inspection.
+
+44. AA4.o.Aa: getBaseContext() -> startActivity(Intent).
+Routine UI launch helper.
+
+45. DialerActivity.onCreate: Intent.getData() -> startActivity(Intent) with URI.
+Interesting telephony/dialer path. URI data received by the dialer flow influences a further launch.
+
+46. FakeActivity.onCreate: getIntent() -> startActivityForResult(...) with Uri/ssp.
+com.kavsdk.shared.cellmon.FakeActivity suggests security/monitoring SDK code. Interesting because it handles incoming URI-based intent state.
+
+47. Cp.d.a: getPackageName() -> startActivity(Intent) with extra values.
+Routing flow.
+
+48. BalanceWidget.b: getSystemService("alarm") -> AlarmManager.setExactAndAllowWhileIdle(...).
+Widget scheduling. Operational only.
+
+49. Xj4...emit: getPackageName() -> startActivity(Intent) with Uri/ssp.
+Same deeplink/navigation family.
+
+50. DU5...emit: getPackageName() -> startActivity(Intent) with Uri/ssp.
+Routing flow.
+
+51. MessageWithPhotoContentActivity.p: getIntent() -> setResult(...).
+Messenger photo-content activity returns intent-derived state. Internal chat/media result passing.
+
+52. l94.c.b: getPackageName() -> startActivity(Intent) with Uri/ssp.
+Another routing path.
+
+53. DigitalCitizenProfileActivity.P4: getIntent() -> startActivity(Intent) with tainted string field.
+Interesting digital-profile path. Same feature family as result 21, but this time it launches a new activity instead of returning a result.
+
+54. mq1.b.a: StatusBarNotification.getNotification() -> PendingIntent.send().
+Notification object triggers a pending intent. Operational notification handling, not direct privacy evidence.
+
+55. GrantMerchantDataPermissionsActivity.I4: Intent.getExtras() -> startActivity(Intent) with extra values.
+Interesting permissions/merchant-data flow. The name suggests a merchant permission grant flow that reuses incoming extras.
+
+56. xy7.b.putString: getContentResolver() -> ContentResolver.insert(...).
+Provider write path, similar to results 4, 14, and 43. Important because this one explicitly writes a string-valued record.
+
+57. ChatActivity.U1: getPackageName() -> startActivity(Intent) with Uri/ssp.
+Chat-related routing path.
+
+58. GU1.d.invoke: getIntent() -> setResult(...).
+Internal result return.
+
+59. BaseScannerFragment.b5: getPackageName() -> startActivityForResult(...) with extra values.
+Scanner-related flow. Potentially relevant to document/image capture workflows.
+
+60. AS2.j.invoke: getPackageName() -> startActivity(Intent) with Uri/ssp.
+Routing flow.
+
+61. ks1...invoke: getPackageName() -> startActivity(Intent) with Uri/ssp.
+Routing flow.
+
+62. o.pe.難經本義: getContentResolver() -> ContentResolver.update(...).
+Interesting provider update path. More useful than simple activity routing because something is being written or modified through a provider.
+
+63. nu1.d.g: Uri.getQueryParameterNames() -> startActivity(Intent) with extra keys.
+Interesting external-input case. Query parameter names influence a launched intent. Good candidate for deeplink validation analysis.
+
+64. Fo1.a.onClick: getBaseContext() -> startActivity(Intent).
+Standard launch helper.
+
+65. AH0.t.invoke: getIntent() -> setResult(...).
+Internal result return.
+
+66. ForegroundBusDelegate.h: getPackageName() -> startActivityForResult(...) with component name.
+Foreground-bus or delegated-launch path. Possibly SDK/system-style helper.
+
+67. c5.a$a.a: getSystemService(...) -> AlarmManager.setExact(...).
+Alarm scheduling. Operational.
+
+68. v2.j.b: ParcelFileDescriptor.getFileDescriptor() -> Typeface.Builder(FileDescriptor).
+File descriptor used to construct a font/typeface. File/resource handling, not disclosure.
+
+69. U33.b.onClick: getIntent() -> startActivity(Intent) with extra keys.
+Activity state forwarded. Internal IPC.
+
+70. C60.a.b: getPackageName() -> startActivityForResult(...) with Uri/ssp.
+Routing/launch flow, probably deep-link or external action helper.
+
+71. TakePhotoV2Activity$a.a: Intent.getExtras() -> setResult(...).
+Photo-capture v2 returns extras back to caller. Media workflow, internal.
+
+72. PreviewVideoActivity.P4: getIntent() -> setResult(...).
+Video preview returns intent-derived result. Media workflow, internal.
+
+73. C60.a.b: getPackageName() -> startActivity(Intent) with Uri/ssp.
+Same helper family as result 70, but simple launch instead of result flow.
+
+74. p91.a.a: Intent.getExtras() and Intent.getData() -> startActivity(Intent) with tainted URI.
+Interesting composite input case. Both extras and URI data influence a launch.
+
+75. kavsdk.AlarmReceiver.scheduleRepeatingBroadcast: getSystemService(...) -> AlarmManager.setRepeating(...).
+Kaspersky/security SDK scheduled broadcast. Operational background scheduling.
+
+76. UpdateAdapter.a: getPackageName() -> startActivityForResult(...) with extra values.
+Update-related launch flow. Operational.
+
+77. GO2.a.g: Uri.getQueryParameterNames() -> startActivity(Intent) with tainted extras/keys.
+Interesting deep-link case similar to results 33 and 63. Query parameters influence launched intent structure.
+
+------------------------------------------------------------------------------------------------
+SBERBANK FLOWDROID XML
+Working note: 77 results
+Interpretation style:
+- Category = broad flow type
+- Comment = what the result likely means
+- Relevance = low / medium / high for thesis follow-up
+
+1. Source: Activity.getIntent() -> Sink: Activity.setResult(...)
+   Category: Intent/result propagation
+   Comment: Incoming intent is returned to a caller activity.
+   Relevance: Low
+
+2. Source: Context.getPackageName() -> Sink: sendBroadcast(Intent)
+   Category: Broadcast / Huawei SDK
+   Comment: Package name is used in a broadcast path inside Huawei code.
+   Relevance: Low
+
+3. Source: ParcelFileDescriptor.getFileDescriptor() -> Sink: MediaMetadataRetriever.setDataSource(...)
+   Category: Media/file handling
+   Comment: File descriptor is used to open media metadata.
+   Relevance: Low
+
+4. Source: Context.getContentResolver() -> Sink: ContentResolver.insert(...)
+   Category: Provider-backed write
+   Comment: Resolver object reaches insert operation. Indicates structured write path.
+   Relevance: Medium
+
+5. Source: Context.getContentResolver() -> Sink: ContentResolver.insert(...)
+   Category: Provider-backed write
+   Comment: Another resolver-to-insert path. Needs URI/content analysis.
+   Relevance: Medium
+
+6. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+   Category: Deep-link / navigation
+   Comment: Package-derived value influences an activity launch with URI fragment.
+   Relevance: Medium
+
+7. Source: Activity.getIntent() -> Sink: startActivity(Intent)
+   Category: Intent forwarding
+   Comment: Incoming intent extras are forwarded to another activity.
+   Relevance: Medium
+
+8. Source: Context.getPackageName() -> Sink: sendBroadcast(Intent, permission)
+   Category: Broadcast / Huawei push
+   Comment: Package name used in permission-protected broadcast.
+   Relevance: Low
+
+9. Source: Activity.getIntent() -> Sink: startActivity(Intent)
+   Category: Intent forwarding
+   Comment: Notification/offboarding flow reuses incoming intent state.
+   Relevance: Medium
+
+10. Source: Activity.getIntent() -> Sink: startActivity(Intent)
+    Category: Intent forwarding
+    Comment: Another activity-to-activity forwarding path.
+    Relevance: Medium
+
+11. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link processing
+    Comment: Deep-link handler launches another activity using URI/SSP.
+    Relevance: High
+
+12. Source: Intent.getExtras() -> Sink: Activity.setResult(...)
+    Category: Media result propagation
+    Comment: TakePhoto flow returns extras to caller.
+    Relevance: Medium
+
+13. Source: ContextWrapper.getBaseContext() -> Sink: startActivityForResult(...)
+    Category: UI launch helper
+    Comment: Context is resolved into activity and delegated UI flow is started.
+    Relevance: Low
+
+14. Source: Context.getContentResolver() -> Sink: ContentResolver.insert(...)
+    Category: Provider-backed write
+    Comment: Another resolver-backed insert path.
+    Relevance: Medium
+
+15. Source: Context.getSystemService("alarm") -> Sink: AlarmManager.set(...)
+    Category: Scheduling
+    Comment: Widget scheduling / alarm setup.
+    Relevance: Low
+
+16. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link / navigation
+    Comment: Package-derived value influences activity launch with URI/SSP.
+    Relevance: Medium
+
+17. Source: PendingIntent.getIntentSender() -> Sink: startIntentSenderForResult(...)
+    Category: SDK/system delegated UI
+    Comment: Huawei resolution flow using PendingIntent.
+    Relevance: Low
+
+18. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link / navigation
+    Comment: Another package-name-driven launch path.
+    Relevance: Medium
+
+19. Source: ContextWrapper.getBaseContext() -> Sink: startActivity(Intent)
+    Category: UI launch helper
+    Comment: Generic helper path from context to activity launch.
+    Relevance: Low
+
+20. Source: PendingIntent.getIntentSender() and Activity.getIntent() -> Sink: startIntentSenderForResult(...)
+    Category: SDK/system delegated UI
+    Comment: RuStore launcher path with incoming intent and IntentSender.
+    Relevance: Low
+
+21. Source: Activity.getIntent() and Intent.getData() -> Sink: Activity.setResult(...)
+    Category: Digital profile / URI propagation
+    Comment: DigitalCitizenProfileActivity consumes intent and URI data, then returns result.
+    Relevance: High
+
+22. Source: Activity.getIntent() -> Sink: Activity.setResult(...)
+    Category: Media/chat result propagation
+    Comment: Messenger photo preview returns intent-derived result.
+    Relevance: Medium
+
+23. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link / navigation
+    Comment: Launch path with tainted URI/SSP.
+    Relevance: Medium
+
+24. Source: ContextWrapper.getBaseContext() -> Sink: startActivity(Intent)
+    Category: UI launch helper
+    Comment: Generic activity launch helper.
+    Relevance: Low
+
+25. Source: Activity.getIntent() -> Sink: Activity.setResult(...)
+    Category: Intent/result propagation
+    Comment: Another internal result return path.
+    Relevance: Low
+
+26. Source: ContentResolver.getType(Uri) -> Sink: startActivity(Intent)
+    Category: MIME-type-driven launch
+    Comment: MIME type from content URI influences launched intent.
+    Relevance: High
+
+27. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link / navigation
+    Comment: Another routing path with URI/SSP.
+    Relevance: Medium
+
+28. Source: ActivityManager.getAppTasks() -> Sink: AppTask.startActivity(...)
+    Category: Task-stack management
+    Comment: Existing app task is used to launch activity.
+    Relevance: Low
+
+29. Source: ContextWrapper.getBaseContext() -> Sink: startActivity(Intent)
+    Category: UI launch helper
+    Comment: Generic helper launch.
+    Relevance: Low
+
+30. Source: Activity.getIntent() -> Sink: startActivity(Intent)
+    Category: Intent forwarding
+    Comment: Incoming extras influence launched activity.
+    Relevance: Medium
+
+31. Source: PendingIntent.getIntentSender() -> Sink: startIntentSenderForResult(...)
+    Category: SDK/system delegated UI
+    Comment: Huawei status resolution flow.
+    Relevance: Low
+
+32. Source: Activity.getIntent() -> Sink: Activity.setResult(...)
+    Category: Intent/result propagation
+    Comment: UI click returns incoming intent as result path.
+    Relevance: Low
+
+33. Source: Uri.getQueryParameterNames() -> Sink: startActivity(Intent)
+    Category: Deep-link query propagation
+    Comment: Query parameter names influence a launched intent.
+    Relevance: High
+
+34. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link / navigation
+    Comment: Package-derived launch path.
+    Relevance: Medium
+
+35. Source: Activity.getIntent() -> Sink: startActivityForResult(...)
+    Category: Intent forwarding
+    Comment: Incoming extras drive delegated activity flow.
+    Relevance: Medium
+
+36. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link / navigation
+    Comment: Another URI/SSP routing path.
+    Relevance: Medium
+
+37. Source: Context.getApplicationInfo() -> Sink: startActivity(Intent)
+    Category: SDK/system recovery path
+    Comment: Huawei client failure/recovery launches an activity.
+    Relevance: Low
+
+38. Source: Activity.getIntent() -> Sink: startActivity(Intent)
+    Category: Intent forwarding
+    Comment: Activity state reused in another launch.
+    Relevance: Medium
+
+39. Source: AssetFileDescriptor.getFileDescriptor()/offset/length -> Sink: MediaPlayer.setDataSource(...)
+    Category: Media/file handling
+    Comment: Media playback path using asset descriptor.
+    Relevance: Low
+
+40. Source: Activity.getIntent() -> Sink: startActivity(Intent)
+    Category: Proxy / transparent activity launch
+    Comment: TransparentActivity forwards incoming intent.
+    Relevance: Medium
+
+41. Source: ContextWrapper.getBaseContext() -> Sink: startActivity(Intent)
+    Category: UI launch helper
+    Comment: Generic helper launch.
+    Relevance: Low
+
+42. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link / navigation
+    Comment: Package-derived routing path.
+    Relevance: Medium
+
+43. Source: Context.getContentResolver() -> Sink: ContentResolver.insert(...)
+    Category: Provider-backed write
+    Comment: Insert path in obfuscated/Kaspersky-related code family.
+    Relevance: High
+
+44. Source: ContextWrapper.getBaseContext() -> Sink: startActivity(Intent)
+    Category: UI launch helper
+    Comment: Generic helper launch.
+    Relevance: Low
+
+45. Source: Intent.getData() -> Sink: startActivity(Intent)
+    Category: Dialer / telephony-related URI propagation
+    Comment: DialerActivity consumes URI data and launches another activity.
+    Relevance: High
+
+46. Source: Activity.getIntent() -> Sink: startActivityForResult(...)
+    Category: URI-based delegated flow
+    Comment: kavsdk FakeActivity forwards incoming intent/URI into another flow.
+    Relevance: High
+
+47. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link / navigation
+    Comment: Package-derived launch with extra values.
+    Relevance: Medium
+
+48. Source: Context.getSystemService("alarm") -> Sink: AlarmManager.setExactAndAllowWhileIdle(...)
+    Category: Scheduling
+    Comment: Exact alarm scheduling for widget/background behavior.
+    Relevance: Low
+
+49. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link / navigation
+    Comment: Another routing path.
+    Relevance: Medium
+
+50. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link / navigation
+    Comment: Another package-based launch path.
+    Relevance: Medium
+
+51. Source: Activity.getIntent() -> Sink: Activity.setResult(...)
+    Category: Media/chat result propagation
+    Comment: MessageWithPhotoContentActivity returns intent-derived result.
+    Relevance: Medium
+
+52. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link / navigation
+    Comment: Another URI/SSP route.
+    Relevance: Medium
+
+53. Source: Activity.getIntent() -> Sink: startActivity(Intent)
+    Category: Digital profile flow
+    Comment: DigitalCitizenProfileActivity launches another activity using incoming state.
+    Relevance: High
+
+54. Source: StatusBarNotification.getNotification() -> Sink: PendingIntent.send()
+    Category: Notification-triggered action
+    Comment: Notification object triggers a pending intent.
+    Relevance: Low
+
+55. Source: Intent.getExtras() -> Sink: startActivity(Intent)
+    Category: Merchant/permission flow
+    Comment: GrantMerchantDataPermissionsActivity uses incoming extras to launch another activity.
+    Relevance: High
+
+56. Source: Context.getContentResolver() -> Sink: ContentResolver.insert(...)
+    Category: Provider-backed write
+    Comment: String-related insert path into provider-backed storage.
+    Relevance: High
+
+57. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Chat routing / navigation
+    Comment: ChatActivity-related launch path.
+    Relevance: Medium
+
+58. Source: Activity.getIntent() -> Sink: Activity.setResult(...)
+    Category: Intent/result propagation
+    Comment: Another internal result return.
+    Relevance: Low
+
+59. Source: Context.getPackageName() -> Sink: startActivityForResult(...)
+    Category: Scanner/document flow
+    Comment: BaseScannerFragment launches another activity for result.
+    Relevance: High
+
+60. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link / navigation
+    Comment: Another package-derived launch.
+    Relevance: Medium
+
+61. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link / navigation
+    Comment: Another routing path.
+    Relevance: Medium
+
+62. Source: Context.getContentResolver() -> Sink: ContentResolver.update(...)
+    Category: Provider-backed update
+    Comment: Update path in provider/resolver flow.
+    Relevance: High
+
+63. Source: Uri.getQueryParameterNames() -> Sink: startActivity(Intent)
+    Category: Deep-link query propagation
+    Comment: URI query parameter names influence intent launch.
+    Relevance: High
+
+64. Source: ContextWrapper.getBaseContext() -> Sink: startActivity(Intent)
+    Category: UI launch helper
+    Comment: Generic helper launch.
+    Relevance: Low
+
+65. Source: Activity.getIntent() -> Sink: Activity.setResult(...)
+    Category: Intent/result propagation
+    Comment: Internal result return path.
+    Relevance: Low
+
+66. Source: Context.getPackageName() -> Sink: startActivityForResult(...)
+    Category: Delegated launch / component routing
+    Comment: ForegroundBusDelegate launches activity for result using package/component state.
+    Relevance: Medium
+
+67. Source: Context.getSystemService(...) -> Sink: AlarmManager.setExact(...)
+    Category: Scheduling
+    Comment: Exact alarm scheduling.
+    Relevance: Low
+
+68. Source: ParcelFileDescriptor.getFileDescriptor() -> Sink: Typeface.Builder(FileDescriptor)
+    Category: File/resource handling
+    Comment: File descriptor used to construct a typeface/font.
+    Relevance: Low
+
+69. Source: Activity.getIntent() -> Sink: startActivity(Intent)
+    Category: Intent forwarding
+    Comment: Incoming extra keys influence a launched activity.
+    Relevance: Medium
+
+70. Source: Context.getPackageName() -> Sink: startActivityForResult(...)
+    Category: Deep-link / routing
+    Comment: Launch-for-result flow with URI/SSP.
+    Relevance: Medium
+
+71. Source: Intent.getExtras() -> Sink: Activity.setResult(...)
+    Category: Media result propagation
+    Comment: TakePhotoV2 returns extras to caller.
+    Relevance: Medium
+
+72. Source: Activity.getIntent() -> Sink: Activity.setResult(...)
+    Category: Video/media result propagation
+    Comment: PreviewVideoActivity returns intent-derived result.
+    Relevance: Medium
+
+73. Source: Context.getPackageName() -> Sink: startActivity(Intent)
+    Category: Deep-link / routing
+    Comment: Same helper family as 70, but simple launch.
+    Relevance: Medium
+
+74. Source: Intent.getExtras() and Intent.getData() -> Sink: startActivity(Intent)
+    Category: Composite deep-link/input propagation
+    Comment: Both extras and URI data influence launched activity.
+    Relevance: High
+
+75. Source: Context.getSystemService(...) -> Sink: AlarmManager.setRepeating(...)
+    Category: Scheduling / Kaspersky SDK
+    Comment: Repeating alarm in kavsdk receiver.
+    Relevance: Low
+
+76. Source: Context.getPackageName() -> Sink: startActivityForResult(...)
+    Category: Update flow / delegated launch
+    Comment: UpdateAdapter launches activity for result using package-derived state.
+    Relevance: Medium
+
+77. Source: Uri.getQueryParameterNames() -> Sink: startActivity(Intent)
+    Category: Deep-link query propagation
+    Comment: Query parameter names influence launched intent structure.
+    Relevance: High
+
+=====================================================================
+
+Most interesting places in this XML
+
+These are the results I would prioritize for your thesis, because they go beyond trivial framework noise:
+
+1. Digital citizen profile flows: results 21 and 53
+DigitalCitizenProfileActivity takes incoming Intent and Uri data and either returns a result or launches another activity. That is notable because the feature name suggests identity/profile handling. It is not proof of sensitive-data export, but it is much more semantically meaningful than generic launcher noise.
+
+2. Deep-link / URI query propagation: results 33, 63, 77, plus 11 and 74
+These show Uri.getQueryParameterNames() or Intent.getData() influencing a launched activity. This is useful for security analysis because external deep-link input can propagate into app navigation. If the relevant activities are exported or browsable, these become stronger findings. Sberbank’s manifest-derived metadata already shows a browsable DeeplinkActivity.
+
+3. Provider writes and updates: results 4, 5, 14, 43, 56, 62
+These are the most interesting storage-like flows in the set because they hit ContentResolver.insert() or update(). Right now the tainted source is the resolver handle, not clearly a personal field, but these methods are still the best candidates for checking what data is actually persisted or passed to a provider.
+
+4. Media/photo/video workflows: results 12, 22, 39, 51, 68, 71, 72
+These correspond to take-photo, preview-photo, preview-video, media-player, and file-descriptor/media operations. Since Sberbank declares collection of photos/files and has camera/storage permissions, these flows may later help you connect declared functionality with actual media handling. They are not suspicious by themselves, but they are relevant to declared behavior.
+
+5. Merchant permission and scanner flows: results 55 and 59
+GrantMerchantDataPermissionsActivity and BaseScannerFragment are semantically useful names. They may help you connect manifest permissions, document/media capture, and merchant-related workflows.
+
+6. Dialer / telephony-adjacent flow: result 45
+DialerActivity.onCreate uses Intent.getData() to launch another activity. Because Sberbank requests call-related permissions, this is worth keeping for later comparison, even though the current result is still just IPC/navigation.
+
+
+===================================================================================
+
+
+What is not very interesting here
+
+The following are mostly low-value for a thesis claim about sensitive-data leakage:
+
+Huawei and RuStore resolution launchers: 17, 20, 31
+Alarm scheduling: 15, 48, 67, 75
+generic getBaseContext() to startActivity() helpers
+package-name to launch/broadcast flows, unless the target component is exported
+pure media descriptor setup without user-identifiable content
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+What the Sberbank subsection should say:
+
+Sberbank declares broad collection categories
+the manifest supports a broad capability surface
+FlowDroid confirms non-trivial data-flow behavior
+however, the currently visible XML paths are dominated by:
+	inter-component communication
+	deep-link processing
+	provider-backed writes
+	media/file workflows
+therefore, the evidence shows partial but meaningful consistency
+but it does not yet prove that highly sensitive categories such as passport data, geolocation, contacts, or transaction data are reaching clearly external sinks

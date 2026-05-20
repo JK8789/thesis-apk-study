@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="QdRxo1XQIam1d3B6a5Yc">
+    <mxGraphModel dx="1770" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-1" edge="1" parent="1" source="pB3WxRnYzM5NZDolOEDC-2" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#666666;labelBackgroundColor=none;fontSize=16;rounded=0;" target="pB3WxRnYzM5NZDolOEDC-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;fillColor=none;strokeColor=#333333;fontSize=16;align=center;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="448" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;fillColor=none;strokeColor=#333333;fontSize=16;align=center;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="448" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-4" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.infographic.circularCallout2;dy=15;strokeColor=#10739E;labelPosition=center;align=center;fontColor=#10739E;fontStyle=1;fontSize=24;shadow=0;direction=north;" value="" vertex="1">
+          <mxGeometry height="60" width="246" x="214" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-5" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.infographic.circularCallout2;dy=15;strokeColor=#994C00;labelPosition=center;align=center;fontColor=#F2931E;fontStyle=1;fontSize=24;shadow=0;direction=north;flipH=1;" value="" vertex="1">
+          <mxGeometry height="60" width="246" x="448" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-6" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.infographic.circularCallout2;dy=15;strokeColor=#AE4132;labelPosition=center;align=center;fontColor=#10739E;fontStyle=1;fontSize=24;shadow=0;direction=north;" value="" vertex="1">
+          <mxGeometry height="60" width="246" x="214" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-7" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.infographic.circularCallout2;dy=15;strokeColor=#23445D;labelPosition=center;align=center;fontColor=#10739E;fontStyle=1;fontSize=24;shadow=0;direction=north;flipH=1;" value="" vertex="1">
+          <mxGeometry height="60" width="246" x="448" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-8" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.infographic.circularCallout2;dy=15;strokeColor=#3333FF;labelPosition=center;align=center;fontColor=#10739E;fontStyle=1;fontSize=24;shadow=0;direction=north;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="60" width="246" x="214" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-9" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.infographic.circularCallout2;dy=15;strokeColor=#56517E;labelPosition=center;align=center;fontColor=#10739E;fontStyle=1;fontSize=24;shadow=0;direction=north;flipH=1;" value="" vertex="1">
+          <mxGeometry height="60" width="246" x="448" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-10" parent="1" style="fillColor=#10739E;strokecolor=none;rounded=1;fontColor=#FFFFFF;strokeColor=none;fontStyle=1;fontSize=14;" value="Step 1" vertex="1">
+          <mxGeometry height="30" width="160" x="284" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-11" parent="1" style="fillColor=#994C00;strokecolor=none;rounded=1;fontColor=#FFFFFF;strokeColor=none;fontStyle=1;fontSize=14;" value="Step 2" vertex="1">
+          <mxGeometry height="30" width="160" x="464" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-12" parent="1" style="fillColor=#AE4132;strokecolor=none;rounded=1;fontColor=#FFFFFF;strokeColor=none;fontStyle=1;fontSize=14;" value="Step 3" vertex="1">
+          <mxGeometry height="30" width="160" x="284" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-13" parent="1" style="fillColor=#23445D;strokecolor=none;rounded=1;fontColor=#FFFFFF;strokeColor=none;fontStyle=1;fontSize=14;" value="Step 4" vertex="1">
+          <mxGeometry height="30" width="160" x="464" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-14" parent="1" style="fillColor=#3333FF;strokecolor=none;rounded=1;fontColor=#FFFFFF;strokeColor=#0000CC;fontStyle=1;fontSize=14;" value="Step 5" vertex="1">
+          <mxGeometry height="30" width="160" x="284" y="397" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-15" parent="1" style="fillColor=#56517E;strokecolor=none;rounded=1;fontColor=#FFFFFF;strokeColor=none;fontStyle=1;fontSize=14;" value="Step 6" vertex="1">
+          <mxGeometry height="30" width="160" x="464" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-16" parent="1" style="rounded=1;strokeColor=#000000;fillColor=#EEEEEE;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;font&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#10739e&quot;&gt;&lt;b&gt;Same-app selection and store pairing&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Apps available in Google Play and RuStore&lt;/div&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="284" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-17" parent="1" style="rounded=1;strokeColor=#000000;fillColor=#EEEEEE;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;font&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(153, 76, 0);&quot;&gt;&lt;b style=&quot;&quot;&gt;App installation and APK extraction&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Android device, APK Extractor&lt;/div&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="464" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-18" parent="1" style="rounded=1;strokeColor=#000000;fillColor=#EEEEEE;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;font&gt;&lt;span&gt;&lt;font&gt;&lt;div&gt;&lt;font color=&quot;#ae4132&quot;&gt;&lt;b&gt;Collection snapshot and APK identification&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;Same-day collection, SHA-256&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="284" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-19" parent="1" style="rounded=1;strokeColor=#000000;fillColor=#EEEEEE;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;&lt;font color=&quot;#23445d&quot;&gt;&lt;b&gt;File-level metadata extraction&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Versions, certificate,&amp;nbsp;&lt;/div&gt;&lt;div&gt;APK size, package name&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="464" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-20" parent="1" style="rounded=1;strokeColor=#000000;fillColor=#EEEEEE;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;&lt;b style=&quot;&quot;&gt;Manifest parsing and feature extraction&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;Permissions, Components&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="160" x="284" y="434" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-21" parent="1" style="rounded=1;strokeColor=#000000;fillColor=#EEEEEE;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;font&gt;&lt;span&gt;&lt;div&gt;&lt;font color=&quot;#56517e&quot;&gt;&lt;b&gt;VirusTotal enrichment&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Detection score comparison&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;br&gt;&lt;h3 data-section-id=&quot;onaaw3&quot; data-start=&quot;1188&quot; data-end=&quot;1198&quot;&gt;&lt;/h3&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="464" y="504" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-22" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.infographic.circularCallout2;dy=15;strokeColor=light-dark(#660000,#533400);labelPosition=center;align=center;fontColor=#FDD967;fontStyle=1;fontSize=24;shadow=0;direction=north;" value="" vertex="1">
+          <mxGeometry height="60" width="250" x="210" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-23" parent="1" style="fillColor=#660000;strokecolor=none;rounded=1;fontColor=light-dark(#E6E6E6,#121212);strokeColor=none;fontStyle=1;fontSize=14;" value="Step 7" vertex="1">
+          <mxGeometry height="30" width="160" x="284" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="pB3WxRnYzM5NZDolOEDC-24" parent="1" style="rounded=1;strokeColor=#000000;fillColor=#fff2cc;align=center;arcSize=12;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;font&gt;&lt;strong data-start=&quot;1199&quot; data-end=&quot;1260&quot;&gt;Comparative dataset construction and cross-store analysis&lt;/strong&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;Identity, version, size, manifest comparison&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="160" x="284" y="564" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

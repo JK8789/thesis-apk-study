@@ -21,7 +21,7 @@ import csv
 from pathlib import Path
 from collections import defaultdict
 
-BASE = Path(__file__).resolve().parents[1]
+BASE = Path(__file__).resolve().parents[2]
 BASELINE = BASE / "results" / "baseline" / "apps_baseline.csv"
 CLASSES_DIR = BASE / "results" / "classes"
 DICT_ROOT = BASE / "data" / "dicts"
