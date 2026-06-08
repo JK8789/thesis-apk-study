@@ -19,9 +19,11 @@ fig,ax=plt.subplots(figsize=(11,7))
 im=ax.imshow(mat.values, aspect='auto', cmap=cmap, norm=norm)
 for i in range(mat.shape[0]):
     for j in range(mat.shape[1]):
-        ax.text(j,i,f'{int(mat.iloc[i,j])}',ha='center',va='center',fontsize=9,color='black')
-ax.set_yticks(np.arange(mat.shape[0])); ax.set_yticklabels(mat.index, fontsize=10)
-ax.set_xticks(np.arange(mat.shape[1])); ax.set_xticklabels(mat.columns, rotation=35, ha='right', fontsize=10)
-ax.set_title('Cross-store component differences (Google Play - RuStore)', fontsize=14, pad=10)
-cbar=fig.colorbar(im, ax=ax); cbar.set_label('Difference in count', fontsize=11)
+        ax.text(j,i,f'{int(mat.iloc[i,j])}',ha='center',va='center',fontsize=15,color='black')
+
+ax.set_yticks(np.arange(mat.shape[0])); ax.set_yticklabels(mat.index, fontsize=15)
+ax.set_xticks(np.arange(mat.shape[1])); ax.set_xticklabels(mat.columns, rotation=35, ha='right', fontsize=15)
+ax.set_title('Cross-store component differences (Google Play - RuStore)', fontsize=15, pad=12)
+cbar=fig.colorbar(im, ax=ax); cbar.set_label('Difference in count', fontsize=15)
+cbar.ax.tick_params(labelsize=14)
 fig.tight_layout(); out=OUT/'fig6_16_to_23_store_components_heatmap.png'; fig.savefig(out,dpi=300,bbox_inches='tight'); print(out)

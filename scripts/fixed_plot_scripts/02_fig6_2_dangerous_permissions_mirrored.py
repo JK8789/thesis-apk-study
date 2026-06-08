@@ -10,7 +10,7 @@ PAIR_LABELS = {
     'health':'EMIAS.INFO vs Doctena','social1':'VK vs Facebook','social2':'OK vs X','msg1':'MAX vs WhatsApp','msg2':'Yandex Telemost vs Telegram',
     'gov1':'Gosuslugi vs MyGuichet.lu','gov2':'Nalogi FL vs impots.gouv','gov3':'Gosuslugi Biometria vs itsme',
 }
-pairs = pd.read_csv(ROOT/'results/local/extracted_local_manifest_features and lists.csv')
+pairs = pd.read_csv(ROOT/'results/local/extracted_local_manifest_features_and_lists.csv')
 cand=[c for c in pairs.columns if c.lower() in ['dangerous_permissions_count','dangerous_perm_count','dangerous_count']]
 if not cand:
     raise ValueError(f'Need dangerous permissions column in extracted file; available={pairs.columns.tolist()}')
@@ -25,17 +25,18 @@ fig, ax=plt.subplots(figsize=(10.8,8.0))
 ax.barh(y, -wide['ru'], color=ru_color, height=0.8, label='RU')
 ax.barh(y, wide['eu'], color=eu_color, height=0.8, label='EU')
 for i,row in enumerate(wide.itertuples(index=False)):
-    ax.text(-row.ru-0.5,i,f'{int(row.ru)}',va='center',ha='right',fontsize=9,color=ru_color)
-    ax.text(row.eu+0.5,i,f'{int(row.eu)}',va='center',ha='left',fontsize=9,color=eu_color)
+    ax.text(-row.ru-0.5,i,f'{int(row.ru)}',va='center',ha='right',fontsize=13,color=ru_color)
+    ax.text(row.eu+0.5,i,f'{int(row.eu)}',va='center',ha='left',fontsize=13,color=eu_color)
 ax.axvline(0,color='#455A64',linewidth=1)
 maxv=int(max(wide['ru'].max(), wide['eu'].max())+2)
 ticks=np.arange(-maxv,maxv+1,5)
 ax.set_xticks(ticks); ax.set_xticklabels([str(abs(int(t))) for t in ticks])
-ax.set_yticks(y); ax.set_yticklabels([PAIR_LABELS.get(p,p) for p in wide['pair_id']], fontsize=10)
-ax.set_xlabel('Dangerous permissions count', fontsize=11)
+ax.tick_params(axis='x', labelsize=14)
+ax.set_yticks(y); ax.set_yticklabels([PAIR_LABELS.get(p,p) for p in wide['pair_id']], fontsize=14)
+ax.set_xlabel('Dangerous permissions count', fontsize=14)
 ax.set_title('Dangerous permissions per matched pair (mirrored view)', fontsize=14, pad=12)
 ax.grid(axis='x', linestyle=':', linewidth=0.8, alpha=0.18)
 ax.spines['top'].set_visible(False); ax.spines['right'].set_visible(False)
-ax.legend(frameon=False, loc='lower right')
+ax.legend(frameon=False, loc='lower right', fontsize=13)
 fig.tight_layout()
 out=OUT/'fig6_2_dangerous_permissions_mirrored.png'; fig.savefig(out,dpi=300,bbox_inches='tight'); print(out)

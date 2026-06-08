@@ -16,9 +16,10 @@ labels=['RU applications','EU applications']; values=summary['percent'].tolist()
 colors=['#0046FF','#FF8040']
 fig,ax=plt.subplots(figsize=(7.2,4.8))
 bars=ax.bar(labels, values, color=colors, width=0.58)
+ax.tick_params(axis='x', labelsize=14)
 for bar,count,total,pct in zip(bars,counts,totals,values):
-    ax.text(bar.get_x()+bar.get_width()/2, (pct if pct>0 else 0)+0.8, f'{count}/{total} ({pct:.0f}%)', ha='center', va='bottom', fontsize=10)
-ax.set_ylabel('Apps (%)', fontsize=11)
+    ax.text(bar.get_x()+bar.get_width()/2, (pct if pct>0 else 0)+0.8, f'{count}/{total} ({pct:.0f}%)', ha='center', va='bottom', fontsize=14)
+ax.set_ylabel('Apps (%)', fontsize=14)
 ax.set_ylim(0,30)
 ax.set_title('Applications declaring no collected and no shared data', fontsize=14, pad=10)
 ax.grid(axis='y', linestyle=':', linewidth=0.8, alpha=0.18)

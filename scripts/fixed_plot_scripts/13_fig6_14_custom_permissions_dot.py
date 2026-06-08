@@ -77,14 +77,15 @@ for i, row in wide.iterrows():
         ax.bar(i + bar_w/2, rs_val, width=bar_w, color=rs_color, edgecolor="black", linewidth=0.7)
 
 ax.set_xticks(x)
+ax.tick_params(axis='x', labelsize=15)
 ax.set_xticklabels(wide["app"], rotation=25, ha="center")
-ax.set_ylabel("Custom permissions count", fontsize=11)
-ax.set_xlabel("Applications", fontsize=11)
-ax.set_title("Custom permissions by store", fontsize=14, pad=12)
+ax.set_ylabel("Custom permissions count", fontsize=15)
+ax.set_xlabel("Applications", fontsize=15)
+ax.set_title("Custom permissions by store", fontsize=15, pad=12)
 ax.grid(axis="y", linestyle=":", alpha=0.25)
 ax.spines["top"].set_visible(False)
 ax.spines["right"].set_visible(False)
-
+ax.tick_params(axis='y', labelsize=15)
 # Legend just below title
 legend_handles = [
     Patch(facecolor=gp_color, edgecolor="black", label="Google Play"),
@@ -97,10 +98,11 @@ ax.legend(
     ncol=2,
     frameon=False,
     columnspacing=1.5,
-    handletextpad=0.6
+    handletextpad=0.6,
+    fontsize=15
 )
 
 fig.tight_layout()
-out = OUT / "fig6_14_custom_permissions_dot.png"
+out = OUT / "fig6_20_custom_permissions_dot.png"
 fig.savefig(out, dpi=300, bbox_inches="tight")
 print(out)

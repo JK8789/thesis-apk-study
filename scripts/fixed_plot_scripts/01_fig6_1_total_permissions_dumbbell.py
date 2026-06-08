@@ -10,7 +10,7 @@ PAIR_LABELS = {
     'health':'EMIAS.INFO vs Doctena','social1':'VK vs Facebook','social2':'OK vs X','msg1':'MAX vs WhatsApp','msg2':'Yandex Telemost vs Telegram',
     'gov1':'Gosuslugi vs MyGuichet.lu','gov2':'Nalogi FL vs impots.gouv','gov3':'Gosuslugi Biometria vs itsme',
 }
-pairs = pd.read_csv(ROOT / 'results/local/extracted_local_manifest_features and lists.csv')
+pairs = pd.read_csv(ROOT / 'results/local/extracted_local_manifest_features_and_lists.csv')
 cand = [c for c in pairs.columns if c.lower() in ['total_permissions_count','perm_count_local','perm_count']]
 if cand:
     df = pairs[['pair_id','group',cand[0]]].rename(columns={cand[0]:'perm_count'})
@@ -28,15 +28,16 @@ for i, row in enumerate(wide.itertuples(index=False)):
     ax.plot([row.ru,row.eu],[i,i], color='#C9D1D9', linewidth=2, zorder=1)
 ax.scatter(wide['ru'], y, s=70, marker='o', color=ru_color, label='RU', zorder=3)
 ax.scatter(wide['eu'], y, s=70, marker='o', color=eu_color, label='EU', zorder=3)
+ax.tick_params(axis='x', labelsize=14)
 for i, row in enumerate(wide.itertuples(index=False)):
-    ax.text(row.ru-0.35, i+0.08, f'{int(row.ru)}', ha='right', va='bottom', fontsize=9, color=ru_color)
-    ax.text(row.eu+0.35, i+0.08, f'{int(row.eu)}', ha='left', va='bottom', fontsize=9, color=eu_color)
-ax.set_yticks(y); ax.set_yticklabels([PAIR_LABELS.get(p,p) for p in wide['pair_id']], fontsize=10)
-ax.set_xlabel('Requested permissions count', fontsize=11)
-ax.set_title('Total requested permissions by matched RU-EU pair', fontsize=14, pad=12)
+    ax.text(row.ru-0.35, i+0.08, f'{int(row.ru)}', ha='right', va='bottom', fontsize=12, color=ru_color)
+    ax.text(row.eu+0.35, i+0.08, f'{int(row.eu)}', ha='left', va='bottom', fontsize=12, color=eu_color)
+ax.set_yticks(y); ax.set_yticklabels([PAIR_LABELS.get(p,p) for p in wide['pair_id']], fontsize=14)
+ax.set_xlabel('Requested permissions count', fontsize=14)
+ax.set_title('Total requested permissions by matched RU-EU pair', fontsize=14, pad=14)
 ax.grid(axis='x', linestyle=':', linewidth=0.8, alpha=0.18)
 ax.spines['top'].set_visible(False); ax.spines['right'].set_visible(False)
-ax.legend(frameon=False, loc='upper center', bbox_to_anchor=(0.5, 1.02), ncol=2)
+ax.legend(frameon=False, loc='upper center', bbox_to_anchor=(0.5, 1.02), ncol=2, fontsize=13)
 fig.tight_layout()
 out = OUT / 'fig6_1_total_permissions_dumbbell.png'
 fig.savefig(out, dpi=300, bbox_inches='tight'); print(out)

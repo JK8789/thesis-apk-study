@@ -18,10 +18,11 @@ ax.hlines(y=y, xmin=0, xmax=wide['diff_ru_minus_eu'], color=colors, linewidth=2.
 ax.scatter(wide['diff_ru_minus_eu'], y, color=colors, s=52, zorder=3)
 for i,row in enumerate(wide.itertuples(index=False)):
     x=row.diff_ru_minus_eu
-    ax.text(x+(0.12 if x>=0 else -0.12), i, f'{int(x)}', va='center', ha='left' if x>=0 else 'right', fontsize=9)
+    ax.text(x+(0.12 if x>=0 else -0.12), i, f'{int(x)}', va='center', ha='left' if x>=0 else 'right', fontsize=14)
 ax.axvline(0,color='black',linewidth=1)
-ax.set_yticks(y); ax.set_yticklabels([PAIR_LABELS.get(p,p) for p in wide['pair_id']],fontsize=10)
-ax.set_xlabel('Difference in declared shared data categories (RU - EU)',fontsize=11)
+ax.set_yticks(y); ax.set_yticklabels([PAIR_LABELS.get(p,p) for p in wide['pair_id']],fontsize=14)
+ax.set_xlabel('Difference in declared shared data categories (RU - EU)',fontsize=14)
+ax.tick_params(axis='x', labelsize=14)
 ax.set_title('Difference in declared shared data categories by matched RU-EU app pair',fontsize=14,pad=10)
 ax.grid(axis='x', linestyle=':', linewidth=0.8, alpha=0.18)
 ax.spines['top'].set_visible(False); ax.spines['right'].set_visible(False)

@@ -11,9 +11,11 @@ summary['region']=pd.Categorical(summary['region'],categories=['ru','eu'],ordere
 labels=['RU applications','EU applications']; colors=['#0046FF','#F25912']
 fig,ax=plt.subplots(figsize=(7.2,4.8))
 bars=ax.bar(labels, summary['percent'], color=colors, width=0.58)
+ax.tick_params(axis='y', labelsize=14)
+ax.tick_params(axis='x', labelsize=14)
 for bar,val in zip(bars, summary['percent']):
-    ax.text(bar.get_x()+bar.get_width()/2, val+0.8, f'{val:.1f}%', ha='center', fontsize=10)
-ax.set_ylabel('Applications with at least one native .so library (%)', fontsize=11)
+    ax.text(bar.get_x()+bar.get_width()/2, val+0.8, f'{val:.1f}%', ha='center', fontsize=14)
+ax.set_ylabel('Applications with at least one native .so library (%)', fontsize=12)
 ax.set_ylim(0,50)
 ax.set_title('Prevalence of native .so libraries in RU and EU applications', fontsize=14, pad=10)
 ax.grid(axis='y', linestyle=':', linewidth=0.8, alpha=0.18)
